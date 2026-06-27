@@ -1,0 +1,9 @@
+# Resume cache (local, large, churny) - safe to delete anytime to force a full re-crawl
+.willys_cache.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# Keep willys_index.csv tracked if you host it from this repo; ignore the JSON dump.
+willys_index.json
