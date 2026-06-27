@@ -15,10 +15,11 @@ WHY THIS EXISTS
   your dad's Google Sheet looks up with VLOOKUP on the scanned barcode.
 
 OUTPUT (written next to this script)
-  willys_index.csv    -> the lookup table  (import into Sheets with IMPORTDATA)
-  willys_index.json   -> same data as JSON (optional / for other uses)
-  .willys_cache.jsonl -> resume cache; a re-run skips products already fetched.
-                         Delete it (or pass --fresh) to force a full re-crawl.
+  willys_index.csv        -> full table: ean, article, altText, macros (for Sheets IMPORTDATA)
+  willys_ean_article.csv  -> lean lookup: just ean,article (no macros)
+  willys_index.json       -> same data as the full table, as JSON (git-ignored)
+  .willys_cache.jsonl     -> resume cache; a re-run skips products already fetched.
+                             Delete it (or pass --fresh) to force a full re-crawl.
 
 USAGE
   python willys_scraper.py                # crawl (resumable) + write csv/json
@@ -64,10 +65,15 @@ MACRO = {
     "protein": "protein", "salt": "salt",
 }
 
-# CSV column order. NOTE: keep `ean` first (col A) so VLOOKUP keys off it.
-COLUMNS = ["ean", "article", "name", "altText", "brand", "price", "basis",
+# Full-index column order. NOTE: keep `ean` first (col A) so VLOOKUP keys off it.
+# (name & price intentionally dropped - altText carries the desired name; price isn't needed.)
+COLUMNS = ["ean", "article", "altText", "brand", "basis",
            "kcal", "kj", "fat", "satfat", "carb", "sugar", "fibre", "protein",
            "salt", "source"]
+
+# Lean lookup file: just the barcode -> article number (no macros).
+LEAN_COLUMNS = ["ean", "article"]
+LEAN_NAME = "willys_ean_article.csv"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, ".willys_cache.jsonl")
@@ -270,18 +276,31 @@ def rewrite_cache(done):
 # Output
 # --------------------------------------------------------------------------- #
 def write_outputs(records, base):
-    records = sorted(records, key=lambda r: (r.get("name") or "").lower())
+    records = sorted(records, key=lambda r: (r.get("altText") or r.get("name") or "").lower())
     csv_path, json_path = base + ".csv", base + ".json"
+
+    # Full index (ean, article, altText, brand, basis, macros, source).
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         w.writeheader()
         for r in records:
             w.writerow(r)
+    slim = [{k: r.get(k, "") for k in COLUMNS} for r in records]
     with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
+        json.dump(slim, f, ensure_ascii=False, indent=2)
+
+    # Lean lookup (ean, article) - no macros, for the simplest scan use case.
+    lean_path = os.path.join(os.path.dirname(base) or ".", LEAN_NAME)
+    lean_rows = [r for r in records if r.get("ean")]
+    with open(lean_path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(LEAN_COLUMNS)
+        for r in lean_rows:
+            w.writerow([r["ean"], r.get("article", "")])
+
     with_macros = sum(1 for r in records if r.get("kcal") not in ("", None))
-    print(f"  wrote {len(records)} rows ({with_macros} with macros) -> {csv_path}",
-          file=sys.stderr)
+    print(f"  wrote {len(records)} rows ({with_macros} with macros) -> {csv_path}", file=sys.stderr)
+    print(f"  wrote {len(lean_rows)} rows -> {lean_path}", file=sys.stderr)
     return csv_path, json_path
 
 
