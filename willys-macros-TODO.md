@@ -58,6 +58,62 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
       immediately; `raw.githubusercontent.com` is the fresher source.
 
 ## Bonus / future chains
-- [ ] **Hemköp**: same script — just set `BASE = 'https://www.hemkop.se'` in `willys_scraper.py`.
+- [x] **Hemköp**: `hemkop_scraper.py` exists, same architecture, outputs `hemkop_index.csv` /
+      `hemkop_ean_article.csv` / `.hemkop_cache.jsonl`. Needs the same "Verify" pass as Willys.
 - [ ] **ICA**: different API (`handla.api.ica.se`, needs auth) → write a new adapter; reuse architecture.
-- [ ] **Coop**: different platform → reverse-engineer endpoints via DevTools first, then a new adapter.
+- [x] **Coop**: `coop_scraper.py` exists. Coop runs on **SAP Hybris behind Azure APIM**, not
+      Axfood — reverse-engineered from coop.se's XHR (June 2026):
+  - Catalog search is a **POST** to
+    `https://external.api.coop.se/personalization/search/entities/by-attribute?api-version=v1&store=251300&groups=CUSTOMER_PRIVATE&device=desktop&direct=false`
+    with header `Ocp-Apim-Subscription-Key: 3becf0ce306f41a1ae94077c16798187` (the key Coop
+    ships in its page HTML; if it 401s, re-grab `articleServiceSubscriptionKey` from a coop.se page).
+  - Body: `{"attribute":{"name":"categoryIds","value":"<catCode>"},"resultsOptions":{"skip":S,"take":200,...},"customData":{...}}`.
+    Paginate via `skip`/`take` (`take` ≥ ~500 returns an empty body → cap at 200).
+  - **The listing already returns `ean` + `name` + `manufacturerName` + full nutrition
+    (`nutrientLinks`)** → no per-product detail fetch needed (the big difference vs Willys/Hemköp;
+    full crawl ≈ 28 s). Category codes come from `.../ecommerce/coop/users/anonymous/categories/tree/<store>`.
+  - Coop has **no separate article number**: a product's `id` == its `ean` (`code` is always null),
+    so `article` = `id`. (In-store/weight items with EANs starting `2097…` get a store-scoped
+    `251300_<ean>` id — not home-scannable anyway.)
+  - Result: 9,512 food products, 8,618 (91%) with macros. Outputs `coop_index.csv` /
+    `coop_ean_article.csv` / `coop_index.json` / `.coop_cache.jsonl`. Needs the same "Verify" pass.
+
+## Next phase: full-stack app (Expo + Supabase)
+_Pulled in from a planning doc (`TODO.md`) sketched outside this repo; adjusted below to match
+what actually exists here rather than a generic from-scratch plan._
+
+**Goal:** replace the Google Sheets/CSV+VLOOKUP flow with a proper app — scan an EAN-13 with
+`expo-camera` (Android) or type it in (Web fallback), hit Supabase, show name + macros.
+
+- **Frontend:** Expo (React Native) targeting Android + Web, styled with NativeWind (Tailwind).
+- **Backend:** Supabase (Postgres) replacing the public-CSV + `IMPORTDATA`/`VLOOKUP` hack.
+- **Ingestion:** the existing `willys_scraper.py` / `hemkop_scraper.py` stay as-is for crawling;
+  only the *output* step changes (CSV → `supabase-py` bulk upsert).
+
+### Adjustments vs. the original plan
+- [ ] **Schema mismatch to resolve:** the original plan assumes one `products` table keyed by
+      `ean` with a single `article` column. We have **two chains** (Willys, Hemköp — soon
+      maybe ICA/Coop) that can assign **different article numbers to the same EAN**. A single
+      `ean` PK can't hold two articles. Decide: (a) `products` keyed by `ean` for the
+      name/macros (chain-agnostic, since nutrition for the same barcode is the same product),
+      plus a separate `chain_articles` table keyed by `(chain, ean) → article`, or (b) one row
+      per `(chain, ean)` with article + macros duplicated per chain. (a) avoids duplicating
+      macros; recommended.
+- [ ] Column names should mirror the existing CSV header exactly: `ean, article, altText,
+      brand, basis, kcal, kj, fat, satfat, carb, sugar, fibre, protein, salt, source` — note
+      it's `altText` (name + size, e.g. "Trocadero Zero Sugar Läsk Pet 1,5l"), not a separate
+      bare `name` field, and `source` is `willys` / `off` / `hemkop` / empty, not a free-text
+      provenance string.
+- [ ] Add a `chain` column (or the `chain_articles` table above) so the same scraper output
+      shape (per chain) can upsert without clobbering the other chain's rows.
+
+### Tasks
+1. [ ] Initialize the Expo project (NativeWind + `@supabase/supabase-js` client setup) — net
+       new, nothing here yet.
+2. [ ] Create the Supabase `products` table (+ `chain_articles` if going with option (a) above).
+3. [ ] Scaffold UI: camera view (Android, `expo-camera` `onBarcodeScanned`, EAN-13), text input
+       fallback (Web), placeholder result card.
+4. [ ] Write the Supabase query: fetch product by EAN (join `chain_articles` if split out).
+5. [ ] Add a `--supabase` upsert mode to `willys_scraper.py` and `hemkop_scraper.py` (via
+       `supabase-py`) as an alternative to `--build-only`'s CSV write — keep CSV output too,
+       since the Sheets flow is still live and shouldn't break.

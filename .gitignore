@@ -1,12 +1,19 @@
 # Resume cache (local, large, churny) - safe to delete anytime to force a full re-crawl
 .willys_cache.jsonl
+.hemkop_cache.jsonl
+.coop_cache.jsonl
 
 # Python
 __pycache__/
 *.pyc
 
-# Keep willys_index.csv tracked if you host it from this repo; ignore the JSON dump.
+# Playwright MCP scratch (page snapshots / sample API responses captured while debugging)
+.playwright-mcp/
+
+# Keep the *_index.csv files tracked if you host them from this repo; ignore the JSON dumps.
 willys_index.json
+hemkop_index.json
+coop_index.json
 
 # Additional files:
 willys-macros-TODO.md
