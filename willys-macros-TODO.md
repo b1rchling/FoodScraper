@@ -125,11 +125,12 @@ what actually exists here rather than a generic from-scratch plan._
       plus a separate `chain_articles` table keyed by `(chain, ean) → article`, or (b) one row
       per `(chain, ean)` with article + macros duplicated per chain. (a) avoids duplicating
       macros; recommended.
-- [ ] Column names should mirror the existing CSV header exactly: `ean, article, name, brand,
-      basis, price, kcal, kj, fat, satfat, carb, sugar, fibre, protein, salt, source` — note
-      `name` is the plain product name (e.g. "Trocadero Zero Sugar Läsk Pet 1,5l"), `price` is a
-      display string ("24 kr" / "15,04 kr"), and `source` is `willys` / `off` / `hemkop` /
-      `coop` / empty, not a free-text provenance string.
+- [ ] Column names should mirror the existing CSV header exactly (17 cols, identical across all
+      three chains): `ean, article, name, brand, weight, price, basis, kcal, kj, fat, satfat,
+      carb, sugar, fibre, protein, salt, source` — note `name` is the plain product name (e.g.
+      "Trocadero Zero Sugar Läsk Pet 1,5l"), `weight` is the package size display string
+      ("2,2 kg" / "500 ml"), `price` is a display string ("24 kr" / "15,04 kr"), and `source`
+      is `willys` / `off` / `hemkop` / `coop` / empty, not a free-text provenance string.
 - [ ] Add a `chain` column (or the `chain_articles` table above) so the same scraper output
       shape (per chain) can upsert without clobbering the other chain's rows.
 

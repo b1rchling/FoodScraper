@@ -87,7 +87,7 @@ MACRO = {
 }
 
 # Full-index column order. NOTE: keep `ean` first (col A) so VLOOKUP keys off it.
-COLUMNS = ["ean", "article", "name", "brand", "basis", "price",
+COLUMNS = ["ean", "article", "name", "brand", "weight", "price", "basis",
            "kcal", "kj", "fat", "satfat", "carb", "sugar", "fibre", "protein",
            "salt", "source"]
 
@@ -222,6 +222,7 @@ def parse_item(p):
         "article": str(p.get("id") or ean).strip(),   # Coop has no separate article -> id (== ean)
         "name": name,
         "brand": p.get("manufacturerName") or "",
+        "weight": p.get("packageSizeInformation") or "",
         "basis": m.get("basis", "") if m else "",
         "price": price if price is not None else "",
         "source": "coop" if m else "",
@@ -391,6 +392,20 @@ def normalize_macros(row):
     return row
 
 
+def weight_str(v):
+    """Normalize a package-size string: insert one space between the number and its unit
+    so '2,2kg' -> '2,2 kg', '450g' -> '450 g'. Blank stays blank; already-spaced values
+    are left unchanged."""
+    if v in ("", None):
+        return ""
+    s, out = str(v).strip(), []
+    for i, ch in enumerate(s):
+        if ch.isalpha() and i > 0 and s[i - 1].isdigit():
+            out.append(" ")
+        out.append(ch)
+    return "".join(out)
+
+
 def write_outputs(records, base):
     records = sorted(records, key=lambda r: (r.get("name") or "").lower())
     csv_path, json_path = base + ".csv", base + ".json"
@@ -400,6 +415,7 @@ def write_outputs(records, base):
     for r in records:
         row = {k: r.get(k, "") for k in COLUMNS}
         row["price"] = price_str(r.get("price"))
+        row["weight"] = weight_str(r.get("weight") or r.get("volume"))
         normalize_macros(row)
         rows.append(row)
 

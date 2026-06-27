@@ -50,15 +50,20 @@ Den skriver, bredvid skriptet:
 Skrapningen är skonsam som standard (4 trådar, kort fördröjning) och **gör nya försök vid 403/429**
 istället för att tappa produkter. Hela sortimentet ≈ 7 600 produkter, ~10–20 min.
 
-**Kolumner i `willys_index.csv`** (`A`→`P`, rubrikerna är på engelska eftersom de är själva fil-rubrikerna):
+**Kolumner i `willys_index.csv`** (`A`→`Q`, rubrikerna är på engelska eftersom de är själva fil-rubrikerna):
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ean | article | name | brand | basis | price | kcal | kj | fat | satfat | carb | sugar | fibre | protein | salt | source |
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ean | article | name | brand | weight | price | basis | kcal | kj | fat | satfat | carb | sugar | fibre | protein | salt | source |
 
 `article` är Willys artikelnummer (t.ex. `101278894_ST`). `name` är produktnamnet (t.ex.
-`Trocadero Zero Sugar Läsk Pet 1,5l`). `price` är hyllpriset som visningstext (t.ex. `24 kr`
-eller `15,04 kr`). Näringsvärden är per 100 g/ml. `source` = `willys`, `off` (Open Food Facts) eller tomt.
+`Trocadero Zero Sugar Läsk Pet 1,5l`). `weight` är förpackningsstorleken (t.ex. `2,2 kg`,
+`500 ml`). `price` är hyllpriset som visningstext (t.ex. `24 kr` eller `15,04 kr`).
+Näringsvärden är per 100 g/ml. `source` = `willys`, `off` (Open Food Facts) eller tomt.
+
+> ⚠️ **Kolumnordningen ändrades (juni 2026):** `weight` lades till och `basis` flyttades efter
+> `price`. Om du redan har ett Sheet med skannformeln nedan måste du uppdatera den (kolumn­index
+> har förskjutits). Alla tre kedjorna (Willys/Hemköp/Coop) delar nu exakt samma 17-kolumners layout.
 
 **`willys_ean_article.csv`** har bara två kolumner — `ean,article` — för enklaste uppslag.
 
@@ -93,11 +98,11 @@ _(Vill du inte hosta? Du kan också **Arkiv → Importera → Ladda upp** CSV-fi
 
 På en flik (t.ex. **`Scan`**): den skannade streckkoden hamnar i **`A2`**. Skriv sedan i **`B2`**:
 
-**Fullständig tabell** (`willys_index.csv`) — ger artikelnummer + namn + näringsvärden:
+**Fullständig tabell** (`willys_index.csv`) — ger artikelnummer + namn + vikt + näringsvärden:
 ```
-=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$O},{2,3,6,8,9,10,11,12,13,14},FALSE),"hittas ej")
+=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$Q},{2,3,5,8,10,11,12,13,14,15,16},FALSE),"hittas ej")
 ```
-Sprids över raden: **artikelnummer · namn · kcal · fett · mättat fett · kolhydrater · socker · fiber · protein · salt** (etiketter i `B1:K1`).
+Sprids över raden: **artikelnummer · namn · vikt · kcal · fett · mättat fett · kolhydrater · socker · fiber · protein · salt** (etiketter i `B1:L1`). Indexen utgår från den hopslagna tabellen `{A, B:Q}` (1=ean, 2=article, 3=name, 4=brand, 5=weight, 6=price, 7=basis, 8=kcal, 9=kj, 10=fat, 11=satfat, 12=carb, 13=sugar, 14=fibre, 15=protein, 16=salt, 17=source).
 
 **Enkelt uppslag** (`willys_ean_article.csv`) — ger bara artikelnumret:
 ```
