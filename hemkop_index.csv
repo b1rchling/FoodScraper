@@ -1260,7 +1260,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7501064192418,101195180_ST,"Corona Extra Ljus Lager 3,2% Folköl Glas",Corona,,"84,23 kr",,,,,,,,,,
 6408432002915,101833710_ST,"Cottage Cheese 2,4% Laktosfri",Valio,100 gram,"16,04 kr",82.0,347.0,2.4,1.4,3.2,2.2,,12.0,0.8,hemkop
 7340083444814,101239399_ST,Cottage Cheese Naturell 4%,Garant,100 gram,"29,20 kr",100.0,410.0,4.0,2.5,1.8,1.8,,13.0,0.8,hemkop
-8002469551767,101727315_ST,Cotto Tartufo Prosciutto,Fumagalli,,"37,80 kr",,,,,,,,,,
+8002469551767,101727315_ST,Cotto Tartufo Prosciutto,Fumagalli,100 g,"37,80 kr",232.0,963.9,17.0,6.4,1.7,1.6,,18.0,4.5,off
 3153126963005,101552970_ST,Coulommiers,Le Rustique,100 gram,"63,25 kr",291.0,1208.0,23.0,16.0,1.0,0.1,,20.0,1.6,hemkop
 7311043007868,101547035_ST,Couscous,Garant,100 gram,"33,07 kr",347.0,1465.0,2.3,0.5,64.0,2.0,8.9,13.0,0.01,hemkop
 7311043007851,101547064_ST,Couscous,Garant,100 gram,"33,07 kr",349.0,1477.0,1.8,0.4,69.0,2.1,4.2,12.0,0.01,hemkop
@@ -1283,13 +1283,13 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083460432,101271326_ST,Crema Carciofi Kronärtskockscrème,Garant,100 gram,"34,97 kr",381.0,1592.0,39.0,4.3,4.5,0.3,2.9,2.9,1.3,hemkop
 8055176430146,101841091_ST,Crema Classica Kaffekapslar 10p,Borbone,,"37,80 kr",,,,,,,,,,
 7311043015351,101670852_ST,Crema Con Aceto Balsamico Di Modena,Monte Castello,100 milliliter,"32,13 kr",202.0,859.0,0.0,0.0,46.0,34.0,,1.1,0.09,hemkop
-8000070025400,101361650_ST,Crema E Aroma Hela Bönor,Lavazza,,"231,25 kr",,,,,,,,,,
+8000070025400,101361650_ST,Crema E Aroma Hela Bönor,Lavazza,100 g,"231,25 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,off
 8000070053472,101345471_ST,Crema E Gusto Kaffekapslar,Lavazza,,"43,48 kr",,,,,,,,,,
 8034028339523,101841096_ST,Crema Superior Hela Bönor,Borbone,,"207,20 kr",,,,,,,,,,
 8055176430139,101841090_ST,Crema Superior Kaffekapslar 10p,Borbone,,"37,80 kr",,,,,,,,,,
 8711000587249,101676879_ST,Crema Whole Beans Mellanrost,Gevalia,,"165,85 kr",,,,,,,,,,
 5201002066697,101230862_ST,Creme Caramel,Jotis,100 gram,"11,30 kr",369.0,1568.0,0.1,0.1,92.0,85.0,,0.0,0.09,hemkop
-7350002401606,100685518_ST,Creme Soltorkade Tomater,Zeta,,"36,86 kr",,,,,,,,,,
+7350002401606,100685518_ST,Creme Soltorkade Tomater,Zeta,100 g,"36,86 kr",383.0,1553.9,38.0,3.5,6.2,4.0,,2.5,,off
 7350002409398,101263946_ST,Creme Svamp med Tryffel,Zeta,100 gram,"40,64 kr",195.0,809.0,19.0,2.0,3.0,0.0,,2.0,1.3,hemkop
 3222110021776,101427253_ST,Cremier,Chaumes,100 gram,"80,39 kr",288.0,1194.0,24.0,17.0,0.5,0.5,,18.0,1.9,hemkop
 5000112692822,101832315_ST,Crimson Cherry Ltd Läsk Pet,Fanta,100 milliliter,"22,66 kr",17.0,70.0,0.0,0.0,3.9,3.9,,0.0,0.02,hemkop
@@ -1385,7 +1385,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 4009700021571,101774207_ST,Danette Duo,Danone,100 gram,"9,41 kr",136.0,570.0,6.4,4.1,17.0,15.0,0.4,2.6,0.1,hemkop
 7310240064049,100512090_ST,Dansk Rödkål,Felix,100 gram,"25,08 kr",90.0,376.0,0.0,0.0,19.0,18.0,,1.3,1.1,hemkop
 5701251858543,100191141_ST,Dansk Salami Klassisk Skivad,Göl,100 gram,"26,02 kr",421.0,1739.0,39.0,15.0,0.5,0.5,,16.0,4.6,hemkop
-7300400482530,101306789_ST,Dark Chocolate Biscuits,Wasa,100 gram,"28,34 kr",,,,,,,,,,hemkop
+7300400482530,101306789_ST,Dark Chocolate Biscuits,Wasa,100 gram,"28,34 kr",453.703703703704,1931.0,19.0,3.6,59.0,29.0,9.0,9.0,0.32,off
 8711000501429,101254926_ST,Dark Mörkrost Gevalia Kaffekapslar,Tassimo,,"59,57 kr",,,,,,,,,,
 7310050001197,101232435_ST,Dark Roast Bryggkaffe,Löfbergs,,"71,88 kr",,,,,,,,,,
 7310050012285,101255015_ST,Dark Roast Hela Bönor,Löfbergs,,"81,34 kr",,,,,,,,,,
@@ -1864,7 +1864,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083467608,101273016_ST,Fries Steakhouse Frysta,Garant,100 gram,"25,25 kr",126.0,528.0,3.8,0.5,19.0,0.5,2.9,2.4,0.07,hemkop
 7340083475757,101298102_ST,Fries Sweet Potato Fryst,Garant,100 gram,"31,45 kr",158.0,663.0,6.8,0.9,21.0,9.2,2.9,2.0,0.58,hemkop
 7393914000116,101776493_ST,Frikadeller Tomatsås,Gooh,100 gram,"66,20 kr",185.0,772.0,12.0,6.4,12.0,2.8,1.3,6.7,1.0,hemkop
-7340083482175,101316313_ST,Frisé & Maché Klass 1,Garant,,"17,95 kr",,,,,,,,,,
+7340083482175,101316313_ST,Frisé & Maché Klass 1,Garant,100 g,"17,95 kr",18.0,69.5,0.5,0.1,1.3,1.0,0.0,1.7,0.0,off
 7340083465604,101281492_ST,Frisé Mache Klass 1,Garant,,"20,77 kr",,,,,,,,,,
 7311043025282,101820329_ST,Frityrolja,Eldorado,100 gram,"81,90 kr",900.0,3700.0,100.0,7.0,0.0,0.0,,0.0,0.0,hemkop
 3228024000128,101425303_ST,Fromage Fondu Smältost 8port,Président,100 gram,"17,93 kr",240.0,994.0,19.5,14.0,7.0,7.0,,9.0,1.8,hemkop
@@ -1987,7 +1987,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5708356010272,101433905_ST,Gaudina 28%,Ready Chef,100 gram,"77,55 kr",346.0,1435.0,28.0,14.0,0.5,0.5,,23.0,1.9,hemkop
 5701073066119,101308807_ST,Gelantinblad Nöt,Dr Oetker,,"22,10 kr",,,,,,,,,,
 5701073066478,101272322_ST,Gelatinblad,Dr Oetker,,"12,90 kr",,,,,,,,,,
-5701073066027,101349749_ST,Gelatinpulver,Dr Oetker,,"23,85 kr",,,,,,,,,,
+5701073066027,101349749_ST,Gelatinpulver,Dr Oetker,100 g,"23,85 kr",358.0,1470.5,0.0,0.0,0.5,0.5,,86.0,0.37,off
 7070841007370,101851191_ST,Gelehallon No Sugar Blanddryck Pet,Zeroh,100 milliliter,"30,23 kr",0.8,3.6,0.0,0.0,0.0,0.0,,0.0,0.0,hemkop
 7310340134000,101193057_ST,Gelésocker Multi Dessertsocker,Dansukker,100 gram,"22,24 kr",397.0,1687.0,0.0,0.0,99.0,99.0,,0.0,0.02,hemkop
 7340083494987,101358836_ST,Gemelli Pasta,Garant,100 gram,"15,09 kr",1514.0,357.0,1.4,0.3,72.0,3.1,3.2,12.0,0.01,hemkop
@@ -2676,7 +2676,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311310028091,100467488_ST,Honey Flavor Grilloil,Santa Maria,100 gram,"25,50 kr",443.0,1829.0,42.0,2.9,16.0,16.0,0.0,0.5,2.1,hemkop
 7311043008810,101550267_ST,Honung,Garant Eko,100 gram,"58,63 kr",340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,hemkop
 7350071870464,101276671_ST,Honung,Gårdshonung,100 gram,"60,52 kr",340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,hemkop
-3088540255279,101402348_ST,Honung Blomster,Lune De Miel,,"77,55 kr",,,,,,,,,,
+3088540255279,101402348_ST,Honung Blomster,Lune De Miel,100 g,"77,55 kr",320.0,1378.5,0.5,0.5,80.0,80.0,,0.0,0.02,off
 7350071870129,101230685_ST,Honung Ekologisk,Gårdshonung,100 gram,"60,52 kr",340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,hemkop
 7311043027422,101840986_ST,Honung Fast,Eldorado,100 gram,"37,80 kr",320.0,1360.0,0.0,0.0,79.0,79.0,,0.5,0.02,hemkop
 7340083462313,101273305_ST,Honung Flytande,Eldorado,100 gram,"31,18 kr",320.0,1360.0,0.5,0.0,79.0,79.0,,0.5,0.02,hemkop
@@ -2858,7 +2858,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 9006900226589,101488935_ST,Iste Vattenmelon,Pfanner,100 milliliter,"23,18 kr",33.0,140.0,0.5,0.1,8.0,8.0,,0.5,0.01,hemkop
 7316260001590,101200717_ST,Isterband,Lammhults,100 gram,"23,61 kr",,1250.0,24.0,10.0,10.0,2.0,,12.0,2.0,hemkop
 7312330002252,100450557_ST,Isterband Småländska Långa,Lithells,100 gram,"27,39 kr",290.0,1200.0,24.0,12.0,9.0,0.5,,9.7,2.3,hemkop
-7316260001576,100201835_ST,Isterband Syrliga,Ello Lammhult,,"26,45 kr",,,,,,,,,,
+7316260001576,100201835_ST,Isterband Syrliga,Ello Lammhult,100 g,"26,45 kr",300.0,1262.0,24.0,10.0,10.0,1.0,,12.0,1.9675,off
 6408430347353,101511425_ST,Italian Style Grand Grated Vegansk,Oddlygood,100 gram,"24,55 kr",271.0,1131.0,15.0,13.0,31.0,0.0,,2.9,2.8,hemkop
 7613287302137,101546225_ST,Italian Style Roast Kaffekapslar,Starbucks,,"49,16 kr",,,,,,,,,,
 8714100824740,101282187_ST,Italiensk Dressing Mix,Knorr,100 milliliter,"12,77 kr",437.0,1829.0,46.0,6.7,5.0,4.0,0.7,0.5,2.2,hemkop
@@ -2962,7 +2962,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 4016241050632,101427515_ST,Jordgubb Mild Kvarg,Arla,100 gram,"41,10 kr",62.0,264.0,0.0,0.0,4.5,3.8,,9.5,0.11,hemkop
 7310865879585,101297872_ST,"Jordgubb Mild Yoghurt Mindre Socker 1,5%",Arla Ko,100 gram,"25,50 kr",64.0,268.0,1.5,0.9,8.1,7.8,,3.8,0.08,hemkop
 5711953214332,101853390_ST,"Jordgubb Mjölkdryck Shake Up 0,7%",Arla,100 gram,"15,98 kr",58.0,246.0,0.7,0.5,6.6,6.4,2.0,5.1,0.11,hemkop
-5410146963964,101197411_ST,Jordgubb Probiotisk Drickyoghurt,Actimel,100 gram,"53,89 kr",,,,,,,,,,hemkop
+5410146963964,101197411_ST,Jordgubb Probiotisk Drickyoghurt,Actimel,100 gram,"53,89 kr",76.0,303.4,1.4,1.0,12.0,11.9,,2.8,0.0975,off
 5410146407963,100239350_ST,"Jordgubb Probiotisk Drickyoghurt 0,1%",Actimel,100 gram,"23,61 kr",68.0,288.0,1.4,1.0,10.2,9.9,0.0,2.9,0.12,hemkop
 7310401059662,101832183_ST,Jordgubb Rabarber Zero Läsk Burk,Mino,100 milliliter,"12,25 kr",4.0,16.0,0.0,0.0,0.8,0.3,,0.0,0.0,hemkop
 7310402059678,101832198_ST,Jordgubb Rabarber Zero Läsk Burk,Mino,100 milliliter,"43,48 kr",4.0,16.0,0.0,0.0,0.8,0.3,,0.0,0.0,hemkop
@@ -3107,7 +3107,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2379741000005,101322903_KG,Kaltbach Creamy,Engelmanns,100 gram,"472,20 kr",394.0,1650.0,34.0,20.0,1.0,0.0,,21.0,1.8,hemkop
 2379748500003,101677115_KG,Kaltbach Creamy Tryffel,Engelmanns,100 gram,"491,10 kr",387.0,1604.0,32.0,19.0,0.1,0.1,,25.0,1.6,hemkop
 8720182144287,101345261_ST,Kalvbuljong Tärningar,Knorr,100 milliliter,"13,72 kr",6.0,25.0,0.5,0.3,0.5,0.5,0.5,0.5,0.96,hemkop
-7340083488306,101337444_ST,Kalventrecôte Import,Prime,,"131,50 kr",,,,,,,,,,
+7340083488306,101337444_ST,Kalventrecôte Import,Prime,100 g,"131,50 kr",169.0,707.05,9.3,3.7,0.45,,,20.9,,off
 7322550052715,100404901_ST,Kalvfond,Touch Of Taste,100 milliliter,"34,97 kr",2.0,10.0,0.5,0.1,0.5,0.1,,0.5,0.7,hemkop
 7322550052661,100815290_ST,Kalvfond,Touch Of Taste,100 milliliter,"80,39 kr",2.0,10.0,0.5,0.1,0.5,0.1,,0.5,0.7,hemkop
 7311043019557,101726390_ST,Kalvfond,Garant,100 milliliter,"30,23 kr",86.0,358.0,1.1,0.3,14.0,7.0,,4.6,16.6,hemkop
@@ -3369,7 +3369,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083487484,101334258_ST,Korvstroganoff med Ris,Redo,100 gram,"47,27 kr",150.0,625.0,6.5,3.2,17.0,1.9,,5.2,0.99,hemkop
 7393914000130,101776495_ST,Korvstroganoff Vildris,Gooh,100 gram,"66,20 kr",152.0,635.0,9.2,4.6,13.0,2.5,0.6,4.6,1.3,hemkop
 2371582300009,100808379_KG,Kotlett i Bit Gourmetmörad Sverige,Nybergs Deli,100 gram,"103,10 kr",110.0,470.0,4.0,1.7,2.0,2.0,,17.0,0.8,hemkop
-7300200054005,101419647_ST,Kotlett Rapsgris Sverige,Scan,,"51,05 kr",,,,,,,,,,
+7300200054005,101419647_ST,Kotlett Rapsgris Sverige,Scan,100 g,"51,05 kr",185.0,773.8,12.0,,0.0,,,19.4,,off
 7310960041894,101335555_ST,Kotlettrad Helstekt Fryst/1 Port,Dafgårds,100 gram,"43,48 kr",111.0,466.0,5.5,1.7,11.0,1.7,1.2,4.3,0.71,hemkop
 8711855022285,101272927_ST,Krasse,,,"14,14 kr",,,,,,,,,,
 7310130013461,101583972_ST,Krisp Jordgubb  Havre,Axa,100 gram,"40,64 kr",374.0,1563.0,4.6,0.95,70.0,9.7,6.8,8.5,0.5,hemkop
@@ -4842,7 +4842,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310155803771,101677387_ST,Original Bbq Sauce,Johnny's,100 gram,"32,13 kr",180.0,750.0,0.9,0.1,40.0,36.0,,1.2,1.4,hemkop
 7311312009401,101833317_ST,Original Bbq Sauce Less Suger,Santa Maria,100 gram,"31,18 kr",135.0,575.0,0.0,0.0,33.0,29.0,,0.8,1.4,hemkop
 55653666219,101212533_ST,Original Breton,Dare,100 gram,"20,77 kr",471.0,1970.66,20.2,2.0,63.1,5.8,5.0,10.0,2.0,hemkop
-850835000719,101195879_ST,Original Chai Te,Pukka,,"41,59 kr",,,,,,,,,,
+850835000719,101195879_ST,Original Chai Te,Pukka,100 g,"41,59 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,,off
 7311441350108,101667027_ST,Original Cheddar Dip,Kavli,100 gram,"33,07 kr",190.0,800.0,15.0,4.2,6.2,4.8,,8.5,2.5,hemkop
 7316641015505,101520690_ST,Original Chunk,Oumph!,100 gram,"84,23 kr",100.0,418.0,2.9,0.3,0.4,0.0,4.4,15.9,1.5,hemkop
 7316641415008,101361773_ST,Original Chunk Fryst,Oumph!,100 gram,"42,54 kr",100.0,418.0,2.9,0.3,0.4,0.0,4.4,15.9,1.5,hemkop
@@ -5420,14 +5420,14 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310070752116,101013396_ST,Porter 3.5% Folköl Glas,Dcarnegie,100 milliliter,"17,93 kr",32.0,136.0,,,,,,,,hemkop
 6006507005009,101838922_ST,Portuguese Peri Peri Rub,Capeherb&spice,100 gram,"45,38 kr",198.0,834.0,2.4,0.3,37.0,27.0,5.9,4.4,42.3,hemkop
 7340083475566,101301933_ST,Potatis Amandine Klass 1,Garant,,"24,55 kr",,,,,,,,,,
-7340083475634,101302361_ST,Potatis Delikatess Klass 1,Garant,,"16,10 kr",,,,,,,,,,
+7340083475634,101302361_ST,Potatis Delikatess Klass 1,Garant,100 g,"16,10 kr",79.0,329.0,0.1,0.0,16.0,0.8,2.1,1.7,0.01,off
 7312920095411,101844363_ST,Potatis Dillstuvad,Lecora,100 gram,"34,97 kr",80.0,350.0,4.0,0.5,14.0,2.0,,2.0,1.0,hemkop
 7340083475498,101302363_ST,Potatis Fast Eko Klass 2,Garant Eko,,"39,85 kr",,,,,,,,,,
-7340083475580,101301935_ST,Potatis Fast Klass 1,Garant,,"16,98 kr",,,,,,,,,,
+7340083475580,101301935_ST,Potatis Fast Klass 1,Garant,100 g,"16,98 kr",79.0,329.0,0.1,0.0,16.0,0.8,2.1,1.7,0.01,off
 7313300000711,101058267_ST,Potatis Fast Klass 1,Garant,,"28,34 kr",,,,,,,,,,
-7340083475504,101302358_ST,Potatis Fast Klass 2,Garant,,"20,85 kr",,,,,,,,,,
+7340083475504,101302358_ST,Potatis Fast Klass 2,Garant,100 g,"20,85 kr",65.0,275.0,0.0,0.0,13.0,1.1,0.0,1.9,0.0,off
 74838,100225490_ST,Potatis Fast Klass 2,,,"56,73 kr",,,,,,,,,,
-7340083475535,101325855_ST,Potatis Färsk Klass 1,,,"32,90 kr",,,,,,,,,,
+7340083475535,101325855_ST,Potatis Färsk Klass 1,,100 g,"32,90 kr",59.0,244.3,0.1,0.0,12.3,2.8,1.6,1.1,0.01,off
 7394048027710,101133694_ST,Potatis Färsk Tvättad Klass 1,Garant,,"25,50 kr",,,,,,,,,,
 7340083448416,101244751_ST,Potatis Hel,Eldorado,100 gram,"16,98 kr",50.0,220.0,0.3,0.2,10.0,0.4,1.7,1.2,0.6,hemkop
 7340083475627,101302362_ST,Potatis Kok Stor Klass 1,Garant,,"28,34 kr",,,,,,,,,,
@@ -5437,7 +5437,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083475511,101302359_ST,Potatis Mjölig Klass 2,Garant Eko,,"20,85 kr",,,,,,,,,,
 74839,100164509_ST,Potatis Mjölig Klass 2,,,"56,73 kr",,,,,,,,,,
 5711953073397,101271182_ST,Potatis Purjo Soppa,Kelda,100 gram,"27,89 kr",57.0,236.0,4.0,2.5,4.4,0.7,,0.6,0.99,hemkop
-7340083475542,101301931_ST,Potatis Smått&gott Klass 1,Garant,,"20,77 kr",,,,,,,,,,
+7340083475542,101301931_ST,Potatis Smått&gott Klass 1,Garant,100 g,"20,77 kr",79.0,329.0,0.1,0.0,16.0,0.8,2.1,1.7,0.01,off
 7340083475573,101301934_ST,Potatis Sparris Klass 1,Garant,,"24,55 kr",,,,,,,,,,
 7322550033448,101696673_ST,Potatis& Broccolisoppa Pulver/4 Port,Blå Band,250 milliliter,"18,88 kr",110.0,463.0,4.1,2.1,14.0,4.6,1.1,3.8,2.1,hemkop
 7322550033431,101696674_ST,Potatis&purjo Soppa Pulver/4 Port,Blå Band,250 milliliter,"18,88 kr",116.0,487.0,4.0,2.2,15.0,4.2,1.6,4.2,1.6,hemkop
@@ -5548,7 +5548,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8008698006931,101313523_ST,Puff Pastry Smördeg Glutenfri Fryst,Schär,100 gram,"40,64 kr",391.0,1624.0,28.0,13.0,30.0,2.1,4.8,2.3,1.0,hemkop
 7311043011148,101584189_ST,Puffat Ris,Garant,100 gram,"24,55 kr",372.0,1578.0,2.0,0.5,81.0,0.7,1.0,7.0,0.03,hemkop
 7316641415077,101361775_ST,Pulled Bbq Fryst,Oumph!,100 gram,"42,54 kr",115.0,480.0,0.0,0.0,11.0,9.4,4.7,14.0,1.5,hemkop
-7311043013081,101624006_ST,Pulled Pork,Garant,,52 kr,,,,,,,,,,
+7311043013081,101624006_ST,Pulled Pork,Garant,100 g,52 kr,158.0,653.7,7.1,2.4,9.0,6.3,,14.0,1.2775,off
 7311043025619,101842328_ST,Pulled Pork,Prime Patrol,100 gram,"43,48 kr",161.0,674.0,8.6,3.0,3.3,1.6,,17.0,1.3,hemkop
 5707196330212,101547491_ST,Pulled Turkey,Tulip,100 gram,"65,25 kr",120.0,504.0,5.0,1.5,1.5,1.0,,17.0,1.5,hemkop
 2090453900000,100474513_KG,Pumpa Butternut,,,"25,50 kr",,,,,,,,,,
@@ -5871,7 +5871,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311310033323,101230406_ST,Rub For Ribs Påse,Santa Maria,100 gram,"11,30 kr",262.0,1099.0,4.8,1.0,40.0,19.0,15.0,7.8,22.1,hemkop
 7311310028626,100992552_ST,Rub Herbs,Santa Maria,100 gram,"11,30 kr",257.0,1079.0,3.0,0.9,39.0,5.3,15.0,11.0,20.2,hemkop
 7340083438288,101232114_ST,Ruccola Ekologisk Klass 1,Garant Eko,,"18,88 kr",,,,,,,,,,
-7340083482182,101316310_ST,Ruccola Klass 1,Garant,,"20,77 kr",,,,,,,,,,
+7340083482182,101316310_ST,Ruccola Klass 1,Garant,100 g,"20,77 kr",21.0,,0.400000005960464,,,,1.70000004768372,3.59999990463257,,off
 7340083492020,101351197_ST,Rulltårta Jordgubb,Eldorado,100 gram,"26,45 kr",398.0,1672.0,15.0,5.2,61.0,36.0,,4.7,0.43,hemkop
 7312080003110,100048468_ST,Rundrut Normalgräddat Knäckebröd,Leksands,100 gram,"37,80 kr",350.0,1400.0,1.6,0.3,60.0,0.5,20.0,8.9,1.2,hemkop
 9310140009131,100611786_ST,Runt Ris Rundkornigt Medium Grain,Sunrice,100 gram,"279,10 kr",147.0,615.0,0.4,0.1,32.5,0.1,,2.7,0.01,hemkop
@@ -6100,12 +6100,12 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8711327647930,101649423_ST,Salt Cara Bro Peaces,Ben & Jerry's,100 gram,"53,89 kr",391.0,1635.0,25.0,9.3,36.0,31.0,,4.4,0.28,hemkop
 7311631500603,101216472_ST,Salt Finkornigt,Falksalt,,"13,72 kr",,,,,,,,,,
 7311631600006,101216450_ST,Salt Grovkornigt,Falksalt,,"14,66 kr",,,,,,,,,,
-7391881834659,101313869_ST,Salt Karamel Laktosfri Glass,Alvestaglass,,"43,48 kr",,,,,,,,,,
+7391881834659,101313869_ST,Salt Karamel Laktosfri Glass,Alvestaglass,100 g,"43,48 kr",214.0,895.0,10.0,8.3,27.0,21.0,0.2,3.7,0.36,off
 7398818390035,101425989_ST,Salt Karamell Ekologisk Glass,Järnaglass,100 gram,"56,73 kr",260.0,1092.0,16.0,10.0,25.0,24.0,0.1,4.0,0.33,hemkop
 7312690800246,101469288_ST,Salt Karamell Flerpack Glass,Sia Glass,100 gram,"47,27 kr",340.0,1400.0,18.0,13.0,40.0,27.0,0.0,3.9,0.4,hemkop
 7312060502169,101324718_ST,Salt Karamell Glass,Triumf Glass,100 gram,"19,82 kr",200.0,850.0,10.0,6.7,25.0,23.0,,2.9,0.33,hemkop
 7312690208066,101349485_ST,Salt Karamell Vår Finaste Gräddglass,Sia Glass,100 gram,"49,16 kr",260.0,1100.0,14.0,9.1,30.0,27.0,0.0,3.4,0.4,hemkop
-5701027004211,101227778_ST,Salt med Jod,Jozo,100 gram,"11,30 kr",,,,,,,,,100.0,hemkop
+5701027004211,101227778_ST,Salt med Jod,Jozo,100 gram,"11,30 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.9,off
 87158021,100454982_ST,Salt med Jod Extra Fint,Jozo,100 gram,"9,41 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,100.0,hemkop
 7310520022110,101599864_ST,Saltade Matkex,Göteborgs Kex,100 gram,"14,14 kr",495.0,2078.0,21.0,1.6,65.0,8.2,3.2,10.0,2.4,hemkop
 8436048965575,101676888_ST,Salted Caramel,Filipinos,100 gram,"26,45 kr",523.0,2188.0,27.0,15.0,64.0,36.0,1.1,5.4,0.61,hemkop
@@ -6360,7 +6360,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310500031316,100722764_ST,Små Fina Ärter Frysta,Findus,100 gram,"24,55 kr",69.0,290.0,0.4,0.1,8.9,5.0,4.4,5.2,0.2,hemkop
 7310500022161,100101961_ST,Små Fina Ärter Petits Pois,Findus,100 gram,"23,61 kr",61.0,256.0,0.5,0.1,7.0,4.0,6.5,5.0,0.8,hemkop
 7340083487606,101334235_ST,Små Vita Bönor,Eldorado,100 gram,"32,13 kr",378.0,1596.0,1.6,0.2,62.0,2.7,16.0,21.0,0.05,hemkop
-7340083466861,101281472_ST,Småbladsmix Ruccola Röd/grön Klass 1,Garant Eko,,"28,34 kr",,,,,,,,,,
+7340083466861,101281472_ST,Småbladsmix Ruccola Röd/grön Klass 1,Garant Eko,100 g,"28,34 kr",20.0,100.2,0.5,0.5,2.0,0.5,1.5,2.1,0.25,off
 7340083466854,101281471_ST,Småbladsmix Ruccola Röd/grön Klass 1,Garant Eko,,"18,88 kr",,,,,,,,,,
 7310865560759,101146289_ST,Smör Ekologiskt 82%,Svenskt Smör,100 gram,"88,85 kr",740.0,3041.0,82.0,52.0,0.7,0.7,,0.6,1.2,hemkop
 6408432061264,101122777_ST,Smör Extrasaltat 80%,Valio,100 gram,"62,41 kr",713.0,2984.0,80.0,45.0,0.8,0.8,,0.6,2.1,hemkop
@@ -6432,7 +6432,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350002405567,101202208_ST,Snackoliver Citron,Zeta,100 gram,"22,66 kr",190.0,779.0,19.0,4.1,0.7,0.7,,1.3,2.7,hemkop
 7311043021604,101763084_ST,Snacksoliver Halkidiki M Örter,Garant,100 gram,"14,14 kr",144.0,594.0,14.0,2.3,1.1,0.1,3.2,1.2,3.5,hemkop
 5000159541336,101360950_ST,Snickers Glass,Mars,100 milliliter,52 kr,341.0,1422.0,20.0,9.5,33.0,25.0,,6.0,0.23,hemkop
-5021991941757,101333474_ST,Snore & Peace Te,Clipper,,"34,02 kr",,,,,,,,,,
+5021991941757,101333474_ST,Snore & Peace Te,Clipper,100 g,"34,02 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,off
 7330242290185,101840628_ST,Snäckor Kardemumma Frysta,Fria,100 gram,"41,59 kr",350.0,1450.0,9.9,1.1,61.0,21.0,4.4,1.4,1.0,hemkop
 5997523312176,101272217_ST,Soba Chili Nudlar,Nissin,100 gram,"25,50 kr",208.0,872.0,7.9,3.6,27.3,5.7,,5.5,1.2,hemkop
 5997523312152,101272258_ST,Soba Klassisk Nudlar,Nissin,100 gram,"25,50 kr",206.0,866.0,8.3,3.6,25.8,4.4,,5.9,1.3,hemkop
@@ -6722,7 +6722,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340012515004,101305246_ST,Superbröd Tranbär,Da Carla,100 gram,"34,97 kr",356.0,1474.0,25.8,2.5,16.5,2.4,11.2,8.8,0.88,hemkop
 8008698048610,101804721_ST,Superknäcke Chia Glutenfri,Schär,100 gram,"21,72 kr",359.0,1516.0,3.2,0.4,73.0,0.1,9.0,5.0,1.4,hemkop
 5060229012005,101247051_ST,Supreme Matcha Green Te,Pukka,,"41,59 kr",,,,,,,,,,
-8711000360521,101282044_ST,Supremo 10 Kaffekapslar,L'or,,"43,48 kr",,,,,,,,,,
+8711000360521,101282044_ST,Supremo 10 Kaffekapslar,L'or,100 g,"43,48 kr",1.0,8.58,0.0,0.0,0.3,0.0,0.01,0.2,0.0,off
 7312080004674,101241378_ST,Sur-rut Knäckebröd,Leksands,100 gram,"37,80 kr",340.0,1450.0,3.8,0.5,58.0,1.4,23.0,10.0,1.2,hemkop
 7070841007356,101851192_ST,Sura Nappar No Sugar Blanddryck Pet,Zeroh,100 milliliter,"30,23 kr",0.9,3.7,0.0,0.0,0.0,0.0,,0.0,0.0,hemkop
 7300400128940,101200700_ST,Surdeg Flerkorn,Wasa,14 gram,"41,59 kr",48.0,200.0,0.4,0.1,8.1,0.1,2.5,1.5,0.16,hemkop
@@ -6965,8 +6965,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7611612140102,101092826_ST,Thousandisland Salladsdressing,Monte Castello,100 milliliter,"26,45 kr",245.0,1014.0,21.0,1.6,12.0,8.4,0.8,1.1,1.2,hemkop
 5065000523145,101195877_ST,Three Ginger Te,Pukka,100 milliliter,"41,59 kr",4.0,17.0,0.5,0.5,0.5,0.5,,0.5,0.01,hemkop
 7316641415022,101361774_ST,Thyme & Garlic Fryst,Oumph!,100 gram,"42,54 kr",117.0,490.0,3.1,0.3,1.6,0.9,5.5,18.0,1.5,hemkop
-8000070009745,101346099_ST,Tierra Organic Hela Bönor,Lavazza,,"236,65 kr",,,,,,,,,,
-8000070053540,101345473_ST,Tierra Organic Kaffekapslar,Lavazza,,"43,48 kr",,,,,,,,,,
+8000070009745,101346099_ST,Tierra Organic Hela Bönor,Lavazza,100 g,"236,65 kr",1.0,8.5,0.0,0.0,0.3,0.0,,0.2,0.0,off
+8000070053540,101345473_ST,Tierra Organic Kaffekapslar,Lavazza,100 g,"43,48 kr",1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.0,off
 75076130012,100016322_ST,Tiger Sauce Original,Try Me,100 gram,"35,91 kr",138.0,,,,34.22,,,0.27,,hemkop
 7311043009633,101553920_ST,Tigermuffins 12-pack,Eldorado,100 gram,"28,75 kr",449.0,1879.0,23.0,3.2,55.0,31.0,,5.2,0.93,hemkop
 5011308051668,101247705_ST,Tikka Masala Curry Paste,Patak's,100 gram,"34,02 kr",270.0,1117.0,23.0,1.7,7.8,0.8,,3.0,4.7,hemkop
@@ -7001,7 +7001,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310865003812,100012148_ST,Tomat Basilika Lätt Crème Fraiche 11%,Arla Köket,100 gram,"18,38 kr",143.0,595.0,11.0,7.2,6.2,5.0,,3.4,1.2,hemkop
 7322550036753,101290100_ST,Tomat Basilika Varma Koppen Soppa Pulver/3 Port,Blå Band,200 milliliter,"16,04 kr",81.0,340.0,2.8,1.9,12.0,5.9,1.4,1.7,1.9,hemkop
 7311041049969,100930094_ST,Tomat Cockt Eko Klass 1,Garant Eko,,"27,80 kr",,,,,,,,,,
-5400357007748,101698481_ST,Tomat Cocktailkvist Miss Perfect Klass1,,,"36,80 kr",,,,,,,,,,
+5400357007748,101698481_ST,Tomat Cocktailkvist Miss Perfect Klass1,,100 g,"36,80 kr",23.8,78.0,0.2,0.0,4.0,2.7,1.2,0.9,0.012954,off
 5400357017587,101880323_ST,Tomat Kumato Klass 1,,,"29,80 kr",,,,,,,,,,
 2090212700001,100152264_KG,Tomat Runda Import Klass 1,,,"31,85 kr",,,,,,,,,,
 2090212600004,100521259_KG,Tomat Runda Sverige Klass 1,,,"36,85 kr",,,,,,,,,,
@@ -7845,7 +7845,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083457180,101264348_ST,Ölkorv Chili 3-pack,Prime Patrol,100 gram,"29,29 kr",372.0,1556.0,41.0,9.0,2.4,1.7,,22.0,3.17,hemkop
 7340083457159,101264326_ST,Ölkorv Original,Prime Patrol,100 gram,"12,25 kr",460.0,1900.0,39.0,16.0,2.0,1.0,,25.0,3.5,hemkop
 7340083457166,101264349_ST,Ölkorv Original 3-pack,Prime Patrol,100 gram,"29,29 kr",460.0,1900.0,39.0,16.0,2.0,1.0,,25.0,3.5,hemkop
-7340083457197,101264324_ST,Ölkorv Vitlök,Prime Patrol,100 gram,"12,25 kr",,1900.0,39.0,16.0,2.0,1.0,,25.0,3.5,hemkop
+7340083457197,101264324_ST,Ölkorv Vitlök,Prime Patrol,100 gram,"12,25 kr",371.0,1935.2,41.0,9.0,2.6,1.9,,22.0,3.2,off
 7340083457203,101264327_ST,Ölkorv Vitlök 3-pack,Prime Patrol,100 gram,"29,29 kr",460.0,1900.0,39.0,16.0,2.0,1.0,,25.0,3.5,hemkop
 7610313390908,101357756_ST,Ört Havssalt Herbamare,A Vogel,,"62,41 kr",,,,,,,,,,
 8714100824733,101282186_ST,Örtagård Dressing Mix,Knorr,100 milliliter,"12,77 kr",430.0,1798.0,46.0,6.4,4.0,3.3,0.5,0.5,2.1,hemkop
