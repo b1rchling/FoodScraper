@@ -38,7 +38,9 @@ Macros live at `product.nutrientHeaders[0].nutrientDetails[]`. Gotchas:
 - Values are strings with a dot/comma decimal; basis is usually **per 100 g/ml**.
 - Swedish typeCodes: `fett`, `varav mättat fett`, `kolhydrat`, `varav sockerarter`,
   `fiber`, `protein`, `salt`.
-- Product name with size/brand lives at `product.image.altText` (richer than `product.name`).
+- Product name is taken from `product.name`; the shelf price as display text is `product.price`
+  ("99,90 kr"), with `product.priceValue` the numeric form. (`product.image.altText` carries
+  name + size, but the output now uses the cleaner `product.name`.)
 
 ## Key decisions
 1. **Food only** via two filters: (a) only food top-level categories, (b) **barn & kiosk
@@ -66,7 +68,7 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF 
 
 ## Two implementations exist in this repo
 1. **`willys_scraper.py`** (current) — Python, standard library only, runs locally or in CI.
-   Outputs `willys_index.csv` (full: ean/article/altText/brand/basis/macros/source) and
+   Outputs `willys_index.csv` (full: ean/article/name/brand/basis/price/macros/source) and
    `willys_ean_article.csv` (lean: just ean,article). Hosted on this public GitHub repo and
    pulled into Sheets with `IMPORTDATA`. See [README.md](README.md) for the exact setup.
 2. **`willys-macros.gs`** (legacy) — same idea, but the crawl runs inside Google Apps Script
@@ -91,11 +93,14 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF 
   (`/search/clean` and `/axfood/rest/...` both return 200 JSON, same fields). Just set
   `BASE = 'https://www.hemkop.se'` in `willys_scraper.py` (and the matching store id). Same
   for other Axfood banners (mat.se, Tempo/Handlarn/Matöppet are likely the same platform).
-- **ICA — partially.** ICA has its own reverse-engineered JSON API (`handla.api.ica.se`, and
-  `handlaprivatkund.ica.se/stores/{storeId}`), but a **different structure** and it generally
-  needs an auth ticket / store selection. The *architecture* here (crawl → detail → index by
-  EAN → VLOOKUP + OFF fallback) transfers; the **API adapter** (URLs + field mapping) must be
-  rewritten. Refs: github.com/svendahlstrand/ica-api, github.com/HampusAndersson01/ICA-Products-API
+- **ICA — NO (not feasible).** Investigated live June 2026 via `handlaprivatkund.ica.se/stores/{storeId}`.
+  ICA serves nutrition (an HTML table in the `bop` product-detail react-query cache) but **never
+  exposes the EAN/GTIN** — every product representation (search-listing SSR state, `bop` detail
+  cache, and the `webproductpagews/v6/products` bulk endpoint) keys on `retailerProductId`
+  (internal article) + a GUID, with no barcode field anywhere. The crawl→index design transfers,
+  but without an EAN there's no key to VLOOKUP a scanned barcode against, so a like-for-like
+  `ean,article` index can't be built. (ICA also sits behind AWS WAF, so a plain-urllib crawl
+  would be challenged.)
 - **Coop (Sweden) — NO, not as-is.** Different platform entirely (Axfood paths 404 on coop.se).
   You'd reverse-engineer Coop's own endpoints first (Chrome DevTools → Network → Fetch/XHR while
   browsing/searching), then write a new adapter. Same architecture still applies.

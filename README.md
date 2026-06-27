@@ -50,15 +50,15 @@ Den skriver, bredvid skriptet:
 Skrapningen är skonsam som standard (4 trådar, kort fördröjning) och **gör nya försök vid 403/429**
 istället för att tappa produkter. Hela sortimentet ≈ 7 600 produkter, ~10–20 min.
 
-**Kolumner i `willys_index.csv`** (`A`→`O`, rubrikerna är på engelska eftersom de är själva fil-rubrikerna):
+**Kolumner i `willys_index.csv`** (`A`→`P`, rubrikerna är på engelska eftersom de är själva fil-rubrikerna):
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ean | article | altText | brand | basis | kcal | kj | fat | satfat | carb | sugar | fibre | protein | salt | source |
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ean | article | name | brand | basis | price | kcal | kj | fat | satfat | carb | sugar | fibre | protein | salt | source |
 
-`article` är Willys artikelnummer (t.ex. `101278894_ST`). `altText` är produktnamnet inklusive
-storlek/volym (t.ex. `Trocadero Zero Sugar Läsk Pet 1,5l Trocadero`). Näringsvärden är per 100 g/ml.
-`source` = `willys`, `off` (Open Food Facts) eller tomt.
+`article` är Willys artikelnummer (t.ex. `101278894_ST`). `name` är produktnamnet (t.ex.
+`Trocadero Zero Sugar Läsk Pet 1,5l`). `price` är hyllpriset som visningstext (t.ex. `24 kr`
+eller `15,04 kr`). Näringsvärden är per 100 g/ml. `source` = `willys`, `off` (Open Food Facts) eller tomt.
 
 **`willys_ean_article.csv`** har bara två kolumner — `ean,article` — för enklaste uppslag.
 

@@ -8,7 +8,7 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 - [x] Run the full crawl: `python willys_scraper.py` → 7,648/7,649 food products cached.
 - [x] Harden against Willys rate-limiting: retry on HTTP 403/429 with backoff instead of
       dropping the product.
-- [x] Generate `willys_index.csv` (full: ean/article/altText/brand/basis/macros/source) and
+- [x] Generate `willys_index.csv` (full: ean/article/name/brand/basis/price/macros/source) and
       `willys_ean_article.csv` (lean: ean,article only).
 - [x] Make the repo public and host both CSVs via `raw.githubusercontent.com` (+ jsDelivr as
       a fallback mirror).
@@ -42,9 +42,10 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
       own index by crawling product details.
 - [x] Scraping moved from Google Apps Script to a local Python script: easier to debug, no
       6-minute execution limit, no UrlFetch quota; the sheet just reads a static hosted CSV.
-- [x] Drop `name`/`price` columns from the full index (`altText` already has the name with
-      size; price isn't needed for lookup) and add a lean `ean,article`-only file for the
-      simplest use case.
+- [x] Full index carries `name` (plain product name, e.g. "Bacon") + `price` (shelf price as
+      display text, e.g. "24 kr" / "19,83 kr"). Earlier the index dropped name/price in favour
+      of `altText` (name + size); that was reversed — `altText` is gone, `name` + `price` are in.
+      A lean `ean,article`-only file also exists for the simplest use case.
 
 ## Watch out for
 - [ ] Willys throttles aggressive crawling (HTTP 403) — the script retries with backoff, but
@@ -60,7 +61,12 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 ## Bonus / future chains
 - [x] **Hemköp**: `hemkop_scraper.py` exists, same architecture, outputs `hemkop_index.csv` /
       `hemkop_ean_article.csv` / `.hemkop_cache.jsonl`. Needs the same "Verify" pass as Willys.
-- [ ] **ICA**: different API (`handla.api.ica.se`, needs auth) → write a new adapter; reuse architecture.
+- [x] **ICA**: investigated and **not feasible** (June 2026). ICA serves nutrition but **never
+      exposes the EAN/GTIN** — products are keyed only by `retailerProductId` (internal article)
+      + a GUID. With no barcode in ICA's data there's no key to VLOOKUP a scanned EAN against, so
+      a like-for-like `ean,article` index can't be built. Verified across the search-listing SSR
+      state, the `bop` product-detail cache, and the `webproductpagews/v6/products` bulk endpoint
+      (ICA also sits behind AWS WAF, so a plain-urllib crawl would be challenged).
 - [x] **Coop**: `coop_scraper.py` exists. Coop runs on **SAP Hybris behind Azure APIM**, not
       Axfood — reverse-engineered from coop.se's XHR (June 2026):
   - Catalog search is a **POST** to
@@ -69,9 +75,10 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
     ships in its page HTML; if it 401s, re-grab `articleServiceSubscriptionKey` from a coop.se page).
   - Body: `{"attribute":{"name":"categoryIds","value":"<catCode>"},"resultsOptions":{"skip":S,"take":200,...},"customData":{...}}`.
     Paginate via `skip`/`take` (`take` ≥ ~500 returns an empty body → cap at 200).
-  - **The listing already returns `ean` + `name` + `manufacturerName` + full nutrition
-    (`nutrientLinks`)** → no per-product detail fetch needed (the big difference vs Willys/Hemköp;
-    full crawl ≈ 28 s). Category codes come from `.../ecommerce/coop/users/anonymous/categories/tree/<store>`.
+  - **The listing already returns `ean` + `name` + `manufacturerName` + `salesPriceData.b2cPrice`
+    + full nutrition (`nutrientLinks`)** → no per-product detail fetch needed (the big difference
+    vs Willys/Hemköp; full crawl ≈ 28 s). Category codes come from
+    `.../ecommerce/coop/users/anonymous/categories/tree/<store>`.
   - Coop has **no separate article number**: a product's `id` == its `ean` (`code` is always null),
     so `article` = `id`. (In-store/weight items with EANs starting `2097…` get a store-scoped
     `251300_<ean>` id — not home-scannable anyway.)
@@ -99,11 +106,11 @@ what actually exists here rather than a generic from-scratch plan._
       plus a separate `chain_articles` table keyed by `(chain, ean) → article`, or (b) one row
       per `(chain, ean)` with article + macros duplicated per chain. (a) avoids duplicating
       macros; recommended.
-- [ ] Column names should mirror the existing CSV header exactly: `ean, article, altText,
-      brand, basis, kcal, kj, fat, satfat, carb, sugar, fibre, protein, salt, source` — note
-      it's `altText` (name + size, e.g. "Trocadero Zero Sugar Läsk Pet 1,5l"), not a separate
-      bare `name` field, and `source` is `willys` / `off` / `hemkop` / empty, not a free-text
-      provenance string.
+- [ ] Column names should mirror the existing CSV header exactly: `ean, article, name, brand,
+      basis, price, kcal, kj, fat, satfat, carb, sugar, fibre, protein, salt, source` — note
+      `name` is the plain product name (e.g. "Trocadero Zero Sugar Läsk Pet 1,5l"), `price` is a
+      display string ("24 kr" / "15,04 kr"), and `source` is `willys` / `off` / `hemkop` /
+      `coop` / empty, not a free-text provenance string.
 - [ ] Add a `chain` column (or the `chain_articles` table above) so the same scraper output
       shape (per chain) can upsert without clobbering the other chain's rows.
 

@@ -17,7 +17,7 @@ WHY THIS IS DIFFERENT FROM willys/hemkop
       keep the CSV schema identical to the Willys/Hemköp output.
 
 OUTPUT (written next to this script)
-  coop_index.csv        -> full table: ean, article, altText, brand, basis, macros, source
+  coop_index.csv        -> full table: ean, article, name, brand, basis, price, macros, source
   coop_ean_article.csv  -> lean lookup: just ean,article (article == ean for Coop)
   coop_index.json       -> same data as the full table, as JSON (git-ignored)
   .coop_cache.jsonl     -> resume cache; a re-run upserts and skips nothing expensive
@@ -87,7 +87,7 @@ MACRO = {
 }
 
 # Full-index column order. NOTE: keep `ean` first (col A) so VLOOKUP keys off it.
-COLUMNS = ["ean", "article", "altText", "brand", "basis",
+COLUMNS = ["ean", "article", "name", "brand", "basis", "price",
            "kcal", "kj", "fat", "satfat", "carb", "sugar", "fibre", "protein",
            "salt", "source"]
 
@@ -171,6 +171,18 @@ def num(x):
         return ""
 
 
+def price_str(v):
+    """Format a numeric price as a Swedish display string: 24 -> '24 kr', 37.81 -> '37,81 kr'."""
+    if v in ("", None):
+        return ""
+    try:
+        f = float(str(v).replace(",", "."))
+    except ValueError:
+        return str(v)
+    return (f"{int(f)} kr" if f == int(f)
+            else f"{f:.2f}".replace(".", ",") + " kr")
+
+
 # --------------------------------------------------------------------------- #
 # Parse a catalog item into our record shape
 # --------------------------------------------------------------------------- #
@@ -203,16 +215,15 @@ def parse_item(p):
     if not ean:
         return None
     m = parse_macros(p)
-    size = (p.get("packageSizeInformation") or "").strip()
     name = (p.get("name") or "").strip()
-    alt = f"{name} {size}".strip() if size else name
+    price = (p.get("salesPriceData") or {}).get("b2cPrice")   # consumer shelf price
     rec = {
         "ean": ean,
         "article": str(p.get("id") or ean).strip(),   # Coop has no separate article -> id (== ean)
         "name": name,
-        "altText": alt,
         "brand": p.get("manufacturerName") or "",
         "basis": m.get("basis", "") if m else "",
+        "price": price if price is not None else "",
         "source": "coop" if m else "",
     }
     for k in ("kcal", "kj", "fat", "satfat", "carb", "sugar", "fibre", "protein", "salt"):
@@ -353,17 +364,23 @@ def rewrite_cache(done):
 # Output
 # --------------------------------------------------------------------------- #
 def write_outputs(records, base):
-    records = sorted(records, key=lambda r: (r.get("altText") or r.get("name") or "").lower())
+    records = sorted(records, key=lambda r: (r.get("name") or "").lower())
     csv_path, json_path = base + ".csv", base + ".json"
+
+    # Project to the output columns and format the price for display ('37,81 kr').
+    rows = []
+    for r in records:
+        row = {k: r.get(k, "") for k in COLUMNS}
+        row["price"] = price_str(r.get("price"))
+        rows.append(row)
 
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         w.writeheader()
-        for r in records:
-            w.writerow(r)
-    slim = [{k: r.get(k, "") for k in COLUMNS} for r in records]
+        for row in rows:
+            w.writerow(row)
     with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(slim, f, ensure_ascii=False, indent=2)
+        json.dump(rows, f, ensure_ascii=False, indent=2)
 
     lean_path = os.path.join(os.path.dirname(base) or ".", LEAN_NAME)
     lean_rows = [r for r in records if r.get("ean")]

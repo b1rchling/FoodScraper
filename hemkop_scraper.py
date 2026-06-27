@@ -1,33 +1,28 @@
 #!/usr/bin/env python3
 """
-willys_scraper.py - Build an  EAN -> {article number, name, macros}  index from
-Willys.se (FOOD ITEMS ONLY), for lookup in Google Sheets.
+hemkop_scraper.py - Build an  EAN -> {article number, name, macros}  index from
+Hemkop.se (FOOD ITEMS ONLY), for lookup in Google Sheets.
 
 WHY THIS EXISTS
-  Willys has NO public "EAN -> article number" endpoint. Verified June 2026:
-    - /search/clean ignores the barcode (returns null; results carry no `ean`)
-    - /axfood/rest/p/<EAN> -> HTTP 400 "No product found" (needs the internal code)
-    - /axfood/rest/products/ean/<EAN> exists but returns {} for anonymous callers
-      (gated behind a logged-in in-store session) - even with cookies + CSRF.
-    - category browse listings carry `code` but never the `ean`.
+  Hemköp has NO public "EAN -> article number" endpoint. 
   The EAN is exposed ONLY inside each product's detail response. So we crawl every
   food product's detail (which gives ean + nutrition), cache it, and write a table
   your dad's Google Sheet looks up with VLOOKUP on the scanned barcode.
 
 OUTPUT (written next to this script)
-  willys_index.csv        -> full table: ean, article, name, brand, basis, price, macros (for Sheets IMPORTDATA)
-  willys_ean_article.csv  -> lean lookup: just ean,article (no macros)
-  willys_index.json       -> same data as the full table, as JSON (git-ignored)
-  .willys_cache.jsonl     -> resume cache; a re-run skips products already fetched.
+  hemkop_index.csv        -> full table: ean, article, name, brand, basis, price, macros (for Sheets IMPORTDATA)
+  hemkop_ean_article.csv  -> lean lookup: just ean,article (no macros)
+  hemkop_index.json       -> same data as the full table, as JSON (git-ignored)
+  .hemkop_cache.jsonl     -> resume cache; a re-run skips products already fetched.
                              Delete it (or pass --fresh) to force a full re-crawl.
 
 USAGE
-  python willys_scraper.py                # crawl (resumable) + write csv/json
-  python willys_scraper.py --build-only   # just rebuild csv/json from the cache (instant)
-  python willys_scraper.py --off          # also fill gaps from Open Food Facts (slow)
-  python willys_scraper.py --limit 50     # quick smoke test (first 50 products)
-  python willys_scraper.py --fresh        # ignore the cache, re-crawl everything
-  python willys_scraper.py --workers 4 --delay 0.1   # tune politeness (defaults shown)
+  python hemkop_scraper.py                # crawl (resumable) + write csv/json
+  python hemkop_scraper.py --build-only   # just rebuild csv/json from the cache (instant)
+  python hemkop_scraper.py --off          # also fill gaps from Open Food Facts (slow)
+  python hemkop_scraper.py --limit 50     # quick smoke test (first 50 products)
+  python hemkop_scraper.py --fresh        # ignore the cache, re-crawl everything
+  python hemkop_scraper.py --workers 4 --delay 0.1   # tune politeness (defaults shown)
 
 Pure standard library - no `pip install` needed. Works on Python 3.9+.
 """
@@ -46,9 +41,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # --------------------------------------------------------------------------- #
 # Config
 # --------------------------------------------------------------------------- #
-BASE = "https://www.willys.se"          # Hemkop works too (same Axfood API): https://www.hemkop.se
-STORE_ID = "2110"
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) willys-scraper/1.0"
+BASE = "https://www.hemkop.se"          # Pointed to Hemköp
+STORE_ID = "2110"                       # Note: May not strictly be required for category parsing
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) hemkop-scraper/1.0"
 
 # Food categories only (barn & kiosk intentionally excluded - mixed non-food).
 FOOD = [
@@ -72,10 +67,10 @@ COLUMNS = ["ean", "article", "name", "brand", "basis", "price",
 
 # Lean lookup file: just the barcode -> article number (no macros).
 LEAN_COLUMNS = ["ean", "article"]
-LEAN_NAME = "willys_ean_article.csv"
+LEAN_NAME = "hemkop_ean_article.csv"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CACHE = os.path.join(HERE, ".willys_cache.jsonl")
+CACHE = os.path.join(HERE, ".hemkop_cache.jsonl")
 
 
 # --------------------------------------------------------------------------- #
@@ -86,12 +81,7 @@ class RateLimited(Exception):
 
 
 def http_json(url, accept="application/json", timeout=25, retries=5):
-    """GET a URL and parse JSON.
-
-    400/404 are real "missing product" answers -> raise immediately.
-    403/429 mean Willys is throttling us -> wait (honour Retry-After) and RETRY,
-    so a rate-limited product is never silently dropped.
-    """
+    """GET a URL and parse JSON."""
     last = None
     for attempt in range(retries):
         req = urllib.request.Request(url, headers={"Accept": accept, "User-Agent": UA})
@@ -105,18 +95,18 @@ def http_json(url, accept="application/json", timeout=25, retries=5):
             if e.code in (403, 429):
                 ra = e.headers.get("Retry-After") if e.headers else None
                 wait = float(ra) if (ra and str(ra).isdigit()) else min(45, 4 * (2 ** attempt))
-                time.sleep(wait + random.uniform(0, 1.0))    # de-sync the worker threads
+                time.sleep(wait + random.uniform(0, 1.0))
                 continue
-        except Exception as e:                                # noqa: BLE001 - network is messy
+        except Exception as e:
             last = e
-        time.sleep(0.8 * (attempt + 1))                       # linear backoff for transient errors
+        time.sleep(0.8 * (attempt + 1))
     if isinstance(last, urllib.error.HTTPError) and last.code in (403, 429):
         raise RateLimited(f"throttled after {retries} tries: {url}")
     raise last if last else RuntimeError("request failed: " + url)
 
 
 def num(x):
-    """Parse a Willys/OFF numeric string ('1,5', '<0.5', '≈2') -> float or ''."""
+    """Parse a numeric string ('1,5', '<0.5', '≈2') -> float or ''."""
     if x is None:
         return ""
     s = str(x).replace(",", ".").lstrip("<≈~ ").strip()
@@ -142,23 +132,54 @@ def price_str(v):
 # Phase 1 - collect all food product codes from category browse pages
 # --------------------------------------------------------------------------- #
 def collect_codes(timeout):
-    codes = {}                                       # code -> 1 (dedupe across categories)
-    for cat in FOOD:
-        first = http_json(f"{BASE}/c/{cat}?size=100&page=0", timeout=timeout)
+    codes = {}
+    
+    # En utökad och kombinerad lista med slugs för både Willys och Hemköp
+    UNIVERSAL_CATEGORIES = [
+        "kott-fagel-och-chark", "kott-chark-och-fagel", # Hemköp vs Willys
+        "frukt-och-gront", 
+        "mejeri-ost-och-agg", 
+        "skafferi", 
+        "brod-och-kakor", 
+        "fryst", 
+        "fisk-och-skaldjur", 
+        "vegetariskt", 
+        "glass-godis-och-snacks", "godis-och-snacks",   # Willys vs Hemköp
+        "dryck", 
+        "fardigmat"
+    ]
+    
+    for cat in UNIVERSAL_CATEGORIES:
+        try:
+            first = http_json(f"{BASE}/c/{cat}?size=100&page=0", timeout=timeout)
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                # Kategorin existerar inte på aktuell butik (t.ex. fel slug), hoppa över
+                continue
+            else:
+                print(f"  ! {cat} initial fetch failed: {e}", file=sys.stderr)
+                continue
+        except Exception as e:
+            print(f"  ! {cat} initial fetch failed: {e}", file=sys.stderr)
+            continue
+            
         pages = ((first.get("pagination") or {}).get("numberOfPages")) or 1
         for it in (first.get("results") or []):
             if it.get("code"):
                 codes[it["code"]] = 1
+                
         for p in range(1, pages):
             try:
                 d = http_json(f"{BASE}/c/{cat}?size=100&page={p}", timeout=timeout)
-            except Exception as e:                    # noqa: BLE001
+                for it in (d.get("results") or []):
+                    if it.get("code"):
+                        codes[it["code"]] = 1
+            except Exception as e:
                 print(f"  ! {cat} page {p}: {e}", file=sys.stderr)
                 continue
-            for it in (d.get("results") or []):
-                if it.get("code"):
-                    codes[it["code"]] = 1
+                
         print(f"  collected {cat:28} (running total {len(codes)})", file=sys.stderr)
+        
     return list(codes)
 
 
@@ -168,8 +189,8 @@ def collect_codes(timeout):
 def parse_macros(p):
     headers = p.get("nutrientHeaders") or []
     if not headers or not (headers[0].get("nutrientDetails") or []):
-        return None                                  # no Willys nutrition table
-    h = headers[0]                                   # [0]=as sold; [1]=cooked (ignored)
+        return None
+    h = headers[0]
     basis = f"{h.get('nutrientBasisQuantity','')} {h.get('nutrientBasisQuantityMeasurementUnitCode','')}".strip()
     out = {"basis": basis}
     for d in (h.get("nutrientDetails") or []):
@@ -185,7 +206,7 @@ def parse_macros(p):
 def fetch_detail(code, timeout, delay):
     """Return a record dict for one product code (raises on hard 400/404)."""
     if delay:
-        time.sleep(delay)                            # gentle spacing between requests
+        time.sleep(delay)
     p = http_json(f"{BASE}/axfood/rest/p/{code}", timeout=timeout)
     m = parse_macros(p)
     rec = {
@@ -196,7 +217,7 @@ def fetch_detail(code, timeout, delay):
         "volume": p.get("displayVolume") or "",
         "price": p.get("priceValue") if p.get("priceValue") is not None else "",
         "basis": m.get("basis", "") if m else "",
-        "source": "willys" if m else "",
+        "source": "hemkop" if m else "",
     }
     for k in ("kcal", "kj", "fat", "satfat", "carb", "sugar", "fibre", "protein", "salt"):
         rec[k] = m.get(k, "") if m else ""
@@ -204,9 +225,9 @@ def fetch_detail(code, timeout, delay):
 
 
 # --------------------------------------------------------------------------- #
-# Phase 3 - Open Food Facts gap-fill (by EAN only) for items Willys lacks macros
+# Phase 3 - Open Food Facts gap-fill
 # --------------------------------------------------------------------------- #
-OFF_UA = "willys-scraper/1.0 (eliasbjoerk@gmail.com)"   # OFF asks for a contact UA
+OFF_UA = "hemkop-scraper/1.0 (eliasbjoerk@gmail.com)"
 
 
 def off_by_ean(ean, timeout):
@@ -215,7 +236,7 @@ def off_by_ean(ean, timeout):
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             d = json.loads(r.read().decode("utf-8", "replace"))
-    except Exception:                                # noqa: BLE001
+    except Exception:
         return None
     if d.get("status") != 1:
         return None
@@ -232,10 +253,9 @@ def off_by_ean(ean, timeout):
 
 
 def off_pass(records, timeout):
-    """Fill macros from OFF for rows that have a real (scannable) EAN but no kcal."""
     targets = [r for r in records
                if (r.get("kcal") in ("", None))
-               and r.get("ean") and not r["ean"].startswith("2")]   # 2.. = in-store/loose
+               and r.get("ean") and not r["ean"].startswith("2")]
     print(f"\nOpen Food Facts pass: {len(targets)} items missing macros with a real EAN",
           file=sys.stderr)
     filled = 0
@@ -246,7 +266,7 @@ def off_pass(records, timeout):
             r["source"] = "off"
             r["basis"] = r.get("basis") or "100 g"
             filled += 1
-        time.sleep(0.7)                              # OFF barcode API ~100/min
+        time.sleep(0.7)
         if i % 50 == 0:
             print(f"  OFF {i}/{len(targets)} (filled {filled})", file=sys.stderr)
     print(f"OFF pass done: filled {filled}/{len(targets)}", file=sys.stderr)
@@ -266,7 +286,7 @@ def load_cache():
                 try:
                     rec = json.loads(line)
                     done[rec["article"]] = rec
-                except Exception:                    # noqa: BLE001 - skip bad lines
+                except Exception:
                     pass
     return done
 
@@ -296,7 +316,6 @@ def write_outputs(records, base):
         row["price"] = price_str(r.get("price"))
         rows.append(row)
 
-    # Full index (ean, article, name, brand, basis, price, macros, source).
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
         w.writeheader()
@@ -305,7 +324,6 @@ def write_outputs(records, base):
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
-    # Lean lookup (ean, article) - no macros, for the simplest scan use case.
     lean_path = os.path.join(os.path.dirname(base) or ".", LEAN_NAME)
     lean_rows = [r for r in records if r.get("ean")]
     with open(lean_path, "w", encoding="utf-8", newline="") as f:
@@ -324,7 +342,7 @@ def write_outputs(records, base):
 # Main
 # --------------------------------------------------------------------------- #
 def main():
-    ap = argparse.ArgumentParser(description="Crawl Willys food catalog -> EAN/article/macros index.")
+    ap = argparse.ArgumentParser(description="Crawl Hemkop food catalog -> EAN/article/macros index.")
     ap.add_argument("--workers", type=int, default=4, help="parallel detail fetches (default 4)")
     ap.add_argument("--delay", type=float, default=0.1, help="seconds between requests per worker")
     ap.add_argument("--timeout", type=int, default=25, help="per-request timeout seconds")
@@ -332,10 +350,9 @@ def main():
     ap.add_argument("--off", action="store_true", help="also fill gaps from Open Food Facts (slow)")
     ap.add_argument("--fresh", action="store_true", help="ignore cache; re-crawl everything")
     ap.add_argument("--build-only", action="store_true", help="skip crawl; rebuild csv/json from cache")
-    ap.add_argument("--out", default=os.path.join(HERE, "willys_index"), help="output basename")
+    ap.add_argument("--out", default=os.path.join(HERE, "hemkop_index"), help="output basename")
     args = ap.parse_args()
 
-    # Rebuild outputs from the cache without touching the network.
     if args.build_only:
         done = load_cache()
         print(f"Build-only: {len(done)} products in cache.", file=sys.stderr)
@@ -364,7 +381,7 @@ def main():
             code = futs[fut]
             try:
                 rec = fut.result()
-            except Exception as e:                    # noqa: BLE001 - log & continue
+            except Exception as e:
                 dropped += 1
                 print(f"  ! {code}: {e}", file=sys.stderr)
                 continue
@@ -374,7 +391,6 @@ def main():
             if fetched % 100 == 0:
                 print(f"  fetched {fetched}/{len(todo)}", file=sys.stderr)
 
-    # Always write a usable file right after the crawl (before the slow OFF pass).
     records = [done[c] for c in codes if c in done]
     print(f"\nCrawl done: {len(records)} products cached "
           f"({fetched} new, {dropped} unresolved). Writing outputs ...", file=sys.stderr)
@@ -382,7 +398,7 @@ def main():
 
     if args.off:
         off_pass(records, args.timeout)
-        rewrite_cache(done)                           # persist OFF fills for next time
+        rewrite_cache(done)
         print("Re-writing outputs with OFF macros ...", file=sys.stderr)
         write_outputs(records, args.out)
 
