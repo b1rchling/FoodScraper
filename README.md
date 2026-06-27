@@ -1,132 +1,135 @@
-# Willys → Google Sheets: scan an EAN, get the article number (+ macros)
+# Willys → Google Sheets: skanna en EAN, få artikelnummer (+ näringsvärden)
 
-Scrape Willys's food catalog with **Python**, then your dad's Google Sheet looks up a
-scanned barcode (EAN) and returns the **article number**, product name, and macros.
+Skrapa Willys matvarusortiment med **Python**, så att ett Google Sheet kan slå upp en skannad
+streckkod (EAN) och visa **artikelnummer**, produktnamn och näringsvärden.
 
-- **Scraper:** [`willys_scraper.py`](willys_scraper.py) — pure standard library, no `pip install`.
-- **Data (hosted for the sheet):**
-  [`willys_index.csv`](willys_index.csv) — full table (article + name + macros), and
-  [`willys_ean_article.csv`](willys_ean_article.csv) — lean `ean,article` only (no macros).
-- **Legacy (Apps Script version):** [`willys-macros.gs`](willys-macros.gs) + its HANDOFF/TODO.
-  Same idea, but the crawl runs inside Google Sheets. Superseded by the Python script.
+- **Skrapare:** [`willys_scraper.py`](willys_scraper.py) — enbart Pythons standardbibliotek, ingen `pip install`.
+- **Data (hostad för kalkylarket):**
+  [`willys_index.csv`](willys_index.csv) — fullständig tabell (artikelnummer + namn + näringsvärden), och
+  [`willys_ean_article.csv`](willys_ean_article.csv) — endast `ean,article` (utan näringsvärden).
+- **Äldre version (Apps Script):** [`willys-macros.gs`](willys-macros.gs) med tillhörande HANDOFF/TODO.
+  Samma idé, men skrapningen körs inuti Google Sheets. Ersatt av Python-skriptet.
 
 ---
 
-## Why we have to scrape (there is no EAN → article shortcut)
+## Varför vi måste skrapa (det finns ingen genväg från EAN → artikelnummer)
 
-Verified against the live Willys API (June 2026):
+Verifierat mot Willys live-API (juni 2026):
 
-| Attempt | Result |
+| Försök | Resultat |
 |---|---|
-| Search by **EAN** (`/search/clean?q=<ean>`) | `results: null` — search ignores barcodes; results don't even carry an `ean` field |
-| Product detail by **EAN** (`/axfood/rest/p/<ean>`) | HTTP 400 "No product found" — needs the internal **code**, not the EAN |
-| `/axfood/rest/products/ean/<ean>` | HTTP 200 but always empty `items: []`, even with cookies+CSRF — gated behind a logged-in store session |
-| Category **browse** listing | carries `code` but **never** the `ean` |
+| Sök på **EAN** (`/search/clean?q=<ean>`) | `results: null` — sökningen ignorerar streckkoder; resultaten har inte ens ett `ean`-fält |
+| Produktdetalj via **EAN** (`/axfood/rest/p/<ean>`) | HTTP 400 "No product found" — kräver den interna **koden**, inte EAN |
+| `/axfood/rest/products/ean/<ean>` | HTTP 200 men alltid tom `items: []`, även med cookies+CSRF — kräver en inloggad butikssession |
+| **Bläddra** i kategori | innehåller `code` men **aldrig** `ean` |
 
-The EAN is exposed **only** inside each product's detail response. So we crawl every food
-product's detail (`code → ean + nutrition`), cache it, and look it up by EAN in the sheet.
+EAN finns **endast** inuti varje produkts detaljsvar. Därför skrapar vi varje matvaras detaljsida
+(`code → ean + näring`), cachar det och slår upp via EAN i kalkylarket.
 
 ---
 
-## 1. Run the scraper
+## 1. Kör skraparen
 
 ```bash
-python willys_scraper.py                # crawl (resumable) + write csv/json
-python willys_scraper.py --build-only   # just rebuild the output files from the cache (instant)
-python willys_scraper.py --off          # also fill gaps from Open Food Facts (slow, opt-in)
-python willys_scraper.py --limit 50     # quick smoke test (first 50 products)
-python willys_scraper.py --fresh        # ignore the resume cache, re-crawl everything
+python willys_scraper.py                # skrapa (kan återupptas) + skriv csv/json
+python willys_scraper.py --build-only   # bygg bara om utdatafilerna från cachen (direkt)
+python willys_scraper.py --off          # fyll även luckor från Open Food Facts (långsamt, valfritt)
+python willys_scraper.py --limit 50     # snabbt test (första 50 produkterna)
+python willys_scraper.py --fresh        # ignorera cachen, skrapa om allt
 ```
 
-It writes, next to the script:
+Den skriver, bredvid skriptet:
 
-- **`willys_index.csv`** ← full lookup table for Google Sheets
-- **`willys_ean_article.csv`** ← lean `ean,article` lookup (no macros)
-- `willys_index.json` ← same data as the full table, as JSON (git-ignored)
-- `.willys_cache.jsonl` ← resume cache. The crawl is **resumable** — if Willys rate-limits you
-  (HTTP 403), just re-run and it fetches only what's missing. Delete it (or `--fresh`) to start over.
+- **`willys_index.csv`** ← fullständig uppslagstabell för Google Sheets
+- **`willys_ean_article.csv`** ← enkel `ean,article`-tabell (utan näringsvärden)
+- `willys_index.json` ← samma data som fullständiga tabellen, som JSON (ignoreras av git)
+- `.willys_cache.jsonl` ← cache för återupptagning. Skrapningen **kan återupptas** — om Willys
+  hastighetsbegränsar dig (HTTP 403), kör bara igen så hämtas endast det som saknas. Radera den
+  (eller `--fresh`) för att börja om.
 
-The crawl is polite by default (4 workers, small delay) and **retries on 403/429** rather than
-dropping products. Full catalog ≈ 7,600 products, ~10–20 min.
+Skrapningen är skonsam som standard (4 trådar, kort fördröjning) och **gör nya försök vid 403/429**
+istället för att tappa produkter. Hela sortimentet ≈ 7 600 produkter, ~10–20 min.
 
-**`willys_index.csv` columns** (`A`→`O`):
+**Kolumner i `willys_index.csv`** (`A`→`O`, rubrikerna är på engelska eftersom de är själva fil-rubrikerna):
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ean | article | altText | brand | basis | kcal | kj | fat | satfat | carb | sugar | fibre | protein | salt | source |
 
-`article` is the Willys article number (e.g. `101278894_ST`). `altText` is the product name
-including size/volume (e.g. `Trocadero Zero Sugar Läsk Pet 1,5l Trocadero`). Macros are per
-100 g/ml. `source` = `willys`, `off` (Open Food Facts), or empty.
+`article` är Willys artikelnummer (t.ex. `101278894_ST`). `altText` är produktnamnet inklusive
+storlek/volym (t.ex. `Trocadero Zero Sugar Läsk Pet 1,5l Trocadero`). Näringsvärden är per 100 g/ml.
+`source` = `willys`, `off` (Open Food Facts) eller tomt.
 
-**`willys_ean_article.csv`** is just two columns — `ean,article` — for the simplest scan use case.
+**`willys_ean_article.csv`** har bara två kolumner — `ean,article` — för enklaste uppslag.
 
 ---
 
-## 2. Get it into your dad's Google Sheet
+## 2. Få in det i Google Sheets
 
-> **Heads-up:** Google Sheets has **no native JSON import** — its only URL-pull functions are
-> `IMPORTDATA` (CSV/TSV), `IMPORTXML`, `IMPORTHTML`, `IMPORTFEED`. So we use the **CSV**, not JSON.
+> **Obs:** Google Sheets kan **inte** läsa JSON direkt — de enda funktionerna som hämtar från en URL
+> är `IMPORTDATA` (CSV/TSV), `IMPORTXML`, `IMPORTHTML`, `IMPORTFEED`. Därför använder vi **CSV**, inte JSON.
 
-### Auto-refresh from the hosted CSV (current setup)
+### Automatisk uppdatering från den hostade CSV-filen
 
-This repo is public, so the CSV is served straight from GitHub. In a tab named **`DB`**, cell **`A1`**
-— pick the file you want:
+Repot är publikt, så CSV-filen serveras direkt från GitHub. I en flik som heter **`DB`**, cell **`A1`**
+— välj den fil du vill ha:
 
 ```
 =IMPORTDATA("https://raw.githubusercontent.com/b1rchling/FoodScraper/main/willys_index.csv")
 ```
-…or the lean version (just `ean,article`):
+…eller den enkla versionen (bara `ean,article`):
 ```
 =IMPORTDATA("https://raw.githubusercontent.com/b1rchling/FoodScraper/main/willys_ean_article.csv")
 ```
 
-It spills the whole table into `DB` and re-pulls automatically (~hourly). If Sheets ever balks
-at the raw URL, swap the host for the jsDelivr CDN mirror
-(`https://cdn.jsdelivr.net/gh/b1rchling/FoodScraper@main/<file>.csv`).
+Hela tabellen fylls i i `DB` och hämtas om automatiskt (~varje timme). Om Sheets någon gång krånglar
+med raw-URL:en, byt värd till jsDelivr-spegeln (`https://cdn.jsdelivr.net/gh/b1rchling/FoodScraper@main/<fil>.csv`).
+Notera att `raw.githubusercontent.com` uppdateras inom minuter, medan jsDelivr kan ligga efter några
+timmar efter en uppdatering.
 
-_(Prefer not to host? You can also **File → Import → Upload** the CSV into the `DB` tab.)_
+_(Vill du inte hosta? Du kan också **Arkiv → Importera → Ladda upp** CSV-filen till `DB`-fliken.)_
 
-### The scan formula
+### Skannformeln
 
-On a **`Scan`** tab: scanned barcode goes in **`A2`**. Then in **`B2`**:
+På en flik (t.ex. **`Scan`**): den skannade streckkoden hamnar i **`A2`**. Skriv sedan i **`B2`**:
 
-**Full index** (`willys_index.csv`) — returns article + name + macros:
+**Fullständig tabell** (`willys_index.csv`) — ger artikelnummer + namn + näringsvärden:
 ```
-=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$O},{2,3,6,8,9,10,11,12,13,14},FALSE),"not found")
+=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$O},{2,3,6,8,9,10,11,12,13,14},FALSE),"hittas ej")
 ```
-Spills: **article · name · kcal · fat · satfat · carb · sugar · fibre · protein · salt** (label `B1:K1`).
+Sprids över raden: **artikelnummer · namn · kcal · fett · mättat fett · kolhydrater · socker · fiber · protein · salt** (etiketter i `B1:K1`).
 
-**Lean lookup** (`willys_ean_article.csv`) — returns just the article number:
+**Enkelt uppslag** (`willys_ean_article.csv`) — ger bara artikelnumret:
 ```
-=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$B},2,FALSE),"not found")
+=IFERROR(VLOOKUP(TO_TEXT(A2),{ARRAYFORMULA(TO_TEXT(DB!$A:$A)),DB!$B:$B},2,FALSE),"hittas ej")
 ```
 
-> The `TO_TEXT(...)` on both sides makes the match work no matter whether Sheets imports the
-> EAN column as text or as a number. (The data has no leading-zero EANs, so nothing is lost.)
+> `TO_TEXT(...)` på båda sidor gör att matchningen fungerar oavsett om Sheets importerar EAN-kolumnen
+> som text eller tal. (Datan har inga EAN med inledande nolla, så inget går förlorat.)
+> Fliken **måste** heta `DB` för att `DB!`-referenserna ska fungera.
 
-**Smoke test:** EAN `7310401034584` → article `101278894_ST`, Trocadero Zero (~2 kcal/100 ml).
+**Snabbtest:** EAN `7310401034584` → artikelnummer `101278894_ST`, Trocadero Zero (~2 kcal/100 ml).
 
 ---
 
-## 3. Refresh later (prices & assortment drift)
+## 3. Uppdatera senare (priser och sortiment ändras)
 
 ```bash
-python willys_scraper.py                       # re-crawl (resumable)
-git add willys_index.csv willys_ean_article.csv && git commit -m "Refresh data" && git push
+python willys_scraper.py                       # skrapa om (kan återupptas)
+git add willys_index.csv willys_ean_article.csv && git commit -m "Uppdatera data" && git push
 ```
 
-The sheet's `IMPORTDATA` picks up the new CSV automatically within ~an hour.
+Kalkylarkets `IMPORTDATA` hämtar den nya CSV-filen automatiskt inom ~en timme.
 
 ---
 
-## Notes & limits
+## Att tänka på & begränsningar
 
-- **Loose/weighed produce** (article `…_KG`, EANs starting `2…`, ~300 items) often has Willys
-  macros but a store-internal barcode you can't scan off a home package — fine for the table,
-  just not always scannable.
-- **Open Food Facts pass** (`--off`) only fills items that have a *real* EAN and no Willys
-  macros. It's slow (OFF rate-limits ~100/min) and low-yield, so it's opt-in.
-- **Politeness:** default 4 workers + delay. The full crawl is ~7,600 requests; don't hammer.
-- **Other chains:** Hemköp is the same Axfood API — set `BASE = "https://www.hemkop.se"`.
-  ICA/Coop need a different adapter (see the legacy HANDOFF doc).
+- **Lösvikt** (artikelnummer `…_KG`, EAN som börjar på `2…`, ~300 varor) har ofta näringsvärden i
+  Willys men en butiksintern streckkod som inte går att skanna från en vanlig förpackning — finns
+  med i tabellen, men går inte alltid att skanna.
+- **Open Food Facts-passet** (`--off`) fyller bara varor som har en riktig EAN och saknar
+  Willys-näring. Det är långsamt (OFF begränsar ~100/min) och ger lite, så det är valfritt.
+- **Var skonsam:** standard 4 trådar + fördröjning. Hela skrapningen är ~7 600 anrop; överbelasta inte.
+- **Andra kedjor:** Hemköp använder samma Axfood-API — sätt `BASE = "https://www.hemkop.se"`.
+  ICA/Coop kräver en annan adapter (se den äldre HANDOFF-filen).
