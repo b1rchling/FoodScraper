@@ -35,6 +35,12 @@ at scan time with `VLOOKUP`.
 Macros live at `product.nutrientHeaders[0].nutrientDetails[]`. Gotchas:
 - `nutrientHeaders` may have **2 entries**: `[0]` = as sold, `[1]` = cooked → use `[0]`.
 - Energy appears **twice** (`energi` in `kilokalori` and in `kilojoule`) → split by unit.
+  **Gotcha (verified June 2026):** some suppliers *mislabel* the units at the source, so the
+  kJ value arrives tagged `kilokalori` and vice-versa (e.g. Chistorra `7392055251319` returns
+  `kilokalori=1340, kilojoule=320`). All three scrapers now run `normalize_macros()` at write
+  time: when `kj < kcal` and `kcal/kj` is in the ~3–5.5 band it swaps them back (kJ is always
+  ≈4.184× kcal for real food). The same pass blanks impossible per-100g values (gram-macro
+  >100 g, kcal >950) from supplier typos.
 - Values are strings with a dot/comma decimal; basis is usually **per 100 g/ml**.
 - Swedish typeCodes: `fett`, `varav mättat fett`, `kolhydrat`, `varav sockerarter`,
   `fiber`, `protein`, `salt`.
