@@ -7,3 +7,8 @@ __pycache__/
 
 # Keep willys_index.csv tracked if you host it from this repo; ignore the JSON dump.
 willys_index.json
+
+# Additional files:
+willys-macros-TODO.md
+willys-macros-HANDOFF.md
+willys-macros.gs
