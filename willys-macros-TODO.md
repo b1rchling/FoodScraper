@@ -16,11 +16,30 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
       on the scanned EAN. See [README.md](README.md) for the exact formulas.
 - [x] Smoke test: EAN `7310401034584` → article `101278894_ST`, Trocadero Zero (~2 kcal/100 ml).
 
-## Verify
-- [ ] Spot-check 5–10 rows in `willys_index.csv` against the live willys.se product pages.
-- [ ] Confirm loose produce (e.g. "Banan Klass 1") got macros with `source="off"` (only if
-      `--off` has been run).
-- [ ] Review rows where `source=""` (no macros anywhere) → non-food/unmatched: ignore or prune.
+## Verify  (done June 2026 — empirical pass over all three chains)
+- [x] Spot-check rows against the live pages. Willys live = 3/3 exact (Trocadero, olive oil,
+      1664 Blanc); Coop live (APIM) = 8/8 exact (category "Ost") and the subscription key is
+      still valid; smoke test `7310401034584` → `101278894_ST`, kcal 2.0. No duplicate EANs,
+      no negative values in any chain.
+- [x] Review rows where `source=""` (no macros): ~795 Willys / 771 Hemköp / 884 Coop. These are
+      **legit food that carries no per-100g table** — fresh produce ("Klass 1"), coffee
+      (beans/ground/capsules), tea, water — NOT non-food garbage. **Decision: keep, don't prune**
+      (they still return a valid EAN→article; blank macros is correct). `--off` has only been run
+      for Hemköp (28 `off` rows); Willys/Coop produce stays `source=""` until `--off` is run.
+
+### Data-quality fixes applied (build-only, no re-crawl)
+- [x] **Energy kcal↔kJ swap.** ~21 Willys / 18 Hemköp / 19 Coop rows had the energy units swapped
+      *at the source* (verified live: Willys returns `kilokalori=1340, kilojoule=320` for
+      Chistorra). Added `normalize_macros()` to all three scrapers: swap when `kj < kcal` and
+      `kcal/kj` is in the ~3–5.5 band (so unrelated single-value glitches are left alone).
+      Impossible-kcal rows dropped from 9/8/10 → 0.
+- [x] **Hemköp schema alignment.** The scraper code already emitted `name`+`price` (cache had
+      both); only the on-disk CSV was stale with the old `altText`/no-price layout. Rebuilt →
+      `hemkop_index.csv` now matches Willys/Coop (all 7,864 rows have name + price).
+- [x] **Outlier clamp.** `normalize_macros()` blanks impossible per-100g values (gram-macro >100 g,
+      kcal >950) — supplier typos like gum fat=164, tahini salt=350, Coop choc kcal=1942. Now 0.
+- [ ] Residual: ~7–16 ambiguous single-value energy glitches per chain (e.g. `kj=1.982` next to a
+      plausible `kcal=474`) were intentionally left — no confident correct value to pick.
 
 ## Make it seamless / maintain
 - [ ] Re-run `python willys_scraper.py` periodically (prices & assortment drift) and push the

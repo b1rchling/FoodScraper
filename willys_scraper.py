@@ -285,6 +285,34 @@ def rewrite_cache(done):
 # --------------------------------------------------------------------------- #
 # Output
 # --------------------------------------------------------------------------- #
+def normalize_macros(row):
+    """Repair source-side energy/macro defects before writing (in-place).
+
+    Some suppliers mislabel the energy units, so the kJ value lands in `kcal` and the
+    kcal value in `kj` (e.g. Chistorra: kcal=1340, kj=320). For any real food kJ is
+    ~4.184x kcal, so when kj < kcal AND kcal/kj falls in the ~3-5.5 band it's a unit
+    swap -> swap them back (the band avoids touching unrelated single-value glitches).
+    Then blank impossible per-100g values (supplier typos): a gram-macro can't exceed
+    100 g per 100 g and kcal can't exceed ~900 (pure fat).
+    """
+    def f(v):
+        try:
+            return float(str(v).replace(",", ".")) if v not in ("", None) else None
+        except ValueError:
+            return None
+    kcal, kj = f(row.get("kcal")), f(row.get("kj"))
+    if kcal is not None and kj is not None and 0 < kj < kcal and 3.0 <= kcal / kj <= 5.5:
+        row["kcal"], row["kj"] = row["kj"], row["kcal"]
+        kcal = f(row.get("kcal"))
+    if kcal is not None and kcal > 950:
+        row["kcal"] = ""
+    for c in ("fat", "satfat", "carb", "sugar", "fibre", "protein", "salt"):
+        v = f(row.get(c))
+        if v is not None and v > 100:
+            row[c] = ""
+    return row
+
+
 def write_outputs(records, base):
     records = sorted(records, key=lambda r: (r.get("name") or "").lower())
     csv_path, json_path = base + ".csv", base + ".json"
@@ -294,6 +322,7 @@ def write_outputs(records, base):
     for r in records:
         row = {k: r.get(k, "") for k in COLUMNS}
         row["price"] = price_str(r.get("price"))
+        normalize_macros(row)
         rows.append(row)
 
     # Full index (ean, article, name, brand, basis, price, macros, source).

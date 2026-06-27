@@ -4,8 +4,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310070008282,7310070008282,7up,7UP,100.0 Milliliter,"17,93 kr",19.0,82.0,0.0,0.0,4.7,4.7,,0.0,0.04,coop
 7310070010629,7310070010629,7up Pink Lemonade sockerfri,7UP,100.0 Milliliter,"13,20 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.07,coop
 7310070010636,7310070010636,7up Pink Lemonade Zero,7UP,100.0 Milliliter,"8,99 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.07,coop
-7310070004680,7310070004680,7up Sockerfri,7up,100.0 Milliliter,"17,93 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.1,0.05,coop
 7310070005281,7310070005281,7up Sockerfri,7-up,100.0 Milliliter,"8,99 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.1,0.05,coop
+7310070004680,7310070004680,7up Sockerfri,7up,100.0 Milliliter,"17,93 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.1,0.05,coop
 7310070007513,7310070007513,7up Zero,7up,100.0 Milliliter,"10,88 kr",1.0,3.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310070008312,7310070008312,7up Zero,7UP,100.0 Milliliter,"17,93 kr",1.0,3.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310070010506,7310070010506,7up Zero Pink Lemonade Zero,7UP,100.0 Milliliter,"17,93 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.07,coop
@@ -140,9 +140,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340116879613,7340116879613,Aloe vera Cool piña,NÅBE,100.0 Milliliter,"16,56 kr",33.0,136.0,0.0,0.0,8.0,7.5,,0.0,0.03,coop
 7350021423894,7350021423894,Aloe Vera Jordgubb,ALOES,100.0 Gram,"19,83 kr",29.0,121.0,0.0,0.0,7.2,7.1,0.0,0.0,0.07,coop
 7340116870207,7340116870207,Aloe Vera Mango,NÅBE,100.0 Milliliter,"16,56 kr",33.0,136.0,0.0,0.0,8.0,7.5,,0.0,0.06,coop
+7340116870009,7340116870009,Aloe Vera Original,NÅBE,100.0 Milliliter,"16,56 kr",33.0,136.0,0.0,0.0,8.0,7.5,,0.0,0.02,coop
 7350021423917,7350021423917,Aloe Vera Original,ALOES,100.0 Gram,"19,83 kr",36.0,151.0,0.0,0.0,9.0,9.0,0.0,0.0,0.05,coop
 7350021420237,7350021420237,Aloe Vera Original,ALOES,100.0 Gram,"37,81 kr",36.0,151.0,0.0,0.0,9.0,9.0,0.0,0.0,0.05,coop
-7340116870009,7340116870009,Aloe Vera Original,NÅBE,100.0 Milliliter,"16,56 kr",33.0,136.0,0.0,0.0,8.0,7.5,,0.0,0.02,coop
 7340116879453,7340116879453,Aloe vera Sweet lemon,NÅBE,100.0 Milliliter,"16,56 kr",33.0,136.0,0.0,0.0,8.0,7.5,,0.0,0.02,coop
 8714801411478,8714801411478,Amerikanska Pannkakor 6-pack,Pop Bakery,100.0 Gram,"29,29 kr",295.0,1235.0,13.7,2.6,36.0,14.0,1.0,6.8,0.94,coop
 7300170040299,7300170040299,Ananas,,,"29,29 kr",,,,,,,,,,
@@ -340,10 +340,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5706911026102,5706911026102,Bao Bun,Bread of the World,100.0 Gram,"24,56 kr",254.0,1078.0,2.2,0.1,51.0,2.0,,7.6,0.04,coop
 5024278002707,5024278002707,Bar Apple & raspberyy 4-pack,Flapjack Multipack Apple,,"33,08 kr",,,,,,,,,,
 5024278003056,5024278003056,Bar Cashew & kokos,Flapjack,100.0 Gram,"14,15 kr",464.0,1949.0,24.8,11.7,50.5,27.2,5.5,8.1,0.44,coop
-5024278003063,5024278003063,Bar Choklad,FLAPJACK Bar Chok,100.0 Gram,"14,15 kr",1942.0,,22.7,12.7,57.3,32.5,4.2,6.0,0.44,coop
+5024278003063,5024278003063,Bar Choklad,FLAPJACK Bar Chok,100.0 Gram,"14,15 kr",,,22.7,12.7,57.3,32.5,4.2,6.0,0.44,coop
 7350066440139,7350066440139,Bar Choklad & valnöt Eko,GETRAW,100.0 Gram,"23,61 kr",484.0,2033.0,34.0,6.0,34.0,23.0,0.0,11.0,0.9,coop
 5000159528320,5000159528320,Bar Honungsrostade nötter & havssalt,BE-KIND,100.0 Gram,"18,88 kr",544.0,2255.0,41.0,5.1,23.0,12.0,8.7,17.0,0.8,coop
-5024278003049,5024278003049,Bar Karamell,Flapjack,100.0 Gram,"14,15 kr",1937.0,461.0,23.0,13.1,56.2,32.4,6.2,6.2,0.43,coop
+5024278003049,5024278003049,Bar Karamell,Flapjack,100.0 Gram,"14,15 kr",461.0,1937.0,23.0,13.1,56.2,32.4,6.2,6.2,0.43,coop
 5024278000291,5024278000291,Bar Karamell fudge 4-pack,Flapjack Multi Caramel,,"33,08 kr",,,,,,,,,,
 4008400553023,4008400553023,Bar Kinder Maxi king,Kinder,100.0 Gram,"12,78 kr",521.0,2165.0,37.5,19.0,38.2,35.6,,6.7,0.191,coop
 7350066440160,7350066440160,Bar Lakrits & mandel Eko,GETRAW,100.0 Gram,"23,61 kr",458.0,1925.0,30.0,4.0,35.0,27.0,,14.0,1.1,coop
@@ -369,9 +369,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310155803825,7310155803825,Barbecuesås Pineapple & chipotle,Johnny's,100.0 Gram,"30,24 kr",190.0,800.0,3.1,0.5,35.0,25.5,,2.2,1.1,coop
 1220000450059,1220000450059,Barbecuesås Sweet 'n' Spicy,Sweet Baby Ray's,100.0 Gram,"50,11 kr",169.0,705.0,0.15,0.03,39.0,38.0,,1.06,1.88,coop
 7310155803764,7310155803764,Barbecuesås Texas Honey,Johnny's,100.0 Gram,"30,24 kr",180.0,750.0,0.7,0.1,41.0,37.0,,0.9,1.3,coop
-7310394002072,7310394002072,Basilika,KOCKENS,,"24,56 kr",,,,,,,,,,
 7340191109339,7340191109339,Basilika,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
 7311311014154,7311311014154,Basilika,Santa Maria,100.0 Gram,"27,58 kr",245.0,1016.0,4.1,2.2,10.0,1.7,38.0,23.0,0.19,coop
+7310394002072,7310394002072,Basilika,KOCKENS,,"24,56 kr",,,,,,,,,,
 7340011478850,7340011478850,Basilika Eko,Änglamark,100.0 Gram,"13,72 kr",36.0,151.0,0.3,0.1,2.6,0.4,4.5,3.5,0.05,coop
 7313307801564,7313307801564,Basilika Eko,Svegro,,"18,88 kr",,,,,,,,,,
 7310394002751,7310394002751,Basilika Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
@@ -446,9 +446,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8711200359721,8711200359721,Big Pasta Snack Pot Carbonara,Knorr,100.0 Gram,"21,72 kr",105.0,437.0,3.0,1.0,16.0,2.1,0.6,3.7,0.72,coop
 7340007912481,7340007912481,Bigarråer Ask,,,"49,17 kr",,,,,,,,,,
 5701073061039,5701073061039,Bikarbonat,Dr. Oetker,,"15,15 kr",,,,,,,,,,
+7310700815327,7310700815327,Bikarbonat,KOCKENS,,"12,78 kr",,,,,,,,,,
 7311311004537,7311311004537,Bikarbonat,Santa Maria,100.0 Gram,"9,27 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,67.5,coop
 7350046464810,7350046464810,Bikarbonat,KOCKENS,,"40,65 kr",,,,,,,,,,
-7310700815327,7310700815327,Bikarbonat,KOCKENS,,"12,78 kr",,,,,,,,,,
 7331642061009,7331642061009,Bikarbonat Universal,Krydd Huset,,"37,81 kr",,,,,,,,,,
 7310350109906,7310350109906,Bilar Original,Ahlgrens Bilar,100.0 Gram,"15,09 kr",352.0,1493.0,0.2,0.2,82.0,57.0,,4.4,0.02,coop
 7310350114153,7310350114153,Bilar Saltlakrits,Ahlgrens Bilar,100.0 Gram,"15,09 kr",359.0,1475.0,0.2,,83.0,61.0,,3.8,0.19,coop
@@ -562,8 +562,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310520011541,7310520011541,Brago Choklad,Göteborgs Kex,100.0 Gram,"22,24 kr",486.0,2040.0,21.0,8.0,67.0,30.0,2.6,6.9,0.6,coop
 7310520005106,7310520005106,Brago Eko,Brago,100.0 Gram,"21,72 kr",464.0,1952.0,16.0,1.5,72.0,22.0,2.0,6.4,0.7,coop
 7300156601629,7300156601629,Brantesvikssill,Coop,100.0 Gram,"20,21 kr",244.0,1024.0,11.0,2.1,27.0,27.0,,9.3,3.4,coop
-5707196272901,5707196272901,Bratwurst,GÖL,100.0 Gram,"43,49 kr",280.0,1160.0,24.0,9.1,3.0,0.5,,13.0,2.3,coop
 7300156599148,7300156599148,Bratwurst,Coop,100.0 Gram,"28,35 kr",257.0,1066.0,21.0,8.4,4.6,0.6,,11.0,1.7,coop
+5707196272901,5707196272901,Bratwurst,GÖL,100.0 Gram,"43,49 kr",280.0,1160.0,24.0,9.1,3.0,0.5,,13.0,2.3,coop
 7331044066350,7331044066350,Bratwurst Kalkon,Ingelsta Kalkon,100.0 Gram,"49,17 kr",233.0,970.0,17.0,4.3,6.5,1.1,,12.0,2.1,coop
 7300206706007,7300206706007,Bratwurst Kummin & vitlök,Scan,100.0 Gram,"34,02 kr",260.0,1100.0,22.0,9.0,4.0,0.5,,12.0,1.8,coop
 7310941801424,7310941801424,Bredbar Leverpastej Mini,Pastejköket,100.0 Gram,"13,72 kr",160.0,700.0,8.4,3.4,12.0,4.6,,10.0,2.2,coop
@@ -647,15 +647,15 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310760012896,7310760012896,Bryggkaffe Mellanrost,Arvid Nordquist,,"72,97 kr",,,,,,,,,,
 8711000530085,8711000530085,Bryggkaffe Mellanrost,Gevalia,,"71,67 kr",,,,,,,,,,
 7310050001043,7310050001043,Bryggkaffe Mellanrost,Löfbergs,,"65,66 kr",,,,,,,,,,
+7310831020034,7310831020034,Bryggkaffe Mellanrost,Lindvalls Kaffe,,"74,18 kr",,,,,,,,,,
+7392736065709,7392736065709,Bryggkaffe Mellanrost,Eguale,,"97,48 kr",,,,,,,,,,
 7310050001883,7310050001883,Bryggkaffe Mellanrost,Löfbergs,,"65,66 kr",,,,,,,,,,
 7300156585578,7300156585578,Bryggkaffe Mellanrost,Coop,100.0 Gram,"53,86 kr",0.0,0.0,,,,,,,,coop
 7340191139435,7340191139435,Bryggkaffe Mellanrost,Xtra,100.0 Gram,"43,19 kr",0.0,0.0,,,,,,,,coop
-7310831020034,7310831020034,Bryggkaffe Mellanrost,Lindvalls Kaffe,,"74,18 kr",,,,,,,,,,
-7392736065709,7392736065709,Bryggkaffe Mellanrost,Eguale,,"97,48 kr",,,,,,,,,,
 7310050001791,7310050001791,Bryggkaffe Mellanrost Eko,Löfbergs,,"73,23 kr",,,,,,,,,,
+7310831020010,7310831020010,Bryggkaffe Mellanrost Eko,Lindvalls Kaffe,,106 kr,,,,,,,,,,
 7300156576477,7300156576477,Bryggkaffe Mellanrost Eko,Änglamark,,"75,73 kr",,,,,,,,,,
 7300156576903,7300156576903,Bryggkaffe Mellanrost Eko,Coop,,"65,39 kr",,,,,,,,,,
-7310831020010,7310831020010,Bryggkaffe Mellanrost Eko,Lindvalls Kaffe,,106 kr,,,,,,,,,,
 8711000537411,8711000537411,Bryggkaffe Mellanrost Eko,Gevalia,,"80,99 kr",,,,,,,,,,
 7310050001777,7310050001777,Bryggkaffe Mellanrost Fair Eko,Löfbergs,,"81,71 kr",,,,,,,,,,
 7310731103073,7310731103073,Bryggkaffe Mellanrost Fikastund,ZOÉGAS,,"70,45 kr",,,,,,,,,,
@@ -665,8 +665,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8711000616239,8711000616239,Bryggkaffe Mellanrost Summer,Gevalia,,"44,54 kr",,,,,,,,,,
 7310731103066,7310731103066,Bryggkaffe Mellanrost Västkust,ZOÉGAS,,"70,45 kr",,,,,,,,,,
 8711000602164,8711000602164,Bryggkaffe Milea Ljusrost,Gevalia,,"71,67 kr",,,,,,,,,,
-7310050010854,7310050010854,Bryggkaffe Mörkrost,Löfbergs,,"65,66 kr",,,,,,,,,,
 7310831020058,7310831020058,Bryggkaffe Mörkrost,Lindvalls Kaffe,,"84,18 kr",,,,,,,,,,
+7310050010854,7310050010854,Bryggkaffe Mörkrost,Löfbergs,,"65,66 kr",,,,,,,,,,
 7300156585585,7300156585585,Bryggkaffe Mörkrost,Coop,100.0 Gram,"53,86 kr",0.0,0.0,,,,,,,,coop
 7310050001067,7310050001067,Bryggkaffe Mörkrost 120 år,Löfbergs,,"65,66 kr",,,,,,,,,,
 7310760012537,7310760012537,Bryggkaffe Mörkrost Amigas Eko,Arvid Nordquist Selection,,"84,56 kr",,,,,,,,,,
@@ -739,12 +739,12 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 1200101486843,1200101486843,Bärdryck Light Tranbär,Ocean Spray,100.0 Milliliter,"26,45 kr",8.0,34.0,0.0,0.0,2.1,1.1,,0.0,0.06,coop
 7314720736235,7314720736235,Bärdryck Smultron,Kiviks,100.0 Milliliter,"16,99 kr",35.0,140.0,0.0,0.0,8.2,8.2,,0.0,0.0,coop
 7340191178649,7340191178649,Bärdryck Sura körsbär,Coop,100.0 Milliliter,"19,40 kr",44.0,187.0,0.0,0.0,11.0,11.0,,0.0,0.0,coop
-7314720739038,7314720739038,Bärdryck Svarta vinbär,Kiviks,100.0 Milliliter,"16,99 kr",35.0,140.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
 7340191152946,7340191152946,Bärdryck Svarta vinbär,Coop,100.0 Gram,"21,72 kr",0.0,0.0,,,,,,,,coop
+7314720739038,7314720739038,Bärdryck Svarta vinbär,Kiviks,100.0 Milliliter,"16,99 kr",35.0,140.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
 7392128810030,7392128810030,Bärdryck Tranbär,Finnerödja,100.0 Milliliter,"37,38 kr",37.0,156.0,0.0,0.0,8.4,8.4,,0.0,0.0,coop
 1200101497214,1200101497214,Bärdryck Tranbär,Ocean Spray,100.0 Milliliter,"26,45 kr",42.0,177.0,0.0,0.0,10.0,9.4,,0.0,0.0,coop
-7340191153783,7340191153783,Bärmix,Coop,100.0 Gram,"29,29 kr",58.0,241.0,1.4,0.3,7.8,6.4,5.1,0.9,0.0,coop
 7340191153615,7340191153615,Bärmix,Xtra,100.0 Gram,"33,08 kr",56.0,233.0,0.0,0.0,9.9,5.9,5.8,1.1,0.0,coop
+7340191153783,7340191153783,Bärmix,Coop,100.0 Gram,"29,29 kr",58.0,241.0,1.4,0.3,7.8,6.4,5.1,0.9,0.0,coop
 7340191154742,7340191154742,Bärmix Hallon & blåbär,Coop,100.0 Gram,"35,49 kr",49.0,205.0,0.7,0.0,7.2,5.5,4.9,1.0,0.0,coop
 7322550097679,7322550097679,Béarnaisesås,Blå Band,100.0 Milliliter,"25,51 kr",730.0,3002.0,79.0,6.3,4.0,3.6,0.5,1.1,1.3,coop
 7322550092001,7322550092001,Béarnaisesås 3-pack,Blå Band,100.0 Gram,"15,10 kr",216.0,902.0,22.0,14.0,5.0,0.8,0.1,0.6,0.83,coop
@@ -801,9 +801,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191168411,7340191168411,Cashews Osaltade,Coop,100.0 Gram,"23,61 kr",603.0,2503.0,48.0,8.2,20.0,4.8,3.7,21.0,0.02,coop
 5740301166405,5740301166405,Caviar Svart,Royal Greenland,100.0 Gram,"33,08 kr",82.0,345.0,4.0,1.5,0.5,0.5,,11.0,2.8,coop
 7340191132948,7340191132948,Caviarmix Röd,Coop,100.0 Gram,"25,89 kr",55.0,232.0,2.6,0.3,1.8,0.1,,6.2,4.5,coop
+7340191138315,7340191138315,Cayennepeppar,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
 7311311014598,7311311014598,Cayennepeppar,Santa Maria,100.0 Gram,"25,44 kr",376.0,1562.0,17.0,3.3,29.0,10.0,27.0,12.0,0.08,coop
 7350046465152,7350046465152,Cayennepeppar,KOCKENS,,"24,56 kr",,,,,,,,,,
-7340191138315,7340191138315,Cayennepeppar,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
 7350046468658,7350046468658,Cayennepeppar Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7350126089032,7350126089032,Ceasardressing,Felix,100.0 Gram,"29,29 kr",249.0,1043.0,26.0,2.2,3.4,2.2,,1.2,2.4,coop
 7310040020719,7310040020719,Center,Cloetta,100.0 Gram,"10,36 kr",481.0,2024.0,23.0,15.0,63.0,48.0,,4.1,0.42,coop
@@ -849,8 +849,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310350504893,7310350504893,Chewit Blue Raspberry,Malaco,100.0 Gram,"20,77 kr",398.0,1683.0,5.8,4.2,86.0,69.0,,0.0,0.09,coop
 7310350504886,7310350504886,Chewit Jordgubb,Malaco,100.0 Gram,"20,77 kr",345.0,1458.0,1.4,1.0,83.0,67.0,,0.0,0.09,coop
 7340191175167,7340191175167,Chiafrö Eko,Änglamark,100.0 Gram,"34,97 kr",479.0,1974.0,36.0,3.9,1.3,1.3,35.0,20.0,0.0,coop
-7311311024702,7311311024702,Chiafrön,Risenta,100.0 Gram,"59,15 kr",439.0,1827.0,34.0,3.4,4.4,0.0,33.0,22.0,0.13,coop
 7391835921190,7391835921190,Chiafrön,Kung Markatta,100.0 Gram,"47,27 kr",447.0,1837.0,34.0,3.0,1.8,1.0,41.0,21.0,0.0,coop
+7311311024702,7311311024702,Chiafrön,Risenta,100.0 Gram,"59,15 kr",439.0,1827.0,34.0,3.4,4.4,0.0,33.0,22.0,0.13,coop
 7350088701096,7350088701096,Chiafrön Eko,Chelsie's,100.0 Gram,"40,64 kr",,1835.0,31.0,3.0,2.0,1.0,37.9,20.0,0.1,coop
 7350088701225,7350088701225,Chiapudding Eko,Chelsie's,100.0 Gram,"52,95 kr",441.8,1834.7,24.9,2.9,26.3,12.5,20.4,17.8,0.05,coop
 7310500191652,7310500191652,Chicken Crispy 2-pack,FINDUS,100.0 Gram,"34,02 kr",269.0,1127.0,14.0,2.1,22.0,0.5,1.7,13.0,1.2,coop
@@ -886,12 +886,12 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7331217012979,7331217012979,Chilipaste Harissa,Sevan,100.0 Gram,"27,40 kr",73.0,306.0,1.6,0.0,12.0,3.8,,3.0,1.3,coop
 7311311015625,7311311015625,Chilipeppar Ancho,Santa Maria,100.0 Gram,"37,06 kr",347.0,1453.0,11.0,0.0,40.0,14.0,18.0,13.0,0.34,coop
 7311311015571,7311311015571,Chilipeppar Chipotle,Santa Maria,100.0 Gram,"37,06 kr",372.0,1545.0,17.0,3.2,29.0,10.0,27.0,12.0,0.07,coop
-7311311014178,7311311014178,Chilipulver,Santa Maria,100.0 Gram,"25,44 kr",302.0,1256.0,11.0,2.0,25.0,9.1,28.0,13.0,8.3,coop
 7350046464841,7350046464841,Chilipulver,KOCKENS,,"23,19 kr",,,,,,,,,,
+7311311014178,7311311014178,Chilipulver,Santa Maria,100.0 Gram,"25,44 kr",302.0,1256.0,11.0,2.0,25.0,9.1,28.0,13.0,8.3,coop
 7340063016451,7340063016451,Chiliroslagsgrill,Andersson & Tillman,100.0 Gram,"69,99 kr",270.0,1128.0,20.0,8.2,11.0,4.1,,12.0,2.4,coop
 8710853016852,8710853016852,Chilisås,Lucullus,100.0 Gram,"58,79 kr",178.0,755.0,0.3,0.2,43.0,42.0,,0.3,1.3,coop
-7310240025231,7310240025231,Chilisås,Felix,100.0 Gram,"31,71 kr",82.0,343.0,0.0,0.0,18.0,17.0,,1.5,2.7,coop
 7340191132368,7340191132368,Chilisås,Coop,100.0 Gram,"22,66 kr",118.0,499.0,0.0,0.0,26.0,21.0,,1.8,2.4,coop
+7310240025231,7310240025231,Chilisås,Felix,100.0 Gram,"31,71 kr",82.0,343.0,0.0,0.0,18.0,17.0,,1.5,2.7,coop
 5900783010904,5900783010904,Chilisås Classic,Heinz,100.0 Gram,"22,67 kr",98.0,413.0,0.2,0.1,21.2,18.0,,1.4,2.4,coop
 5900783010911,5900783010911,Chilisås classic,Heinz,100.0 Gram,"34,97 kr",98.0,413.0,0.2,0.1,21.2,18.0,,1.4,2.4,coop
 7310240025255,7310240025255,Chilisås Eko,Felix,100.0 Gram,"38,33 kr",90.0,376.0,0.0,0.0,19.0,17.0,,1.9,2.5,coop
@@ -911,7 +911,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310532305812,7310532305812,Chips Cheese & mild jalapeño,Estrella,100.0 Gram,"28,34 kr",518.0,2156.0,33.0,2.8,46.0,2.3,5.4,6.1,1.5,coop
 5053990127641,5053990127641,Chips Cheese & onion,Pringles,100.0 Gram,"33,08 kr",516.0,2157.0,29.0,6.3,56.0,2.9,3.5,6.1,1.4,coop
 7350167516412,7350167516412,Chips Chili cheese,Redhead,100.0 Gram,"28,35 kr",489.0,2046.0,26.0,2.6,56.0,0.9,,8.5,1.2,coop
-7073298000178,7073298000178,Chips Chili cheese,FjordChips,100.0 Gram,"25,51 kr",1931.0,463.0,27.0,1.9,48.0,7.0,,5.4,1.6,coop
+7073298000178,7073298000178,Chips Chili cheese,FjordChips,100.0 Gram,"25,51 kr",463.0,1931.0,27.0,1.9,48.0,7.0,,5.4,1.6,coop
 7350045596345,7350045596345,Chips Chili Cheese,Gårdschips,100.0 Gram,"26,45 kr",512.0,2141.0,29.0,2.0,56.0,2.5,5.9,7.6,1.4,coop
 7340005404568,7340005404568,Chips Chili Cream Cheese,OLW,100.0 Gram,"28,35 kr",520.0,2200.0,32.0,3.5,56.0,3.0,,4.9,1.5,coop
 7340005403561,7340005403561,Chips Cream Cheese,OLW,100.0 Gram,"28,35 kr",520.0,2200.0,32.0,4.09,57.0,1.9,,5.0,1.6,coop
@@ -928,8 +928,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340005403592,7340005403592,Chips Grill,OLW,100.0 Gram,"28,35 kr",530.0,2200.0,33.0,3.4,58.0,1.7,,4.9,1.4,coop
 7310531022901,7310531022901,Chips Grill,Estrella,100.0 Gram,"10,88 kr",517.0,2152.0,33.0,2.6,46.0,0.8,5.5,5.7,1.7,coop
 7392659002447,7392659002447,Chips Grill Räfflade,Sv. LantChips,100.0 Gram,"24,39 kr",486.0,2033.0,27.0,2.5,56.6,1.1,,8.1,1.4,coop
-7392659005721,7392659005721,Chips Gräddfil,Sv LantChips,100.0 Gram,"12,78 kr",500.0,2092.0,27.0,2.7,56.0,0.8,,8.3,1.2,coop
 7392659002423,7392659002423,Chips Gräddfil,Sv. LantChips,100.0 Gram,"24,39 kr",500.0,2092.0,27.0,2.7,56.0,0.8,,8.3,1.2,coop
+7392659005721,7392659005721,Chips Gräddfil,Sv LantChips,100.0 Gram,"12,78 kr",500.0,2092.0,27.0,2.7,56.0,0.8,,8.3,1.2,coop
 5053990127665,5053990127665,Chips Hot & Spicy,Pringles,100.0 Gram,"33,08 kr",519.0,2169.0,29.0,6.3,55.0,3.0,3.7,6.3,1.2,coop
 5053990175888,5053990175888,Chips Hot Flamin' Cheese,Pringles,100.0 Gram,"33,08 kr",524.0,2186.0,30.0,3.0,55.0,3.4,3.8,6.5,0.6,coop
 7340005405381,7340005405381,Chips Hot Ranch,OLW,100.0 Gram,"28,35 kr",520.0,2200.0,33.0,3.5,57.0,3.1,,5.1,1.5,coop
@@ -1044,10 +1044,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340011476542,7340011476542,Chokladknappar Mörka Eko,Änglamark,100.0 Gram,"26,97 kr",577.0,2396.0,42.0,25.0,36.0,29.0,,9.1,0.0,coop
 7340011476528,7340011476528,Chokladknappar Vita Eko,Änglamark,100.0 Gram,"26,97 kr",578.0,2407.0,38.0,23.0,51.0,51.0,,7.9,0.25,coop
 5711953169854,5711953169854,Chokladmjölk,Arla®,100.0 Gram,"20,35 kr",57.0,243.0,0.5,0.4,9.5,9.4,0.4,3.6,0.11,coop
+5711953023620,5711953023620,Chokladmjölk Pucko Original,Cocio,100.0 Gram,"21,29 kr",67.0,283.0,1.6,1.0,9.5,9.4,,3.5,0.14,coop
 5711953151361,5711953151361,Chokladmjölk Pucko Original,Cocio,100.0 Gram,"14,67 kr",67.0,283.0,1.6,1.0,9.5,9.4,,3.5,0.14,coop
 5711953209932,5711953209932,Chokladmjölk Pucko Original,Cocio,100.0 Gram,"12,26 kr",67.0,283.0,1.6,1.0,9.5,9.4,,3.5,0.14,coop
 5760466961455,5760466961455,Chokladmjölk Pucko Original,Cocio,100.0 Gram,"14,67 kr",67.0,283.0,1.6,1.0,9.5,9.4,,3.5,0.14,coop
-5711953023620,5711953023620,Chokladmjölk Pucko Original,Cocio,100.0 Gram,"21,29 kr",67.0,283.0,1.6,1.0,9.5,9.4,,3.5,0.14,coop
 5711953068072,5711953068072,Chokladmjöllk Pucko Mörk,Cocio,100.0 Gram,"14,67 kr",72.0,302.0,1.6,1.0,10.0,10.0,,3.5,0.1,coop
 4002971200607,4002971200607,Chokladmousse,Grand Dessert,100.0 Gram,"15,62 kr",157.0,656.0,8.7,5.7,15.0,14.0,1.0,4.2,0.15,coop
 7350126083610,7350126083610,Chokladmousse med crisp,Ekströms,100.0 Gram,"24,56 kr",190.0,794.0,7.2,6.2,26.0,23.0,,5.3,0.11,coop
@@ -1137,14 +1137,14 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156480323,7300156480323,Citronmuffins Krämfyllda 8-pack,Coop,100.0 Gram,"26,45 kr",477.0,1997.0,29.0,7.0,50.0,32.0,,2.8,1.1,coop
 7313981025140,7313981025140,Citronmums,Hägges,100.0 Gram,"37,81 kr",431.0,1805.0,18.0,2.2,59.0,34.0,0.7,3.8,1.0,coop
 7311311016073,7311311016073,Citronpeppar,Santa Maria,100.0 Gram,"25,44 kr",149.0,627.0,1.2,0.5,25.0,7.4,9.7,4.4,41.0,coop
-7311311004841,7311311004841,Citronpeppar,Santa Maria,100.0 Gram,"25,44 kr",149.0,625.0,1.2,0.5,25.0,7.4,9.7,4.4,41.0,coop
 7350046469471,7350046469471,Citronpeppar,KOCKENS,,"24,56 kr",,,,,,,,,,
 7340011425786,7340011425786,Citronpeppar,Xtra,100.0 Gram,"15,97 kr",176.0,744.0,0.6,0.2,36.0,27.0,,3.1,39.0,coop
+7311311004841,7311311004841,Citronpeppar,Santa Maria,100.0 Gram,"25,44 kr",149.0,625.0,1.2,0.5,25.0,7.4,9.7,4.4,41.0,coop
 7350046469297,7350046469297,Citronpeppar Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7300156594181,7300156594181,Citronsoda Sockerfri,Coop,100.0 Milliliter,"14,67 kr",2.0,8.0,0.0,0.0,0.1,0.1,,0.0,0.01,coop
 7300156600851,7300156600851,Citronsoda Sockerfri,Coop,100.0 Milliliter,"14,67 kr",2.0,8.0,0.0,0.0,0.1,0.1,,0.0,0.01,coop
-7340191113183,7340191113183,Citronsyra,Coop,100.0 Gram,"11,83 kr",0.0,0.0,,,,,,,,coop
 7310700815419,7310700815419,Citronsyra,KOCKENS,,"12,78 kr",,,,,,,,,,
+7340191113183,7340191113183,Citronsyra,Coop,100.0 Gram,"11,83 kr",0.0,0.0,,,,,,,,coop
 7311171006221,7311171006221,Citronsås För Lax,Abba,100.0 Gram,"26,45 kr",143.0,597.0,12.0,5.6,7.3,1.3,,1.0,1.4,coop
 7311171006665,7311171006665,Citronsås För Lax Xl,Abba,100.0 Gram,"37,81 kr",143.0,597.0,12.0,5.6,7.3,1.3,,1.0,1.4,coop
 7340007929496,7340007929496,Classic Coleslaw,Dole,100.0 Gram,"25,51 kr",128.0,529.0,9.5,0.8,8.2,8.0,,7.0,0.75,coop
@@ -1241,7 +1241,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5711953162688,5711953162688,Cream cheese Naturell,Arla®,100.0 Gram,"29,81 kr",252.0,1039.0,25.0,16.0,3.0,3.0,,4.5,0.8,coop
 5711953162718,5711953162718,Cream cheese Vitlök & örter,Arla®,100.0 Gram,"29,81 kr",252.0,1040.0,24.0,15.0,3.8,3.0,,4.7,1.2,coop
 7340191186576,7340191186576,Cream Cheese Vitlök & örter,Coop,100.0 Gram,"19,40 kr",187.0,776.0,16.0,10.0,2.0,2.0,,8.0,0.7,coop
-5202390021510,5202390021510,Creamy Garlic & Herbs,Violife,100.0 Gram,"30,24 kr",883.0,214.0,20.0,18.0,7.7,1.5,,0.3,2.0,coop
+5202390021510,5202390021510,Creamy Garlic & Herbs,Violife,100.0 Gram,"30,24 kr",214.0,883.0,20.0,18.0,7.7,1.5,,0.3,2.0,coop
 5202390013836,5202390013836,Creamy Original Vegan,Violife,100.0 Gram,"30,24 kr",289.0,1190.0,29.0,26.0,5.3,0.9,,0.5,1.0,coop
 3046920043489,3046920043489,Creation Creme Brulee,Lindt,100.0 Gram,"47,27 kr",585.0,2486.0,39.0,24.0,52.0,50.0,,5.6,0.25,coop
 7330177010223,7330177010223,Crema Di Balsamico,Werners Gourmetservice,100.0 Gram,"39,28 kr",294.0,1252.0,0.0,0.0,70.0,66.0,,0.6,0.27,coop
@@ -1285,10 +1285,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350027798606,7350027798606,Crème Kronärtskocka & soltorkad tomat,Zeta,100.0 Gram,"35,49 kr",339.0,1397.0,33.0,3.8,5.9,3.4,,2.7,1.2,coop
 7350002401606,7350002401606,Crème Soltorkade tomater,Zeta,100.0 Gram,"41,60 kr",383.0,1579.0,38.0,3.5,6.2,4.0,,2.5,1.9,coop
 7310155800169,7310155800169,Cumberlandsås,Druvan,100.0 Gram,"28,35 kr",201.0,853.0,0.5,0.1,50.0,48.0,,0.5,0.09,coop
-7311311004872,7311311004872,Curry,Santa Maria,100.0 Gram,"25,44 kr",332.0,1380.0,11.0,1.5,29.0,1.8,30.0,14.0,0.12,coop
 7310394002133,7310394002133,Curry,KOCKENS,,"24,56 kr",,,,,,,,,,
 7350046461444,7350046461444,Curry,KOCKENS,,"43,49 kr",,,,,,,,,,
 7311311016080,7311311016080,Curry,Santa Maria,100.0 Gram,"27,58 kr",331.0,1376.0,11.0,1.5,29.0,1.8,30.0,14.0,0.12,coop
+7311311004872,7311311004872,Curry,Santa Maria,100.0 Gram,"25,44 kr",332.0,1380.0,11.0,1.5,29.0,1.8,30.0,14.0,0.12,coop
 7350046469242,7350046469242,Curry Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311027383,7311311027383,Curry Extra stark,Santa Maria,100.0 Gram,"25,44 kr",340.0,1416.0,12.0,1.8,29.0,3.5,30.0,13.0,0.11,coop
 7311311015946,7311311015946,Curry Mango,Santa Maria,100.0 Gram,"34,96 kr",285.0,1193.0,7.5,1.1,33.0,14.0,20.0,11.0,16.2,coop
@@ -1377,8 +1377,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5000396026993,5000396026993,Digestive Original,McVities,100.0 Gram,"14,15 kr",483.0,2023.0,21.8,10.3,62.7,16.8,3.4,6.9,1.5,coop
 3036810100576,3036810100576,Dijonsenap,Grey Poupon,100.0 Gram,"27,40 kr",150.0,640.0,11.0,0.7,6.2,0.5,,6.7,5.8,coop
 7392031001075,7392031001075,Dijonsenap,Johnny's,100.0 Gram,"22,67 kr",160.0,700.0,12.0,0.8,1.9,1.9,,7.6,5.7,coop
-7340191162600,7340191162600,Dijonsenap,Xtra,100.0 Gram,"21,29 kr",164.0,680.0,12.0,0.8,3.0,1.8,,7.5,6.1,coop
 7391835014205,7391835014205,Dijonsenap,Kung Markatta,100.0 Gram,"42,54 kr",160.0,665.0,11.0,0.7,2.9,2.1,4.6,7.3,5.5,coop
+7340191162600,7340191162600,Dijonsenap,Xtra,100.0 Gram,"21,29 kr",164.0,680.0,12.0,0.8,3.0,1.8,,7.5,6.1,coop
 7340191163041,7340191163041,Dijonsenap Eko,Änglamark,100.0 Gram,"33,08 kr",171.0,708.0,12.6,0.8,3.5,2.1,,7.5,5.8,coop
 3036810107025,3036810107025,Dijonsenap Grovkornig,Grey Poupon,100.0 Gram,"27,40 kr",158.0,660.0,9.3,0.7,4.0,3.3,,7.0,5.0,coop
 3036810201280,3036810201280,Dijonsenap Original,Maille,100.0 Gram,"27,40 kr",151.0,631.0,11.0,0.6,3.5,1.9,,7.0,4.9,coop
@@ -1439,8 +1439,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311440052157,7311440052157,Dressing Amerikansk,Kavli,100.0 Gram,"18,46 kr",600.0,2450.0,62.0,4.2,6.3,5.6,,1.3,0.6,coop
 7311440056377,7311440056377,Dressing Amerikansk,Kavli,100.0 Gram,"30,76 kr",600.0,2450.0,62.0,4.2,6.3,5.6,,1.3,0.6,coop
 7311442161604,7311442161604,Dressing Bacon,Kavli,100.0 Gram,"18,46 kr",600.0,2500.0,63.0,4.4,6.8,5.5,,1.9,0.7,coop
-8720182754691,8720182754691,Dressing Burger,Hellmann's,100.0 Milliliter,"29,29 kr",239.0,995.0,22.0,1.7,10.0,6.2,0.6,1.0,1.9,coop
 7310155803726,7310155803726,Dressing Burger,Johnny's,100.0 Gram,"30,24 kr",470.0,1950.0,48.0,3.2,8.7,6.9,,1.0,1.1,coop
+8720182754691,8720182754691,Dressing Burger,Hellmann's,100.0 Milliliter,"29,29 kr",239.0,995.0,22.0,1.7,10.0,6.2,0.6,1.0,1.9,coop
 7350042721269,7350042721269,Dressing Caesar,Eriks Såser,100.0 Gram,"31,71 kr",550.0,2250.0,57.0,4.5,2.1,1.7,,1.6,1.2,coop
 7392636301303,7392636301303,Dressing Cheesy cheddar,Sibylla,100.0 Gram,"25,96 kr",542.0,2228.0,59.0,6.9,2.0,1.3,,1.6,1.6,coop
 7316110002333,7316110002333,Dressing Chipotle hot & smokey,Felix,100.0 Gram,"30,24 kr",270.0,1130.0,27.0,2.2,6.2,4.9,,0.5,2.0,coop
@@ -1494,7 +1494,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5410146409318,5410146409318,"Drickyoghurt Skogsbär 1,5% 4-pack",Actimel,100.0 Gram,"22,24 kr",69.0,290.0,1.4,1.0,10.2,9.9,0.0,2.9,0.1,coop
 5711953041945,5711953041945,"Drickyoghurt Yalla Hallon & blåbär 0,5%",Yoggi®,100.0 Gram,"15,62 kr",51.0,215.0,0.5,0.3,7.9,7.7,,3.2,0.1,coop
 5711953041976,5711953041976,"Drickyoghurt Yalla Jordgubb 0,5%",Yoggi®,100.0 Gram,"15,62 kr",51.0,214.0,0.5,0.3,7.9,7.7,,3.2,0.1,coop
-7350115440059,7350115440059,Drinkmix Citrusfizz Fläder,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",121.0,29.0,0.0,0.0,7.0,6.0,,0.0,0.0,coop
+7350115440059,7350115440059,Drinkmix Citrusfizz Fläder,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",29.0,121.0,0.0,0.0,7.0,6.0,,0.0,0.0,coop
 7311180650071,7311180650071,Drinkmix Lime,Mixtales,100.0 Milliliter,"47,27 kr",130.0,545.0,0.5,0.5,32.0,32.0,,0.5,0.0,coop
 7350150940170,7350150940170,Drinkmix Orange Sunset,Wildmix,100.0 Milliliter,"21,72 kr",61.0,260.0,0.0,0.0,14.0,14.0,,0.0,0.0,coop
 4260310558707,4260310558707,Drinkmixer Mystic Mango,Thomas Henry,100.0 Milliliter,"18,46 kr",35.0,149.0,0.1,0.1,8.4,8.4,,0.1,0.1,coop
@@ -1630,10 +1630,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340131602166,7340131602166,Energidryck Nocco Sunny Soda,NOCCO,100.0 Milliliter,"18,46 kr",4.0,15.0,0.0,0.0,0.0,0.0,0.0,0.9,0.0,coop
 7340131605914,7340131605914,Energidryck Nocco The berries,NOCCO,100.0 Milliliter,"18,46 kr",2.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,coop
 7350144680044,7350144680044,Energidryck Pear Elderflower,Joluca,100.0 Milliliter,"19,83 kr",3.0,11.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
-9002490215446,9002490215446,Energidryck Red Bull,Red Bull,100.0 Milliliter,"23,19 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
-9002490215408,9002490215408,Energidryck Red Bull,Red Bull,100.0 Milliliter,"13,20 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
 9002490291761,9002490291761,Energidryck Red Bull,Red Bull,100.0 Milliliter,"18,88 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
 9002490215422,9002490215422,Energidryck Red Bull,Red Bull,100.0 Milliliter,"18,88 kr",46.0,194.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
+9002490215446,9002490215446,Energidryck Red Bull,Red Bull,100.0 Milliliter,"23,19 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
+9002490215408,9002490215408,Energidryck Red Bull,Red Bull,100.0 Milliliter,"13,20 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
 9002490215675,9002490215675,Energidryck Red Bull 4-pack,Red Bull,,"47,27 kr",,,,,,,,,,
 90448850,90448850,Energidryck Red Bull Aprikos & jordgubb,Red Bull,100.0 Milliliter,"13,20 kr",45.0,191.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
 90376825,90376825,Energidryck Red Bull Blåbär,Red Bull,100.0 Milliliter,"13,20 kr",46.0,195.0,0.0,0.0,11.0,11.0,,0.0,0.1,coop
@@ -1674,8 +1674,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5000295080836,5000295080836,Engelsk Cheddar 14 Mån,Cathedral City,100.0 Gram,"40,65 kr",416.0,1725.0,34.9,21.7,0.1,0.1,0.0,25.4,1.8,coop
 8712469082580,8712469082580,Engelsk Lakritskonfekt,Klene,100.0 Gram,"22,95 kr",375.0,1586.0,4.3,3.7,81.1,64.3,,2.4,0.04,coop
 2317259700000,2317259700000,Entrecote,Coop,,"348,29 kr",,,,,,,,,,
-7300200589002,7300200589002,Entrecote,Scan,100.0 Gram,"97,83 kr",130.0,560.0,15.0,7.5,0.0,0.0,,23.0,0.1,coop
 2317073200007,2317073200007,Entrecote,Coop,100.0 Gram,"690,03 kr",140.0,600.0,6.1,3.0,0.0,0.0,,22.0,0.2,coop
+7300200589002,7300200589002,Entrecote,Scan,100.0 Gram,"97,83 kr",130.0,560.0,15.0,7.5,0.0,0.0,,23.0,0.1,coop
 2320258600004,2320258600004,Entrecote Bit,Scan,100.0 Gram,"390,88 kr",200.0,800.0,13.0,6.5,0.0,0.0,,20.0,0.2,coop
 2317252100005,2317252100005,Entrecote Skivad,Coop,100.0 Gram,"374,55 kr",140.0,600.0,6.1,3.0,,,,22.0,0.2,coop
 2317265300003,2317265300003,Entrecote Skivad,Änglamark/Sverige,100.0 Gram,"441,56 kr",140.0,600.0,6.1,3.0,0.0,0.0,,22.0,0.2,coop
@@ -1692,7 +1692,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350113940629,7350113940629,Falafel,ZEINAS,100.0 Gram,"36,44 kr",282.0,1180.0,16.0,2.0,22.0,0.3,4.5,10.0,2.0,coop
 7331217013914,7331217013914,Falafel,Sevan,100.0 Gram,"33,08 kr",232.0,968.0,12.0,0.9,21.0,3.1,4.8,8.0,1.2,coop
 7310240121179,7310240121179,Falafel,Anamma,100.0 Gram,"77,56 kr",305.0,1275.0,18.0,1.3,25.0,1.3,5.3,9.0,1.1,coop
-7350113190338,7350113190338,Falafel Vegan Fryst,Tamini,100.0 Gram,"42,54 kr",1082.0,259.0,10.6,0.3,28.0,1.9,8.7,8.9,1.5,coop
+7350113190338,7350113190338,Falafel Vegan Fryst,Tamini,100.0 Gram,"42,54 kr",259.0,1082.0,10.6,0.3,28.0,1.9,8.7,8.9,1.5,coop
 7331217010838,7331217010838,Falafelmix,Sevan,100.0 Gram,"21,72 kr",340.0,1424.0,3.8,0.0,49.0,4.6,12.0,22.0,2.5,coop
 7300156601551,7300156601551,Falukorv,Coop,100.0 Gram,"34,97 kr",250.0,1050.0,22.0,8.9,4.9,0.9,,9.3,1.8,coop
 7300156601568,7300156601568,Falukorv,Coop,100.0 Gram,"25,51 kr",250.0,1050.0,22.0,8.9,4.9,0.9,,9.3,1.8,coop
@@ -1710,14 +1710,14 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156493569,7300156493569,Familjemix,Coop,,"28,35 kr",,,,,,,,,,
 7312690800277,7312690800277,Familjemix 15-pack,SIA Glass,,"135,34 kr",,,,,,,,,,
 5000112692105,5000112692105,Fanta Crimson Cherry,Fanta,100.0 Milliliter,"15,10 kr",17.0,70.0,0.0,0.0,3.9,3.9,,0.0,0.02,coop
+90490705,90490705,Fanta Exotic,Fanta,100.0 Milliliter,"15,10 kr",53.0,227.0,0.0,0.0,13.2,13.2,,0.0,0.0,coop
 5000112690019,5000112690019,Fanta Exotic,Fanta,100.0 Milliliter,"19,40 kr",53.0,227.0,0.0,0.0,13.2,13.2,,0.0,0.0,coop
 5000112637977,5000112637977,Fanta Exotic,Fanta,100.0 Milliliter,"9,42 kr",53.0,227.0,0.0,0.0,13.2,13.2,,0.0,0.0,coop
-90490705,90490705,Fanta Exotic,Fanta,100.0 Milliliter,"15,10 kr",53.0,227.0,0.0,0.0,13.2,13.2,,0.0,0.0,coop
 5000112629705,5000112629705,Fanta Exotic Zero,Fanta zero,100.0 Milliliter,"15,10 kr",3.0,12.0,0.0,0.0,0.5,0.4,,0.0,0.02,coop
-5000112689983,5000112689983,Fanta Orange,Fanta,100.0 Milliliter,"19,40 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
-5000112667585,5000112667585,Fanta Orange,Fanta,100.0 Milliliter,"15,10 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
 54023765,54023765,Fanta Orange,Fanta,100.0 Milliliter,"16,99 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
 5000112667646,5000112667646,Fanta Orange,Fanta,100.0 Milliliter,"9,42 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
+5000112689983,5000112689983,Fanta Orange,Fanta,100.0 Milliliter,"19,40 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
+5000112667585,5000112667585,Fanta Orange,Fanta,100.0 Milliliter,"15,10 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
 5000112667677,5000112667677,Fanta Orange 10-pack,Fanta,100.0 Milliliter,"73,77 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
 5000112667660,5000112667660,Fanta Orange 6-pack,Fanta,100.0 Milliliter,"45,38 kr",19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,coop
 5000112624083,5000112624083,Fanta Orange Zero,Fanta zero,100.0 Milliliter,"15,10 kr",3.0,11.0,0.0,0.0,0.4,0.4,,0.0,0.01,coop
@@ -1726,14 +1726,14 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5000112638028,5000112638028,Fanta Strawberry & Kiwi,Fanta,100.0 Milliliter,"9,42 kr",42.0,177.0,0.0,0.0,10.2,10.2,,0.0,0.0,coop
 5000112690095,5000112690095,Fanta Zero Exotic,Fanta,100.0 Milliliter,"19,40 kr",3.0,12.0,0.0,0.0,0.5,0.4,,0.0,0.02,coop
 5000112512748,5000112512748,Fanta Zero Exotic,Fanta zero,100.0 Milliliter,"9,42 kr",3.0,12.0,0.0,0.0,0.5,0.4,,0.0,0.02,coop
-5000112650402,5000112650402,Fanta Zero Lemon,Fanta zero,100.0 Milliliter,"9,42 kr",2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,coop
 5000112689969,5000112689969,Fanta Zero Lemon,Fanta,100.0 Milliliter,"19,40 kr",2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,coop
 5000112650426,5000112650426,Fanta Zero Lemon,Fanta zero,100.0 Milliliter,"15,10 kr",2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,coop
+5000112650402,5000112650402,Fanta Zero Lemon,Fanta zero,100.0 Milliliter,"9,42 kr",2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,coop
 54011830,54011830,Fanta Zero Lemon,Fanta zero,100.0 Milliliter,"16,99 kr",2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,coop
 5000112690002,5000112690002,Fanta Zero Orange,Fanta,100.0 Milliliter,"19,40 kr",3.0,11.0,0.0,0.0,0.4,0.4,,0.0,0.01,coop
 5000112667875,5000112667875,Fanta Zero Orange 6-pack,Fanta zero,100.0 Milliliter,"45,38 kr",3.0,11.0,0.0,0.0,0.4,0.4,,0.0,0.01,coop
-5000112690057,5000112690057,Fanta Zero Raspberry,Fanta,100.0 Milliliter,"19,40 kr",2.0,7.0,0.0,0.0,0.2,0.2,,0.0,0.03,coop
 5000112640472,5000112640472,Fanta Zero Raspberry,Fanta zero,100.0 Milliliter,"15,10 kr",2.0,7.0,0.0,0.0,0.2,0.2,,0.0,0.03,coop
+5000112690057,5000112690057,Fanta Zero Raspberry,Fanta,100.0 Milliliter,"19,40 kr",2.0,7.0,0.0,0.0,0.2,0.2,,0.0,0.03,coop
 7310960044147,7310960044147,Farfars Delikatessköttbullar,Dafgårds,100.0 Gram,"29,29 kr",155.0,649.0,12.0,4.6,6.5,1.7,0.9,4.7,1.2,coop
 5701259000661,5701259000661,Farinsocker,DAN SUKKER,100.0 Gram,"20,35 kr",390.0,1650.0,0.0,0.0,97.0,95.0,,0.0,0.08,coop
 7350025826974,7350025826974,Favoritmix,Hulten,100.0 Gram,"22,24 kr",301.62,1276.69,3.99,2.58,64.22,54.59,,1.29,0.18,coop
@@ -1816,7 +1816,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 3830074230365,3830074230365,Filé Thick-Cut 2-pack,Juicy Marbles,100.0 Gram,"137,23 kr",156.0,652.0,7.0,0.8,2.4,1.3,5.9,18.0,0.78,coop
 8445290003027,8445290003027,Filébitar Vegan,Hälsans Kök,100.0 Gram,"84,18 kr",122.0,514.0,2.7,0.4,2.3,0.2,5.2,19.6,0.99,coop
 5019503018912,5019503018912,Filéer,Quorn,100.0 Gram,"60,52 kr",122.0,511.0,2.8,0.5,5.8,0.2,6.7,15.0,0.91,coop
-7350139110013,7350139110013,Filéer Panerade 4-pack,Nothing F!SHY,100.0 Gram,"47,27 kr",1032.0,247.0,19.0,1.3,15.0,1.1,2.3,3.5,1.3,coop
+7350139110013,7350139110013,Filéer Panerade 4-pack,Nothing F!SHY,100.0 Gram,"47,27 kr",247.0,1032.0,19.0,1.3,15.0,1.1,2.3,3.5,1.3,coop
 7350068853012,7350068853012,Filékorv Grov Vitlök,Slaktarkorv,100.0 Gram,"47,27 kr",250.0,1030.0,20.0,8.0,0.5,0.5,,17.0,2.0,coop
 7350068851018,7350068851018,Filékorv Original,Slaktarkorv,100.0 Gram,"47,27 kr",244.0,1000.0,19.0,7.0,3.4,0.6,,14.0,2.2,coop
 7350068854026,7350068854026,Filékorv Ost & bacon,Slaktarkorv,100.0 Gram,"47,27 kr",290.0,1220.0,25.0,11.0,3.0,0.8,,14.0,2.4,coop
@@ -1880,8 +1880,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8445290728791,8445290728791,Flingor Kitkat,NESTLÉ,100.0 Gram,"42,54 kr",420.0,1769.0,10.9,4.7,69.4,24.7,6.3,7.8,0.37,coop
 5900020023582,5900020023582,Flingor Lion,Nestlé,100.0 Gram,"37,81 kr",403.0,1702.0,6.4,2.6,74.4,25.0,6.6,8.6,0.45,coop
 8445290292056,8445290292056,Flingor Mini Mix 6-pack,NESTLÉ,,"59,15 kr",,,,,,,,,,
-5011476103053,5011476103053,Flingor Nesquik,NESTLÉ,100.0 Gram,"37,81 kr",383.0,1620.0,2.8,0.7,76.6,22.5,8.3,8.8,0.22,coop
 5900020018656,5900020018656,Flingor Nesquik,Nestlé,100.0 Gram,"58,63 kr",383.0,1620.0,2.8,0.7,76.6,22.5,8.3,8.8,0.22,coop
+5011476103053,5011476103053,Flingor Nesquik,NESTLÉ,100.0 Gram,"37,81 kr",383.0,1620.0,2.8,0.7,76.6,22.5,8.3,8.8,0.22,coop
 5059319023502,5059319023502,Flingor Rice Krispies,Kellogg's,100.0 Gram,"43,49 kr",389.0,1649.0,1.2,0.4,86.0,7.9,2.9,7.0,1.0,coop
 7340191158429,7340191158429,Flingor Special,Coop,100.0 Gram,"34,54 kr",383.0,1620.0,2.1,0.4,73.0,9.0,5.8,15.0,0.56,coop
 5053827153935,5053827153935,Flingor Special K Classic,Kellogg's,100.0 Gram,"53,90 kr",393.0,1667.0,1.3,0.3,84.0,12.0,6.2,8.3,0.94,coop
@@ -1923,8 +1923,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2320303400009,2320303400009,Fläskkarré med ben,Scan,100.0 Gram,"124,04 kr",170.0,700.0,11.0,4.8,0.0,0.0,,18.0,0.1,coop
 2320303300002,2320303300002,Fläskkarré med ben,Scan,100.0 Gram,"104,47 kr",170.0,700.0,11.0,4.8,0.0,0.0,,18.0,0.1,coop
 7300156581891,7300156581891,Fläskkorv Kokt,Coop,100.0 Gram,"22,67 kr",250.0,1050.0,22.0,9.0,4.5,0.2,,8.0,1.9,coop
-2320003400002,2320003400002,Fläskkotlett med ben,Scan,100.0 Gram,"106,89 kr",130.0,560.0,6.0,2.6,0.0,0.0,,20.0,0.2,coop
 2320006300002,2320006300002,Fläskkotlett med ben,Scan,100.0 Gram,"113,10 kr",130.0,560.0,6.0,2.6,0.0,0.0,,20.0,0.2,coop
+2320003400002,2320003400002,Fläskkotlett med ben,Scan,100.0 Gram,"106,89 kr",130.0,560.0,6.0,2.6,0.0,0.0,,20.0,0.2,coop
 7350051211126,7350051211126,Fläskkött Lufttorkat Coppa,Engelmanns,100.0 Gram,"51,05 kr",281.0,1173.0,18.0,7.3,0.5,0.5,,29.5,4.0,coop
 2330065200007,2330065200007,Fläsklägg Benfri,Dalsjöfors,100.0 Gram,"75,67 kr",140.0,600.0,8.3,3.3,0.6,0.6,,16.0,1.8,coop
 7350065513780,7350065513780,Fläsklägg Med Rotmos,Grön Ko,100.0 Gram,"72,13 kr",100.0,430.0,3.8,1.8,9.2,3.3,2.1,6.5,1.4,coop
@@ -2379,7 +2379,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6431901420460,6431901420460,Glutenfri Ciabatta 2-pack,Moilas,100.0 Gram,"33,08 kr",215.0,900.0,3.2,0.5,40.0,4.2,7.0,3.0,1.2,coop
 7350066440931,7350066440931,Glutenfri Cookie Coconut M*lk & Chocolate Eko,Dig,100.0 Gram,"23,61 kr",630.0,2600.0,49.0,35.0,40.0,23.0,3.8,4.6,0.58,coop
 7350066440955,7350066440955,Glutenfri Cookie Hazelnut Dark Chocolate,Dig,100.0 Gram,"24,56 kr",630.0,2600.0,52.0,16.0,26.0,16.0,8.5,10.0,0.41,coop
-7300156596673,7300156596673,Glutenfri Couscous,COOP,100.0 Gram,"24,56 kr",1526.0,360.0,3.2,1.0,72.0,0.5,,8.4,0.0,coop
+7300156596673,7300156596673,Glutenfri Couscous,COOP,100.0 Gram,"24,56 kr",360.0,1526.0,3.2,1.0,72.0,0.5,,8.4,0.0,coop
 7350027799580,7350027799580,Glutenfri Crostini,Zeta,100.0 Gram,"42,54 kr",441.0,1851.0,16.0,5.0,71.0,4.4,4.0,1.2,1.8,coop
 6408430141463,6408430141463,Glutenfri Dream Fraiche Oddlygood 14%,Oddlygood®,100.0 Gram,"23,61 kr",168.0,697.0,14.0,10.0,6.6,3.1,,3.6,0.07,coop
 7320880010016,7320880010016,Glutenfri Fiberhusk,HUSK,100.0 Gram,"103,16 kr",191.0,769.0,1.1,0.2,1.2,0.2,85.0,1.7,0.21,coop
@@ -2569,8 +2569,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8008698048634,8008698048634,Glutenfritt Powerknäcke,Schär,100.0 Gram,"39,28 kr",358.0,1509.0,3.5,0.6,63.0,2.8,12.0,12.0,1.2,coop
 8008698048658,8008698048658,Glutenfritt Rosmarinknäcke med salt,Schär,100.0 Gram,"34,97 kr",374.0,1580.0,3.5,0.5,78.0,5.0,6.0,4.5,2.3,coop
 7320880011433,7320880011433,Glutenfritt Soft Bake,Lindroos,100.0 Gram,"88,02 kr",188.0,790.0,0.0,0.0,0.0,0.0,93.0,0.0,1.2,coop
-7311143500504,7311143500504,Glutenfritt Ströbröd,Finax,100.0 Gram,"30,24 kr",314.0,1314.0,2.4,0.2,69.0,1.7,4.9,1.6,2.5,coop
 7331787007429,7331787007429,Glutenfritt Ströbröd,MixWell,100.0 Gram,"26,97 kr",349.0,1458.0,0.1,0.1,85.0,9.9,,0.9,1.6,coop
+7311143500504,7311143500504,Glutenfritt Ströbröd,Finax,100.0 Gram,"30,24 kr",314.0,1314.0,2.4,0.2,69.0,1.7,4.9,1.6,2.5,coop
 8414472101844,8414472101844,Glutenfritt Ströbröd Panko Crunchy Crumbs,Esgir,100.0 Gram,"30,76 kr",378.0,1601.0,1.0,0.19,83.5,2.8,,6.4,2.2,coop
 8008698048610,8008698048610,Glutenfritt Superknäcke Chia,Schär,100.0 Gram,"17,93 kr",359.0,1516.0,3.2,0.4,73.0,0.1,9.0,5.0,1.4,coop
 7333192074119,7333192074119,Glutenfritt Surdegsbröd,FriendsofAdam,100.0 Gram,"39,28 kr",170.0,711.0,1.2,0.0,37.0,4.7,1.8,2.6,1.0,coop
@@ -2677,8 +2677,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310240001785,7310240001785,Granola Kakao & hallon,Paulúns,100.0 Gram,"52,95 kr",415.0,1735.0,15.0,2.1,50.0,8.8,22.0,9.6,0.44,coop
 7350099111136,7350099111136,Granola Kakao & hallon,Färsking,100.0 Gram,"41,17 kr",430.0,1749.0,18.0,3.8,47.0,4.1,19.0,11.0,0.4,coop
 7310130013256,7310130013256,"Granola Kakao, mandel & blåbär",AXA,100.0 Gram,"43,49 kr",439.0,1837.0,21.0,5.4,44.0,2.7,19.0,9.4,0.4,coop
-7310130013287,7310130013287,Granola Natural,AXA,100.0 Gram,"41,60 kr",416.0,1742.0,16.0,2.0,50.0,4.6,19.0,8.7,0.43,coop
 7340191146709,7340191146709,Granola Natural,Xtra,100.0 Gram,"24,56 kr",442.0,1856.0,14.0,1.8,65.0,19.0,8.1,9.9,0.35,coop
+7310130013287,7310130013287,Granola Natural,AXA,100.0 Gram,"41,60 kr",416.0,1742.0,16.0,2.0,50.0,4.6,19.0,8.7,0.43,coop
 7310130012044,7310130012044,Granola Naturell,START!,100.0 Gram,"44,01 kr",430.0,1799.0,14.0,1.8,63.0,20.0,7.1,9.0,0.51,coop
 7310130801709,7310130801709,Granola Naturell,START!,100.0 Gram,"39,28 kr",430.0,1799.0,14.0,1.8,63.0,20.0,7.1,9.0,0.51,coop
 7340191153080,7340191153080,Granola Naturell,Coop,100.0 Gram,"39,28 kr",402.0,1683.0,12.0,1.7,52.0,3.3,21.0,11.0,0.12,coop
@@ -2716,9 +2716,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5711953180613,5711953180613,Grekisk Matyoghurt 10%,Arla®,100.0 Gram,"16,99 kr",123.0,510.0,10.0,6.4,3.3,3.3,,4.2,0.1,coop
 7350056793016,7350056793016,Grekisk Yoghurt 0%,Larsa Foods,100.0 Gram,"22,67 kr",58.0,247.0,0.0,0.0,4.5,3.5,,10.0,0.1,coop
 7350056793177,7350056793177,Grekisk Yoghurt 0%,Larsa Foods,100.0 Gram,"39,28 kr",58.0,247.0,0.0,0.0,4.5,3.5,,10.0,0.1,coop
+7350056793023,7350056793023,Grekisk Yoghurt 10%,Larsa Foods,100.0 Gram,"37,81 kr",123.0,510.0,10.0,6.1,4.2,4.2,,3.4,0.1,coop
 7310865095466,7310865095466,Grekisk yoghurt 10%,Arla Köket®,100.0 Gram,"37,81 kr",124.0,512.0,10.0,6.5,3.4,3.4,,4.3,0.09,coop
 7316150977141,7316150977141,Grekisk Yoghurt 10%,Fontana,100.0 Gram,"28,35 kr",137.0,573.0,10.0,6.0,5.7,5.7,,6.0,0.18,coop
-7350056793023,7350056793023,Grekisk Yoghurt 10%,Larsa Foods,100.0 Gram,"37,81 kr",123.0,510.0,10.0,6.1,4.2,4.2,,3.4,0.1,coop
 4016241050588,4016241050588,"Grekisk Yoghurt Citron 0,2%",Arla®,100.0 Gram,"39,28 kr",57.0,242.0,0.2,0.1,4.4,3.8,,8.7,0.16,coop
 4016241050328,4016241050328,"Grekisk Yoghurt Citron 0,2%",Arla®,100.0 Gram,"14,15 kr",57.0,242.0,0.2,0.1,4.4,3.8,,8.7,0.16,coop
 7350056793160,7350056793160,Grekisk Yoghurt Jordgubb 0%,Larsa Foods,100.0 Gram,"26,45 kr",56.0,238.0,0.0,0.0,4.7,3.4,,9.3,0.1,coop
@@ -2758,8 +2758,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310620020504,7310620020504,Grillkorv Hots,Lithells,100.0 Gram,"17,51 kr",240.0,1000.0,18.0,7.0,14.0,0.8,,6.7,1.9,coop
 7331044066336,7331044066336,Grillkorv Kalkon,Ingelsta Kalkon,100.0 Gram,"46,33 kr",230.0,960.0,18.0,4.4,6.0,1.0,,12.0,2.0,coop
 7300156480705,7300156480705,Grillkorv Kyckling,Coop,100.0 Gram,"21,72 kr",240.0,1000.0,19.0,6.0,7.0,0.5,,10.0,2.0,coop
-7300327537009,7300327537009,Grillkorv Kyckling,Kronfågel,100.0 Gram,"27,40 kr",210.0,900.0,15.0,3.4,9.5,1.6,,9.0,2.0,coop
 7300327538006,7300327538006,Grillkorv Kyckling,Kronfågel,100.0 Gram,"28,35 kr",230.0,1000.0,18.0,3.3,6.0,0.5,,11.0,2.1,coop
+7300327537009,7300327537009,Grillkorv Kyckling,Kronfågel,100.0 Gram,"27,40 kr",210.0,900.0,15.0,3.4,9.5,1.6,,9.0,2.0,coop
 7300156480712,7300156480712,Grillkorv Kyckling Tjock,Coop,100.0 Gram,"29,29 kr",240.0,1000.0,19.0,6.0,7.0,0.5,,10.0,2.0,coop
 7310628008832,7310628008832,Grillkorv med skinn,Lithells,100.0 Gram,"61,47 kr",270.0,1150.0,22.0,8.6,11.0,2.5,,8.3,1.9,coop
 7300207071005,7300207071005,Grillkorv med tunt skinn,Scan,100.0 Gram,"47,27 kr",250.0,1050.0,20.0,7.3,9.8,0.5,,9.5,2.2,coop
@@ -2777,10 +2777,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350037194672,7350037194672,Grillkorv Vegan,Peas of Heaven,100.0 Gram,"34,54 kr",178.0,743.0,14.4,4.6,5.1,2.5,4.1,7.2,2.0,coop
 7350037196393,7350037196393,Grillkorv vegan,Peas of Heaven,100.0 Gram,"41,17 kr",180.0,730.0,14.0,4.4,3.4,0.6,,6.8,2.0,coop
 7300156586827,7300156586827,Grillkorv Vegansk,COOP,100.0 Gram,"28,23 kr",193.0,797.0,17.0,1.3,3.2,1.2,,6.7,1.8,coop
-7311311014192,7311311014192,Grillkrydda,Santa Maria,100.0 Gram,"25,44 kr",176.0,738.0,3.1,0.6,24.0,4.5,11.0,7.1,46.4,coop
 7340191154926,7340191154926,Grillkrydda,Xtra,100.0 Gram,"15,97 kr",199.0,831.0,5.5,0.9,23.0,15.0,,7.3,40.5,coop
 7311311014024,7311311014024,Grillkrydda,Santa Maria,100.0 Gram,"55,36 kr",176.0,738.0,3.1,0.6,24.0,4.5,11.0,7.1,46.4,coop
 7311311014017,7311311014017,Grillkrydda,Santa Maria,100.0 Gram,"28,26 kr",176.0,738.0,3.1,0.6,24.0,4.5,11.0,7.1,46.4,coop
+7311311014192,7311311014192,Grillkrydda,Santa Maria,100.0 Gram,"25,44 kr",176.0,738.0,3.1,0.6,24.0,4.5,11.0,7.1,46.4,coop
 7311311016202,7311311016202,Grillkrydda Chili & Smokey,Santa Maria,100.0 Gram,"29,21 kr",232.0,970.0,5.1,0.9,28.0,5.8,16.0,11.0,30.3,coop
 7311311016196,7311311016196,Grillkrydda Honung,Santa Maria,100.0 Gram,"28,48 kr",179.0,755.0,2.2,0.4,28.0,6.8,8.7,7.7,46.4,coop
 7350046463660,7350046463660,Grillkrydda Original,KOCKENS,,"29,29 kr",,,,,,,,,,
@@ -2796,9 +2796,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311310028091,7311310028091,Grillolja Honung,Santa Maria,100.0 Gram,"25,10 kr",443.0,1829.0,42.0,2.9,16.0,16.0,0.0,0.5,2.1,coop
 7315200590958,7315200590958,Grillolja Original,Caj P,100.0 Gram,"47,27 kr",340.0,1426.0,36.0,2.6,3.9,1.8,,1.0,5.1,coop
 7315200590811,7315200590811,Grillolja Original,Caj P,100.0 Milliliter,"26,97 kr",340.0,1426.0,36.0,2.6,3.9,1.8,,1.0,5.1,coop
+7311310281212,7311310281212,Grillolja Vitlök,Santa Maria,100.0 Gram,"25,10 kr",236.0,976.0,19.0,1.3,10.0,3.3,6.4,2.1,6.3,coop
 7315200590835,7315200590835,Grillolja Vitlök,Caj P,100.0 Gram,"26,97 kr",323.0,1353.0,34.7,2.5,3.6,0.8,,0.7,6.8,coop
 7315200590972,7315200590972,Grillolja Vitlök,Caj P,100.0 Gram,"47,27 kr",323.0,1353.0,34.7,2.5,3.6,0.8,,0.7,6.8,coop
-7311310281212,7311310281212,Grillolja Vitlök,Santa Maria,100.0 Gram,"25,10 kr",236.0,976.0,19.0,1.3,10.0,3.3,6.4,2.1,6.3,coop
 7340191187009,7340191187009,Grillost,Coop,100.0 Gram,"19,40 kr",316.0,1312.0,25.0,16.0,1.5,1.5,,21.0,2.0,coop
 7300156594341,7300156594341,Grillost Svensk,Coop,100.0 Gram,"27,99 kr",330.0,1390.0,28.0,18.0,0.8,0.5,,19.0,2.6,coop
 7350027798002,7350027798002,Grillost Svensk,Zeta,100.0 Gram,"32,13 kr",350.0,1460.0,28.0,18.0,0.8,0.5,,24.0,2.0,coop
@@ -2854,8 +2854,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7312060502169,7312060502169,Gräddglass Salt karamell,Triumf Glass,100.0 Gram,"16,56 kr",200.0,850.0,10.0,6.7,25.0,23.0,,2.9,0.33,coop
 7312690307035,7312690307035,Gräddglass SaltKaramell,SIA Glass,100.0 Gram,"43,49 kr",190.0,800.0,12.0,7.4,15.0,7.0,11.0,3.8,0.1,coop
 7312690021207,7312690021207,Gräddglass Saltlakrits,SIA Glass,100.0 Gram,"16,56 kr",230.0,950.0,11.0,6.4,28.0,25.0,0.0,3.4,0.1,coop
-7312690021108,7312690021108,Gräddglass Vanilj,SIA Glass,100.0 Gram,"16,56 kr",210.0,860.0,10.0,6.8,23.0,22.0,0.0,3.8,0.1,coop
 7312690021405,7312690021405,Gräddglass Vanilj,SIA Glass,100.0 Gram,"41,60 kr",210.0,850.0,10.0,6.8,23.0,22.0,0.0,3.8,0.1,coop
+7312690021108,7312690021108,Gräddglass Vanilj,SIA Glass,100.0 Gram,"16,56 kr",210.0,860.0,10.0,6.8,23.0,22.0,0.0,3.8,0.1,coop
 7312690304065,7312690304065,Gräddglass Vanilj Eko,SIA Glass,100.0 Gram,"37,81 kr",240.0,1000.0,16.0,10.0,21.0,21.0,0.0,3.0,0.1,coop
 7312690021146,7312690021146,Gräddglass Wienernougat,SIA Glass,100.0 Gram,"16,56 kr",240.0,1000.0,14.0,6.2,24.0,23.0,0.0,4.7,0.1,coop
 7312690201371,7312690201371,Gräddglass Äppelpaj,SIA Glass,100.0 Gram,"16,99 kr",180.0,750.0,6.9,4.3,27.0,23.0,0.0,2.5,0.1,coop
@@ -3017,8 +3017,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191180352,7340191180352,Hallonsylt,Coop,100.0 Gram,"27,40 kr",180.0,762.0,0.1,0.0,43.0,43.0,,0.6,0.02,coop
 7310770221424,7310770221424,Hallonsylt,Önos,100.0 Gram,"41,17 kr",180.0,754.0,0.0,0.0,43.0,42.0,,0.0,0.0,coop
 7340191170827,7340191170827,Hallonsylt Eko,Änglamark,100.0 Gram,"27,40 kr",192.0,815.0,0.6,0.0,45.0,45.0,,0.6,0.05,coop
-7340191188990,7340191188990,Hallonsylt Eko,Änglamark,100.0 Gram,"31,95 kr",192.0,815.0,0.2,0.0,45.0,42.0,,0.7,0.05,coop
 7317661700310,7317661700310,Hallonsylt Eko,Björnekulla,100.0 Gram,"52,95 kr",140.0,592.0,0.0,0.0,33.0,32.0,2.3,0.5,0.04,coop
+7340191188990,7340191188990,Hallonsylt Eko,Änglamark,100.0 Gram,"31,95 kr",192.0,815.0,0.2,0.0,45.0,42.0,,0.7,0.05,coop
 7340011416043,7340011416043,Hallonsylt Hink,Xtra,100.0 Gram,"47,27 kr",172.0,731.0,0.0,0.0,43.0,42.0,,0.0,0.0,coop
 7316110001855,7316110001855,Hallonsylt lättsockrad refill,BOB,100.0 Gram,"46,33 kr",129.0,539.0,0.0,0.0,30.0,29.0,,0.0,0.0,coop
 7310770219421,7310770219421,Hallonsylt Lågkalori,Önos,100.0 Gram,"41,17 kr",40.0,160.0,0.0,0.0,7.5,6.5,,0.0,0.0,coop
@@ -3407,8 +3407,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8410076460721,8410076460721,Jalapeños Gröna Skivade,Old El Paso,100.0 Gram,"28,35 kr",20.0,83.0,0.2,0.1,3.4,2.0,1.4,0.5,1.2,coop
 7350051212048,7350051212048,Jamón Curado Duroc,Engelmanns,100.0 Gram,"70,93 kr",288.0,1202.0,19.0,7.5,0.5,0.4,,28.6,5.9,coop
 7350051212024,7350051212024,Jamón Ibérico,Engelmanns,100.0 Gram,"137,23 kr",485.0,2006.0,42.6,12.3,0.4,0.4,,24.9,3.2,coop
-7340191137202,7340191137202,Jamón Serrano,Coop,100.0 Gram,"77,56 kr",223.0,934.0,11.0,3.9,0.0,0.0,,31.0,4.5,coop
 7300156586506,7300156586506,Jamón Serrano,Coop,100.0 Gram,"25,51 kr",220.0,930.0,11.0,3.9,0.5,0.5,,31.0,4.5,coop
+7340191137202,7340191137202,Jamón Serrano,Coop,100.0 Gram,"77,56 kr",223.0,934.0,11.0,3.9,0.0,0.0,,31.0,4.5,coop
 7300156592903,7300156592903,Jamón Serrano Gran Reserva,Coop,100.0 Gram,"37,81 kr",216.0,907.0,9.9,3.8,0.8,0.7,,31.0,4.4,coop
 7310960007906,7310960007906,Janssons Frestelse,Familjen Dafgård,100.0 Gram,"40,65 kr",176.0,736.0,13.0,7.4,11.0,2.0,1.3,2.7,0.86,coop
 7391814009154,7391814009154,Japansk Mix,Exotic Snacks,100.0 Gram,"33,07 kr",398.0,1666.0,6.9,1.0,75.0,7.3,0.9,7.4,1.2,coop
@@ -3437,8 +3437,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191172159,7340191172159,Jordgubbar,Coop,100.0 Gram,"26,45 kr",30.0,125.0,0.0,0.0,5.8,5.8,1.8,0.7,0.0,coop
 7340191154049,7340191154049,Jordgubbar Eko,Änglamark,100.0 Gram,"32,13 kr",28.0,120.0,0.0,0.0,6.4,4.7,1.4,0.0,0.0,coop
 7317731502400,7317731502400,Jordgubbar Eko,Saltå Kvarn,100.0 Gram,"28,87 kr",320.0,1320.0,1.1,0.1,74.0,55.0,3.5,2.6,0.1,coop
-4820195680681,4820195680681,Jordgubbar Frystorkade,Panfruit,100.0 Gram,"44,43 kr",386.0,1630.0,0.0,0.0,79.0,44.0,21.0,7.0,0.0,coop
 7340123700924,7340123700924,Jordgubbar Frystorkade,Khoisan Gourmet,100.0 Gram,"46,33 kr",346.0,1450.0,1.2,0.07,86.0,46.0,21.0,5.2,0.03,coop
+4820195680681,4820195680681,Jordgubbar Frystorkade,Panfruit,100.0 Gram,"44,43 kr",386.0,1630.0,0.0,0.0,79.0,44.0,21.0,7.0,0.0,coop
 7350088700174,7350088700174,Jordgubbs Granola Eko,Chelsie's,100.0 Gram,"66,20 kr",451.2,1884.6,25.2,9.1,42.7,13.9,8.8,13.5,0.3,coop
 7310770563586,7310770563586,Jordgubbsaft,Önos,100.0 Milliliter,"44,43 kr",48.0,202.0,0.0,0.0,12.0,12.0,,0.0,0.0,coop
 8410525116704,8410525116704,Jordgubbsdrömmar,FINI,100.0 Gram,"12,78 kr",326.0,1387.0,0.0,0.0,79.0,58.0,,4.0,0.1,coop
@@ -3560,9 +3560,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7314720719856,7314720719856,Juice Äpple,Kiviks,100.0 Milliliter,"19,83 kr",45.0,190.0,0.1,0.0,10.4,9.8,,0.1,0.0,coop
 7340191176201,7340191176201,Juice äpple,Coop,100.0 Milliliter,"29,19 kr",40.0,170.0,0.0,0.0,10.0,9.9,,0.0,0.01,coop
 5038862139496,5038862139496,Juice Äpple,Innocent,100.0 Milliliter,"37,81 kr",45.0,190.0,0.0,0.0,11.0,9.5,,0.2,0.0,coop
-5410188031812,5410188031812,Juice Äpple,Tropicana,100.0 Milliliter,"47,27 kr",48.0,205.0,0.0,0.0,11.0,11.0,0.7,0.1,0.8,coop
 5038862138581,5038862138581,Juice Äpple,Innocent,100.0 Milliliter,"52,68 kr",45.0,190.0,0.0,0.0,11.0,9.5,,0.2,0.0,coop
 7310865081650,7310865081650,Juice Äpple,God Morgon®,100.0 Milliliter,"38,76 kr",43.0,183.0,0.5,0.0,10.0,9.7,,0.5,0.0,coop
+5410188031812,5410188031812,Juice Äpple,Tropicana,100.0 Milliliter,"47,27 kr",48.0,205.0,0.0,0.0,11.0,11.0,0.7,0.1,0.8,coop
 7314720719603,7314720719603,Juice Äpple,Kiviks Musteri,100.0 Gram,"24,56 kr",45.0,190.0,0.1,0.0,10.0,10.0,0.7,0.0,0.0,coop
 7314720719702,7314720719702,Juice Äpple & apelsin,Kiviks,100.0 Milliliter,"19,83 kr",45.0,190.0,0.1,0.0,10.3,9.8,,0.3,0.0,coop
 7310867561679,7310867561679,Juice Äpple & fläder,Bravo,100.0 Gram,"23,61 kr",45.0,180.0,0.0,0.0,9.5,9.5,,0.0,0.0,coop
@@ -3630,8 +3630,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310760012483,7310760012483,Kaffebönor Mellanmörk Eko,Arvid Nordquist Selection,,"82,28 kr",,,,,,,,,,
 7310760040929,7310760040929,Kaffebönor Mellanmörk Gran Dia,Arvid Nordquist,,"84,39 kr",,,,,,,,,,
 7310760041094,7310760041094,Kaffebönor Mellanrost,Arvid Nordquist,,"84,39 kr",,,,,,,,,,
-7310831022137,7310831022137,Kaffebönor Mellanrost,Lindvalls Kaffe,,"92,55 kr",,,,,,,,,,
 8711000899465,8711000899465,Kaffebönor Mellanrost,GEVALIA,,"90,49 kr",,,,,,,,,,
+7310831022137,7310831022137,Kaffebönor Mellanrost,Lindvalls Kaffe,,"92,55 kr",,,,,,,,,,
 8711000587249,8711000587249,Kaffebönor Mellanrost Crema,GEVALIA,,"163,71 kr",,,,,,,,,,
 7310050012278,7310050012278,Kaffebönor Mellanrost Eko,Löfbergs,,"81,59 kr",,,,,,,,,,
 7300156580092,7300156580092,Kaffebönor Mellanrost Eko,Änglamark,,"69,13 kr",,,,,,,,,,
@@ -3822,8 +3822,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310394002805,7310394002805,Kanel Malen Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7314878358006,7314878358006,Kanelbullar 10-pack,Skogaholm,100.0 Gram,"29,29 kr",340.0,1450.0,8.9,1.7,58.0,20.0,,6.4,0.4,coop
 7340011473053,7340011473053,Kanelbullar 12-pack,Coop,100.0 Gram,"29,29 kr",350.0,1473.0,10.0,1.2,58.0,20.0,,5.9,0.5,coop
-7300156502629,7300156502629,Kanelbullar 20-pack,Coop,100.0 Gram,"44,96 kr",340.0,144.0,10.0,1.2,57.0,21.0,,5.4,0.5,coop
 7310500176833,7310500176833,Kanelbullar 20-pack,Findus,100.0 Gram,"47,27 kr",368.0,1551.0,11.0,2.0,60.0,24.0,2.7,6.0,0.25,coop
+7300156502629,7300156502629,Kanelbullar 20-pack,Coop,100.0 Gram,"44,96 kr",340.0,144.0,10.0,1.2,57.0,21.0,,5.4,0.5,coop
 7315361111894,7315361111894,Kanelbullekaka,DELICATO,100.0 Gram,"8,99 kr",400.0,1700.0,19.0,1.6,54.0,36.0,,2.4,0.6,coop
 7315361114017,7315361114017,Kanelbullekaka 4-pack,DELICATO,100.0 Gram,"24,56 kr",400.0,1700.0,19.0,1.6,54.0,36.0,,2.4,0.6,coop
 7313981024952,7313981024952,Kanelgömma,Hägges,100.0 Gram,"40,64 kr",438.0,1835.0,20.0,,53.0,34.0,,3.7,1.1,coop
@@ -4096,8 +4096,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156585592,7300156585592,Kokkaffe Mellanrost,Coop,100.0 Gram,"53,86 kr",0.0,0.0,,,,,,,,coop
 7310760012889,7310760012889,Kokkaffe Mellanrost,Arvid Nordquist,,"72,97 kr",,,,,,,,,,
 8711000530153,8711000530153,Kokkaffe Mellanrost,Gevalia,,"71,67 kr",,,,,,,,,,
-7310831020041,7310831020041,Kokkaffe Mellanrost,Lindvalls Kaffe,,"74,18 kr",,,,,,,,,,
 7310050003504,7310050003504,Kokkaffe Mellanrost,Löfbergs,,"65,66 kr",,,,,,,,,,
+7310831020041,7310831020041,Kokkaffe Mellanrost,Lindvalls Kaffe,,"74,18 kr",,,,,,,,,,
 7310620032040,7310620032040,Kokkorv I Burk,Sibylla,100.0 Gram,"31,71 kr",210.0,900.0,19.0,9.5,2.5,0.5,,8.0,2.1,coop
 7340191146501,7340191146501,Kokos Creme Eko,Änglamark,100.0 Milliliter,"19,83 kr",227.0,938.0,23.0,20.0,3.6,1.5,,1.5,0.04,coop
 7340130504072,7340130504072,Kokosbite Gojibär,Renée Voltaire,100.0 Gram,"22,04 kr",490.0,2100.0,29.0,22.0,47.0,33.0,9.6,6.1,,coop
@@ -4120,9 +4120,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311312005472,7311312005472,Kokosmjölk Eko,Santa Maria,100.0 Gram,"20,77 kr",180.0,744.0,18.0,16.0,2.7,2.2,,1.9,0.02,coop
 7340191162549,7340191162549,Kokosmjölk eko,Änglamark,100.0 Milliliter,"19,83 kr",181.0,744.0,18.0,17.0,1.7,1.7,,2.1,0.02,coop
 7311312005465,7311312005465,Kokosmjölk Lätt,Santa Maria,100.0 Gram,"16,36 kr",79.0,325.0,8.0,7.7,0.9,0.8,,0.8,0.0,coop
-7350021422699,7350021422699,Kokosolja Eko,HEALTHYCO,100.0 Gram,"71,88 kr",900.0,3760.0,100.0,91.0,0.0,0.0,,0.0,0.0,coop
 7340191160699,7340191160699,Kokosolja Eko,Änglamark,100.0 Gram,"38,68 kr",900.0,3700.0,100.0,89.0,0.0,0.0,,0.0,0.0,coop
 7340191160705,7340191160705,Kokosolja Eko,Änglamark,100.0 Gram,"61,20 kr",900.0,3700.0,100.0,87.0,0.0,0.0,,0.0,0.0,coop
+7350021422699,7350021422699,Kokosolja Eko,HEALTHYCO,100.0 Gram,"71,88 kr",900.0,3760.0,100.0,91.0,0.0,0.0,,0.0,0.0,coop
 7350021422705,7350021422705,Kokosolja Neutral Eko,HEALTHYCO,100.0 Gram,"62,42 kr",900.0,3760.0,100.0,91.0,0.0,0.0,,0.0,0.0,coop
 7391835923316,7391835923316,Kokosolja Virgin Eko,Kung Markatta,100.0 Gram,"97,48 kr",900.0,3700.0,100.0,93.0,0.0,0.0,,0.0,0.0,coop
 5411823868336,5411823868336,Kokostoppar,Poppies,100.0 Gram,"26,97 kr",464.0,1938.0,24.0,23.0,54.0,47.0,6.1,4.4,0.06,coop
@@ -4164,25 +4164,25 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156487193,7300156487193,Kolsyrat mineralvatten Naturell,Coop,,"8,47 kr",,,,,,,,,,
 7310401058863,7310401058863,Kolsyrat vatten Ananas drakfrukt,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401058801,7310401058801,Kolsyrat vatten Apelsin & mandarin,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
+7300156601148,7300156601148,Kolsyrat Vatten Apelsin & Mango,Coop,,"9,42 kr",,,,,,,,,,
 7300156597717,7300156597717,Kolsyrat vatten apelsin & mango,Coop,,"9,42 kr",,,,,,,,,,
 7300156597694,7300156597694,Kolsyrat vatten apelsin & mango,Coop,,"8,47 kr",,,,,,,,,,
-7300156601148,7300156601148,Kolsyrat Vatten Apelsin & Mango,Coop,,"9,42 kr",,,,,,,,,,
 7300156597700,7300156597700,Kolsyrat vatten Apelsin & mango 6-pack,Coop,,"30,24 kr",,,,,,,,,,
 7310401058818,7310401058818,Kolsyrat vatten Apelsin mandarin,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310403058830,7310403058830,Kolsyrat vatten Apelsin mandarin 12-pack,Loka,100.0 Milliliter,"45,90 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401000053,7310401000053,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310400020731,7310400020731,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401016481,7310401016481,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"5,63 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
-7300156487315,7300156487315,Kolsyrat vatten Citron,Coop,,"9,42 kr",,,,,,,,,,
-7300156487179,7300156487179,Kolsyrat vatten Citron,Coop,,"8,47 kr",,,,,,,,,,
 7300156601155,7300156601155,Kolsyrat vatten Citron,Coop,,"9,42 kr",,,,,,,,,,
 7310401059082,7310401059082,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401059105,7310401059105,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"5,63 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310400011258,7310400011258,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"5,63 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401059099,7310401059099,Kolsyrat vatten Citron,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
+7300156487315,7300156487315,Kolsyrat vatten Citron,Coop,,"9,42 kr",,,,,,,,,,
+7300156487179,7300156487179,Kolsyrat vatten Citron,Coop,,"8,47 kr",,,,,,,,,,
 5449000169587,5449000169587,Kolsyrat vatten Citron & Lime,bonaqua,100.0 Milliliter,"11,83 kr",0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.0,coop
-7300156600721,7300156600721,Kolsyrat Vatten Citron 12-pack,Eau så friskt!,,"40,22 kr",,,,,,,,,,
 7310403059103,7310403059103,Kolsyrat vatten Citron 12-pack,Loka,100.0 Milliliter,"45,90 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
+7300156600721,7300156600721,Kolsyrat Vatten Citron 12-pack,Eau så friskt!,,"40,22 kr",,,,,,,,,,
 7310070001832,7310070001832,Kolsyrat vatten Citrus,Ramlösa,,"11,83 kr",,,,,,,,,,
 73145721,73145721,Kolsyrat vatten Citrus,Ramlösa,,"4,68 kr",,,,,,,,,,
 7310070009906,7310070009906,Kolsyrat vatten Citrus,Ramlösa,,"6,58 kr",,,,,,,,,,
@@ -4231,9 +4231,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310070010087,7310070010087,Kolsyrat vatten Mango & Grapefrukt,Ramlösa,,"10,88 kr",,,,,,,,,,
 7310401046785,7310401046785,Kolsyrat vatten Mango & lime,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310401046808,7310401046808,Kolsyrat vatten Mango & Lime,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
+7310070010148,7310070010148,Kolsyrat vatten Naturell,Ramlösa,,"10,88 kr",,,,,,,,,,
 7310070010155,7310070010155,Kolsyrat vatten Naturell,Ramlösa,,"11,83 kr",,,,,,,,,,
 7310401000060,7310401000060,Kolsyrat vatten Naturell,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
-7310070010148,7310070010148,Kolsyrat vatten Naturell,Ramlösa,,"10,88 kr",,,,,,,,,,
 7310401059150,7310401059150,Kolsyrat vatten Naturell,Loka,100.0 Milliliter,"11,83 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310400020182,7310400020182,Kolsyrat vatten Naturell,Loka,100.0 Milliliter,"9,42 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
 7310400011241,7310400011241,Kolsyrat vatten Naturell,Loka,100.0 Milliliter,"5,63 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,coop
@@ -4338,8 +4338,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 73500339,73500339,Kronjäst Färsk För matbröd Eko,KronJäst,100.0 Gram,"9,42 kr",109.0,456.0,1.6,0.3,9.5,0.8,9.5,9.5,0.8,coop
 73500346,73500346,Kronjäst Färsk Söt,KronJäst,100.0 Gram,"3,31 kr",108.0,452.0,1.7,0.3,6.0,4.4,8.1,13.0,0.05,coop
 7300170040848,7300170040848,Kronärtskocka,,,"24,56 kr",,,,,,,,,,
-7316150376425,7316150376425,Kronärtskockor Marinerade,Fontana,100.0 Gram,"37,81 kr",104.0,429.0,9.0,1.1,2.5,0.8,,1.5,1.2,coop
 8001060001961,8001060001961,Kronärtskockor Marinerade,Saclá,100.0 Gram,"49,17 kr",121.0,496.0,10.8,1.3,1.1,0.9,,1.7,2.3,coop
+7316150376425,7316150376425,Kronärtskockor Marinerade,Fontana,100.0 Gram,"37,81 kr",104.0,429.0,9.0,1.1,2.5,0.8,,1.5,1.2,coop
 7340191133068,7340191133068,Kronärtskockshjärtan,Coop,100.0 Gram,"29,29 kr",36.0,153.0,0.0,0.0,6.8,0.8,,1.4,0.75,coop
 7340191170414,7340191170414,Krossade tomater,Coop,100.0 Gram,"9,42 kr",26.0,108.0,0.0,0.0,4.4,3.5,,1.3,0.05,coop
 7340191170438,7340191170438,Krossade tomater Chili,Coop,100.0 Gram,"13,72 kr",28.0,120.0,0.0,0.0,5.5,3.5,,1.0,0.03,coop
@@ -4366,8 +4366,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311310026691,7311310026691,Kryddkvarn Five Pepper,Santa Maria,100.0 Gram,"52,99 kr",294.0,1233.0,4.3,1.0,42.0,0.0,25.0,9.6,0.16,coop
 7311311023484,7311311023484,Kryddkvarn Hello Curry,Santa Maria,100.0 Gram,"52,95 kr",245.0,1023.0,8.8,1.3,26.0,1.8,18.0,9.6,28.8,coop
 7311310026776,7311310026776,Kryddkvarn Roasted Garlic & Pepper,Santa Maria,100.0 Gram,"52,99 kr",266.0,1121.0,2.8,0.5,44.0,2.7,11.0,10.0,21.7,coop
-7311310041427,7311310041427,Kryddkvarn Rock Salt,Santa Maria,100.0 Gram,"103,79 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.0,coop
 7311310026790,7311310026790,Kryddkvarn Rock Salt,Santa Maria,100.0 Gram,"52,99 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.0,coop
+7311310041427,7311310041427,Kryddkvarn Rock Salt,Santa Maria,100.0 Gram,"103,79 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.0,coop
 7311310026721,7311310026721,Kryddkvarn Seafood & Fish,Santa Maria,100.0 Gram,"52,99 kr",201.0,844.0,3.2,0.4,30.0,14.0,11.0,7.6,36.9,coop
 7311311023477,7311311023477,Kryddkvarn Tomato & Herbs,Santa Maria,100.0 Gram,"52,99 kr",225.0,946.0,3.3,0.9,31.0,11.0,15.0,10.0,28.9,coop
 7311311028106,7311311028106,Kryddmix Cheesy Taco,Santa Maria,100.0 Gram,"12,78 kr",310.0,1298.0,7.8,2.5,41.0,17.0,11.0,13.0,14.5,coop
@@ -4476,8 +4476,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156584564,7300156584564,Kyckling Tex mex,Coop,100.0 Gram,"59,15 kr",131.0,550.0,5.4,1.0,2.3,1.6,,18.0,1.2,coop
 7313940267512,7313940267512,Kyckling Thaikryddad,Guldfågeln,100.0 Gram,"88,02 kr",170.0,700.0,8.9,2.5,3.1,0.7,,19.0,1.9,coop
 7340191168886,7340191168886,Kyckling Tikka Masala,Coop,100.0 Gram,"47,27 kr",158.0,663.0,6.1,2.6,20.0,3.0,,5.3,0.6,coop
-2317219900006,2317219900006,Kycklingben,Coop,100.0 Gram,"59,15 kr",160.0,700.0,10.0,2.8,0.5,0.5,,18.0,0.2,coop
 2307121100007,2307121100007,Kycklingben,Guldfågeln,100.0 Gram,"72,83 kr",160.0,650.0,9.0,3.0,0.5,0.5,,19.0,0.2,coop
+2317219900006,2317219900006,Kycklingben,Coop,100.0 Gram,"59,15 kr",160.0,700.0,10.0,2.8,0.5,0.5,,18.0,0.2,coop
 2332815100001,2332815100001,Kycklingben BBQ Grillkrydda,Kronfågel,100.0 Gram,"73,77 kr",100.0,430.0,3.6,0.7,0.5,0.5,,17.0,2.0,coop
 7300156585141,7300156585141,Kycklingben mörade,Coop,100.0 Gram,"36,86 kr",160.0,650.0,9.0,3.0,0.5,0.5,,19.0,0.7,coop
 7313940531200,7313940531200,Kycklingben mörade,Guldfågeln,100.0 Gram,"40,65 kr",160.0,650.0,9.0,3.0,0.5,0.5,,19.0,0.7,coop
@@ -4550,8 +4550,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2332827700008,2332827700008,Kycklinglårfilé,Coop,100.0 Gram,"168,46 kr",160.0,650.0,8.5,2.4,0.5,0.5,,20.0,0.3,coop
 2332810600001,2332810600001,Kycklinglårfilé BBQ Black garlic,Kronfågel,100.0 Gram,"173,45 kr",140.0,600.0,7.6,1.8,0.6,0.5,,18.0,1.0,coop
 2380102000008,2380102000008,Kycklinglårfilé Eko,Reko,100.0 Gram,"339,89 kr",208.0,870.0,14.9,3.28,0.93,0.0,,17.8,0.16,coop
-7300322547003,7300322547003,Kycklinglårfilé mörad,Kronfågel,100.0 Gram,"68,10 kr",140.0,600.0,7.5,1.9,0.5,0.5,,17.0,0.6,coop
 7340191176393,7340191176393,Kycklinglårfilé mörad,Xtra,100.0 Gram,"59,15 kr",131.0,546.0,7.4,2.0,0.0,0.0,,16.0,0.44,coop
+7300322547003,7300322547003,Kycklinglårfilé mörad,Kronfågel,100.0 Gram,"68,10 kr",140.0,600.0,7.5,1.9,0.5,0.5,,17.0,0.6,coop
 7300328531006,7300328531006,Kycklinglårfilé strimlad Minutstrimlor,Kronfågel,100.0 Gram,"88,02 kr",160.0,650.0,8.5,2.4,0.5,0.5,,20.0,0.3,coop
 7330989003413,7330989003413,Kycklingmortadella,Qibbla Halal,100.0 Gram,"21,72 kr",239.0,992.0,20.0,6.1,3.8,0.5,,11.0,2.3,coop
 7300156578693,7300156578693,Kycklingnuggets,Xtra,100.0 Gram,"40,65 kr",200.0,830.0,9.9,1.7,17.0,0.6,1.4,9.7,1.4,coop
@@ -4724,8 +4724,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6408432002946,6408432002946,Laktosfri Matgrädde Paprika & chili,VALIO,100.0 Gram,"20,35 kr",122.0,506.0,10.0,5.9,5.2,3.2,,2.5,0.9,coop
 6408432002953,6408432002953,Laktosfri Matgrädde Tre ostar,VALIO,100.0 Gram,"20,35 kr",117.0,486.0,10.0,5.9,3.5,1.8,,3.2,1.2,coop
 7300156575371,7300156575371,Laktosfri Matlagningsgrädde 13%,Coop,100.0 Gram,"16,08 kr",146.0,605.0,13.0,8.4,4.2,4.1,,3.1,0.08,coop
-7310865890726,7310865890726,Laktosfri Matlagningsgrädde 13%,Arla®,100.0 Gram,"34,54 kr",146.0,605.0,13.0,8.4,4.2,4.1,,3.1,0.08,coop
 7300156500953,7300156500953,Laktosfri Matlagningsgrädde 13%,Coop,100.0 Gram,"23,73 kr",146.0,605.0,13.0,8.4,4.2,4.1,,3.1,0.08,coop
+7310865890726,7310865890726,Laktosfri Matlagningsgrädde 13%,Arla®,100.0 Gram,"34,54 kr",146.0,605.0,13.0,8.4,4.2,4.1,,3.1,0.08,coop
 7310865085733,7310865085733,Laktosfri Mellanmjölk,Arla Ko®,100.0 Gram,"21,25 kr",37.0,154.0,1.5,1.0,2.4,2.4,,3.4,0.08,coop
 7300156500915,7300156500915,Laktosfri Mellanmjölk,Coop,100.0 Gram,"14,86 kr",37.0,154.0,1.5,1.0,2.4,2.4,,3.4,0.08,coop
 7310865067883,7310865067883,Laktosfri Mellanmjölk,Arla Ko®,100.0 Gram,"18,38 kr",37.0,154.0,1.5,1.0,2.4,2.4,,3.4,0.08,coop
@@ -4777,9 +4777,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6408432095733,6408432095733,Laktosfri Vispgrädde 35%,VALIO,100.0 Gram,"34,92 kr",340.0,1400.0,35.0,19.0,3.0,3.0,,2.0,0.1,coop
 6408432000959,6408432000959,Laktosfri Vispgrädde 35%,VALIO,100.0 Gram,"22,07 kr",336.0,1383.0,35.0,21.0,3.0,3.0,,2.2,0.07,coop
 7300156500946,7300156500946,Laktosfri Vispgrädde 36%,Coop,100.0 Gram,"28,91 kr",345.0,1423.0,36.0,23.0,3.1,3.0,,2.3,0.06,coop
+7300156575364,7300156575364,Laktosfri Vispgrädde 36%,Coop,100.0 Gram,"18,83 kr",345.0,1423.0,36.0,23.0,3.1,3.0,,2.3,0.06,coop
 7310865890740,7310865890740,Laktosfri Vispgrädde 36%,Arla®,100.0 Gram,"39,28 kr",346.0,1423.0,36.0,23.0,3.1,3.0,,2.3,0.06,coop
 7310865890733,7310865890733,Laktosfri Vispgrädde 36%,Arla®,100.0 Gram,"27,40 kr",346.0,1423.0,36.0,23.0,3.1,3.0,,2.3,0.06,coop
-7300156575364,7300156575364,Laktosfri Vispgrädde 36%,Coop,100.0 Gram,"18,83 kr",345.0,1423.0,36.0,23.0,3.1,3.0,,2.3,0.06,coop
 7310861011934,7310861011934,Laktosfri Yoghurt Citrus 2.2%,Verum,100.0 Gram,"29,29 kr",70.0,290.0,2.2,1.4,8.6,8.2,,3.1,0.1,coop
 4016241031211,4016241031211,"Laktosfri Yoghurt Dofilus Naturell 1,5%",Arla®,100.0 Gram,"31,71 kr",51.0,213.0,1.5,0.9,3.2,3.2,1.3,4.7,0.11,coop
 7310861015109,7310861015109,"Laktosfri Yoghurt Drottningbär 2,2%",Verum,100.0 Gram,"29,29 kr",70.0,300.0,2.2,1.4,9.1,8.7,,3.0,0.1,coop
@@ -4807,8 +4807,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6408432102523,6408432102523,"Laktosfri Yoghurt Vanilj 2,1%",Valio,100.0 Gram,"29,41 kr",71.0,297.0,2.1,1.2,8.8,8.3,,3.5,0.09,coop
 7311870012240,7311870012240,Laktosfri Yoghurt Vanilj 2.6%,Arla Ko®,100.0 Gram,"29,29 kr",69.0,292.0,2.6,1.7,7.3,6.8,,3.5,0.08,coop
 7310130007507,7310130007507,Laktosfria & Glutenfria Pannkakor 6-pack,Kungsörnen,100.0 Gram,"29,81 kr",168.0,703.0,6.4,0.9,22.0,0.6,0.5,5.2,0.65,coop
-7311870010901,7311870010901,Laktosfritt Bregott Smör & raps Normalsaltat,Bregott®,100.0 Gram,"34,97 kr",633.0,2602.0,70.0,29.0,0.4,0.4,,0.3,1.2,coop
 7311870010956,7311870010956,Laktosfritt Bregott Smör & raps Normalsaltat,Bregott®,100.0 Gram,"59,15 kr",633.0,2602.0,70.0,29.0,0.4,0.4,,0.3,1.2,coop
+7311870010901,7311870010901,Laktosfritt Bregott Smör & raps Normalsaltat,Bregott®,100.0 Gram,"34,97 kr",633.0,2602.0,70.0,29.0,0.4,0.4,,0.3,1.2,coop
 6408432001710,6408432001710,Laktosfritt Gårdsgoda,Valio,100.0 Gram,"43,40 kr",667.0,2790.0,75.0,31.0,0.5,0.5,,0.4,0.9,coop
 5710326017792,5710326017792,Laktosfritt Iskaffe,Geiafood,100.0 Milliliter,"23,61 kr",35.0,148.0,0.9,0.6,4.6,3.0,,2.1,0.08,coop
 6408432061295,6408432061295,Laktosfritt Smör,VALIO,100.0 Gram,"70,93 kr",713.0,2984.0,80.0,45.0,0.8,0.8,,0.6,0.8,coop
@@ -4908,8 +4908,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310620008700,7310620008700,Leverfärs,Lithells,100.0 Gram,"28,35 kr",200.0,850.0,14.0,5.6,11.0,1.4,,8.4,1.8,coop
 7310941803046,7310941803046,Leverpast Skivbar Tryfferad,Pastejköket,100.0 Gram,"16,99 kr",260.0,1100.0,20.0,7.7,7.5,4.8,,12.0,2.3,coop
 7300156598042,7300156598042,Leverpastej Bredbar,Coop,100.0 Gram,"11,31 kr",280.0,1150.0,24.0,9.7,7.0,2.0,,9.3,2.0,coop
-7300156598059,7300156598059,Leverpastej Bredbar Gurka,COOP,100.0 Gram,"11,31 kr",250.0,1050.0,19.0,8.0,12.0,4.5,,8.0,2.0,coop
 7310941801325,7310941801325,Leverpastej Bredbar Gurka,Pastejköket,100.0 Gram,"13,72 kr",300.0,1250.0,26.0,13.0,10.0,4.9,,6.5,2.0,coop
+7300156598059,7300156598059,Leverpastej Bredbar Gurka,COOP,100.0 Gram,"11,31 kr",250.0,1050.0,19.0,8.0,12.0,4.5,,8.0,2.0,coop
 7310941801066,7310941801066,Leverpastej Bredbar Original,Pastejköket,100.0 Gram,"13,72 kr",280.0,1200.0,24.0,9.4,9.0,4.0,,9.0,2.0,coop
 5707196053678,5707196053678,Leverpastej Grovhackad,TULIP,100.0 Gram,"14,67 kr",205.0,853.0,14.0,5.3,8.8,1.6,,10.0,2.0,coop
 5707196251357,5707196251357,Leverpastej Klassisk grov,Göl,100.0 Gram,"28,35 kr",243.0,1009.0,20.0,7.5,5.7,1.6,,10.0,1.9,coop
@@ -4935,8 +4935,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 4000539130007,4000539130007,Lindor Stick Orange,Lindt,100.0 Gram,"14,67 kr",612.0,2541.0,45.0,34.0,45.0,44.0,,5.4,0.17,coop
 4000539280160,4000539280160,Lindor Stick Salted Caramel,Lindt,100.0 Gram,"14,67 kr",622.0,2585.0,46.0,33.0,46.0,44.0,,5.3,0.45,coop
 8003340093284,8003340093284,Lindor Strawberries & Cream,Lindt,100.0 Gram,"54,85 kr",630.0,2617.0,48.0,35.0,44.0,44.0,,4.2,0.2,coop
-2097054800005,2097054800005,Lindösalami Peppar,Lönneberga,100.0 Gram,"273,52 kr",450.0,1900.0,40.0,16.0,2.5,2.0,,22.0,4.4,coop
 7312338007396,7312338007396,Lindösalami Peppar,Lönneberga,100.0 Gram,"28,35 kr",430.0,1780.0,36.0,14.0,2.3,0.7,,23.0,4.5,coop
+2097054800005,2097054800005,Lindösalami Peppar,Lönneberga,100.0 Gram,"273,52 kr",450.0,1900.0,40.0,16.0,2.5,2.0,,22.0,4.4,coop
 2097175600003,2097175600003,Lindösalami Rosé & grönpeppar,Lönneberga,100.0 Gram,"254,59 kr",430.0,1780.0,36.0,14.0,2.3,0.7,,23.0,4.5,coop
 7312338007402,7312338007402,Lindösalami Soltorkad tomat,Lönneberga,100.0 Gram,"28,35 kr",430.0,1790.0,37.0,14.0,2.7,1.7,,23.0,4.5,coop
 2097175400009,2097175400009,Lindösalami Tomat & basilika,Lönneberga,100.0 Gram,"254,59 kr",430.0,1770.0,36.0,14.0,3.0,2.0,,23.0,4.5,coop
@@ -5040,8 +5040,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8002270566974,8002270566974,Läsk Pesca & Clementina Zero,SanPellegrino,100.0 Milliliter,"13,20 kr",6.0,27.0,0.0,0.0,1.0,1.0,0.1,0.1,0.01,coop
 7340116879637,7340116879637,Läsk Pink & grapefruit,NÅBE,100.0 Milliliter,"17,51 kr",7.0,27.0,0.0,0.0,0.0,0.0,1.6,0.0,0.0,coop
 7312720144708,7312720144708,Läsk Sweet Peach Zero,Spirit of Sweden,100.0 Milliliter,"17,51 kr",1.0,4.0,0.5,0.1,0.0,0.0,,0.5,0.01,coop
-7310402059685,7310402059685,Läsk Zero Blodapelsin & citron,Mino,100.0 Milliliter,"43,49 kr",4.0,17.0,0.0,0.0,0.8,0.3,,0.0,0.0,coop
 7310401059686,7310401059686,Läsk Zero Blodapelsin & citron,Mino,100.0 Milliliter,"12,78 kr",4.0,17.0,0.0,0.0,0.8,0.3,,0.0,0.0,coop
+7310402059685,7310402059685,Läsk Zero Blodapelsin & citron,Mino,100.0 Milliliter,"43,49 kr",4.0,17.0,0.0,0.0,0.8,0.3,,0.0,0.0,coop
 8002270806940,8002270806940,Läsk Zero Citron,SanPellegrino,100.0 Milliliter,"13,20 kr",4.0,17.0,0.0,0.0,0.4,0.3,0.1,0.0,0.0,coop
 7310401059594,7310401059594,Läsk Zero Citron,Mino,100.0 Milliliter,"12,78 kr",3.0,14.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310402059630,7310402059630,Läsk Zero Citron & persika 4-pack,Mino,100.0 Milliliter,"43,49 kr",3.0,14.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
@@ -5072,7 +5072,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310861012429,7310861012429,"Lättfilmjölk Drottningbär 0,5%",Verum,100.0 Gram,"24,56 kr",60.0,240.0,0.5,0.5,8.8,8.5,,3.8,0.1,coop
 7340191177437,7340191177437,Lättmajo,Xtra,100.0 Gram,"15,62 kr",306.0,1265.0,30.0,1.9,9.1,4.8,,0.0,1.1,coop
 7300156595188,7300156595188,Lättmjölk,Coop,100.0 Gram,"16,03 kr",38.0,160.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
-7300156596833,7300156596833,Lättmjölk,Coop,100.0 Gram,"12,30 kr",160.0,38.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
+7300156596833,7300156596833,Lättmjölk,Coop,100.0 Gram,"12,30 kr",38.0,160.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
 7300156486301,7300156486301,Lättmjölk,Coop,100.0 Gram,"12,19 kr",38.0,160.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
 7310865001191,7310865001191,Lättmjölk Färsk,Arla Ko®,100.0 Gram,"12,78 kr",38.0,160.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
 7310865001115,7310865001115,Lättmjölk Färsk,Arla Ko®,100.0 Gram,"17,51 kr",38.0,160.0,0.5,0.3,4.7,4.7,,3.6,0.09,coop
@@ -5218,11 +5218,11 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5411188112709,5411188112709,Mandeldryck Osötad,Alpro,100.0 Milliliter,"23,61 kr",15.0,61.0,1.1,0.1,0.0,0.0,0.3,0.5,0.15,coop
 5410471110217,5410471110217,Mandelkakor,Jules Destrooper,100.0 Gram,"31,18 kr",458.0,1928.0,15.0,7.3,72.0,34.0,,7.4,0.97,coop
 7317065004014,7317065004014,Mandelkubb,Nyåkers,100.0 Gram,"37,81 kr",440.0,1850.0,15.0,7.0,69.0,39.0,,5.5,0.7,coop
-5709521031184,5709521031184,Mandelmassa,Odense,100.0 Gram,"55,79 kr",465.0,1945.0,26.0,2.0,45.0,41.0,,11.0,0.0,coop
-5709521047932,5709521047932,Mandelmassa,ODENSE,100.0 Gram,"34,54 kr",402.0,1681.0,31.0,2.3,13.0,4.1,26.0,13.0,0.01,coop
 7340191148451,7340191148451,Mandelmassa,Coop,100.0 Gram,"44,43 kr",455.0,1900.0,24.0,1.9,48.0,41.0,,9.7,0.02,coop
 7340191148444,7340191148444,Mandelmassa,Coop,100.0 Gram,"28,35 kr",455.0,1900.0,24.0,1.9,48.0,41.0,,9.7,0.02,coop
 5709521036226,5709521036226,Mandelmassa,Odense,100.0 Gram,"34,54 kr",465.0,1945.0,26.0,2.0,45.0,41.0,,11.0,0.0,coop
+5709521031184,5709521031184,Mandelmassa,Odense,100.0 Gram,"55,79 kr",465.0,1945.0,26.0,2.0,45.0,41.0,,11.0,0.0,coop
+5709521047932,5709521047932,Mandelmassa,ODENSE,100.0 Gram,"34,54 kr",402.0,1681.0,31.0,2.3,13.0,4.1,26.0,13.0,0.01,coop
 5709521027972,5709521027972,Mandelmassa Lyx,Odense,100.0 Gram,"68,10 kr",479.0,2006.0,31.0,2.3,35.0,30.0,,13.0,0.0,coop
 7340191148529,7340191148529,Mandelmjöl,Coop,100.0 Gram,"54,85 kr",657.0,2720.0,53.0,3.9,19.0,4.6,9.9,21.0,0.05,coop
 7312631023710,7312631023710,Mandelmjöl,Risenta,100.0 Gram,"77,56 kr",613.0,2535.0,53.0,4.0,8.8,4.6,9.9,21.0,0.05,coop
@@ -5564,9 +5564,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7622202238475,7622202238475,Mjölkchoklad,Marabou,100.0 Gram,"27,39 kr",544.0,2273.0,32.0,19.0,59.0,58.0,1.9,4.4,0.26,coop
 7622202277795,7622202277795,Mjölkchoklad,Marabou,100.0 Gram,"21,72 kr",548.0,2288.0,32.0,19.0,59.0,58.0,2.0,4.6,0.26,coop
 5709521050345,5709521050345,Mjölkchoklad,ODENSE,100.0 Gram,"38,33 kr",552.0,2289.0,36.0,22.0,48.0,47.0,,7.3,0.13,coop
+7310510002122,7310510002122,Mjölkchoklad,Marabou,100.0 Gram,"19,83 kr",550.0,2290.0,32.0,19.5,59.0,58.5,2.0,4.6,0.33,coop
 73550013,73550013,Mjölkchoklad,Marabou,100.0 Gram,"6,90 kr",550.0,2290.0,32.0,19.5,58.5,58.0,2.0,4.7,0.33,coop
 7340191100749,7340191100749,Mjölkchoklad,Xtra,100.0 Gram,"12,26 kr",524.0,2193.0,27.0,16.0,64.0,63.0,,5.3,0.14,coop
-7310510002122,7310510002122,Mjölkchoklad,Marabou,100.0 Gram,"19,83 kr",550.0,2290.0,32.0,19.5,59.0,58.5,2.0,4.6,0.33,coop
 8721325098986,8721325098986,Mjölkchoklad,Tony's Chocolonely,100.0 Gram,"29,81 kr",543.0,2270.0,33.0,20.0,52.0,51.0,,7.7,0.21,coop
 6411401019012,6411401019012,Mjölkchoklad,Fazer,100.0 Gram,"11,83 kr",550.0,2260.0,33.0,21.0,49.0,48.0,,11.0,0.3,coop
 7622202239427,7622202239427,Mjölkchoklad Apelsinkrokant,Marabou,100.0 Gram,"27,39 kr",531.0,2219.0,29.0,17.0,61.0,54.0,1.8,4.3,0.49,coop
@@ -5828,7 +5828,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7322550048008,7322550048008,Nudlar Yakisoba Beef,Mrs Cheng's,100.0 Gram,"24,56 kr",232.0,971.0,11.0,4.6,28.0,2.7,0.4,5.0,1.3,coop
 7322550048015,7322550048015,Nudlar Yakisoba Chicken,Mrs Cheng's,100.0 Gram,"24,56 kr",232.0,974.0,11.0,4.5,28.0,2.3,0.5,5.1,1.4,coop
 7322550048022,7322550048022,Nudlar Yakisoba Veggie,Mrs Cheng's,100.0 Gram,"24,56 kr",231.0,969.0,11.0,4.5,28.0,2.6,0.5,4.8,1.3,coop
-7350139110006,7350139110006,Nuggets,Nothing F!SHY,100.0 Gram,"44,43 kr",1032.0,247.0,19.0,1.3,15.0,1.1,2.3,3.5,1.3,coop
+7350139110006,7350139110006,Nuggets,Nothing F!SHY,100.0 Gram,"44,43 kr",247.0,1032.0,19.0,1.3,15.0,1.1,2.3,3.5,1.3,coop
 7290115203868,7290115203868,Nuggets Plantbaserade,Hälsans Kök,100.0 Gram,"77,56 kr",236.0,986.0,12.5,0.9,15.0,0.7,5.7,13.1,0.98,coop
 7340130506861,7340130506861,Nut Butter Cups Hasselnöt,Renée Voltaire,100.0 Gram,"37,81 kr",630.0,2615.0,49.0,20.0,38.0,27.0,1.3,8.8,,coop
 7340130506854,7340130506854,Nut Butter Cups Jordnöt,Renée Voltaire,100.0 Gram,"37,81 kr",608.0,2520.0,47.0,22.0,32.0,28.0,6.9,10.0,,coop
@@ -5904,11 +5904,11 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350002409336,7350002409336,Oliver Castelvetrano Med Kärna,Zeta,100.0 Gram,"47,27 kr",163.0,682.0,15.0,4.8,3.8,0.0,,1.0,2.5,coop
 7350002409343,7350002409343,Oliver Cerignola Med Kärna,Zeta,100.0 Gram,"47,27 kr",112.0,469.0,11.0,1.5,1.0,0.2,,1.2,2.5,coop
 7350027799474,7350027799474,Oliver Gordal Med kärna,Zeta,100.0 Gram,"35,92 kr",113.0,464.0,11.0,2.3,0.8,0.0,,1.3,3.0,coop
+8032601611929,8032601611929,Oliver Gröna,Quattrochiocci,100.0 Gram,"135,33 kr",237.0,976.0,23.0,2.9,3.4,0.0,3.9,1.5,5.8,coop
 7340011341451,7340011341451,Oliver Gröna,Xtra,100.0 Gram,"32,13 kr",124.0,510.0,13.0,3.0,0.0,0.0,,0.7,3.8,coop
 7340191106147,7340191106147,Oliver Gröna,Xtra,100.0 Gram,"16,56 kr",124.0,510.0,13.0,3.0,0.0,0.0,,0.7,3.8,coop
-8032601611929,8032601611929,Oliver Gröna,Quattrochiocci,100.0 Gram,"135,33 kr",237.0,976.0,23.0,2.9,3.4,0.0,3.9,1.5,5.8,coop
-7340191154094,7340191154094,Oliver Gröna Manzanilla,Coop,100.0 Gram,"13,70 kr",143.0,589.0,15.0,3.0,0.0,0.0,,0.9,3.5,coop
 7340011351801,7340011351801,Oliver Gröna Manzanilla,Coop,100.0 Gram,"22,57 kr",143.0,589.0,15.0,3.0,0.0,0.0,,0.9,3.5,coop
+7340191154094,7340191154094,Oliver Gröna Manzanilla,Coop,100.0 Gram,"13,70 kr",143.0,589.0,15.0,3.0,0.0,0.0,,0.9,3.5,coop
 7316150777048,7316150777048,Oliver Gröna Med kärna,Fontana,100.0 Gram,"45,38 kr",148.0,608.0,14.4,2.5,2.4,0.1,,0.9,3.0,coop
 7340011422785,7340011422785,Oliver Gröna Med kärna Eko,Änglamark,100.0 Gram,"27,40 kr",142.0,583.0,14.0,2.3,1.1,0.0,,1.2,3.5,coop
 8410159016586,8410159016586,Oliver Gröna Pimento,Figaro,100.0 Gram,"24,99 kr",145.0,595.0,15.0,3.0,0.5,0.5,,1.0,3.7,coop
@@ -5942,16 +5942,16 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340062804325,7340062804325,Oliver Svarta Urkärnade,Minella,100.0 Gram,"19,40 kr",143.0,599.0,15.1,2.3,0.5,0.5,2.4,1.2,2.5,coop
 7350002409251,7350002409251,Olivmix Grekisk Urkärnade Eko,Zeta,100.0 Gram,"40,22 kr",173.0,725.0,18.0,2.5,1.3,0.5,,1.9,0.9,coop
 7340011404231,7340011404231,Olivmix Kalamata Med kärna Eko,Änglamark,100.0 Gram,"27,40 kr",199.0,818.0,20.0,2.9,1.9,0.1,,1.3,3.5,coop
-7350002405550,7350002405550,Olivmix Urkärnade,Zeta,100.0 Gram,"37,81 kr",725.0,173.0,18.0,2.5,1.3,0.5,,1.9,0.9,coop
+7350002405550,7350002405550,Olivmix Urkärnade,Zeta,100.0 Gram,"37,81 kr",173.0,725.0,18.0,2.5,1.3,0.5,,1.9,0.9,coop
 7316150777154,7316150777154,Olivmix Urkärnade,Fontana,100.0 Gram,"35,49 kr",209.0,838.0,21.6,3.1,1.5,0.0,,1.3,3.2,coop
 7350027799443,7350027799443,Olivmix Örter Med kärna,Zeta,100.0 Gram,"34,54 kr",210.0,865.0,22.0,2.8,0.0,0.0,,6.0,1.5,coop
 7300204437002,7300204437002,Olivmortadella,Scan,100.0 Gram,"16,99 kr",200.0,830.0,13.0,4.4,6.4,0.5,,11.3,2.2,coop
-6191509900701,6191509900701,Olivolja,TERRA DELYSSA,100.0 Milliliter,"45,90 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
-7340191185739,7340191185739,Olivolja,Xtra,100.0 Gram,"66,50 kr",900.0,3700.0,100.0,14.0,0.0,0.0,,0.0,0.0,coop
-8032529201776,8032529201776,Olivolja,De Carlo 7 Giorni Puglia DOP,100.0 Milliliter,"163,73 kr",824.0,3389.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
 6191509900688,6191509900688,Olivolja,TERRA DELYSSA,100.0 Milliliter,"73,88 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
 6191509910700,6191509910700,Olivolja,TERRA DELYSSA,100.0 Milliliter,"93,70 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
 6191509910380,6191509910380,Olivolja,TERRA DELYSSA,100.0 Milliliter,"264,05 kr",821.0,3374.0,91.2,19.0,0.0,0.0,0.0,0.0,0.0,coop
+6191509900701,6191509900701,Olivolja,TERRA DELYSSA,100.0 Milliliter,"45,90 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
+7340191185739,7340191185739,Olivolja,Xtra,100.0 Gram,"66,50 kr",900.0,3700.0,100.0,14.0,0.0,0.0,,0.0,0.0,coop
+8032529201776,8032529201776,Olivolja,De Carlo 7 Giorni Puglia DOP,100.0 Milliliter,"163,73 kr",824.0,3389.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
 8033196090076,8033196090076,Olivolja Arke Eko,Itigo,100.0 Milliliter,"273,51 kr",830.0,3404.0,91.0,15.2,0.0,0.0,,0.0,0.0,coop
 5203432113156,5203432113156,Olivolja Chania IGP,Entelia Chaina PDO,100.0 Milliliter,"125,87 kr",824.0,3389.0,91.6,12.8,0.0,0.0,,0.0,0.0,coop
 7350002401934,7350002401934,Olivolja Chili,Zeta,100.0 Milliliter,"82,81 kr",823.0,3390.0,92.0,13.0,0.0,0.0,,0.0,0.0,coop
@@ -5972,16 +5972,16 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 80053828,80053828,Olivolja Classico,Monini,100.0 Milliliter,"75,67 kr",828.0,3404.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
 7350002402856,7350002402856,Olivolja Classico Eko,Zeta,100.0 Milliliter,"88,96 kr",823.0,3390.0,92.0,13.0,0.0,0.0,,0.0,0.0,coop
 8005510001549,8005510001549,Olivolja Delicato,Monini,100.0 Milliliter,"93,70 kr",828.0,3404.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
+8005510005080,8005510005080,Olivolja Eko,Monini,100.0 Milliliter,"101,27 kr",828.0,3404.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
 8437011635266,8437011635266,Olivolja Eko,NOBLEZADEL SUR,100.0 Gram,"278,25 kr",824.0,3389.0,91.6,12.8,0.0,0.0,,0.0,0.0,coop
 7331061000634,7331061000634,Olivolja Eko,Itigo,100.0 Milliliter,"216,73 kr",824.0,3389.0,91.6,14.5,0.0,0.0,,0.0,0.0,coop
 7331061000986,7331061000986,Olivolja Eko,Itigo,100.0 Milliliter,"216,73 kr",824.0,3389.0,91.6,14.5,0.0,0.0,,0.0,0.0,coop
-8005510005080,8005510005080,Olivolja Eko,Monini,100.0 Milliliter,"101,27 kr",828.0,3404.0,92.0,14.0,0.0,0.0,,0.0,0.0,coop
 7340012530038,7340012530038,Olivolja Extra Jungfru,Nonna Elide,100.0 Milliliter,"117,36 kr",800.0,3350.0,93.0,13.0,0.0,0.0,,0.0,0.0,coop
-8423243016171,8423243016171,Olivolja Extra virgin,Ondoliva,100.0 Gram,"68,10 kr",900.0,3700.0,100.0,15.0,0.0,0.0,,0.0,0.0,coop
-7350166370312,7350166370312,Olivolja Extra Virgin,Mino,100.0 Milliliter,"176,04 kr",819.0,3367.0,91.0,15.0,0.0,0.0,,0.0,0.0,coop
 6191509900664,6191509900664,Olivolja Extra virgin,TERRA DELYSSA,100.0 Milliliter,"131,99 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
 6191509900671,6191509900671,Olivolja Extra virgin,TERRA DELYSSA,100.0 Milliliter,"98,87 kr",821.0,3374.0,91.0,19.0,0.0,0.0,0.0,0.0,0.0,coop
 7350166370305,7350166370305,Olivolja Extra Virgin,Mino,100.0 Milliliter,"117,36 kr",819.0,3367.0,91.0,15.0,0.0,0.0,,0.0,0.0,coop
+8423243016171,8423243016171,Olivolja Extra virgin,Ondoliva,100.0 Gram,"68,10 kr",900.0,3700.0,100.0,15.0,0.0,0.0,,0.0,0.0,coop
+7350166370312,7350166370312,Olivolja Extra Virgin,Mino,100.0 Milliliter,"176,04 kr",819.0,3367.0,91.0,15.0,0.0,0.0,,0.0,0.0,coop
 7350166370282,7350166370282,Olivolja Extra Virgin Topping,Mino,100.0 Milliliter,"126,82 kr",930.0,3893.0,100.0,18.0,0.0,0.0,,0.0,0.0,coop
 8007153007445,8007153007445,Olivolja Extra Virgin Unfiltered,Farchioni,100.0 Milliliter,"125,87 kr",828.0,3404.0,92.0,14.0,0.0,0.0,0.0,0.0,0.0,coop
 7350027798668,7350027798668,Olivolja Fernando,Zeta,100.0 Milliliter,"159,95 kr",823.0,3390.0,92.0,13.0,0.0,0.0,,0.0,0.0,coop
@@ -6169,7 +6169,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2097217100003,2097217100003,Pancetta Affumicata,Negroni,100.0 Gram,"301,91 kr",358.0,1484.0,30.0,0.0,0.5,0.0,,22.0,4.4,coop
 7350027794394,7350027794394,Pancetta Lufttorkat & tärnat,Zeta,100.0 Gram,"44,01 kr",297.0,1231.0,25.0,8.4,1.2,1.0,,17.0,3.1,coop
 5707196338836,5707196338836,Pancetta Rökt Tärnad,TULIP,100.0 Gram,"22,67 kr",267.0,1106.0,23.0,8.7,0.0,0.0,,15.0,3.3,coop
-5707196306040,5707196306040,Pancetta Tärnad,Tulip,100.0 Gram,"22,67 kr",1160.0,280.0,24.0,9.6,0.0,0.0,,16.0,2.2,coop
+5707196306040,5707196306040,Pancetta Tärnad,Tulip,100.0 Gram,"22,67 kr",280.0,1160.0,24.0,9.6,0.0,0.0,,16.0,2.2,coop
 3858884935904,3858884935904,Pancetta Vedrökt,Boncena,100.0 Gram,"77,56 kr",353.0,1466.0,27.2,12.5,0.7,0.7,,26.4,4.3,coop
 5711953081699,5711953081699,Paneer Ost Hel,Apetina®,100.0 Gram,"43,49 kr",174.0,729.0,8.0,5.1,3.2,3.2,,22.0,0.1,coop
 4003751060060,4003751060060,Panerad Camembert,Alpenhain,100.0 Gram,"51,06 kr",287.0,1196.0,17.0,7.4,21.0,11.0,,12.0,1.4,coop
@@ -6726,9 +6726,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8001665722131,8001665722131,Potatisgnocchi,Rana,100.0 Gram,"34,54 kr",146.0,618.0,0.5,0.2,31.0,0.5,,3.1,0.9,coop
 8711118013593,8711118013593,Potatisgratäng,Peka,100.0 Gram,"25,52 kr",121.0,506.0,7.0,1.5,11.9,1.7,1.6,2.0,0.97,coop
 8711118016020,8711118016020,Potatisgratäng,Peka,100.0 Gram,"65,26 kr",121.0,506.0,7.0,1.5,11.9,1.7,1.6,2.0,0.97,coop
-7300156505774,7300156505774,Potatisgratäng,Coop,100.0 Gram,"18,88 kr",120.0,480.0,6.5,4.6,12.0,1.3,1.3,1.4,0.7,coop
 7300156505613,7300156505613,Potatisgratäng,Coop,100.0 Gram,"56,74 kr",120.0,480.0,6.5,4.6,12.0,1.3,1.3,1.4,0.7,coop
 7300204130002,7300204130002,Potatisgratäng,Scan,100.0 Gram,"34,54 kr",100.0,420.0,4.3,2.8,13.0,1.5,,2.5,1.1,coop
+7300156505774,7300156505774,Potatisgratäng,Coop,100.0 Gram,"18,88 kr",120.0,480.0,6.5,4.6,12.0,1.3,1.3,1.4,0.7,coop
 8711118026456,8711118026456,Potatisgratäng med paprika,Peka,100.0 Gram,"32,13 kr",109.0,458.0,5.2,1.0,13.0,1.6,1.5,1.9,0.71,coop
 7340191151932,7340191151932,Potatisklyftor Utan skal,Coop,100.0 Gram,"20,77 kr",123.0,518.0,3.1,0.4,20.0,0.0,2.4,2.6,0.09,coop
 7340191152083,7340191152083,Potatiskroketter,Coop,100.0 Gram,"19,83 kr",188.0,786.0,7.5,1.0,26.0,0.6,2.4,2.8,1.0,coop
@@ -6768,10 +6768,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7320880011846,7320880011846,Premium Psyllium,Lindroos,100.0 Gram,"60,52 kr",189.0,789.0,0.55,0.07,1.73,0.2,85.2,2.38,0.01,coop
 7310760012988,7310760012988,Presskaffe Mörkrost Pressiado,Arvid Nordquist,,"72,97 kr",,,,,,,,,,
 7300200264008,7300200264008,Prickig Korv,Scan,100.0 Gram,"16,99 kr",320.0,1350.0,30.0,12.0,1.7,0.8,,14.0,2.9,coop
-7340063015706,7340063015706,Prinskorv,Andersson & Tillman,100.0 Gram,"63,36 kr",290.0,1200.0,25.0,10.0,5.8,0.0,,11.0,2.1,coop
-7393287785368,7393287785368,Prinskorv,ERNST,100.0 Gram,"52,95 kr",250.0,1050.0,22.0,8.9,3.8,0.5,,11.0,1.7,coop
 7300156494733,7300156494733,Prinskorv,Coop,100.0 Gram,"29,29 kr",280.0,1200.0,23.0,9.1,10.0,1.0,,9.5,1.7,coop
 7300207276004,7300207276004,Prinskorv,Scan,100.0 Gram,"47,27 kr",260.0,1100.0,23.0,9.0,4.0,0.5,,10.0,1.9,coop
+7340063015706,7340063015706,Prinskorv,Andersson & Tillman,100.0 Gram,"63,36 kr",290.0,1200.0,25.0,10.0,5.8,0.0,,11.0,2.1,coop
+7393287785368,7393287785368,Prinskorv,ERNST,100.0 Gram,"52,95 kr",250.0,1050.0,22.0,8.9,3.8,0.5,,11.0,1.7,coop
 7331044008633,7331044008633,Prinskorv Kalkon,Ingelsta Kalkon,100.0 Gram,"62,42 kr",230.0,960.0,17.5,4.4,6.0,1.1,,12.3,2.1,coop
 7350068294082,7350068294082,Propud Cookie Dough 22%,PROPUD,100.0 Gram,"20,35 kr",423.0,1766.0,22.0,14.0,32.0,2.6,,33.0,0.57,coop
 7350068290152,7350068290152,ProPud Milkshake Vanilla ice cream,PROPUD,100.0 Milliliter,"46,33 kr",58.0,243.0,1.5,0.9,4.8,4.8,,6.2,0.1,coop
@@ -6931,8 +6931,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350033556085,7350033556085,Rapsstekolja Naturell,KLOKA,100.0 Gram,"41,60 kr",900.0,3700.0,100.0,7.0,0.0,0.0,,0.0,0.0,coop
 7350033551103,7350033551103,Rapsstekolja smörsmak,KLOKA,100.0 Gram,"66,20 kr",900.0,3700.0,100.0,7.0,0.0,0.0,,0.0,0.0,coop
 7311070001952,7311070001952,Rasker Fullkorn,Pågen,100.0 Gram,"27,40 kr",263.0,1108.0,4.3,0.6,44.0,4.0,5.3,9.7,0.92,coop
-7340191174863,7340191174863,Ravioli Bolognese,Xtra,100.0 Gram,"22,67 kr",75.0,316.0,1.2,0.4,12.0,1.4,,3.3,0.75,coop
 7316150971811,7316150971811,Ravioli Bolognese,Fontana,100.0 Gram,"37,81 kr",91.0,384.0,2.3,0.8,13.0,1.4,,3.8,0.75,coop
+7340191174863,7340191174863,Ravioli Bolognese,Xtra,100.0 Gram,"22,67 kr",75.0,316.0,1.2,0.4,12.0,1.4,,3.3,0.75,coop
 8001665728669,8001665728669,Ravioli Bräserat kött,Rana,100.0 Gram,"47,27 kr",267.0,1119.0,12.0,3.7,27.0,4.2,3.6,11.0,1.0,coop
 7310240064322,7310240064322,Ravioli Köttfärssås,Felix,100.0 Gram,"47,27 kr",85.0,356.0,3.2,0.7,10.0,2.6,,3.1,1.1,coop
 8001665128728,8001665128728,Ravioli Pesto Genovese,Rana,100.0 Gram,"47,27 kr",309.0,1288.0,16.0,5.3,29.0,4.6,6.9,8.7,1.1,coop
@@ -7087,9 +7087,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350003111023,7350003111023,Roslagsmjölk Mellanmjölk Eko,Roslagsmjölk,100.0 Gram,"16,99 kr",47.0,195.0,1.5,1.0,4.7,4.7,,3.5,0.1,coop
 7350003111016,7350003111016,Roslagsmjölk Standardmjölk,Roslagsmjölk,100.0 Gram,"17,51 kr",59.0,248.0,3.0,1.9,4.6,4.6,,3.5,0.1,coop
 7300156599827,7300156599827,Rosmarin,COOP,,"14,15 kr",,,,,,,,,,
+7311311014550,7311311014550,Rosmarin,Santa Maria,100.0 Gram,"25,44 kr",328.0,1352.0,15.0,7.4,21.0,0.0,43.0,4.9,0.13,coop
 7310394002522,7310394002522,Rosmarin,KOCKENS,,"24,56 kr",,,,,,,,,,
 7340191138285,7340191138285,Rosmarin,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
-7311311014550,7311311014550,Rosmarin,Santa Maria,100.0 Gram,"25,44 kr",328.0,1352.0,15.0,7.4,21.0,0.0,43.0,4.9,0.13,coop
 7350046468061,7350046468061,Rosmarin Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7340011406983,7340011406983,Rosmarin Kruka Eko,Änglamark,,"28,35 kr",,,,,,,,,,
 7311071336244,7311071336244,Rosta,Pågen,100.0 Gram,"18,88 kr",256.0,1071.0,2.2,0.3,47.0,3.3,3.1,9.6,1.0,coop
@@ -7115,13 +7115,13 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156583550,7300156583550,Rostbiff Skivad,Coop,100.0 Gram,"59,98 kr",110.0,450.0,2.0,1.0,2.0,1.5,,20.0,1.9,coop
 2317252400006,2317252400006,Rostbiff Skivad,Coop,100.0 Gram,"256,88 kr",130.0,500.0,3.2,1.4,,,,23.0,0.2,coop
 2097115400007,2097115400007,Rostbiff Vinmarinerad Brännö,Brödernas,100.0 Gram,"377,62 kr",123.0,516.0,1.8,0.8,1.2,0.4,,25.4,2.5,coop
-7300156594488,7300156594488,Rostbröd,Coop,100.0 Gram,"21,55 kr",1000.0,240.0,1.7,0.1,47.0,2.3,,8.2,1.0,coop
+7300156594488,7300156594488,Rostbröd,Coop,100.0 Gram,"21,55 kr",240.0,1000.0,1.7,0.1,47.0,2.3,,8.2,1.0,coop
 7310394002515,7310394002515,Rosépeppar,KOCKENS,,"24,56 kr",,,,,,,,,,
 7311311015656,7311311015656,Rosépeppar Hel,Santa Maria,100.0 Gram,"27,58 kr",339.0,1415.0,11.0,0.0,42.0,0.0,24.0,6.0,0.0,coop
 2317473800005,2317473800005,Rosésallad,,,"33,08 kr",,,,,,,,,,
 7340191173231,7340191173231,Rotfruktschips Havssalt Eko,Änglamark,100.0 Gram,"26,45 kr",494.0,2052.0,32.0,3.3,39.0,31.0,,5.0,1.1,coop
-8711118013586,8711118013586,Rotfruktsgratäng,Peka,100.0 Gram,"27,40 kr",132.0,550.0,9.6,1.9,8.4,2.7,1.8,2.1,1.2,coop
 7300156505767,7300156505767,Rotfruktsgratäng,Coop,100.0 Gram,"18,88 kr",100.0,400.0,5.1,3.5,10.0,1.9,2.2,1.3,1.1,coop
+8711118013586,8711118013586,Rotfruktsgratäng,Peka,100.0 Gram,"27,40 kr",132.0,550.0,9.6,1.9,8.4,2.7,1.8,2.1,1.2,coop
 7310240066098,7310240066098,Rotmos,Felix,100.0 Gram,"37,81 kr",53.0,223.0,0.3,0.0,11.0,2.1,,1.2,0.56,coop
 7310240756692,7310240756692,Rotmos,FELIX,100.0 Gram,"20,35 kr",59.0,248.0,0.5,0.0,11.0,4.1,2.3,1.2,0.86,coop
 2317458500005,2317458500005,Rotselleri,,,"25,51 kr",,,,,,,,,,
@@ -7140,8 +7140,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5701014109844,5701014109844,Rundstycken,Hatting,100.0 Gram,"31,71 kr",286.0,1205.0,4.7,0.8,50.0,2.0,4.4,8.6,1.2,coop
 41143028919,41143028919,Russin,Sun Maid,100.0 Gram,"46,33 kr",316.0,1322.0,0.7,0.0,76.9,71.4,5.8,3.0,0.02,coop
 41143024324,41143024324,Russin,Sun Maid,100.0 Gram,"24,13 kr",304.0,1291.0,0.7,0.0,71.4,71.4,5.8,3.0,0.05,coop
-7340191178564,7340191178564,Russin,Coop,100.0 Gram,"22,67 kr",348.0,1475.0,0.1,0.02,82.0,76.0,5.8,1.8,0.07,coop
 7340191178571,7340191178571,Russin,Coop,100.0 Gram,"42,54 kr",348.0,1475.0,0.1,0.02,82.0,76.0,5.8,1.8,0.07,coop
+7340191178564,7340191178564,Russin,Coop,100.0 Gram,"22,67 kr",348.0,1475.0,0.1,0.02,82.0,76.0,5.8,1.8,0.07,coop
 41143020173,41143020173,Russin 6-pack,Sun Maid,100.0 Gram,"36,44 kr",316.0,1322.0,0.7,0.0,76.9,71.4,5.8,3.0,0.02,coop
 7317731501700,7317731501700,Russin 6-pack Eko,Saltå Kvarn,100.0 Gram,"16,56 kr",340.0,1430.0,0.7,0.3,74.0,70.0,4.2,3.2,0.02,coop
 5708413039208,5708413039208,Russin 9-pack,Bamse,100.0 Gram,"29,29 kr",328.0,1389.0,1.3,0.27,77.3,62.7,5.0,4.2,0.01,coop
@@ -7180,14 +7180,14 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191158290,7340191158290,Räkor i lake,Coop,100.0 Gram,"84,18 kr",71.0,302.0,0.9,0.2,0.8,0.0,,15.0,1.8,coop
 7340011390053,7340011390053,Räkor i lake L,Coop,100.0 Gram,"39,70 kr",71.0,302.0,0.9,0.2,0.8,0.0,,15.0,1.8,coop
 7340191146730,7340191146730,Räkor L 70/90,Coop,100.0 Gram,"77,56 kr",95.0,401.0,1.2,0.2,0.0,0.0,,21.0,1.4,coop
-7340191146747,7340191146747,Räkor med skal L,Coop,100.0 Gram,"165,62 kr",67.0,285.0,0.8,0.1,0.0,0.0,,15.0,1.5,coop
 5740301214014,5740301214014,Räkor med skal L,Royal Greenland,100.0 Gram,"108,84 kr",95.0,401.0,1.2,0.2,0.0,0.0,,21.0,1.4,coop
+7340191146747,7340191146747,Räkor med skal L,Coop,100.0 Gram,"165,62 kr",67.0,285.0,0.8,0.1,0.0,0.0,,15.0,1.5,coop
 5740301016120,5740301016120,Räkor Med Skal M 90/120,Royal Greenland,100.0 Gram,"50,11 kr",106.0,447.0,1.5,0.3,0.0,0.0,,23.0,1.75,coop
 5740301210504,5740301210504,Räkor med skal S,Royal Greenland,100.0 Gram,"40,65 kr",95.0,401.0,1.2,0.2,0.0,0.0,,21.0,1.4,coop
 5740301140139,5740301140139,Räkor Med Skal XL 60/80,Royal Greenland,100.0 Gram,"64,31 kr",95.0,401.0,1.2,0.2,0.0,0.0,,21.0,1.4,coop
 5740301205876,5740301205876,Räkor Panerade,Royal Greenland,100.0 Gram,"69,04 kr",247.0,1038.0,11.0,0.9,26.0,1.7,,11.0,1.2,coop
-5740301200468,5740301200468,Räkor Skalade,Royal Greenland,100.0 Gram,"37,81 kr",281.0,66.0,0.7,0.1,0.0,0.0,,15.0,1.4,coop
 7340011450658,7340011450658,Räkor Skalade,Xtra,100.0 Gram,"29,29 kr",0.0,0.0,,,,,,,,coop
+5740301200468,5740301200468,Räkor Skalade,Royal Greenland,100.0 Gram,"37,81 kr",66.0,281.0,0.7,0.1,0.0,0.0,,15.0,1.4,coop
 7340191145931,7340191145931,Räkor Skalade L,Coop,100.0 Gram,"60,52 kr",0.0,0.0,,,,,,,,coop
 5740301036319,5740301036319,Räkor Skalade M,Royal Greenland,100.0 Gram,"93,70 kr",70.0,290.0,1.0,0.3,0.0,0.0,,15.0,1.5,coop
 7317370103334,7317370103334,Räkor Vannamei Kokta & Skalade,Poseidon,100.0 Gram,"91,80 kr",60.0,260.0,0.3,0.1,0.0,0.0,,14.0,2.5,coop
@@ -7195,13 +7195,13 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311441343100,7311441343100,Räkost,Kavli,100.0 Gram,"45,86 kr",200.0,850.0,15.0,9.3,0.0,0.0,,17.0,3.2,coop
 7313160020287,7313160020287,Räkost,Fjällbrynt,100.0 Gram,"32,13 kr",220.0,950.0,18.0,11.0,0.1,0.1,,16.0,2.1,coop
 7300156492104,7300156492104,Räkröra gräslök & dill,Coop,100.0 Gram,"25,55 kr",410.0,1700.0,42.0,5.5,5.5,3.1,,4.1,1.5,coop
+7313310013107,7313310013107,Räksallad,Örneborgs Delikatesser,100.0 Gram,"30,24 kr",380.0,1600.0,40.0,2.9,4.3,2.2,,2.0,1.8,coop
+7350035582662,7350035582662,Räksallad,Färsk,100.0 Gram,"43,49 kr",405.0,,43.0,4.0,2.0,0.0,,8.0,1.0,coop
+7340007500169,7340007500169,Räksallad,Vidinge,100.0 Gram,"73,77 kr",152.0,635.0,9.7,1.1,11.0,3.8,1.2,4.6,0.85,coop
 7313160020232,7313160020232,Räksallad,RYDBERGS,100.0 Gram,"26,45 kr",340.0,1400.0,35.0,2.6,2.7,2.1,,5.0,1.1,coop
 7313160020249,7313160020249,Räksallad,RYDBERGS,100.0 Gram,"42,54 kr",340.0,1400.0,35.0,2.6,2.7,2.1,,5.0,1.1,coop
 7300156596536,7300156596536,Räksallad,Coop,100.0 Gram,"25,55 kr",370.0,1500.0,38.0,2.8,4.4,3.4,,3.5,1.5,coop
 7300156600264,7300156600264,Räksallad,Xtra,100.0 Gram,"24,56 kr",380.0,1600.0,39.0,2.9,4.1,3.3,,2.4,1.3,coop
-7313310013107,7313310013107,Räksallad,Örneborgs Delikatesser,100.0 Gram,"30,24 kr",380.0,1600.0,40.0,2.9,4.3,2.2,,2.0,1.8,coop
-7350035582662,7350035582662,Räksallad,Färsk,100.0 Gram,"43,49 kr",405.0,,43.0,4.0,2.0,0.0,,8.0,1.0,coop
-7340007500169,7340007500169,Räksallad,Vidinge,100.0 Gram,"73,77 kr",152.0,635.0,9.7,1.1,11.0,3.8,1.2,4.6,0.85,coop
 7322550036005,7322550036005,Räksoppa Varma koppen,Blå Band,100.0 Gram,"14,67 kr",48.0,201.0,2.1,1.2,6.4,0.6,0.5,0.9,0.77,coop
 2097459800006,2097459800006,Rättika Vit,,,"52,01 kr",,,,,,,,,,
 7391603140129,7391603140129,RÅ Rödbeta,RÅ,100.0 Milliliter,"30,24 kr",30.0,127.0,0.0,0.0,6.3,5.9,,1.2,0.1,coop
@@ -7243,9 +7243,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156598233,7300156598233,Rårörda lingon,Coop,100.0 Gram,"47,27 kr",187.0,791.0,0.3,0.0,45.0,43.0,,0.3,0.0,coop
 7340191166691,7340191166691,Rårörda Lingon,Änglamark,100.0 Gram,"33,08 kr",203.0,863.0,0.3,0.0,49.0,48.0,,0.4,0.03,coop
 7350126087892,7350126087892,Rårörda Lingon,Felix,100.0 Gram,"71,88 kr",183.0,766.0,0.0,0.0,45.0,44.0,,0.0,0.0,coop
+7317661700297,7317661700297,Rårörda lingon,Björnekulla,100.0 Gram,"63,88 kr",210.0,880.0,0.5,0.5,49.0,46.0,,0.5,0.5,coop
 7350126087861,7350126087861,Rårörda Lingon,Felix,100.0 Gram,"50,11 kr",183.0,766.0,0.0,0.0,45.0,44.0,,0.0,0.0,coop
 7317661700280,7317661700280,Rårörda lingon,Björnekulla,100.0 Gram,"68,09 kr",210.0,880.0,0.5,0.5,49.0,46.0,1.8,0.5,0.5,coop
-7317661700297,7317661700297,Rårörda lingon,Björnekulla,100.0 Gram,"63,88 kr",210.0,880.0,0.5,0.5,49.0,46.0,,0.5,0.5,coop
 7350068170010,7350068170010,Råsaft Apelsin,Råsaft,100.0 Milliliter,"47,27 kr",45.0,188.0,0.5,0.1,10.0,8.4,0.2,0.7,0.0,coop
 7350068170027,7350068170027,Råsaft Morot Äpple Apelsin Ingefära & Gurkmeja,Råsaft,100.0 Milliliter,"47,27 kr",44.0,186.0,0.5,0.1,10.0,7.1,1.0,0.6,0.06,coop
 7350068170096,7350068170096,Råsaft Spenat Äpple Ananas & Citron,Råsaft,100.0 Milliliter,"47,27 kr",45.0,188.0,0.5,0.1,11.0,9.1,1.6,0.2,0.02,coop
@@ -7266,9 +7266,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7323130025594,7323130025594,Rödbetor Förkokta Eko,Änglamark,,"17,94 kr",,,,,,,,,,
 7310240051230,7310240051230,Rödbetor Gammaldags,Felix,100.0 Gram,"33,08 kr",72.0,301.0,0.0,0.0,15.0,15.0,,1.3,0.5,coop
 7310240151169,7310240151169,Rödbetor Skivade,Felix,100.0 Gram,"33,08 kr",61.0,256.0,0.0,0.0,12.0,12.0,,1.3,0.0,coop
+7317662945635,7317662945635,Rödbetor Skivade,Björnekulla,100.0 Gram,"28,35 kr",70.0,300.0,0.5,0.5,17.0,15.5,,1.1,0.5,coop
 7300156600349,7300156600349,Rödbetor skivade,Änglamark,100.0 Gram,"26,45 kr",70.0,300.0,0.5,0.0,16.0,15.0,,1.1,0.5,coop
 7340011490173,7340011490173,Rödbetor Skivade,Coop,100.0 Gram,"24,56 kr",75.0,317.0,0.0,0.0,16.0,14.0,,1.0,0.6,coop
-7317662945635,7317662945635,Rödbetor Skivade,Björnekulla,100.0 Gram,"28,35 kr",70.0,300.0,0.5,0.5,17.0,15.5,,1.1,0.5,coop
 7310770624430,7310770624430,Rödbetor Skivade Mor Annas,Önos,100.0 Gram,"34,97 kr",61.0,255.0,0.0,0.0,13.0,13.0,,1.2,0.3,coop
 7350154580303,7350154580303,Rödbetsbiffar,Tamini,100.0 Gram,"39,70 kr",188.0,788.0,10.0,0.8,13.0,4.3,5.5,8.2,1.2,coop
 7300156482471,7300156482471,Rödbetssallad,Coop,100.0 Gram,"16,56 kr",200.0,850.0,18.0,1.4,10.0,8.3,,0.8,0.6,coop
@@ -7465,8 +7465,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191148789,7340191148789,Salsa Chunky het,Coop,100.0 Gram,"16,56 kr",43.0,180.0,0.3,0.1,8.0,5.0,,1.2,1.0,coop
 7311312000897,7311312000897,Salsa Chunky Hot,Santa Maria,100.0 Gram,"16,56 kr",34.0,144.0,0.0,0.0,6.1,5.5,1.9,1.5,1.3,coop
 7311312000873,7311312000873,Salsa Chunky Medium,Santa Maria,100.0 Gram,"16,56 kr",32.0,136.0,0.0,0.0,5.5,4.8,1.9,1.6,1.0,coop
-7340191148772,7340191148772,Salsa Chunky Medium,Coop,100.0 Gram,"16,56 kr",43.0,180.0,0.3,0.1,8.0,5.5,,1.2,1.0,coop
 6415711803774,6415711803774,Salsa Chunky Medium,Xtra,100.0 Gram,"15,62 kr",51.0,217.0,0.1,0.0,11.0,6.5,,1.0,1.9,coop
+7340191148772,7340191148772,Salsa Chunky Medium,Coop,100.0 Gram,"16,56 kr",43.0,180.0,0.3,0.1,8.0,5.5,,1.2,1.0,coop
 7340011345275,7340011345275,Salsa Chunky Medium Eko,Änglamark,100.0 Gram,"29,29 kr",42.0,177.0,0.2,0.1,8.0,5.5,,1.5,1.6,coop
 7311312000859,7311312000859,Salsa Chunky Mild,Santa Maria,100.0 Gram,"16,56 kr",37.0,156.0,0.0,0.0,7.1,4.8,1.0,1.6,1.0,coop
 7350115941013,7350115941013,Salsa Classic,El Taco Truck,100.0 Gram,"23,19 kr",40.0,160.0,0.5,0.0,5.8,3.1,,1.3,1.0,coop
@@ -7512,8 +7512,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191160408,7340191160408,Salty twirls,Coop,100.0 Gram,"25,51 kr",462.0,1937.0,20.0,2.0,66.0,0.0,,2.9,1.9,coop
 7300156599773,7300156599773,Salvia,COOP,,"14,15 kr",,,,,,,,,,
 7311311027581,7311311027581,Salvia,Santa Maria,100.0 Gram,"17,51 kr",320.0,1323.0,13.0,7.0,20.0,1.7,40.0,11.0,0.03,coop
-8710853001148,8710853001148,Sambal Oelek,Lucullus,100.0 Gram,"25,51 kr",31.0,131.0,0.05,0.0,3.6,3.6,,1.6,11.5,coop
 8710853015817,8710853015817,Sambal Oelek,Lucullus,100.0 Gram,"17,51 kr",31.0,131.0,0.5,0.1,3.6,3.6,,1.6,11.5,coop
+8710853001148,8710853001148,Sambal Oelek,Lucullus,100.0 Gram,"25,51 kr",31.0,131.0,0.05,0.0,3.6,3.6,,1.6,11.5,coop
 8710853001155,8710853001155,Sambal Oelek,Lucullus,100.0 Gram,"42,43 kr",42.0,176.0,0.67,0.0,4.4,3.9,,2.1,11.0,coop
 7340191149236,7340191149236,Sambal oelek,Coop,100.0 Gram,"25,51 kr",50.0,211.0,0.7,0.0,8.7,6.1,,1.5,7.9,coop
 7391835919494,7391835919494,Sambal Oelek,Kung Markatta,100.0 Gram,"37,81 kr",27.0,114.0,0.5,0.0,4.2,3.3,,1.4,20.0,coop
@@ -7560,8 +7560,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310155600769,7310155600769,Senap Grovstark,Johnny's,100.0 Gram,"21,29 kr",170.0,700.0,4.0,0.5,28.0,23.0,,5.3,2.0,coop
 7310155600523,7310155600523,Senap Grovstark,Johnny's,100.0 Gram,"17,51 kr",170.0,700.0,4.0,0.5,28.0,23.0,,5.3,2.0,coop
 7392031001082,7392031001082,Senap Mango & habanero,Johnny's,100.0 Gram,"22,67 kr",230.0,1000.0,3.9,0.5,43.0,42.0,,3.8,1.0,coop
-7310156000490,7310156000490,Senap Mild,Hultbergs,100.0 Gram,"20,77 kr",130.0,500.0,2.9,0.5,22.0,18.0,,4.0,2.0,coop
 87157390,87157390,Senap Mild,Heinz,100.0 Gram,"20,77 kr",120.0,504.0,5.2,0.3,9.4,5.3,,5.6,2.5,coop
+7310156000490,7310156000490,Senap Mild,Hultbergs,100.0 Gram,"20,77 kr",130.0,500.0,2.9,0.5,22.0,18.0,,4.0,2.0,coop
 8714100751527,8714100751527,Senap Original,Slotts,100.0 Gram,"15,10 kr",158.0,661.0,6.2,0.8,15.0,15.0,,6.0,2.1,coop
 7392031000122,7392031000122,Senap Original,Johnny's,100.0 Gram,"18,46 kr",140.0,600.0,4.1,0.5,22.0,18.0,,5.5,2.2,coop
 7392031001013,7392031001013,Senap Original,Johnny's,100.0 Gram,"17,51 kr",140.0,600.0,4.1,0.5,22.0,18.0,,5.5,2.2,coop
@@ -7576,9 +7576,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8714100751374,8714100751374,Senap Stark,Slotts,100.0 Gram,"15,10 kr",214.0,902.0,4.8,0.7,36.0,36.0,,4.2,2.3,coop
 7310155600516,7310155600516,Senap Söt & Stark,Johnny's,100.0 Gram,"17,51 kr",220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,coop
 7392031000016,7392031000016,Senap Sötstark,Johnny's,100.0 Gram,"21,29 kr",220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,coop
+73501015,73501015,Senap Sötstark,Edwins,100.0 Gram,"21,72 kr",307.0,1296.0,8.5,2.8,51.0,49.0,,6.5,0.65,coop
 7300156598196,7300156598196,Senap Sötstark,Coop,100.0 Gram,"15,62 kr",210.0,900.0,2.8,0.0,42.0,41.0,,4.0,2.1,coop
 7350126089759,7350126089759,Senap Sötstark,Felix,100.0 Gram,"23,61 kr",232.0,971.0,4.1,0.3,45.0,45.0,,3.8,1.5,coop
-73501015,73501015,Senap Sötstark,Edwins,100.0 Gram,"21,72 kr",307.0,1296.0,8.5,2.8,51.0,49.0,,6.5,0.65,coop
 7392031000108,7392031000108,Senap Sötstark Eko,Johnny's,100.0 Gram,"30,24 kr",230.0,1000.0,3.5,0.5,45.0,43.0,,4.5,1.1,coop
 7317663580538,7317663580538,Senap Sötstark Eko,Björnekulla,100.0 Gram,"17,51 kr",205.0,863.0,5.4,0.2,35.0,31.0,,3.7,3.0,coop
 8711200402625,8711200402625,Senap Sötstark Utan tillsatt socker,Slotts,100.0 Gram,"22,67 kr",144.0,603.0,5.5,0.7,16.0,0.9,4.9,5.4,1.6,coop
@@ -7613,10 +7613,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7331217780700,7331217780700,Shawarma Chicken,Sevan,,"21,72 kr",,,,,,,,,,
 8437012245075,8437012245075,Sherryvinäger,Videsan,100.0 Gram,"53,90 kr",22.0,94.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
 7300156503640,7300156503640,Shiitake Eko,Änglamark,,"47,27 kr",,,,,,,,,,
-5705001432052,5705001432052,Shot Ingefära,Rynkeby,100.0 Milliliter,"44,43 kr",71.0,301.0,0.5,0.0,12.0,12.0,,0.7,0.0,coop
 7340191153431,7340191153431,Shot Ingefära,Coop,100.0 Milliliter,"60,52 kr",36.0,155.0,0.0,0.0,8.6,7.6,,0.5,0.01,coop
 7391603140440,7391603140440,Shot Ingefära,RÅ,100.0 Milliliter,"11,83 kr",38.0,163.0,0.0,0.0,7.0,6.0,,0.5,0.0,coop
 7350088711682,7350088711682,Shot Ingefära,RÅ,100.0 Milliliter,"44,01 kr",36.0,150.0,0.1,0.0,8.8,7.3,,0.3,0.02,coop
+5705001432052,5705001432052,Shot Ingefära,Rynkeby,100.0 Milliliter,"44,43 kr",71.0,301.0,0.5,0.0,12.0,12.0,,0.7,0.0,coop
 7350088711576,7350088711576,Shot Ingefära & chili Eko,RÅ,100.0 Milliliter,"44,01 kr",34.0,143.0,0.1,0.0,7.9,6.7,,0.5,0.0,coop
 7312720080303,7312720080303,Shot Ingefära & citron,Herrljunga Musteri,100.0 Milliliter,"44,43 kr",55.0,232.0,0.5,0.1,13.0,8.8,,0.5,0.01,coop
 7312720080327,7312720080327,Shot Ingefära & gurkmeja,Herrljunga Musteri,100.0 Milliliter,"44,43 kr",54.0,227.0,0.5,0.1,13.0,9.5,,0.5,0.01,coop
@@ -7654,11 +7654,11 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7391693682899,7391693682899,Sjögräsnudlar Low Carb,Risberg,100.0 Gram,"30,24 kr",6.0,25.0,0.0,0.0,2.0,0.0,3.0,0.0,,coop
 7311441160707,7311441160707,Skagenost,Kavli,100.0 Gram,"35,52 kr",190.0,800.0,14.0,8.8,0.3,0.3,,16.0,3.3,coop
 7300156582195,7300156582195,Skagenröra,Coop,100.0 Gram,"25,55 kr",400.0,1650.0,40.0,3.0,5.7,2.8,,4.2,1.8,coop
+2097640600002,251300_2097640600002,Skagenröra,Bolands Fisk,,"463,75 kr",,,,,,,,,,
+7350035583904,7350035583904,Skagenröra,Färsk,100.0 Gram,"43,49 kr",405.0,,43.0,4.0,2.0,0.0,,8.0,1.0,coop
 7313160020256,7313160020256,Skagenröra,RYDBERGS,100.0 Gram,"26,45 kr",410.0,1700.0,41.0,3.2,4.3,2.2,,5.9,1.2,coop
 7300156582201,7300156582201,Skagenröra,Coop,100.0 Gram,"35,92 kr",400.0,1650.0,40.0,3.0,5.7,2.8,,4.2,1.8,coop
 7313310012117,7313310012117,Skagenröra,Örneborgs Delikatesser,100.0 Gram,"35,49 kr",420.0,1750.0,42.0,3.1,5.9,2.9,,4.2,1.9,coop
-2097640600002,251300_2097640600002,Skagenröra,Bolands Fisk,,"463,75 kr",,,,,,,,,,
-7350035583904,7350035583904,Skagenröra,Färsk,100.0 Gram,"43,49 kr",405.0,,43.0,4.0,2.0,0.0,,8.0,1.0,coop
 7313160020263,7313160020263,Skagenröra Citron & Dill,RYDBERGS,100.0 Gram,"42,54 kr",410.0,1700.0,41.0,3.2,4.3,2.2,,5.9,1.2,coop
 7300156591326,7300156591326,Skagenröra Gourmet,Coop,100.0 Gram,"44,43 kr",340.0,1450.0,34.0,2.5,3.2,2.1,,7.9,2.1,coop
 7322550052807,7322550052807,Skaldjursfond,Bong Touch of Taste,100.0 Milliliter,"33,08 kr",2.0,10.0,0.5,0.1,0.5,0.1,,0.5,0.6,coop
@@ -7678,8 +7678,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7391196075600,7391196075600,Skinka Gallerrökt Pepparkryddad,Jakobsdals,100.0 Gram,"31,18 kr",110.0,450.0,2.2,0.7,1.8,1.6,,20.0,3.5,coop
 7300156485205,7300156485205,Skinka Kokt,Coop,100.0 Gram,"19,89 kr",88.0,374.0,1.0,0.3,1.0,0.5,,19.0,2.4,coop
 7300156486011,7300156486011,Skinka Kokt,Coop,100.0 Gram,"23,61 kr",90.0,370.0,1.0,0.3,0.9,0.5,,19.0,2.5,coop
-7300156601308,7300156601308,Skinka Kokt,Xtra,100.0 Gram,"27,40 kr",110.0,450.0,3.6,1.4,1.7,0.5,,17.0,2.5,coop
 7312338006566,7312338006566,Skinka Kokt,Lönneberga,100.0 Gram,"28,35 kr",110.0,480.0,2.8,1.1,2.5,0.8,,19.0,2.7,coop
+7300156601308,7300156601308,Skinka Kokt,Xtra,100.0 Gram,"27,40 kr",110.0,450.0,3.6,1.4,1.7,0.5,,17.0,2.5,coop
 7391196071404,7391196071404,Skinka Kokt Mor Matildas,Jakobsdals,100.0 Gram,"31,18 kr",110.0,450.0,2.2,0.7,1.8,1.6,,20.0,3.5,coop
 5707196314281,5707196314281,Skinka Kokt Strimlad,TULIP,100.0 Gram,"52,95 kr",112.0,472.0,3.6,1.4,0.9,0.9,,19.0,1.8,coop
 2097086400006,2097086400006,Skinka Källarrökt,,,"330,30 kr",,,,,,,,,,
@@ -7725,8 +7725,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 4013752031501,4013752031501,Skorpor,Brandt,100.0 Gram,"20,77 kr",395.0,1669.0,5.2,0.7,74.0,14.0,,11.0,0.66,coop
 7311070005028,7311070005028,Skorpor Fullkorn,Pågen,100.0 Gram,"17,51 kr",400.0,1688.0,6.6,0.9,68.0,1.1,8.3,13.0,1.1,coop
 7311070005004,7311070005004,Skorpor Kardemumma,Pågen,100.0 Gram,"17,51 kr",438.0,1844.0,11.0,1.3,73.0,13.0,3.2,9.8,0.5,coop
-7317063003507,7317063003507,Skorpor Kardemumma,Nyåkers,100.0 Gram,"31,71 kr",460.0,1950.0,22.0,10.0,63.0,30.0,,4.4,0.6,coop
 7312200051205,7312200051205,Skorpor Kardemumma,Skogaholm,100.0 Gram,"32,13 kr",420.0,1750.0,8.6,0.7,73.0,11.0,3.1,11.0,0.4,coop
+7317063003507,7317063003507,Skorpor Kardemumma,Nyåkers,100.0 Gram,"31,71 kr",460.0,1950.0,22.0,10.0,63.0,30.0,,4.4,0.6,coop
 7330930111440,7330930111440,Skorpor Katarinas,Kvarnåsens Bröd AB,100.0 Gram,"39,28 kr",399.0,1671.0,10.0,3.6,68.3,13.0,2.0,8.0,0.15,coop
 7311070005011,7311070005011,Skorpor Vete,Pågen,100.0 Gram,"17,51 kr",432.0,1824.0,10.0,1.3,73.0,9.5,3.1,10.0,0.67,coop
 7312200051106,7312200051106,Skorpor Vete,Skogaholm,100.0 Gram,"32,13 kr",420.0,1750.0,8.6,0.7,73.0,11.0,2.8,11.0,0.4,coop
@@ -7756,8 +7756,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350153720250,7350153720250,"Smoothie Apelsin, mandarin, äpple & citron",Froosh,100.0 Milliliter,"36,44 kr",53.0,221.0,0.0,0.0,12.0,12.0,0.4,0.3,0.0,coop
 7350020720024,7350020720024,Smoothie Blåbär & hallon,Froosh,100.0 Milliliter,"18,88 kr",57.0,242.0,0.1,0.0,13.0,12.0,1.1,0.4,0.0,coop
 7340191184435,7340191184435,Smoothie Classic,Coop,100.0 Gram,"39,28 kr",63.0,268.0,0.0,0.0,14.0,9.7,2.3,0.7,0.0,coop
-5038862235327,5038862235327,Smoothie Energise,Innocent,100.0 Milliliter,"27,40 kr",52.0,221.0,0.0,0.0,12.0,10.0,0.8,0.6,0.0,coop
 5038862230209,5038862230209,Smoothie Energise,Innocent,100.0 Milliliter,"44,96 kr",53.0,224.0,0.0,0.0,11.0,10.0,1.4,1.5,0.0,coop
+5038862235327,5038862235327,Smoothie Energise,Innocent,100.0 Milliliter,"27,40 kr",52.0,221.0,0.0,0.0,12.0,10.0,0.8,0.6,0.0,coop
 5038862012690,5038862012690,"Smoothie Gurka, citron, äpple & spenat",Innocent,100.0 Milliliter,"42,50 kr",44.0,186.0,0.0,0.0,9.6,9.6,1.2,0.7,0.0,coop
 7340191178854,7340191178854,Smoothie Jordgubb & banan,Coop,100.0 Milliliter,"16,56 kr",62.0,263.0,0.0,0.0,14.0,13.0,,0.7,0.0,coop
 7350020720789,7350020720789,"Smoothie Jordgubb, Banan & Guava",Froosh,100.0 Milliliter,"14,67 kr",44.0,187.0,0.0,0.0,9.8,9.4,0.7,0.0,0.0,coop
@@ -7798,8 +7798,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310865005168,7310865005168,Smör Normalsaltat,Svenskt Smör från Arla,100.0 Gram,"61,45 kr",739.0,3038.0,82.0,52.0,0.7,0.7,,0.6,1.2,coop
 6408432061233,6408432061233,Smör Normalsaltat,VALIO,100.0 Gram,"59,57 kr",713.0,2984.0,80.0,47.0,0.8,0.8,,0.6,1.4,coop
 7310865005250,7310865005250,Smör Normalsaltat,Svenskt Smör från Arla,100.0 Gram,"39,70 kr",739.0,3038.0,82.0,52.0,0.7,0.7,,0.6,1.2,coop
-7340131391527,7340131391527,Smör Normalsaltat,Grådö Mejeri,100.0 Gram,"66,20 kr",739.0,3038.0,82.0,54.0,0.7,0.7,,0.6,1.2,coop
 6408432201462,6408432201462,Smör Normalsaltat,VALIO,100.0 Gram,"36,86 kr",713.0,2984.0,80.0,45.0,0.8,0.8,,0.6,0.8,coop
+7340131391527,7340131391527,Smör Normalsaltat,Grådö Mejeri,100.0 Gram,"66,20 kr",739.0,3038.0,82.0,54.0,0.7,0.7,,0.6,1.2,coop
 7340191149588,7340191149588,Smör Normalsaltat 81%,Coop,100.0 Gram,"49,99 kr",0.0,0.0,,,,,,,,coop
 7310865560759,7310865560759,Smör Normalsaltat Eko,Svenskt Smör från Arla,100.0 Gram,"88,95 kr",740.0,3041.0,82.0,52.0,0.7,0.7,,0.6,1.2,coop
 7310865005267,7310865005267,Smör Normalsaltat Eko,Svenskt Smör från Arla,100.0 Gram,"50,51 kr",740.0,3041.0,82.0,52.0,0.7,0.7,,0.6,1.2,coop
@@ -7809,16 +7809,16 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6408432061240,6408432061240,Smör Osaltat,VALIO,100.0 Gram,"59,57 kr",740.0,3050.0,82.0,46.0,0.8,0.8,,0.6,0.02,coop
 5413056040190,5413056040190,Smörcroissant,Bonjour,100.0 Gram,"10,36 kr",351.0,1470.0,20.0,13.0,37.0,6.8,1.6,6.2,0.83,coop
 7300156578723,7300156578723,Smördeg,Coop,100.0 Gram,"28,35 kr",390.0,1624.0,27.0,15.0,30.0,0.0,,5.8,0.69,coop
-5709153099170,5709153099170,Smördeg,Coop,100.0 Gram,"24,56 kr",392.0,1635.0,24.0,11.0,35.0,0.4,1.4,5.7,0.85,coop
 3392590205086,3392590205086,Smördeg,Pop Bakery,100.0 Gram,"28,35 kr",396.0,1656.0,20.0,14.0,43.0,2.0,1.3,6.3,0.83,coop
+5709153099170,5709153099170,Smördeg,Coop,100.0 Gram,"24,56 kr",392.0,1635.0,24.0,11.0,35.0,0.4,1.4,5.7,0.85,coop
 7300156592804,7300156592804,Smördegsstänger Ost,Coop,100.0 Gram,"26,03 kr",511.0,2135.0,28.0,17.0,50.0,3.5,3.5,13.0,1.6,coop
 7300156592811,7300156592811,Smördegsstänger Salt,Coop,100.0 Gram,"26,03 kr",495.0,2071.0,25.0,17.0,55.0,5.0,3.0,11.0,1.7,coop
 7310240150131,7310240150131,Smörgåsgurka,Felix,100.0 Gram,"32,13 kr",56.0,235.0,0.0,0.0,12.0,12.0,,1.0,1.7,coop
 7310240050189,7310240050189,Smörgåsgurka,Felix,100.0 Gram,"21,29 kr",60.0,251.0,0.0,0.0,13.0,13.0,,1.0,1.7,coop
-7300156600325,7300156600325,Smörgåsgurka,Coop,100.0 Gram,"18,46 kr",104.0,435.0,0.1,0.1,25.0,25.0,,0.7,2.2,coop
-7317662946557,7317662946557,Smörgåsgurka,Björnekulla,100.0 Gram,"35,49 kr",60.0,260.0,0.5,0.0,14.5,14.0,,0.4,1.8,coop
 7340011489894,7340011489894,Smörgåsgurka,Coop,100.0 Gram,"16,56 kr",62.0,262.0,0.0,0.0,14.0,14.0,,0.7,1.1,coop
 7340062804202,7340062804202,Smörgåsgurka,Minella,100.0 Gram,"16,56 kr",24.0,100.4,0.0,0.0,20.0,16.0,,1.8,3.5,coop
+7300156600325,7300156600325,Smörgåsgurka,Coop,100.0 Gram,"18,46 kr",104.0,435.0,0.1,0.1,25.0,25.0,,0.7,2.2,coop
+7317662946557,7317662946557,Smörgåsgurka,Björnekulla,100.0 Gram,"35,49 kr",60.0,260.0,0.5,0.0,14.5,14.0,,0.4,1.8,coop
 7310770664450,7310770664450,Smörgåsgurka Mor Annas,Önos,100.0 Gram,"28,35 kr",78.0,324.0,0.0,0.0,18.0,17.0,,0.9,2.0,coop
 7340011342601,7340011342601,Smörgåsgurka Skivad,Xtra,100.0 Gram,"28,35 kr",74.0,316.0,0.1,0.1,17.0,16.0,,0.7,1.1,coop
 7340011421924,7340011421924,Smörgåsgurka Skivad Eko,Änglamark,100.0 Gram,"30,24 kr",96.0,409.0,0.1,0.1,22.0,21.0,,0.7,2.1,coop
@@ -7898,9 +7898,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5700417990219,5700417990219,Snöre Jordgubb,Malaco,100.0 Gram,"15,62 kr",371.0,1569.0,1.7,1.2,82.0,51.0,,3.1,0.02,coop
 5700417990202,5700417990202,Snöre Kola,Malaco,100.0 Gram,"15,62 kr",373.0,1577.0,1.6,1.2,81.0,51.0,,3.2,0.02,coop
 5701073062357,5701073062357,Sockerdekoration Rosor & blad,Dr. Oetker,100.0 Gram,"44,03 kr",440.0,1844.0,9.0,5.0,84.0,61.0,,1.3,0.0,coop
+7300156504418,7300156504418,Sockerdricka,Coop,100.0 Milliliter,"14,67 kr",30.0,125.0,0.0,0.0,7.2,7.2,,0.0,0.0,coop
 7300156600806,7300156600806,Sockerdricka,Coop,100.0 Milliliter,"14,67 kr",30.0,125.0,0.0,0.0,7.2,7.2,,0.0,0.01,coop
 7300156600677,7300156600677,Sockerdricka,Coop,100.0 Milliliter,"6,58 kr",30.0,125.0,0.0,0.0,7.2,7.2,,0.0,0.01,coop
-7300156504418,7300156504418,Sockerdricka,Coop,100.0 Milliliter,"14,67 kr",30.0,125.0,0.0,0.0,7.2,7.2,,0.0,0.0,coop
 7340191161818,7340191161818,Sockerkaka,Coop,100.0 Gram,"14,67 kr",415.0,1738.0,18.0,1.5,60.0,33.0,,4.2,0.75,coop
 7331755730212,7331755730212,Sockervadd Sour Apple,Sundlings,100.0 Gram,"19,83 kr",398.0,1672.0,0.0,0.0,100.0,99.0,0.0,0.0,0.0,coop
 7331755730175,7331755730175,Sockervadd Strawberry/Blueberry,Sundlings,100.0 Gram,"19,83 kr",399.0,1675.0,0.0,0.0,100.0,99.0,0.0,0.0,0.0,coop
@@ -7959,9 +7959,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7392938000102,7392938000102,Solros Groddar Eko,Nyttogrönt,,"28,35 kr",,,,,,,,,,
 7316150677690,7316150677690,Solros- & olivolja,Fontana,100.0 Gram,"80,40 kr",900.0,3700.0,100.0,12.6,0.0,0.0,,0.0,0.0,coop
 7391835000604,7391835000604,Solrosbröd Eko,Kung Markatta,100.0 Gram,"30,76 kr",224.0,941.0,5.2,0.6,34.0,2.5,8.2,6.2,1.1,coop
+7311311025105,7311311025105,Solroskärnor,Risenta,100.0 Gram,"53,90 kr",594.0,2485.0,47.0,5.2,4.3,1.7,11.0,23.0,0.0,coop
 7311311024689,7311311024689,Solroskärnor,Risenta,100.0 Gram,"24,56 kr",594.0,2485.0,47.0,5.2,4.3,1.7,11.0,23.0,0.0,coop
 7340191118867,7340191118867,Solroskärnor,Coop,100.0 Gram,"20,77 kr",0.0,0.0,,,,,,,,coop
-7311311025105,7311311025105,Solroskärnor,Risenta,100.0 Gram,"53,90 kr",594.0,2485.0,47.0,5.2,4.3,1.7,11.0,23.0,0.0,coop
 7340011320739,7340011320739,Solroskärnor Eko,Änglamark,100.0 Gram,"26,97 kr",617.0,2554.0,52.0,4.5,12.0,2.6,8.6,21.0,0.02,coop
 7312631211308,7312631211308,Solroskärnor Rostade,Risenta,100.0 Gram,"15,62 kr",590.0,2490.0,47.0,5.0,14.0,2.0,11.0,23.0,0.0,coop
 7312631211322,7312631211322,Solroskärnor Rostade & saltade,Risenta,100.0 Gram,"15,62 kr",590.0,2490.0,47.0,5.0,14.0,2.0,11.0,23.0,3.2,coop
@@ -8058,17 +8058,17 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 73204510,73204510,Sportdryck Orange Zero,Gatorade,100.0 Milliliter,"21,29 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.12,coop
 54033979,54033979,Sportdryck Powerade Mountain blast Zero,POWERADE,100.0 Milliliter,"19,83 kr",1.0,6.0,0.0,0.0,0.0,0.0,,0.0,0.13,coop
 7310130323201,7310130323201,Sportgryn,AXA,100.0 Gram,"19,83 kr",350.0,1450.0,5.4,0.9,57.0,1.6,13.0,12.0,0.01,coop
-7310040028746,7310040028746,Sportlunch,Cloetta,100.0 Gram,"10,36 kr",532.0,2232.0,30.0,18.0,59.0,53.0,,6.3,0.34,coop
 7310040028067,7310040028067,Sportlunch,Cloetta,100.0 Gram,"16,04 kr",527.0,2214.0,29.0,17.0,60.0,52.0,,6.6,0.35,coop
+7310040028746,7310040028746,Sportlunch,Cloetta,100.0 Gram,"10,36 kr",532.0,2232.0,30.0,18.0,59.0,53.0,,6.3,0.34,coop
 7310040028647,7310040028647,Sportlunch,Cloetta,100.0 Gram,"8,04 kr",532.0,2232.0,30.0,18.0,59.0,53.0,1.9,6.3,0.34,coop
 5000112690064,5000112690064,Sprite,Sprite,100.0 Milliliter,"19,40 kr",37.0,158.0,0.0,0.0,9.0,9.0,,0.0,0.03,coop
 5000112642667,5000112642667,Sprite,Sprite,100.0 Milliliter,"19,40 kr",37.0,158.0,0.0,0.0,9.0,9.0,,0.0,0.03,coop
 5000112637953,5000112637953,Sprite,Sprite,100.0 Milliliter,"9,42 kr",37.0,158.0,0.0,0.0,9.0,9.0,,0.0,0.03,coop
 5000112642650,5000112642650,Sprite,Sprite,100.0 Milliliter,"15,10 kr",37.0,158.0,0.0,0.0,9.0,9.0,,0.0,0.03,coop
-5000112690033,5000112690033,Sprite Zero,Sprite,100.0 Milliliter,"19,40 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 5000112638875,5000112638875,Sprite Zero,Sprite zero,100.0 Milliliter,"9,42 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 5000112570939,5000112570939,Sprite Zero,Sprite zero,100.0 Milliliter,"19,40 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 73513575,73513575,Sprite Zero,Sprite zero,100.0 Milliliter,"15,10 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
+5000112690033,5000112690033,Sprite Zero,Sprite,100.0 Milliliter,"19,40 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 54035126,54035126,Sprite Zero,Sprite,100.0 Milliliter,"16,56 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 5000112690125,5000112690125,Sprite Zero,Sprite,100.0 Milliliter,"25,51 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
 5000112669213,5000112669213,Sprite Zero 6-pack,Sprite zero,100.0 Milliliter,"45,38 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.03,coop
@@ -8099,8 +8099,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2317264400001,2317264400001,Stekfläsk Rimmat Skivor,Coop,100.0 Gram,"106,95 kr",350.0,1400.0,32.0,11.0,1.7,0.5,,11.0,2.0,coop
 5762385534970,5762385534970,Stekfläsk Skivat,TULIP,100.0 Gram,"126,82 kr",322.0,1331.0,30.0,12.0,0.5,0.0,,13.0,2.6,coop
 5707196078442,5707196078442,Stekfläsk Skivat,TULIP,100.0 Gram,"52,95 kr",322.0,1331.0,30.0,12.0,0.5,0.0,,13.0,2.6,coop
-2317264300004,2317264300004,Stekfläsk Skivor,Coop,100.0 Gram,"101,27 kr",350.0,1400.0,32.0,11.0,1.7,0.5,,11.0,2.0,coop
 7300202770002,7300202770002,Stekfläsk Skivor,Scan,100.0 Gram,"47,27 kr",320.0,1350.0,30.0,12.0,0.5,0.5,,13.0,2.0,coop
+2317264300004,2317264300004,Stekfläsk Skivor,Coop,100.0 Gram,"101,27 kr",350.0,1400.0,32.0,11.0,1.7,0.5,,11.0,2.0,coop
 5707196299762,5707196299762,Stekfläsk Tärnat,Tulip,100.0 Gram,"23,19 kr",322.0,1331.0,30.0,11.0,0.0,0.0,,13.0,2.6,coop
 7300156480729,7300156480729,Stekkorv Kyckling,Coop,100.0 Gram,"36,44 kr",230.0,1000.0,18.0,6.0,7.0,0.5,,10.0,1.8,coop
 7340007902215,7340007902215,Steklök,,,"16,04 kr",,,,,,,,,,
@@ -8187,8 +8187,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7313830006429,7313830006429,Surdegstunnbröd Abisko 8-pack,Polarbröd,100.0 Gram,"24,56 kr",300.0,1260.0,3.9,0.7,55.0,9.8,3.9,8.9,0.88,coop
 7340011489603,7340011489603,Surimi 8-pack,Coop,100.0 Gram,"8,47 kr",104.0,439.0,2.4,0.2,13.0,4.1,,8.4,2.0,coop
 7340011489740,7340011489740,Surimi Crabsticks,Xtra,100.0 Gram,"19,85 kr",110.0,465.0,2.4,0.2,14.0,3.9,,8.1,2.2,coop
-5900397732476,5900397732476,Surkål,Krakus,100.0 Gram,"26,45 kr",17.0,72.0,0.0,0.0,3.8,0.5,,1.1,2.3,coop
 7393853111201,7393853111201,Surkål,Tistelvind,100.0 Gram,"60,52 kr",17.0,70.0,0.2,0.0,2.0,0.2,,0.9,1.5,coop
+5900397732476,5900397732476,Surkål,Krakus,100.0 Gram,"26,45 kr",17.0,72.0,0.0,0.0,3.8,0.5,,1.1,2.3,coop
 7340007917578,7340007917578,Surkål Eko,,,"20,77 kr",,,,,,,,,,
 7393853111102,7393853111102,Surkål Naturligt Syrad,Tistelvind,100.0 Gram,"45,38 kr",17.0,70.0,0.2,0.0,2.0,0.2,,0.9,1.5,coop
 7340191106178,7340191106178,Sushi Ginger,Coop,100.0 Gram,"33,08 kr",62.0,264.0,0.0,0.0,15.0,13.0,,0.5,0.77,coop
@@ -8269,21 +8269,21 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7350031930030,7350031930030,Svarta Sesamkex,Renée Voltaire,100.0 Gram,"38,76 kr",470.0,1950.0,23.0,3.5,47.0,1.2,9.0,14.0,,coop
 7340007915079,7340007915079,Svartkål 300Gr,,,"34,02 kr",,,,,,,,,,
 7350046468900,7350046468900,Svartpeppar Eko,KOCKENS,,"47,58 kr",,,,,,,,,,
-7350046465015,7350046465015,Svartpeppar Grovmalen,KOCKENS,,"24,56 kr",,,,,,,,,,
-7350046464988,7350046464988,Svartpeppar Grovmalen,KOCKENS,,"83,76 kr",,,,,,,,,,
-7350046464995,7350046464995,Svartpeppar Grovmalen,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311005022,7311311005022,Svartpeppar Grovmalen,Santa Maria,100.0 Gram,"29,29 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
 7340191154902,7340191154902,Svartpeppar Grovmalen,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
 7311311014185,7311311014185,Svartpeppar Grovmalen,Santa Maria,100.0 Gram,"27,58 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
 7311311014055,7311311014055,Svartpeppar Grovmalen,Santa Maria,100.0 Gram,"29,29 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
 7311311015731,7311311015731,Svartpeppar Grovmalen,Santa Maria,100.0 Gram,"80,40 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
+7350046465015,7350046465015,Svartpeppar Grovmalen,KOCKENS,,"24,56 kr",,,,,,,,,,
+7350046464988,7350046464988,Svartpeppar Grovmalen,KOCKENS,,"83,76 kr",,,,,,,,,,
+7350046464995,7350046464995,Svartpeppar Grovmalen,KOCKENS,,"29,29 kr",,,,,,,,,,
 7350046469488,7350046469488,Svartpeppar Grovmalen Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311004865,7311311004865,Svartpeppar Hel,Santa Maria,100.0 Gram,"28,35 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
-7350046465039,7350046465039,Svartpeppar Hel,KOCKENS,,"29,29 kr",,,,,,,,,,
 7340011425731,7340011425731,Svartpeppar Hel,Xtra,100.0 Gram,"15,97 kr",0.0,0.0,,,,,,,,coop
+7350046465039,7350046465039,Svartpeppar Hel,KOCKENS,,"29,29 kr",,,,,,,,,,
 7350046469495,7350046469495,Svartpeppar Mald Eko,KOCKENS,,"29,29 kr",,,,,,,,,,
-7350046465091,7350046465091,Svartpeppar Malen,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311015670,7311311015670,Svartpeppar Malen,Santa Maria,100.0 Gram,"27,58 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
+7350046465091,7350046465091,Svartpeppar Malen,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311015687,7311311015687,Svartpeppar Mellanmalen,Santa Maria,100.0 Gram,"27,58 kr",276.0,1158.0,3.3,1.4,39.0,0.6,25.0,10.0,0.05,coop
 7391196076003,7391196076003,Svartpepparsalami,Jakobsdals,100.0 Gram,"29,29 kr",390.0,1650.0,32.0,11.0,2.8,0.5,,24.0,4.3,coop
 7340011353355,7340011353355,Svartvinbärsgelé,Coop,100.0 Gram,"31,71 kr",221.0,941.0,0.0,0.0,55.0,55.0,,0.0,0.04,coop
@@ -8366,9 +8366,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7313160007301,7313160007301,Sås Vitlök & örter,Lohmanders,100.0 Gram,"22,67 kr",550.0,2200.0,57.0,4.0,3.4,1.6,,1.0,1.0,coop
 5000111041065,5000111041065,Sås Worcestershire,Heinz,100.0 Milliliter,"25,51 kr",96.0,405.0,0.9,0.4,21.0,19.0,,0.8,2.9,coop
 7310350117833,7310350117833,Söta Björnar,Cloetta,100.0 Gram,"6,58 kr",352.0,1497.0,0.2,0.2,81.0,65.0,,4.6,0.01,coop
+7350104400156,7350104400156,Sötningsmedel,NICKS,100.0 Gram,"64,83 kr",108.0,452.0,0.0,0.0,75.0,1.0,22.0,0.0,0.0,coop
 7610211070100,7610211070100,Sötningsmedel,Hermesetas,100.0 Gram,"16,56 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,26.5,coop
 7610211050409,7610211050409,Sötningsmedel,Hermesetas,100.0 Gram,"54,85 kr",0.0,0.0,0.0,0.0,0.0,0.0,,0.0,26.3,coop
-7350104400156,7350104400156,Sötningsmedel,NICKS,100.0 Gram,"64,83 kr",108.0,452.0,0.0,0.0,75.0,1.0,22.0,0.0,0.0,coop
 7610211052700,7610211052700,Sötningsmedel Lättströ Refill,Hermesetas,100.0 Gram,"33,08 kr",360.0,1506.0,0.0,0.0,86.6,12.4,,0.0,4.5,coop
 7630486403366,7630486403366,Sötningsmedel Stevia,Pure Via,100.0 Gram,"88,96 kr",1.0,4.0,0.0,0.0,99.0,0.0,,0.0,0.0,coop
 7610211149202,7610211149202,Sötningsmedel Stevia Lättströ,Hermesetas,100.0 Gram,"60,52 kr",289.0,1227.0,0.0,0.0,60.0,7.9,40.0,0.1,0.0,coop
@@ -8555,9 +8555,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340191171503,7340191171503,Tomatpuré,Coop,100.0 Gram,"18,88 kr",93.0,392.0,1.0,0.2,15.0,15.0,,4.8,0.6,coop
 7340191150447,7340191150447,Tomatpuré,Coop,100.0 Gram,"21,72 kr",94.0,396.0,0.0,0.0,17.0,15.0,4.4,4.2,0.1,coop
 7310240038002,7310240038002,Tomatpuré,Felix,100.0 Gram,"26,45 kr",80.0,340.0,0.0,0.0,16.0,13.0,,3.0,1.0,coop
-8690635030873,8690635030873,Tomatpuré,TAT,100.0 Gram,"44,43 kr",109.0,460.0,0.1,0.0,18.3,13.8,,6.6,0.8,coop
 8005590346684,8005590346684,Tomatpuré,Ardita,100.0 Gram,"23,61 kr",115.0,488.0,0.6,0.2,21.0,16.0,,4.6,0.54,coop
 7350166370350,7350166370350,Tomatpuré,Mino,100.0 Gram,"21,72 kr",97.0,412.0,0.5,0.0,16.0,13.0,,4.7,0.95,coop
+8690635030873,8690635030873,Tomatpuré,TAT,100.0 Gram,"44,43 kr",109.0,460.0,0.1,0.0,18.3,13.8,,6.6,0.8,coop
 7340011427520,7340011427520,Tomatpuré Eko,Änglamark,100.0 Gram,"19,77 kr",93.0,392.0,1.0,0.2,15.0,15.0,,4.8,0.6,coop
 80042525,80042525,Tomatpuré Trippelkoncentrat,Mutti,100.0 Gram,"22,67 kr",127.0,537.0,0.2,0.1,23.0,16.0,,5.7,0.5,coop
 7340191141292,7340191141292,Tomatsoppa,Coop,100.0 Milliliter,"26,45 kr",68.0,284.0,4.1,1.0,6.1,3.3,,1.2,0.7,coop
@@ -8584,16 +8584,16 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 3838975566668,3838975566668,Tonfiskpastej,Argeta,100.0 Gram,"14,67 kr",320.0,1325.0,29.0,3.4,1.8,0.5,0.0,13.0,1.2,coop
 7350065100973,7350065100973,Tonic,Train Station Brewery,100.0 Milliliter,"22,67 kr",28.0,119.0,0.1,0.0,7.0,7.0,,0.3,0.03,coop
 7350093030235,7350093030235,Tonic Bitter Eko,Ekobryggeriet,100.0 Milliliter,"14,67 kr",41.0,173.0,0.5,0.5,9.9,9.9,,0.5,0.01,coop
-7350115440011,7350115440011,Tonic Fläder,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",142.0,34.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
+7350115440011,7350115440011,Tonic Fläder,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",34.0,142.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
 7350093030273,7350093030273,Tonic Granskott Eko,Ekobryggeriet,100.0 Milliliter,"14,67 kr",38.0,161.0,0.5,0.5,9.0,9.0,,0.5,0.01,coop
 7330605001427,7330605001427,Tonic Grönt äpple,Ekobryggeriet,100.0 Milliliter,"29,29 kr",40.0,172.0,0.5,0.5,9.6,9.6,,0.5,0.01,coop
 7350093031171,7350093031171,Tonic Hjortron,Ekobryggeriet,100.0 Milliliter,"14,67 kr",41.0,173.0,0.5,0.5,9.6,9.6,,0.5,0.01,coop
-7350115440332,7350115440332,Tonic Jordgubb,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",142.0,34.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
-7350115440004,7350115440004,Tonic Original,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",142.0,34.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
+7350115440332,7350115440332,Tonic Jordgubb,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",34.0,142.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
+7350115440004,7350115440004,Tonic Original,Åhus Tonics & Dryck AB,100.0 Gram,"18,47 kr",34.0,142.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
 5060108457835,5060108457835,Tonic Pink Grapefruit,Fever Tree,100.0 Milliliter,"34,54 kr",26.0,106.0,0.0,0.0,6.2,6.1,,,,coop
 5029396001052,5029396001052,Tonic Pink Grapefruit,Fentimans,100.0 Milliliter,"20,77 kr",35.0,147.0,0.0,0.0,7.7,7.7,,0.0,0.01,coop
 7350093030259,7350093030259,Tonic Rabarb Eko,Ekobryggeriet,100.0 Milliliter,"14,67 kr",38.0,161.0,0.5,0.5,9.0,9.0,,0.5,0.01,coop
-7350115440431,7350115440431,Tonic Rabarber,Åhus Tonics & Dryck AB,100.0 Gram,"33,09 kr",142.0,34.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
+7350115440431,7350115440431,Tonic Rabarber,Åhus Tonics & Dryck AB,100.0 Gram,"33,09 kr",34.0,142.0,0.0,0.0,8.0,8.0,,0.0,0.0,coop
 7330605001267,7330605001267,Tonic Rabarber,Ekobryggeriet,100.0 Milliliter,"29,29 kr",38.0,161.0,0.5,0.5,9.0,9.0,,0.5,0.01,coop
 96201640,96201640,Tonic Raspberry,Britvic,100.0 Milliliter,"14,67 kr",1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7311120351617,7311120351617,Tonic water,Three Hearts,100.0 Milliliter,"15,10 kr",38.0,162.0,0.0,0.0,9.0,9.0,,0.0,0.0,coop
@@ -8716,15 +8716,15 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7312080004018,7312080004018,Trekantsknäcke Normalgräddat,Leksands Knäckebröd,100.0 Gram,"11,83 kr",350.0,1400.0,1.6,0.3,60.0,0.5,20.0,8.9,1.2,coop
 7312080421266,7312080421266,Trekantsknäcke Normalgräddat Eko,Leksands Knäckebröd,100.0 Gram,"16,99 kr",330.0,1350.0,2.7,0.6,58.0,1.3,19.0,8.2,1.2,coop
 7312080004230,7312080004230,Trekantsknäcke Surdeg,Leksands Knäckebröd,100.0 Gram,"16,99 kr",340.0,1420.0,3.3,0.5,57.0,0.6,21.0,9.3,1.2,coop
+7310401009933,7310401009933,Trocadero,Trocadero,100.0 Milliliter,"6,58 kr",40.0,170.0,0.5,0.5,9.6,9.5,,0.5,0.1,coop
 7310401000374,7310401000374,Trocadero,Trocadero,100.0 Milliliter,"16,99 kr",40.0,170.0,0.0,0.0,9.6,9.5,,0.0,0.0,coop
 7310401046723,7310401046723,Trocadero,Trocadero,100.0 Milliliter,"7,52 kr",40.0,170.0,0.0,0.0,9.6,9.5,,0.0,0.0,coop
 7310401024844,7310401024844,Trocadero,Trocadero,100.0 Milliliter,"12,78 kr",40.0,170.0,0.0,0.0,9.6,9.5,,0.0,0.0,coop
-7310401009933,7310401009933,Trocadero,Trocadero,100.0 Milliliter,"6,58 kr",40.0,170.0,0.5,0.5,9.6,9.5,,0.5,0.1,coop
 7310402046746,7310402046746,Trocadero 6-pack,Trocadero,100.0 Milliliter,"39,28 kr",40.0,170.0,0.0,0.0,9.6,9.5,,0.0,0.0,coop
 7310401034584,7310401034584,Trocadero Zero,Trocadero,100.0 Milliliter,"16,99 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
+7310401049199,7310401049199,Trocadero Zero,Trocadero,100.0 Milliliter,"6,58 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310401034577,7310401034577,Trocadero Zero,Trocadero,100.0 Milliliter,"12,78 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310401046754,7310401046754,Trocadero Zero,Trocadero,100.0 Milliliter,"7,52 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
-7310401049199,7310401049199,Trocadero Zero,Trocadero,100.0 Milliliter,"6,58 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310403054498,7310403054498,Trocadero Zero 12-pack,Trocadero,100.0 Milliliter,"62,42 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310402046777,7310402046777,Trocadero Zero 6-pack,Trocadero,100.0 Milliliter,"39,28 kr",2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
 7310401055404,7310401055404,Trocadero Zero Bilar,Trocadero,100.0 Milliliter,"7,52 kr",2.0,9.0,0.0,0.0,0.0,0.0,,0.0,0.0,coop
@@ -8750,9 +8750,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8723400941361,8723400941361,Tuggummi Air rush,Stimorol,100.0 Gram,"14,67 kr",154.0,642.0,0.2,0.1,61.0,0.1,,0.4,0.04,coop
 7340149203508,7340149203508,Tuggummi automat,ASBA,100.0 Gram,"19,50 kr",390.0,1650.0,0.0,0.0,97.0,68.0,,0.0,0.0,coop
 4009900547970,4009900547970,Tuggummi Black Mint,EXTRA,100.0 Gram,"15,62 kr",141.0,586.0,0.0,0.0,59.0,0.0,,0.0,0.0,coop
-4009900582018,4009900582018,Tuggummi Bubblemint,EXTRA,100.0 Gram,"15,62 kr",149.0,623.0,0.0,0.0,62.0,0.0,,0.0,0.04,coop
 4009900536721,4009900536721,Tuggummi Bubblemint,EXTRA,100.0 Gram,"35,92 kr",168.0,702.0,0.0,0.0,70.0,0.0,,0.0,0.0,coop
 4009900581776,4009900581776,Tuggummi Bubblemint,EXTRA,100.0 Gram,"35,92 kr",149.0,623.0,0.0,0.0,62.0,0.0,,0.0,0.04,coop
+4009900582018,4009900582018,Tuggummi Bubblemint,EXTRA,100.0 Gram,"15,62 kr",149.0,623.0,0.0,0.0,62.0,0.0,,0.0,0.04,coop
 4009900447188,4009900447188,Tuggummi Citrus,EXTRA,100.0 Gram,"15,62 kr",167.0,694.0,0.0,0.0,68.0,0.0,,0.0,0.05,coop
 8723400941835,8723400941835,Tuggummi Dental Dual Action Ocean Mint,V6,100.0 Gram,"14,67 kr",174.0,725.0,0.3,0.1,68.0,0.1,,1.2,0.03,coop
 4009900483742,4009900483742,Tuggummi Eucalyptus,EXTRA,100.0 Gram,"35,92 kr",147.0,614.0,0.0,0.0,61.0,0.0,,0.0,0.0,coop
@@ -8763,10 +8763,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8723400940982,8723400940982,Tuggummi Original,Stimorol,100.0 Gram,"14,67 kr",170.0,707.0,0.3,0.1,65.0,0.5,,0.8,0.1,coop
 42123866,42123866,Tuggummi Original,HUBBA BUBBA,100.0 Gram,"11,83 kr",282.0,1198.0,0.0,0.0,71.1,69.4,,0.0,0.0,coop
 8723400940395,8723400940395,Tuggummi Original,Stimorol,100.0 Gram,"34,54 kr",170.0,707.0,0.3,0.1,64.0,0.5,,0.8,0.1,coop
-4009900584210,4009900584210,Tuggummi Peppermint,EXTRA,100.0 Gram,"15,62 kr",155.0,644.0,0.0,0.0,62.0,0.0,,0.0,0.04,coop
 4009900527859,4009900527859,Tuggummi Peppermint,EXTRA,100.0 Gram,"15,62 kr",147.0,613.0,0.0,0.0,61.0,0.0,,,6.0,coop
+4009900584210,4009900584210,Tuggummi Peppermint,EXTRA,100.0 Gram,"15,62 kr",155.0,644.0,0.0,0.0,62.0,0.0,,0.0,0.04,coop
 8723400871309,8723400871309,Tuggummi Peppermint,Stimorol,100.0 Gram,"14,67 kr",171.0,712.0,0.2,0.0,70.0,0.0,,0.0,0.02,coop
-4009900584234,4009900584234,Tuggummi Raspberry & pommegranate,EXTRA,100.0 Gram,"35,92 kr",,,164.0,0.0,67.0,0.0,,0.0,0.08,coop
+4009900584234,4009900584234,Tuggummi Raspberry & pommegranate,EXTRA,100.0 Gram,"35,92 kr",,,,0.0,67.0,0.0,,0.0,0.08,coop
 4009900547796,4009900547796,Tuggummi Raspberry Pomegranate,EXTRA,100.0 Gram,"15,62 kr",164.0,684.0,0.0,0.0,67.0,0.0,,0.0,0.08,coop
 4009900550369,4009900550369,Tuggummi Refreshers Bubblemint,EXTRA,100.0 Gram,"15,62 kr",168.0,702.0,0.0,0.0,70.0,0.0,,0.0,0.0,coop
 3116740015642,3116740015642,Tuggummi Roll up Tutti Frutti,Lutti,100.0 Gram,"13,20 kr",292.0,1241.0,0.0,0.0,73.0,62.0,,0.0,0.0,coop
@@ -8781,8 +8781,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8723400941200,8723400941200,Tuggummi Strength Sweet Menthol,V6,100.0 Gram,"17,51 kr",173.0,722.0,0.7,0.1,68.0,0.1,,0.2,0.07,coop
 4009900582797,4009900582797,Tuggummi Strong Mint,EXTRA,100.0 Gram,"35,92 kr",155.0,646.0,0.5,0.1,62.0,0.0,,0.0,0.04,coop
 4009900547826,4009900547826,Tuggummi Superberries,EXTRA,100.0 Gram,"15,62 kr",168.0,702.0,0.0,0.0,70.0,0.0,,0.0,0.0,coop
-42070436,42070436,Tuggummi Sweet fruit,EXTRA,100.0 Gram,"8,99 kr",180.0,750.0,0.0,0.0,75.0,0.0,,0.0,0.1,coop
 4009900527910,4009900527910,Tuggummi Sweet Fruit,EXTRA,100.0 Gram,"15,62 kr",162.0,674.0,0.0,0.0,67.0,0.0,,0.0,0.05,coop
+42070436,42070436,Tuggummi Sweet fruit,EXTRA,100.0 Gram,"8,99 kr",180.0,750.0,0.0,0.0,75.0,0.0,,0.0,0.1,coop
 7340191176621,7340191176621,Tuggummi Sweet fruit,Coop,100.0 Gram,"13,72 kr",166.0,691.0,0.0,0.0,67.0,0.0,1.9,0.0,0.0,coop
 4009900484220,4009900484220,Tuggummi Sweet mint,EXTRA,100.0 Gram,"35,92 kr",156.0,650.0,0.0,0.0,65.0,0.0,,0.0,0.06,coop
 4009900527897,4009900527897,Tuggummi Sweet Mint,EXTRA,100.0 Gram,"15,62 kr",155.0,647.0,0.0,0.0,65.0,0.0,,0.0,0.06,coop
@@ -8805,7 +8805,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7311860140106,7311860140106,Tunnbrödchips Havssalt Eko,Mjälloms,100.0 Gram,"45,38 kr",478.0,2008.0,18.8,1.3,69.9,0.0,,7.3,1.5,coop
 7350036860011,7350036860011,Tunnbrödschips Original,MÖRSJÖ DELI,100.0 Gram,"56,73 kr",540.0,2300.0,32.8,7.9,51.7,4.4,3.6,8.4,1.5,coop
 7311860140601,7311860140601,Tunnbrödschips Svartpeppar Eko,Mjälloms,100.0 Gram,"45,38 kr",478.0,2008.0,18.8,1.3,69.9,0.1,,7.3,1.5,coop
-7312080008290,7312080008290,Tunnknäcke 4Frön & Havssalt,Leksands Tre Kullor,100.0 Gram,"34,02 kr",2050.0,490.0,27.5,3.4,35.5,2.5,9.5,21.0,2.4,coop
+7312080008290,7312080008290,Tunnknäcke 4Frön & Havssalt,Leksands Tre Kullor,100.0 Gram,"34,02 kr",490.0,2050.0,27.5,3.4,35.5,2.5,9.5,21.0,2.4,coop
 7312080008283,7312080008283,Tunnknäcke Havre & havssalt,Leksands Tre Kullor,100.0 Gram,"34,54 kr",470.0,1960.0,24.0,3.0,42.0,8.5,9.5,15.5,1.2,coop
 7312080008153,7312080008153,Tunnknäcke Havssalt & frön,Leksands Tre Kullor,100.0 Gram,"34,97 kr",480.0,2010.0,27.0,3.8,38.0,4.3,7.9,18.0,2.3,coop
 7312080008269,7312080008269,Tunnknäcke Havssalt Frön & teff,Leksands Tre Kullor,100.0 Gram,"34,97 kr",500.0,2150.0,29.0,4.4,44.0,3.5,9.0,18.0,2.3,coop
@@ -8818,9 +8818,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6416453028227,6416453028227,Turkisk Peppar Hot & Sour,Fazer,100.0 Gram,"17,51 kr",381.0,1606.0,0.5,0.0,94.0,75.0,,0.5,0.67,coop
 6416453051041,6416453051041,Turkisk peppar Super Salty,Fazer,100.0 Gram,"12,78 kr",325.0,1366.0,0.5,0.0,77.0,54.0,,3.5,2.75,coop
 6416453051065,6416453051065,Turkisk peppar Super Sour,Fazer,100.0 Gram,"12,78 kr",342.0,1439.0,0.5,0.0,85.0,50.0,,2.1,0.16,coop
-7310865078353,7310865078353,Turkisk yoghurt 10%,Arla Köket®,100.0 Gram,"32,13 kr",119.0,494.0,10.0,6.5,3.4,3.4,,3.2,0.08,coop
 7392672104104,7392672104104,Turkisk Yoghurt 10%,Salakis,100.0 Gram,"29,50 kr",130.0,530.0,10.0,6.6,5.1,5.1,,4.2,0.1,coop
 7392672104050,7392672104050,Turkisk Yoghurt 10%,Salakis,100.0 Gram,"21,87 kr",130.0,530.0,10.0,6.6,5.1,5.1,,4.2,0.1,coop
+7310865078353,7310865078353,Turkisk yoghurt 10%,Arla Köket®,100.0 Gram,"32,13 kr",119.0,494.0,10.0,6.5,3.4,3.4,,3.2,0.08,coop
 7350056796000,7350056796000,"Turkisk Yoghurtdryck Ayran 2,4%",Larsa Foods,100.0 Gram,"17,93 kr",42.0,175.0,2.4,1.4,2.8,2.8,,2.4,0.82,coop
 6416453041264,6416453041264,Tutti Frutti Hallon,Fazer,100.0 Gram,"12,78 kr",356.0,1498.0,0.5,0.0,88.0,59.0,,0.5,0.32,coop
 6416453038288,6416453038288,Tutti Frutti Original,Fazer,100.0 Gram,"17,51 kr",361.0,1517.0,0.5,0.0,89.0,60.0,,0.5,0.29,coop
@@ -8872,8 +8872,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340011486138,7340011486138,Valnötter,Xtra,100.0 Gram,"47,27 kr",688.0,2845.0,60.0,6.6,15.0,3.4,5.9,19.0,0.02,coop
 5706779065329,5706779065329,Valnötter,Earth Control,100.0 Gram,"34,97 kr",686.0,2833.0,65.0,6.1,7.0,2.6,6.7,15.0,0.0,coop
 7340191148567,7340191148567,Valnötter,Coop,100.0 Gram,"37,81 kr",704.0,2906.0,68.0,5.9,3.5,2.2,5.2,17.0,0.0,coop
-7340191162365,7340191162365,Valnötter Eko,Änglamark,100.0 Gram,"18,88 kr",686.0,2833.0,65.0,6.1,7.0,2.6,6.7,15.0,0.0,coop
 7391835015141,7391835015141,Valnötter Eko,Kung Markatta,100.0 Gram,"66,20 kr",693.0,2860.0,66.0,6.7,2.7,2.1,7.6,18.0,0.0,coop
+7340191162365,7340191162365,Valnötter Eko,Änglamark,100.0 Gram,"18,88 kr",686.0,2833.0,65.0,6.1,7.0,2.6,6.7,15.0,0.0,coop
 8006040257321,8006040257321,Valsoia La Crema,Valsoia,100.0 Gram,"60,52 kr",517.0,2161.0,28.0,5.3,60.0,55.0,4.2,4.2,0.02,coop
 7300156502643,7300156502643,Vaniljbullar 12-pack,Coop,100.0 Gram,"29,29 kr",349.0,1470.0,10.0,1.2,58.0,20.0,,5.7,0.5,coop
 7314710380004,7314710380004,Vaniljdrömmar,Gille,100.0 Gram,"36,86 kr",518.0,2166.0,27.2,9.5,63.8,35.5,,3.9,0.35,coop
@@ -8887,10 +8887,10 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5701073067192,5701073067192,Vaniljpasta,Taylor & Colledge,,"78,36 kr",,,,,,,,,,
 5701073066669,5701073066669,Vaniljpulver,Dr. Oetker,,"27,59 kr",,,,,,,,,,
 5701073066492,5701073066492,Vaniljsocker,Dr.Oetker,100.0 Gram,"19,83 kr",391.0,1661.0,0.2,0.0,97.0,96.0,,0.1,0.0,coop
-5701073062944,5701073062944,Vaniljstång,Dr. Oetker,,"34,68 kr",,,,,,,,,,
 7340011482581,7340011482581,Vaniljstång,Coop,100.0 Gram,"31,70 kr",0.0,0.0,,,,,,,,coop
-7310394002652,7310394002652,Vaniljstång,KOCKENS,,"42,54 kr",,,,,,,,,,
+5701073062944,5701073062944,Vaniljstång,Dr. Oetker,,"34,68 kr",,,,,,,,,,
 7311311014758,7311311014758,Vaniljstång,Santa Maria,100.0 Gram,"46,93 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,coop
+7310394002652,7310394002652,Vaniljstång,KOCKENS,,"42,54 kr",,,,,,,,,,
 7340191142688,7340191142688,Vaniljstång Eko,Änglamark,100.0 Gram,"41,71 kr",0.0,0.0,,,,,,,,coop
 7310470061306,7310470061306,"Vaniljsås 12,7%",Ekströms,100.0 Gram,"36,44 kr",190.0,800.0,12.7,8.3,16.6,14.2,,2.9,0.0,coop
 7300156587435,7300156587435,"Vaniljsås 4,4%",Coop,100.0 Gram,"14,67 kr",130.0,550.0,4.4,4.0,19.0,12.0,,3.0,0.23,coop
@@ -8908,11 +8908,11 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300150031514,7300150031514,Vardagsmix,COOP,100.0 Gram,"22,67 kr",19.5,81.5,0.4,0.0,2.6,0.6,,1.5,0.3,coop
 7340063018103,7340063018103,Varmkorv,Andersson & Tillman,100.0 Gram,"50,11 kr",290.0,1200.0,23.0,9.5,10.0,4.2,,11.0,2.2,coop
 7340063018202,7340063018202,Varmkorv,Andersson & Tillman,,"88,96 kr",,,,,,,,,,
+7310628008887,7310628008887,Varmkorv,Lithells,100.0 Gram,"66,20 kr",280.0,1150.0,23.0,9.0,9.9,2.5,,8.2,2.0,coop
 7310628008894,7310628008894,Varmkorv,Lithells,100.0 Gram,"43,49 kr",280.0,1150.0,23.0,9.0,9.9,2.5,,8.2,2.0,coop
 7300156596864,7300156596864,Varmkorv,COOP,100.0 Gram,"28,35 kr",280.0,1150.0,23.0,8.9,9.5,1.6,,8.9,1.9,coop
 7300205258002,7300205258002,Varmkorv,Scan,100.0 Gram,"42,54 kr",260.0,1060.0,21.0,8.0,5.0,0.6,,12.0,2.0,coop
 7300208777005,7300208777005,Varmkorv,Scan,100.0 Gram,"69,04 kr",290.0,1200.0,26.0,7.5,5.0,0.5,,10.0,2.0,coop
-7310628008887,7310628008887,Varmkorv,Lithells,100.0 Gram,"66,20 kr",280.0,1150.0,23.0,9.0,9.9,2.5,,8.2,2.0,coop
 7300156494672,7300156494672,Varmkorv med skinn,Coop,100.0 Gram,"60,52 kr",280.0,1150.0,23.0,8.9,9.5,1.6,,8.9,1.9,coop
 5906259717711,5906259717711,Varmrökt lax Citron & persilja,MOWI,100.0 Gram,"69,99 kr",210.0,878.0,13.3,2.0,0.0,0.0,,22.5,1.4,coop
 2383471600008,2383471600008,Varmrökt lax Dubbelfilé,MOWI,100.0 Gram,"439,14 kr",228.0,951.0,15.4,2.5,0.0,0.0,,22.6,1.36,coop
@@ -9058,8 +9058,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7322550010890,7322550010890,Vitlök & Parmesansås,Bong Touch of Taste,100.0 Milliliter,"37,81 kr",128.0,528.0,11.0,3.3,5.1,1.8,0.3,1.9,1.1,coop
 8710251101082,8710251101082,Vitlök Eko,,,"16,04 kr",,,,,,,,,,
 7340007905742,7340007905742,Vitlök Eko,,,"16,04 kr",,,,,,,,,,
-7310394002676,7310394002676,Vitlök Finhackad,KOCKENS,,"29,29 kr",,,,,,,,,,
 7311311015267,7311311015267,Vitlök Finhackad,Santa Maria,100.0 Gram,"37,06 kr",346.0,1463.0,0.7,0.2,64.0,2.4,9.0,17.0,0.15,coop
+7310394002676,7310394002676,Vitlök Finhackad,KOCKENS,,"29,29 kr",,,,,,,,,,
 7340191134188,7340191134188,Vitlök hackad,Coop,100.0 Gram,"13,20 kr",155.0,649.0,4.5,0.6,21.0,1.2,5.1,5.0,0.02,coop
 7340191134157,7340191134157,Vitlök Hackad,Coop,100.0 Gram,"13,72 kr",155.0,649.0,4.5,0.5,21.0,1.2,5.1,5.0,0.02,coop
 7391693856122,7391693856122,Vitlök Krossad,Risberg,100.0 Gram,"48,43 kr",179.0,746.0,3.0,0.2,28.5,5.5,2.4,3.6,0.6,coop
@@ -9100,26 +9100,26 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5711953043161,5711953043161,Vitost Tärnad Soltorkad tomat,Apetina®,100.0 Gram,"36,44 kr",530.0,2186.0,53.0,9.6,1.8,1.2,,10.0,2.0,coop
 5711953171765,5711953171765,Vitost Tärnad Vitlök & persilja,Apetina®,100.0 Gram,"36,44 kr",253.0,1048.0,21.0,14.0,0.5,0.5,,14.0,3.0,coop
 5711953030895,5711953030895,Vitost Tärnad Örter & kryddor,Apetina®,100.0 Gram,"34,97 kr",539.0,2222.0,55.0,10.0,0.5,0.5,,10.0,1.9,coop
-7310700817352,7310700817352,Vitpeppar Hel,KOCKENS,,"25,51 kr",,,,,,,,,,
 7311311004834,7311311004834,Vitpeppar Hel,Santa Maria,100.0 Gram,"27,58 kr",283.0,1185.0,2.1,0.6,42.0,0.0,26.0,10.0,0.0,coop
-7310394002720,7310394002720,Vitpeppar Malen,KOCKENS,,"25,51 kr",,,,,,,,,,
-7310700817406,7310700817406,Vitpeppar Malen,KOCKENS,,"25,51 kr",,,,,,,,,,
+7310700817352,7310700817352,Vitpeppar Hel,KOCKENS,,"25,51 kr",,,,,,,,,,
 7311311015700,7311311015700,Vitpeppar Malen,Santa Maria,100.0 Gram,"27,58 kr",283.0,1185.0,2.1,0.6,42.0,0.0,26.0,10.0,0.0,coop
 7311311004810,7311311004810,Vitpeppar Malen,Santa Maria,100.0 Gram,"27,58 kr",283.0,1185.0,2.1,0.6,42.0,0.0,26.0,10.0,0.0,coop
+7310394002720,7310394002720,Vitpeppar Malen,KOCKENS,,"25,51 kr",,,,,,,,,,
+7310700817406,7310700817406,Vitpeppar Malen,KOCKENS,,"25,51 kr",,,,,,,,,,
 7350046469501,7350046469501,Vitpeppar Malen Eko,KOCKENS,,"45,90 kr",,,,,,,,,,
 7311171006740,7311171006740,Vitvinssås För Torsk,Abba,100.0 Gram,"26,45 kr",130.0,545.0,12.0,5.4,5.9,1.1,,0.9,1.2,coop
 7340011474661,7340011474661,Vitvinsvinäger,Coop,100.0 Gram,"16,04 kr",0.0,0.0,,,,,,,,coop
 7350002403020,7350002403020,Vitvinsvinäger Eko,Zeta,100.0 Milliliter,"37,81 kr",21.0,89.0,0.0,0.0,0.5,0.5,,0.0,0.04,coop
 7350002400456,7350002400456,Vitvinsvinäger Reserva,Zeta,100.0 Milliliter,"34,54 kr",25.0,108.0,0.0,0.0,0.5,0.5,,0.0,0.04,coop
-7350153388122,7350153388122,Vodkapastasås,BOLLO,100.0 Gram,"37,81 kr",330.0,80.0,4.2,2.2,10.0,3.4,,1.6,1.4,coop
+7350153388122,7350153388122,Vodkapastasås,BOLLO,100.0 Gram,"37,81 kr",80.0,330.0,4.2,2.2,10.0,3.4,,1.6,1.4,coop
 7350054201223,7350054201223,Väddö Burgarcheddar Chili Jalapeño,Väddö Gårdsmejeri,100.0 Gram,"37,81 kr",383.0,1592.0,30.2,18.2,6.0,0.3,,21.9,2.8,coop
 7350054201209,7350054201209,Väddö Burgarcheddar Original,Väddö Gårdsmejeri,100.0 Gram,"37,81 kr",379.0,1584.0,27.35,18.76,2.71,0.1,,23.1,2.95,coop
 7350054201216,7350054201216,Väddö Burgarcheddar Tryffel,Väddö Gårdsmejeri,100.0 Gram,"37,81 kr",378.0,1567.0,29.9,17.7,5.7,0.1,,21.4,5.0,coop
 7310500181301,7310500181301,Välling med fullkorn Osötad,FINDUS,100.0 Gram,"85,13 kr",419.0,1755.0,9.1,0.75,61.0,27.0,4.3,21.0,1.2,coop
 7340023810006,7340023810006,Välrökt Skinka,BRÖDERNAS,100.0 Gram,"29,29 kr",105.0,438.0,2.9,1.0,0.7,0.5,,19.1,2.2,coop
 2352401500008,2352401500008,Västerbottenost 33%,Västerbottensost,100.0 Gram,"245,12 kr",390.0,1650.0,33.0,21.0,0.0,0.0,,24.0,1.2,coop
-7331500007118,7331500007118,Västerbottenpaj,Carolines kök,100.0 Gram,"47,27 kr",330.0,1400.0,23.0,15.0,18.0,1.3,,13.5,1.0,coop
 7331500893018,7331500893018,Västerbottenpaj,Carolines kök,100.0 Gram,"141,02 kr",300.0,1250.0,21.0,14.0,13.0,1.5,,14.0,1.0,coop
+7331500007118,7331500007118,Västerbottenpaj,Carolines kök,100.0 Gram,"47,27 kr",330.0,1400.0,23.0,15.0,18.0,1.3,,13.5,1.0,coop
 2352411900003,2352411900003,Västerbottensost 14 Mån,Västerbottensost,100.0 Gram,"240,39 kr",390.0,1650.0,33.0,21.0,0.0,0.0,,24.0,1.2,coop
 7310861081005,7310861081005,Västerbottensost Original 33% 14 Mån,Västerbottensost,100.0 Gram,"103,16 kr",390.0,1650.0,33.0,21.0,0.0,0.0,,24.0,1.2,coop
 7316840310579,7316840310579,Västgötaägg 10-pack Frigående inomhus,Lantägg,100.0 Gram,"35,14 kr",137.0,575.0,9.7,2.6,0.4,0.4,,12.3,0.4,coop
@@ -9155,9 +9155,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7315060094498,7315060094498,Wienerfläta Äpple,Bonjour,100.0 Gram,"10,36 kr",410.0,1700.0,24.0,9.9,43.0,16.0,2.6,6.1,0.4,coop
 7393287785351,7393287785351,Wienerkorv,ERNST,100.0 Gram,"60,52 kr",250.0,1050.0,22.0,8.9,3.8,0.5,,11.0,1.7,coop
 7340063018400,7340063018400,Wienerkorv,Andersson & Tillman,,"60,52 kr",,,,,,,,,,
+7300156494689,7300156494689,Wienerkorv,Coop,100.0 Gram,"29,29 kr",240.0,1000.0,20.0,8.1,6.0,0.5,,9.9,2.0,coop
 7310620027893,7310620027893,Wienerkorv,Lithells,100.0 Gram,"36,86 kr",300.0,1250.0,25.0,13.0,6.0,0.6,,11.0,2.1,coop
 7300206656005,7300206656005,Wienerkorv,Scan,100.0 Gram,"42,54 kr",270.0,1100.0,23.0,9.0,4.0,0.5,,12.0,2.0,coop
-7300156494689,7300156494689,Wienerkorv,Coop,100.0 Gram,"29,29 kr",240.0,1000.0,20.0,8.1,6.0,0.5,,9.9,2.0,coop
 7310620025417,7310620025417,Wienerkorv 15-pack,Lithells,100.0 Gram,"70,93 kr",280.0,1200.0,25.0,9.8,6.0,0.9,,9.8,2.1,coop
 7391288314907,7391288314907,Wienerlängd,Bonjour,100.0 Gram,"42,58 kr",454.0,1895.0,28.0,11.0,43.0,9.1,1.9,6.2,0.9,coop
 5701251517525,5701251517525,Wienerpölser,GÖL,100.0 Gram,"45,38 kr",286.0,1186.0,24.0,9.6,3.5,0.9,,14.0,2.4,coop
@@ -9210,8 +9210,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 6408432086816,6408432086816,"Yoghurt Jordgubb 0,1%",VALIO,100.0 Gram,"19,68 kr",66.0,280.0,0.1,0.0,12.0,12.0,,3.7,0.1,coop
 7340011345732,7340011345732,"Yoghurt Jordgubb 2,1%",Coop,100.0 Gram,"22,05 kr",78.0,328.0,2.1,1.3,11.0,11.0,,3.4,0.08,coop
 5391515140448,5391515140448,"Yoghurt Jordgubb 2,3% 4-pack",Yoplait,100.0 Gram,"21,29 kr",90.0,378.0,2.3,1.5,13.0,12.5,,3.3,0.13,coop
-5410146407963,5410146407963,Yoghurt Jordgubb 4-pack,Actimel,100.0 Gram,"22,24 kr",68.0,288.0,1.4,1.0,10.2,9.9,0.0,2.9,0.12,coop
 5900643034965,5900643034965,Yoghurt Jordgubb 4-pack,Activia,100.0 Gram,"25,51 kr",89.0,373.0,2.8,1.8,12.0,12.0,0.2,3.8,0.12,coop
+5410146407963,5410146407963,Yoghurt Jordgubb 4-pack,Actimel,100.0 Gram,"22,24 kr",68.0,288.0,1.4,1.0,10.2,9.9,0.0,2.9,0.12,coop
 7038010073526,7038010073526,Yoghurt Junior Jorgubb & banan 4-pack,TINE,,"22,24 kr",,,,,,,,,,
 7311443210509,7311443210509,Yoghurt Körsbär,Bärry,100.0 Gram,"10,36 kr",90.0,370.0,2.6,1.6,13.0,13.0,,3.0,0.1,coop
 7300156598684,7300156598684,"Yoghurt Lätt Naturell 0,5%",Coop,100.0 Gram,"16,12 kr",39.0,166.0,0.5,0.3,3.9,3.9,,4.1,0.09,coop
@@ -9276,9 +9276,9 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7310070005298,7310070005298,Zingo Apelsin,Zingo,100.0 Milliliter,"8,99 kr",47.0,197.0,0.0,0.0,11.0,11.0,,0.0,0.0,coop
 7310070007537,7310070007537,Zingo Apelsin,Zingo,100.0 Milliliter,"10,88 kr",47.0,197.0,0.0,0.0,11.0,11.0,,0.0,0.0,coop
 7310070008916,7310070008916,Zingo Apelsin,Zingo,100.0 Milliliter,"8,99 kr",47.0,197.0,0.0,0.0,11.0,11.0,,0.0,0.0,coop
-7310070004505,7310070004505,Zingo Apelsin Zero,Zingo,100.0 Milliliter,"17,93 kr",3.0,13.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
 7310070008893,7310070008893,Zingo Apelsin Zero,Zingo,100.0 Milliliter,"13,20 kr",3.0,13.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
 7310070008909,7310070008909,Zingo Apelsin Zero,Zingo,100.0 Milliliter,"17,93 kr",3.0,13.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
+7310070004505,7310070004505,Zingo Apelsin Zero,Zingo,100.0 Milliliter,"17,93 kr",3.0,13.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
 7310070008879,7310070008879,Zingo Apelsin Zero,Zingo,100.0 Milliliter,"8,99 kr",3.0,13.0,0.5,0.1,0.5,0.5,,0.5,0.01,coop
 7310070006110,7310070006110,Zingo Citron,Zingo,100.0 Milliliter,"17,93 kr",3.0,12.0,0.0,0.0,0.5,0.5,,0.0,0.0,coop
 7310070006103,7310070006103,Zingo Citron,Zingo,100.0 Milliliter,"8,99 kr",3.0,12.0,0.0,0.0,0.5,0.5,,0.0,0.0,coop
@@ -9324,8 +9324,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7300156577993,7300156577993,Äppelcidervinäger,Coop,100.0 Gram,"30,24 kr",0.0,0.0,,,,,,,,coop
 7350002400500,7350002400500,Äppelcidervinäger,Zeta,100.0 Milliliter,"37,81 kr",21.0,92.0,0.0,0.0,1.5,1.5,,0.0,0.01,coop
 7310155507495,7310155507495,Äppelcidervinäger,Druvan,100.0 Gram,"23,61 kr",15.0,70.0,0.0,0.0,5.0,0.0,,0.0,0.0,coop
-7391835018142,7391835018142,Äppelcidervinäger Eko,Kung Markatta,,"47,27 kr",,,,,,,,,,
 7340191145870,7340191145870,Äppelcidervinäger Eko,Änglamark,100.0 Gram,"24,56 kr",0.0,0.0,,,,,,,,coop
+7391835018142,7391835018142,Äppelcidervinäger Eko,Kung Markatta,,"47,27 kr",,,,,,,,,,
 7310867561013,7310867561013,Äppeljuice,Bravo,100.0 Gram,"37,81 kr",45.0,180.0,0.0,0.0,9.5,9.5,0.2,0.0,0.0,coop
 7340191150812,7340191150812,Äppeljuice,Coop,100.0 Milliliter,"20,77 kr",40.0,170.0,0.0,0.0,10.0,9.0,,0.0,0.0,coop
 7340191141254,7340191141254,Äppeljuice Koncentrat Eko,Änglamark,100.0 Milliliter,"15,10 kr",45.0,192.0,0.1,0.0,11.0,10.0,,0.1,0.0,coop
@@ -9379,8 +9379,8 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 8711200389537,8711200389537,Ärtsoppa utan fläsk,Knorr,100.0 Milliliter,"37,81 kr",68.0,284.0,0.5,0.2,10.0,0.8,4.1,5.6,0.68,coop
 7300156500618,7300156500618,Ärtsoppa Vegetarisk Eko,Änglamark,100.0 Gram,"14,15 kr",70.0,310.0,1.0,0.0,11.0,1.0,,5.0,1.0,coop
 7300324024007,7300324024007,Ätklar Kyckling Bitar BBQ,Kronfågel,100.0 Gram,"41,60 kr",100.0,430.0,1.4,0.5,0.5,0.5,,22.0,1.5,coop
-7300324013001,7300324013001,Ätklar Kyckling Skivad Caesar,Kronfågel,100.0 Gram,"60,52 kr",110.0,450.0,1.7,0.5,0.5,0.5,,22.0,1.5,coop
 7300324023000,7300324023000,Ätklar Kyckling Skivad Caesar,Kronfågel,100.0 Gram,"41,60 kr",110.0,450.0,1.7,0.5,0.5,0.5,,22.0,1.5,coop
+7300324013001,7300324013001,Ätklar Kyckling Skivad Caesar,Kronfågel,100.0 Gram,"60,52 kr",110.0,450.0,1.7,0.5,0.5,0.5,,22.0,1.5,coop
 7300324025004,7300324025004,Ätklar Kyckling Skivad Classic,Kronfågel,100.0 Gram,"41,60 kr",100.0,430.0,1.7,0.5,0.5,0.5,,21.0,1.5,coop
 7300324014008,7300324014008,Ätklar Kyckling Skivad Soltorkad tomat,Kronfågel,100.0 Gram,"60,52 kr",100.0,430.0,1.4,0.5,2.5,0.8,,20.0,1.4,coop
 7300156581075,7300156581075,Ättika 12%,Coop,100.0 Gram,"21,72 kr",0.0,0.0,,,,,,,,coop
