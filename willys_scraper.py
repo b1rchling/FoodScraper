@@ -21,11 +21,12 @@ OUTPUT (written next to this script)
                          Delete it (or pass --fresh) to force a full re-crawl.
 
 USAGE
-  python willys_scraper.py                # full crawl + OFF gap-fill, write csv+json
+  python willys_scraper.py                # crawl (resumable) + write csv/json
+  python willys_scraper.py --build-only   # just rebuild csv/json from the cache (instant)
+  python willys_scraper.py --off          # also fill gaps from Open Food Facts (slow)
   python willys_scraper.py --limit 50     # quick smoke test (first 50 products)
-  python willys_scraper.py --no-off       # skip the Open Food Facts fallback pass
   python willys_scraper.py --fresh        # ignore the cache, re-crawl everything
-  python willys_scraper.py --workers 8    # more parallelism (default 5; be polite)
+  python willys_scraper.py --workers 4 --delay 0.1   # tune politeness (defaults shown)
 
 Pure standard library - no `pip install` needed. Works on Python 3.9+.
 """
@@ -34,9 +35,10 @@ import argparse
 import csv
 import json
 import os
+import random
 import sys
 import time
-import urllib.parse
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -74,8 +76,17 @@ CACHE = os.path.join(HERE, ".willys_cache.jsonl")
 # --------------------------------------------------------------------------- #
 # HTTP helpers
 # --------------------------------------------------------------------------- #
-def http_json(url, accept="application/json", timeout=25, retries=3):
-    """GET a URL and parse JSON, with retry/backoff on transient failures."""
+class RateLimited(Exception):
+    """Raised after exhausting retries against a 403/429 throttle."""
+
+
+def http_json(url, accept="application/json", timeout=25, retries=5):
+    """GET a URL and parse JSON.
+
+    400/404 are real "missing product" answers -> raise immediately.
+    403/429 mean Willys is throttling us -> wait (honour Retry-After) and RETRY,
+    so a rate-limited product is never silently dropped.
+    """
     last = None
     for attempt in range(retries):
         req = urllib.request.Request(url, headers={"Accept": accept, "User-Agent": UA})
@@ -83,13 +94,19 @@ def http_json(url, accept="application/json", timeout=25, retries=3):
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8", "replace"))
         except urllib.error.HTTPError as e:
-            # 404/400 are "real" answers for a missing product - don't waste retries.
             if e.code in (400, 404):
                 raise
             last = e
-        except Exception as e:                      # noqa: BLE001 - network is messy
+            if e.code in (403, 429):
+                ra = e.headers.get("Retry-After") if e.headers else None
+                wait = float(ra) if (ra and str(ra).isdigit()) else min(45, 4 * (2 ** attempt))
+                time.sleep(wait + random.uniform(0, 1.0))    # de-sync the worker threads
+                continue
+        except Exception as e:                                # noqa: BLE001 - network is messy
             last = e
-        time.sleep(0.6 * (attempt + 1))             # linear backoff
+        time.sleep(0.8 * (attempt + 1))                       # linear backoff for transient errors
+    if isinstance(last, urllib.error.HTTPError) and last.code in (403, 429):
+        raise RateLimited(f"throttled after {retries} tries: {url}")
     raise last if last else RuntimeError("request failed: " + url)
 
 
@@ -148,8 +165,10 @@ def parse_macros(p):
     return out
 
 
-def fetch_detail(code, timeout):
+def fetch_detail(code, timeout, delay):
     """Return a record dict for one product code (raises on hard 400/404)."""
+    if delay:
+        time.sleep(delay)                            # gentle spacing between requests
     p = http_json(f"{BASE}/axfood/rest/p/{code}", timeout=timeout)
     m = parse_macros(p)
     alt = ((p.get("image") or {}) or {}).get("altText") or ""
@@ -206,7 +225,7 @@ def off_pass(records, timeout):
     filled = 0
     for i, r in enumerate(targets, 1):
         m = off_by_ean(r["ean"], timeout)
-        if m:
+        if m and (m.get("kcal") not in ("", None)):
             r.update(m)
             r["source"] = "off"
             r["basis"] = r.get("basis") or "100 g"
@@ -241,6 +260,12 @@ def append_cache(rec):
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
+def rewrite_cache(done):
+    with open(CACHE, "w", encoding="utf-8") as f:
+        for r in done.values():
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+
 # --------------------------------------------------------------------------- #
 # Output
 # --------------------------------------------------------------------------- #
@@ -254,6 +279,9 @@ def write_outputs(records, base):
             w.writerow(r)
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
+    with_macros = sum(1 for r in records if r.get("kcal") not in ("", None))
+    print(f"  wrote {len(records)} rows ({with_macros} with macros) -> {csv_path}",
+          file=sys.stderr)
     return csv_path, json_path
 
 
@@ -262,13 +290,22 @@ def write_outputs(records, base):
 # --------------------------------------------------------------------------- #
 def main():
     ap = argparse.ArgumentParser(description="Crawl Willys food catalog -> EAN/article/macros index.")
-    ap.add_argument("--workers", type=int, default=5, help="parallel detail fetches (default 5)")
+    ap.add_argument("--workers", type=int, default=4, help="parallel detail fetches (default 4)")
+    ap.add_argument("--delay", type=float, default=0.1, help="seconds between requests per worker")
     ap.add_argument("--timeout", type=int, default=25, help="per-request timeout seconds")
     ap.add_argument("--limit", type=int, default=0, help="only fetch first N products (smoke test)")
-    ap.add_argument("--no-off", action="store_true", help="skip the Open Food Facts gap-fill pass")
+    ap.add_argument("--off", action="store_true", help="also fill gaps from Open Food Facts (slow)")
     ap.add_argument("--fresh", action="store_true", help="ignore cache; re-crawl everything")
+    ap.add_argument("--build-only", action="store_true", help="skip crawl; rebuild csv/json from cache")
     ap.add_argument("--out", default=os.path.join(HERE, "willys_index"), help="output basename")
     args = ap.parse_args()
+
+    # Rebuild outputs from the cache without touching the network.
+    if args.build_only:
+        done = load_cache()
+        print(f"Build-only: {len(done)} products in cache.", file=sys.stderr)
+        write_outputs(list(done.values()), args.out)
+        return
 
     if args.fresh and os.path.exists(CACHE):
         os.remove(CACHE)
@@ -285,14 +322,15 @@ def main():
     print(f"Phase 2: {len(done)} cached, fetching {len(todo)} details "
           f"with {args.workers} workers ...", file=sys.stderr)
 
-    fetched = 0
+    fetched = dropped = 0
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = {ex.submit(fetch_detail, c, args.timeout): c for c in todo}
+        futs = {ex.submit(fetch_detail, c, args.timeout, args.delay): c for c in todo}
         for fut in as_completed(futs):
             code = futs[fut]
             try:
                 rec = fut.result()
             except Exception as e:                    # noqa: BLE001 - log & continue
+                dropped += 1
                 print(f"  ! {code}: {e}", file=sys.stderr)
                 continue
             done[rec["article"]] = rec
@@ -301,20 +339,22 @@ def main():
             if fetched % 100 == 0:
                 print(f"  fetched {fetched}/{len(todo)}", file=sys.stderr)
 
+    # Always write a usable file right after the crawl (before the slow OFF pass).
     records = [done[c] for c in codes if c in done]
-    if not args.no_off:
-        off_pass(records, args.timeout)
-        # OFF updates the in-memory records; refresh the cache so a re-run keeps them.
-        with open(CACHE, "w", encoding="utf-8") as f:
-            for r in done.values():
-                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print(f"\nCrawl done: {len(records)} products cached "
+          f"({fetched} new, {dropped} unresolved). Writing outputs ...", file=sys.stderr)
+    write_outputs(records, args.out)
 
-    csv_path, json_path = write_outputs(records, args.out)
-    with_macros = sum(1 for r in records if r.get("kcal") not in ("", None))
-    print(f"\nDone in {time.time()-t0:.0f}s. {len(records)} products "
-          f"({with_macros} with macros).", file=sys.stderr)
-    print(f"  CSV : {csv_path}", file=sys.stderr)
-    print(f"  JSON: {json_path}", file=sys.stderr)
+    if args.off:
+        off_pass(records, args.timeout)
+        rewrite_cache(done)                           # persist OFF fills for next time
+        print("Re-writing outputs with OFF macros ...", file=sys.stderr)
+        write_outputs(records, args.out)
+
+    print(f"Done in {time.time()-t0:.0f}s.", file=sys.stderr)
+    if dropped:
+        print(f"  {dropped} products were unresolved (rate-limit/404). "
+              f"Re-run to pick them up - the crawl is resumable.", file=sys.stderr)
 
 
 if __name__ == "__main__":
