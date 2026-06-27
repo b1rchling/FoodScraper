@@ -1,7 +1,4 @@
 ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,salt,source
-7311311004537,101262342_ST, Bikarbonat Påse,Santa Maria,100 gram,"9,41 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,67.5,hemkop
-5998813159938,101242528_ST, Rosé Alkoholfri Glas,Chapel Hill,100 milliliter,"66,20 kr",32.0,136.0,0.5,0.1,7.5,7.5,,0.5,0.01,hemkop
-5998813159921,101242500_ST, Vitt Vin Alkoholfri Glas,Chapel Hill,100 milliliter,"66,20 kr",32.0,136.0,0.5,0.1,7.5,7.5,,0.5,0.01,hemkop
 8001250015563,101332192_ST,100% Italiano Extra Jungrfruolja Olivolja,De Cecco,100 milliliter,"131,50 kr",824.0,3389.0,91.6,15.0,0.0,0.0,,0.0,0.0,hemkop
 8007153007490,101590296_ST,100% Italiensk Extra Virgin Olivolja,Farchioni,100 gram,122 kr,828.0,3404.0,92.0,14.0,0.0,0.0,0.0,0.0,0.0,hemkop
 7310050001067,101841082_ST,120år Ltd Ra Mörkrost,Löfbergs,,"67,14 kr",,,,,,,,,,
@@ -399,6 +396,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 5701073061039,101233430_ST,Bikarbonat,Dr Oetker,,"15,65 kr",,,,,,,,,,
 7350046464810,101345234_ST,Bikarbonat Burk,Kockens,,"40,64 kr",,,,,,,,,,
 7311041034125,100726109_ST,Bikarbonat Påse,Eldorado,,"18,88 kr",,,,,,,,,,
+7311311004537,101262342_ST,Bikarbonat Påse,Santa Maria,100 gram,"9,41 kr",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,67.5,hemkop
 7311875914938,101447923_ST,Billinge Skivad 26%,Arla,100 gram,"31,55 kr",343.0,1424.0,26.0,17.0,0.0,0.0,,26.0,1.2,hemkop
 8425644004122,101412779_ST,Bimi Klass 1,,,"32,13 kr",,,,,,,,,,
 90167249,101232140_ST,Bio Karotte Ekologisk Morotsjuice,Pfanner,100 milliliter,"28,34 kr",38.0,163.0,0.5,0.1,8.0,7.5,,0.7,0.08,hemkop
@@ -5857,6 +5855,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 2330045600001,101251836_KG,Rostbiff Sverige,Dalsjöfors,,"260,10 kr",,,,,,,,,,
 7317530110615,101591304_ST,Rostbröd,Garant,100 gram,"17,93 kr",263.0,1098.0,2.3,0.5,50.0,3.3,2.8,8.8,0.73,hemkop
 7311312009418,101833318_ST,Rosted Garlic Bbq Sauce,Santa Maria,100 gram,"31,18 kr",116.0,493.0,0.0,0.0,28.0,25.0,0.6,0.7,1.4,hemkop
+5998813159938,101242528_ST,Rosé Alkoholfri Glas,Chapel Hill,100 milliliter,"66,20 kr",32.0,136.0,0.5,0.1,7.5,7.5,,0.5,0.01,hemkop
 8410384053073,101396553_ST,Rosé Mousserande Alkfri Glas,Freixenet,100 milliliter,"75,66 kr",18.0,78.0,0.5,0.1,4.4,3.8,,0.5,0.01,hemkop
 8006220004271,101662573_ST,"Rosé Mousserande Vin, Flaksa",Mionetto,100 milliliter,"93,69 kr",11.0,48.0,0.5,0.1,2.6,2.0,,0.5,0.01,hemkop
 7310401056371,101708282_ST,Rosécider Hallon Vinbär Cider Pet,Briska,100 milliliter,"13,20 kr",47.0,195.0,0.0,0.0,11.5,11.5,,0.0,0.0,hemkop
@@ -7597,6 +7596,7 @@ ean,article,name,brand,basis,price,kcal,kj,fat,satfat,carb,sugar,fibre,protein,s
 7340083407383,101197991_ST,Vitpeppar Malen Påse,Eldorado,,"18,88 kr",,,,,,,,,,
 7311311004810,101262110_ST,Vitpeppar Malen Påse,Santa Maria,100 gram,"33,07 kr",283.0,1185.0,2.1,0.6,42.0,0.0,26.0,10.0,0.0,hemkop
 7350067731113,101250984_ST,"Vitt Vin 0,0% Mousserande Alkfri Glas",Oddbird,100 milliliter,"99,37 kr",18.0,77.0,,,4.5,4.1,,,0.1,hemkop
+5998813159921,101242500_ST,Vitt Vin Alkoholfri Glas,Chapel Hill,100 milliliter,"66,20 kr",32.0,136.0,0.5,0.1,7.5,7.5,,0.5,0.01,hemkop
 7311171006740,101200202_ST,Vitvinssås För Ugnsbakad Torsk 4 Port,Abba,100 gram,"26,45 kr",130.0,545.0,12.0,5.4,5.9,1.1,,0.9,1.2,hemkop
 7311043017997,101708169_ST,Vitvinsvinäger,Garant Eko,100 milliliter,"23,61 kr",19.0,81.0,0.0,0.0,0.1,0.1,,0.1,0.01,hemkop
 7311043017973,101708067_ST,Vitvinsvinäger,Garant,100 milliliter,"16,98 kr",19.0,81.0,0.0,0.0,0.1,0.1,,0.1,0.01,hemkop

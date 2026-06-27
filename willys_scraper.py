@@ -191,7 +191,7 @@ def fetch_detail(code, timeout, delay):
     rec = {
         "ean": (p.get("ean") or "").strip(),
         "article": p.get("code") or code,
-        "name": p.get("name") or "",
+        "name": (p.get("name") or "").strip(),
         "brand": p.get("manufacturer") or "",
         "volume": p.get("displayVolume") or "",
         "price": p.get("priceValue") if p.get("priceValue") is not None else "",
