@@ -8,7 +8,7 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 - [x] Run the full crawl: `python willys_scraper.py` → 7,648/7,649 food products cached.
 - [x] Harden against Willys rate-limiting: retry on HTTP 403/429 with backoff instead of
       dropping the product.
-- [x] Generate `willys_index.csv` (full: ean/article/name/brand/basis/price/macros/source) and
+- [x] Generate `willys_index.csv` (full: ean/article/name/brand/weight/price/basis/macros/source) and
       `willys_ean_article.csv` (lean: ean,article only).
 - [x] Make the repo public and host both CSVs via `raw.githubusercontent.com` (+ jsDelivr as
       a fallback mirror).
@@ -24,8 +24,9 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 - [x] Review rows where `source=""` (no macros): ~795 Willys / 771 Hemköp / 884 Coop. These are
       **legit food that carries no per-100g table** — fresh produce ("Klass 1"), coffee
       (beans/ground/capsules), tea, water — NOT non-food garbage. **Decision: keep, don't prune**
-      (they still return a valid EAN→article; blank macros is correct). `--off` has only been run
-      for Hemköp (28 `off` rows); Willys/Coop produce stays `source=""` until `--off` is run.
+      (they still return a valid EAN→article; blank macros is correct). `--off` (Open Food Facts
+      EAN backfill) has now been run for **all three**: Willys +26, Hemköp +31, Coop +19 `off`
+      rows. The remaining `source=""` rows are produce/coffee/tea/water that OFF also lacks.
 
 ### Data-quality fixes applied (build-only, no re-crawl)
 - [x] **Energy kcal↔kJ swap.** ~21 Willys / 18 Hemköp / 19 Coop rows had the energy units swapped
@@ -48,15 +49,20 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 - [ ] Consider a scheduled job (cron / GitHub Actions) to run the refresh + commit + push
       automatically instead of doing it by hand.
 - [ ] Pick the phone/scanner input — it MUST emit the full 13-digit EAN-13.
-- [ ] (Optional) Run `--off` to fill macro gaps from Open Food Facts; swap its fuzzy `_KG`
-      name-search for a **curated produce table** (banana, apple, potato, carrot, onion,
-      tomato…) if accuracy on loose produce matters.
+- [x] **Curated produce table built** — `produce_scraper.py` pulls ~60 raw fruits/vegetables
+      (~90 name variants) from **Livsmedelsverket** (SLV, open API, no key) into
+      `produce_nutrition.csv` (per-100g, `source=slv`). This replaces the fuzzy OFF `_KG`
+      name-search for loose produce; see README "Lösvikt: näring på namn". The `--off` (Open Food
+      Facts EAN backfill) pass remains the optional gap-filler for *packaged* items with a real
+      barcode.
 
 ## Decisions already made
 - [x] Food categories only; **barn & kiosk dropped** (mixed non-food).
 - [x] "Has a nutrient table" = food (`ingredients` is NOT a valid filter).
-- [x] Loose/bulk `_KG` produce, if filled at all, comes via Open Food Facts **by name**
-      (no real barcode) — via the opt-in `--off` pass.
+- [x] Loose/bulk `_KG` produce (no real barcode) is handled by a **separate name-lookup table**,
+      `produce_nutrition.csv`, built from **Livsmedelsverket** by `produce_scraper.py` — the app
+      matches the typed name (e.g. "gurka 200g") and scales the per-100g values. (Earlier this was
+      a fuzzy Open Food Facts `--off` name-search; SLV is the authoritative Swedish source.)
 - [x] No open Willys EAN→article endpoint (verified ~20 endpoint variants) → we build our
       own index by crawling product details.
 - [x] Scraping moved from Google Apps Script to a local Python script: easier to debug, no
@@ -65,6 +71,12 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
       display text, e.g. "24 kr" / "19,83 kr"). Earlier the index dropped name/price in favour
       of `altText` (name + size); that was reversed — `altText` is gone, `name` + `price` are in.
       A lean `ean,article`-only file also exists for the simplest use case.
+- [x] **`weight` column added (June 2026)** — package size as a display string ("2,2 kg",
+      "500 ml", "410 g"); from `displayVolume` (Willys/Hemköp) / `packageSizeInformation` (Coop),
+      space-normalized and lowercased by `weight_str()`. All three chains now share one identical
+      **17-column** layout: `ean, article, name, brand, weight, price, basis, kcal, kj, fat,
+      satfat, carb, sugar, fibre, protein, salt, source` (note `basis` moved after `price`). The
+      Sheet's VLOOKUP formula was updated for the shifted columns — see README.
 
 ## Watch out for
 - [ ] Willys throttles aggressive crawling (HTTP 403) — the script retries with backoff, but
@@ -76,10 +88,17 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
       barcode) — name-matched only, and only if `--off` is used.
 - [ ] jsDelivr's `@main` CDN mirror caches for hours — don't expect it to reflect a push
       immediately; `raw.githubusercontent.com` is the fresher source.
+- [ ] **A plain re-crawl silently wipes `--off` fills.** `python <chain>_scraper.py` *without*
+      `--off` does `done.update(fresh)`, overwriting cached `source="off"` rows with fresh
+      macro-less data — the OFF backfill vanishes from both cache and CSV. (This bit Coop once
+      mid-session.) To refresh safely: re-crawl **with `--off`**, or rebuild with `--build-only`
+      (which never touches the cache). A guard that preserves `off` rows across a plain re-crawl
+      is still un-implemented.
 
 ## Bonus / future chains
 - [x] **Hemköp**: `hemkop_scraper.py` exists, same architecture, outputs `hemkop_index.csv` /
-      `hemkop_ean_article.csv` / `.hemkop_cache.jsonl`. Needs the same "Verify" pass as Willys.
+      `hemkop_ean_article.csv` / `.hemkop_cache.jsonl`. Verified; `--off` adds 31 `off` rows
+      (7,053/7,864 with macros).
 - [x] **ICA**: investigated and **not feasible** (June 2026). ICA serves nutrition but **never
       exposes the EAN/GTIN** — products are keyed only by `retailerProductId` (internal article)
       + a GUID. With no barcode in ICA's data there's no key to VLOOKUP a scanned EAN against, so
@@ -101,8 +120,16 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
   - Coop has **no separate article number**: a product's `id` == its `ean` (`code` is always null),
     so `article` = `id`. (In-store/weight items with EANs starting `2097…` get a store-scoped
     `251300_<ean>` id — not home-scannable anyway.)
-  - Result: 9,512 food products, 8,618 (91%) with macros. Outputs `coop_index.csv` /
-    `coop_ean_article.csv` / `coop_index.json` / `.coop_cache.jsonl`. Needs the same "Verify" pass.
+  - Result: 9,512 food products, **8,636 with macros** (8,617 from Coop's own data + 19 via
+    `--off`). Outputs `coop_index.csv` / `coop_ean_article.csv` / `coop_index.json` /
+    `.coop_cache.jsonl`. **Verified** live (8/8 exact on category "Ost"; see Verify section).
+- [x] **Produce (loose fruit & veg)**: `produce_scraper.py` builds `produce_nutrition.csv` from
+      **Livsmedelsverket** — a *name→nutrition* table (NOT EAN-keyed), for items that can't be
+      scanned (`_KG` / EAN starting `2…`). ~60 staples / ~90 name variants, per-100g, `source=slv`,
+      columns `query,name,number,basis,kcal,kj,fat,satfat,carb,sugar,fibre,protein,salt,source`.
+      Curated to raw/fresh staples; a few aliases fold to the nearest staple, and items with no
+      clean raw entry (iceberg, fresh green beans, shelled peas) are deliberately omitted. Separate
+      from the scan pipeline — the app matches the typed name and scales by grams.
 
 ## Next phase: full-stack app (Expo + Supabase)
 _Pulled in from a planning doc (`TODO.md`) sketched outside this repo; adjusted below to match
@@ -133,6 +160,10 @@ what actually exists here rather than a generic from-scratch plan._
       is `willys` / `off` / `hemkop` / `coop` / empty, not a free-text provenance string.
 - [ ] Add a `chain` column (or the `chain_articles` table above) so the same scraper output
       shape (per chain) can upsert without clobbering the other chain's rows.
+- [ ] **Produce is a separate, name-keyed table.** `produce_nutrition.csv` has no EAN/article —
+      it's keyed by `query` (typed name) with per-100g macros. Model it as its own Supabase table
+      (e.g. `produce(query, name, basis, macros…, source)`) that the text-input path queries and
+      scales by grams; it does not join the EAN `products` table.
 
 ### Tasks
 1. [ ] Initialize the Expo project (NativeWind + `@supabase/supabase-js` client setup) — net

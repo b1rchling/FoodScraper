@@ -47,23 +47,28 @@ Macros live at `product.nutrientHeaders[0].nutrientDetails[]`. Gotchas:
 - Product name is taken from `product.name`; the shelf price as display text is `product.price`
   ("99,90 kr"), with `product.priceValue` the numeric form. (`product.image.altText` carries
   name + size, but the output now uses the cleaner `product.name`.)
+- Package size (the `weight` column) comes from `product.displayVolume` ("2,2kg"); Coop's
+  equivalent field is `packageSizeInformation`. `weight_str()` inserts a space between number and
+  unit and lowercases it → "2,2 kg", "500 ml", "410 g".
 
 ## Key decisions
 1. **Food only** via two filters: (a) only food top-level categories, (b) **barn & kiosk
    excluded** (mixed: diapers / tobacco / magazines).
 2. **"Has a nutrient table" = food.** `ingredients` is NOT a valid filter — soap, shampoo,
    diapers and snus all carry an ingredients string.
-3. **Loose / bulk produce → Open Food Facts.** Weighed goods use `_KG` codes with in-store
-   EANs starting `2…` (e.g. banana `2090165200009`) — these are NOT real barcodes and aren't
-   scannable at home anyway.
-4. **`source` column** records where each row's macros came from: `willys`, `off`, or empty.
+3. **Loose / bulk produce → Livsmedelsverket (name lookup).** Weighed goods use `_KG` codes with
+   in-store EANs starting `2…` (e.g. banana `2090165200009`) — NOT real barcodes, not scannable at
+   home. `produce_scraper.py` builds a name→nutrition table (`produce_nutrition.csv`, `source=slv`)
+   from Livsmedelsverket for these. (Originally a fuzzy Open Food Facts name-search; SLV replaced it.)
+4. **`source` column** records where each row's macros came from: `willys` / `hemkop` / `coop`,
+   `off` (Open Food Facts EAN backfill), or empty. The separate produce table uses `slv`.
 
 ### Discriminator evidence (food vs non-food)
 ```
 mjölk / barnmat / trocadero        nutrients=YES   -> food
 diskmedel / schampo / pampers /    nutrients=NO    -> non-food (but all have "ingredients")
 snus / kattmat
-loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF by name
+loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> SLV name table
 ```
 
 ## Architecture / scale
@@ -74,7 +79,7 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF 
 
 ## Two implementations exist in this repo
 1. **`willys_scraper.py`** (current) — Python, standard library only, runs locally or in CI.
-   Outputs `willys_index.csv` (full: ean/article/name/brand/basis/price/macros/source) and
+   Outputs `willys_index.csv` (full: ean/article/name/brand/weight/price/basis/macros/source) and
    `willys_ean_article.csv` (lean: just ean,article). Hosted on this public GitHub repo and
    pulled into Sheets with `IMPORTDATA`. See [README.md](README.md) for the exact setup.
 2. **`willys-macros.gs`** (legacy) — same idea, but the crawl runs inside Google Apps Script
@@ -89,8 +94,9 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF 
 ## Risks / open questions (apply to both implementations)
 - **Scan quality is the real gatekeeper.** A short/garbled barcode capture (e.g. 12 digits
   instead of 13) won't be in the index. Make sure the scanner outputs the full EAN-13.
-- **OFF name-match is fuzzy** for `_KG` produce (it takes OFF's top hit). A small **curated
-  produce table** would be more accurate than fuzzy name search, if that matters.
+- **OFF name-match was fuzzy** for `_KG` produce (it took OFF's top hit). Replaced by a curated
+  **Livsmedelsverket** table (`produce_scraper.py` → `produce_nutrition.csv`): authoritative
+  Swedish per-100g data for ~60 raw staples, matched by typed name and scaled by grams.
 - OFF search API is rate-limited (~10/min for name search, ~100/min for EAN lookup) — paced
   in code; the OFF pass is opt-in (`--off`) precisely because it's slow and low-yield.
 
@@ -107,9 +113,14 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> OFF 
   but without an EAN there's no key to VLOOKUP a scanned barcode against, so a like-for-like
   `ean,article` index can't be built. (ICA also sits behind AWS WAF, so a plain-urllib crawl
   would be challenged.)
-- **Coop (Sweden) — NO, not as-is.** Different platform entirely (Axfood paths 404 on coop.se).
-  You'd reverse-engineer Coop's own endpoints first (Chrome DevTools → Network → Fetch/XHR while
-  browsing/searching), then write a new adapter. Same architecture still applies.
+- **Coop (Sweden) — YES, done (separate adapter).** Different platform — **SAP Hybris behind
+  Azure API Management**, not Axfood (Axfood paths 404 on coop.se). Reverse-engineered from
+  coop.se's own XHR (June 2026) and built as `coop_scraper.py`. The twist: unlike Willys/Hemköp,
+  Coop's **category listing already carries `ean` + name + brand + full nutrition**
+  (`nutrientLinks`), so there's **no per-product detail call** — a paginated
+  `POST .../personalization/search/entities/by-attribute` (subscription key shipped in the page
+  HTML) returns everything; full crawl ≈28 s. `id == ean` (no separate article number). Exact
+  endpoint / headers / body are in [willys-macros-TODO.md](willys-macros-TODO.md).
 
 **Reusable rule of thumb:** only the "API adapter" (base URL, category browse, product detail,
 field names) is site-specific. The crawl→index→VLOOKUP→OFF-fallback design is the same everywhere.
