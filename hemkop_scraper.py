@@ -335,8 +335,8 @@ def normalize_macros(row):
 
 def weight_str(v):
     """Normalize a package-size string: insert one space between the number and its unit
-    so '2,2kg' -> '2,2 kg', '450g' -> '450 g'. Blank stays blank; already-spaced values
-    are left unchanged."""
+    and lowercase units, so '2,2kg' -> '2,2 kg', '450g' -> '450 g', '410 G' -> '410 g'.
+    Blank stays blank."""
     if v in ("", None):
         return ""
     s, out = str(v).strip(), []
@@ -344,7 +344,7 @@ def weight_str(v):
         if ch.isalpha() and i > 0 and s[i - 1].isdigit():
             out.append(" ")
         out.append(ch)
-    return "".join(out)
+    return "".join(out).lower()
 
 
 def write_outputs(records, base):
