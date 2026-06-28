@@ -49,8 +49,8 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
 - [ ] Consider a scheduled job (cron / GitHub Actions) to run the refresh + commit + push
       automatically instead of doing it by hand.
 - [ ] Pick the phone/scanner input — it MUST emit the full 13-digit EAN-13.
-- [x] **Curated produce table built** — `produce_scraper.py` pulls ~60 raw fruits/vegetables
-      (~90 name variants) from **Livsmedelsverket** (SLV, open API, no key) into
+- [x] **Curated produce table built** — `produce_scraper.py` pulls ~90 raw fruits/vegetables/
+      herbs/mushrooms (~140 name variants) from **Livsmedelsverket** (SLV, open API, no key) into
       `produce_nutrition.csv` (per-100g, `source=slv`). This replaces the fuzzy OFF `_KG`
       name-search for loose produce; see README "Lösvikt: näring på namn". The `--off` (Open Food
       Facts EAN backfill) pass remains the optional gap-filler for *packaged* items with a real
@@ -125,11 +125,15 @@ superseded — `willys-macros.gs` / its HANDOFF are kept only as historical refe
     `.coop_cache.jsonl`. **Verified** live (8/8 exact on category "Ost"; see Verify section).
 - [x] **Produce (loose fruit & veg)**: `produce_scraper.py` builds `produce_nutrition.csv` from
       **Livsmedelsverket** — a *name→nutrition* table (NOT EAN-keyed), for items that can't be
-      scanned (`_KG` / EAN starting `2…`). ~60 staples / ~90 name variants, per-100g, `source=slv`,
+      scanned (`_KG` / EAN starting `2…`). ~90 staples / ~140 name variants (fruit, veg, fresh
+      herbs, mushrooms), per-100g, `source=slv`,
       columns `query,name,number,basis,kcal,kj,fat,satfat,carb,sugar,fibre,protein,salt,source`.
       Curated to raw/fresh staples; a few aliases fold to the nearest staple, and items with no
-      clean raw entry (iceberg, fresh green beans, shelled peas) are deliberately omitted. Separate
-      from the scan pipeline — the app matches the typed name and scales by grams.
+      clean raw entry (iceberg, fresh green beans, shelled peas, spring onion, fresh asparagus) are
+      deliberately omitted; dried staples (dadlar, russin) stay with the EAN scrapers. Separate
+      from the scan pipeline — the app matches the typed name (Swedish-aware: exact → longest
+      stored `query` the input starts with, so `gurkan`/`tomaten` resolve) and scales by grams.
+      `python produce_scraper.py --lookup "gurka 200g"` is a runnable reference of that lookup.
 
 ## Next phase: full-stack app (Expo + Supabase)
 _Pulled in from a planning doc (`TODO.md`) sketched outside this repo; adjusted below to match

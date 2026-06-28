@@ -128,6 +128,50 @@ Kalkylarkets `IMPORTDATA` hämtar den nya CSV-filen automatiskt inom ~en timme.
 
 ---
 
+## Lösvikt: näring på namn (frukt & grönt) via Livsmedelsverket
+
+Lösviktsvaror (gurka, banan, morot …) går **inte** att skanna — deras streckkod
+(`…_KG`, EAN som börjar på `2…`) kodar vikt/pris och finns inte på själva varan. Men de är
+**generiska**, så näringen har en auktoritativ svensk källa: Livsmedelsverkets livsmedelsdatabas
+(öppet API, ingen nyckel). [`produce_scraper.py`](produce_scraper.py) bygger en liten **namnuppslags­tabell**
+för exakt det fallet — helt separat från skanningskedjan ovan.
+
+```bash
+python produce_scraper.py                     # hämta (kan återupptas) + skriv csv/json
+python produce_scraper.py --fresh             # ignorera cachen, hämta om allt
+python produce_scraper.py --build-only        # bygg om csv/json från cachen (direkt)
+python produce_scraper.py --lookup "gurka 200g"   # demo: slå upp + skala näringen
+```
+
+Den skriver **[`produce_nutrition.csv`](produce_nutrition.csv)** — kolumner
+`query,name,number,basis,kcal,kj,fat,satfat,carb,sugar,fibre,protein,salt,source`. En rad per
+namn man kan skriva (`query`), näring **per 100 g** (`source = slv`). ~90 vanliga frukter, grönsaker,
+färska örter och svampar; ~140 namnvarianter.
+
+**Så använder appen den:** användaren skriver t.ex. `gurka 200g` → appen matchar `query`-kolumnen,
+läser per-100g-värdena och **skalar med gram/100** (200 g → ×2). CSV:n lagrar alltid per 100 g; appen
+skalar. `--lookup` gör precis detta och fungerar som inbyggt test:
+
+```
+gurka 200 g  ->  Gurka (SLV #339, x2)
+   kcal   26.0   fett 0.2 g   kolhydrat 4.6 g   socker 3.4 g   protein 1.6 g   ...
+```
+
+**Svenska namn:** allt är UTF-8 och `query` lagras gement (å/ä/ö fungerar). Appen bör matcha så här
+(samma logik som `--lookup`): gör inmatningen gemen, prova **exakt** matchning mot `query`, annars ta
+den **längsta** `query` som inmatningen *börjar med* — då fångas bestämd/plural form som `gurkan`,
+`tomaten`, `citroner` utan att de behöver listas. Vokaländrade pluraler som inte börjar med singularen
+(`morot`→`morötter`, `gurka`→`gurkor`) finns med som egna alias.
+
+> Tabellen är kurerad mot **rå/färsk** stapelvara (inte kokt/konserv/torkad). Några alias viker till
+> närmaste stapel där Livsmedelsverket saknar egen post (`rödlök`→Lök gul, `zucchini`→Squash,
+> `svamp`→Champinjon, `rabarber`→enda (kokta, osockrade) posten). Medvetet **utelämnade** (ingen ren
+> rå-post finns — ett felaktigt svar är värre än inget): isbergssallad, färska gröna bönor, spritärtor,
+> färsk sparris, salladslök. **Torkade** varor (dadlar, russin) hör till butiksskraparna — de har en
+> riktig EAN.
+
+---
+
 ## Att tänka på & begränsningar
 
 - **Lösvikt** (artikelnummer `…_KG`, EAN som börjar på `2…`, ~300 varor) har ofta näringsvärden i

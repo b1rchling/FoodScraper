@@ -96,7 +96,10 @@ loose produce (banan/potatis/lök)  nutrients=NO, ean starts 2, code _KG -> SLV 
   instead of 13) won't be in the index. Make sure the scanner outputs the full EAN-13.
 - **OFF name-match was fuzzy** for `_KG` produce (it took OFF's top hit). Replaced by a curated
   **Livsmedelsverket** table (`produce_scraper.py` → `produce_nutrition.csv`): authoritative
-  Swedish per-100g data for ~60 raw staples, matched by typed name and scaled by grams.
+  Swedish per-100g data for ~90 raw staples (fruit, veg, fresh herbs, mushrooms; ~140 typed
+  name variants), matched by typed name and scaled by grams. Matching is Swedish-aware — exact,
+  then longest stored `query` the input starts with, so definite/plural forms (`gurkan`,
+  `tomaten`) resolve; vowel-changing plurals (`morötter`, `gurkor`) are listed as aliases.
 - OFF search API is rate-limited (~10/min for name search, ~100/min for EAN lookup) — paced
   in code; the OFF pass is opt-in (`--off`) precisely because it's slow and low-yield.
 

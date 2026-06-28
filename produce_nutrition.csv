@@ -1,0 +1,142 @@
+query,name,number,basis,kcal,kj,fat,satfat,carb,sugar,fibre,protein,salt,source
+ananas,Ananas,550,100 g,52,217,0.1,0.0,11.5,11.4,1.2,0.5,0.0,slv
+apelsin,Apelsin,551,100 g,50,208,0.2,0.0,10.4,8.2,1.2,0.8,0.0,slv
+apelsiner,Apelsin,551,100 g,50,208,0.2,0.0,10.4,8.2,1.2,0.8,0.0,slv
+aprikos,Aprikos,552,100 g,51,214,0.4,0.0,9.3,8.3,2.1,1.4,0.0,slv
+aprikoser,Aprikos,552,100 g,51,214,0.4,0.0,9.3,8.3,2.1,1.4,0.0,slv
+aubergine,Aubergine,372,100 g,19,79,0.1,0.0,2.2,2.6,2.4,1.1,0.0,slv
+avokado,Avokado,320,100 g,197,825,19.6,3.4,1.7,0.5,4.8,1.9,0.0,slv
+banan,Banan,553,100 g,95,396,0.1,0.0,21.3,18.1,1.4,1.1,0.0,slv
+bananer,Banan,553,100 g,95,396,0.1,0.0,21.3,18.1,1.4,1.1,0.0,slv
+basilika,Basilika färsk,379,100 g,25,104,0.6,0.0,0.4,0.3,3.9,2.5,0.0,slv
+björnbär,Björnbär,554,100 g,43,181,0.2,0.0,7.5,5.6,3.4,1.1,0.0,slv
+blekselleri,Stjälkselleri,321,100 g,19,81,0.2,0.1,2.3,0.8,2.1,1.0,0.0,slv
+blomkål,Blomkål,322,100 g,24,102,0.2,0.0,2.6,2.7,2.3,1.9,0.0,slv
+blåbär,Blåbär,555,100 g,53,221,0.8,0.0,9.1,6.4,3.1,0.7,0.0,slv
+bok choy,Sellerikål pak choi,7192,100 g,19,79,0.2,0.0,1.8,0.5,1.9,1.4,0.1,slv
+broccoli,Broccoli,325,100 g,40,167,0.6,0.2,2.3,1.9,4.0,4.3,0.0,slv
+brysselkål,Brysselkål,327,100 g,44,182,0.3,0.0,4.7,2.6,4.2,3.4,0.0,slv
+cantaloupe,Nätmelon,547,100 g,37,155,0.3,0.1,7.1,5.0,1.0,0.9,0.0,slv
+champinjon,Champinjon,333,100 g,27,114,0.2,0.0,2.7,0.1,2.4,2.4,0.0,slv
+champinjoner,Champinjon,333,100 g,27,114,0.2,0.0,2.7,0.1,2.4,2.4,0.0,slv
+chili,Chilipeppar färsk,380,100 g,49,205,0.7,0.1,5.9,0.7,4.8,2.4,0.0,slv
+chilifrukt,Chilipeppar färsk,380,100 g,49,205,0.7,0.1,5.9,0.7,4.8,2.4,0.0,slv
+chilipeppar,Chilipeppar färsk,380,100 g,49,205,0.7,0.1,5.9,0.7,4.8,2.4,0.0,slv
+citron,Citron,559,100 g,50,210,0.7,0.0,7.6,2.6,4.9,0.9,0.0,slv
+clementin,Småcitrus (clementin/mandarin),560,100 g,54,226,0.2,0.0,11.4,9.6,1.5,0.8,0.0,slv
+dill,Dill färsk,377,100 g,58,241,0.8,0.1,7.4,0.8,2.8,3.7,0.1,slv
+druvor,Vindruvor,587,100 g,70,291,0.2,0.0,15.6,16.1,1.2,0.6,0.0,slv
+endive,Endivesallat,335,100 g,14,57,0.1,0.0,1.1,0.9,2.2,1.0,0.0,slv
+fikon,Fikon,561,100 g,87,362,0.4,0.1,16.3,8.6,4.6,2.0,0.0,slv
+frisé,Endivesallat,335,100 g,14,57,0.1,0.0,1.1,0.9,2.2,1.0,0.0,slv
+fänkål,Fänkål,336,100 g,28,119,0.4,0.1,1.8,2.6,3.3,2.8,0.0,slv
+granatäpple,Granatäpple,520,100 g,56,233,0.6,0.1,7.0,10.0,10.0,0.7,0.0,slv
+grapefrukt,Grapefrukt,521,100 g,43,182,0.5,0.1,8.3,6.9,0.9,0.9,0.0,slv
+gräslök,Gräslök,378,100 g,28,116,0.6,0.1,1.7,1.7,2.1,2.8,0.0,slv
+grön paprika,Paprika grön,350,100 g,18,78,0.1,0.0,3.0,3.0,2.0,0.5,0.0,slv
+grönkål,Grönkål,337,100 g,40,167,0.7,0.0,3.2,2.1,3.7,3.4,0.0,slv
+grönmynta,Grönmynta blad,7194,100 g,46,191,0.6,0.1,2.4,0.1,5.9,4.7,0.0,slv
+gul lök,Lök gul,344,100 g,39,163,0.1,0.0,7.3,4.5,1.9,1.2,0.0,slv
+gul paprika,Paprika gul,381,100 g,24,98,0.2,0.0,4.3,5.0,1.4,0.5,0.0,slv
+gurka,Gurka,339,100 g,13,55,0.1,0.0,2.3,1.7,0.0,0.8,0.0,slv
+gurkor,Gurka,339,100 g,13,55,0.1,0.0,2.3,1.7,0.0,0.8,0.0,slv
+hallon,Hallon,523,100 g,34,142,0.6,0.0,4.1,4.1,3.7,1.2,0.0,slv
+hjortron,Hjortron,525,100 g,48,201,1.1,0.1,5.1,5.7,6.3,1.5,0.0,slv
+honungsmelon,Honungsmelon,546,100 g,33,137,0.1,0.0,7.0,6.8,0.7,0.5,0.0,slv
+ingefära,Ingefära färsk,2269,100 g,63,265,0.8,0.2,9.0,1.3,5.4,2.2,0.0,slv
+jordgubb,Jordgubbar,526,100 g,41,172,0.2,0.0,8.3,7.9,1.9,0.5,0.0,slv
+jordgubbar,Jordgubbar,526,100 g,41,172,0.2,0.0,8.3,7.9,1.9,0.5,0.0,slv
+jordärtskocka,Jordärtskocka,287,100 g,67,280,0.4,0.0,12.8,3.2,1.9,1.9,0.0,slv
+kantarell,Kantarell gul rå,5007,100 g,24,102,0.3,0.1,2.0,0.0,3.2,1.7,0.0,slv
+kantareller,Kantarell gul rå,5007,100 g,24,102,0.3,0.1,2.0,0.0,3.2,1.7,0.0,slv
+kinakål,Salladskål,358,100 g,21,86,0.1,0.0,2.7,2.5,1.6,1.3,0.0,slv
+kiwi,Kiwi grön,565,100 g,55,232,0.9,0.0,9.6,8.3,2.7,0.8,0.0,slv
+klementin,Småcitrus (clementin/mandarin),560,100 g,54,226,0.2,0.0,11.4,9.6,1.5,0.8,0.0,slv
+koriander,Koriander blad,7193,100 g,37,155,0.7,0.3,1.9,0.2,4.7,3.5,0.1,slv
+kronärtskocka,Kronärtskocka,342,100 g,52,217,0.2,0.0,7.3,2.6,5.0,2.7,0.2,slv
+krusbär,Krusbär,566,100 g,38,160,0.6,0.1,5.7,5.4,3.4,0.8,0.0,slv
+kumquat,Kumquat,568,100 g,69,290,0.7,0.1,12.9,9.3,4.6,0.5,0.0,slv
+kål,Vitkål,370,100 g,30,123,0.1,0.0,4.7,5.7,2.6,1.1,0.0,slv
+kålrabbi,Kålrabbi,343,100 g,29,122,0.1,0.0,4.4,2.9,1.8,1.7,0.0,slv
+kålrot,Kålrot,288,100 g,37,153,0.1,0.0,6.1,6.8,3.0,1.4,0.0,slv
+körsbär,Sötkörsbär,571,100 g,69,287,0.1,0.0,14.7,14.6,1.9,1.1,0.0,slv
+lime,Lime,572,100 g,47,198,0.2,0.0,10.3,0.6,0.5,0.7,0.0,slv
+lingon,Lingon,573,100 g,56,236,0.7,0.0,10.7,8.1,2.6,0.5,0.0,slv
+lök,Lök gul,344,100 g,39,163,0.1,0.0,7.3,4.5,1.9,1.2,0.0,slv
+majrova,Majrova,297,100 g,35,147,0.3,0.0,6.0,3.9,1.9,1.1,0.0,slv
+majs,Majskolv,345,100 g,125,524,1.6,0.2,22.1,3.3,2.9,3.9,0.0,slv
+majskolv,Majskolv,345,100 g,125,524,1.6,0.2,22.1,3.3,2.9,3.9,0.0,slv
+mandarin,Småcitrus (clementin/mandarin),560,100 g,54,226,0.2,0.0,11.4,9.6,1.5,0.8,0.0,slv
+mango,Mango,574,100 g,56,235,0.6,0.1,11.3,10.4,1.1,0.7,0.0,slv
+mangold,Mangold,348,100 g,21,89,0.2,0.0,2.6,0.3,0.8,1.8,0.5,slv
+melon,Nätmelon,547,100 g,37,155,0.3,0.1,7.1,5.0,1.0,0.9,0.0,slv
+morot,Morot,289,100 g,36,152,0.2,0.0,6.6,6.2,2.4,0.7,0.1,slv
+morötter,Morot,289,100 g,36,152,0.2,0.0,6.6,6.2,2.4,0.7,0.1,slv
+mynta,Grönmynta blad,7194,100 g,46,191,0.6,0.1,2.4,0.1,5.9,4.7,0.0,slv
+nektarin,Nektarin,576,100 g,53,223,0.3,0.0,10.9,9.8,1.3,0.9,0.0,slv
+nätmelon,Nätmelon,547,100 g,37,155,0.3,0.1,7.1,5.0,1.0,0.9,0.0,slv
+ostronskivling,Ostronskivling,7035,100 g,26,110,0.4,0.0,2.6,2.6,2.4,2.0,0.0,slv
+pak choi,Sellerikål pak choi,7192,100 g,19,79,0.2,0.0,1.8,0.5,1.9,1.4,0.1,slv
+palsternacka,Palsternacka,290,100 g,71,295,0.6,0.1,12.6,6.0,3.8,1.7,0.0,slv
+papaya,Papaya,577,100 g,48,201,0.6,0.2,8.9,9.5,1.8,0.8,0.0,slv
+paprika,Paprika röd,351,100 g,22,94,0.2,0.0,4.1,4.9,0.9,0.5,0.0,slv
+paprika grön,Paprika grön,350,100 g,18,78,0.1,0.0,3.0,3.0,2.0,0.5,0.0,slv
+paprika gul,Paprika gul,381,100 g,24,98,0.2,0.0,4.3,5.0,1.4,0.5,0.0,slv
+paprika röd,Paprika röd,351,100 g,22,94,0.2,0.0,4.1,4.9,0.9,0.5,0.0,slv
+paprikor,Paprika röd,351,100 g,22,94,0.2,0.0,4.1,4.9,0.9,0.5,0.0,slv
+passionsfrukt,Passionsfrukt,579,100 g,87,366,0.7,0.1,12.9,6.2,10.4,2.2,0.1,slv
+pepparrot,Pepparrot,291,100 g,70,291,0.3,0.0,9.5,7.3,8.2,3.1,0.0,slv
+persika,Persika,580,100 g,43,179,0.1,0.0,8.6,7.8,2.1,0.7,0.0,slv
+persilja,Persilja blad,352,100 g,78,327,1.1,0.3,9.4,0.7,3.9,5.6,0.1,slv
+physalis,Physalis,567,100 g,57,239,0.6,0.2,8.9,11.7,4.2,1.8,0.0,slv
+plommon,Plommon,582,100 g,47,198,0.1,0.0,10.2,7.2,1.8,0.5,0.0,slv
+potatis,Potatis rå,4457,100 g,79,329,0.1,0.0,16.4,0.8,2.1,1.7,0.0,slv
+pumpa,Pumpa,353,100 g,26,109,0.1,0.0,4.4,2.7,1.7,1.0,0.0,slv
+purjolök,Purjolök,354,100 g,30,123,0.2,0.0,4.1,4.0,2.7,1.6,0.0,slv
+päron,Päron,583,100 g,54,226,0.1,0.0,11.5,11.3,2.7,0.3,0.0,slv
+rabarber,Rabarber tillagad u. socker,548,100 g,12,52,0.2,0.0,0.4,1.0,3.8,0.4,0.0,slv
+rotpersilja,Rotpersilja,296,100 g,61,256,0.6,0.1,10.7,3.7,1.6,2.3,0.0,slv
+rotselleri,Rotselleri,292,100 g,32,135,0.5,0.1,4.4,2.4,3.1,1.0,0.1,slv
+rova,Majrova,297,100 g,35,147,0.3,0.0,6.0,3.9,1.9,1.1,0.0,slv
+ruccola,Ruccolasallat,2561,100 g,21,89,0.4,0.0,0.0,0.0,1.7,3.6,0.1,slv
+rädisa,Rädisa,293,100 g,11,47,0.4,0.1,0.7,1.4,1.1,0.7,0.0,slv
+rädisor,Rädisa,293,100 g,11,47,0.4,0.1,0.7,1.4,1.1,0.7,0.0,slv
+rättika,Rättika,295,100 g,18,76,0.1,0.0,2.5,2.2,1.6,1.0,0.0,slv
+röd chili,Chilipeppar färsk,380,100 g,49,205,0.7,0.1,5.9,0.7,4.8,2.4,0.0,slv
+röd paprika,Paprika röd,351,100 g,22,94,0.2,0.0,4.1,4.9,0.9,0.5,0.0,slv
+röda vinbär,Vinbär röda,585,100 g,48,203,0.2,0.0,8.7,7.5,3.4,1.2,0.0,slv
+rödbeta,Rödbeta,294,100 g,51,212,0.1,0.0,9.8,9.4,2.6,1.2,0.0,slv
+rödbetor,Rödbeta,294,100 g,51,212,0.1,0.0,9.8,9.4,2.6,1.2,0.0,slv
+rödkål,Rödkål,355,100 g,31,131,0.3,0.1,4.7,5.0,2.6,1.1,0.0,slv
+rödlök,Lök gul,344,100 g,39,163,0.1,0.0,7.3,4.5,1.9,1.2,0.0,slv
+rödvinbär,Vinbär röda,585,100 g,48,203,0.2,0.0,8.7,7.5,3.4,1.2,0.0,slv
+salladskål,Salladskål,358,100 g,21,86,0.1,0.0,2.7,2.5,1.6,1.3,0.0,slv
+selleri,Rotselleri,292,100 g,32,135,0.5,0.1,4.4,2.4,3.1,1.0,0.1,slv
+sellerikål,Sellerikål pak choi,7192,100 g,19,79,0.2,0.0,1.8,0.5,1.9,1.4,0.1,slv
+shiitake,Shiitakesvamp,7034,100 g,18,77,0.3,0.0,0.5,2.5,3.3,1.8,0.0,slv
+shiitakesvamp,Shiitakesvamp,7034,100 g,18,77,0.3,0.0,0.5,2.5,3.3,1.8,0.0,slv
+sockerärt,Sockerärtor,359,100 g,37,155,0.2,0.0,4.3,3.5,2.2,3.4,0.0,slv
+sockerärtor,Sockerärtor,359,100 g,37,155,0.2,0.0,4.3,3.5,2.2,3.4,0.0,slv
+spenat,Spenat,361,100 g,20,84,0.6,0.1,0.5,0.6,2.0,2.2,0.0,slv
+squash,Squash,362,100 g,14,61,0.1,0.0,2.5,3.0,1.8,0.0,0.0,slv
+stjälkselleri,Stjälkselleri,321,100 g,19,81,0.2,0.1,2.3,0.8,2.1,1.0,0.0,slv
+surkörsbär,Surkörsbär,570,100 g,61,256,0.1,0.0,13.3,15.4,1.4,0.9,0.0,slv
+svamp,Champinjon,333,100 g,27,114,0.2,0.0,2.7,0.1,2.4,2.4,0.0,slv
+svarta vinbär,Vinbär svarta,586,100 g,68,284,1.1,0.2,10.2,8.5,5.8,1.4,0.0,slv
+svartavinbär,Vinbär svarta,586,100 g,68,284,1.1,0.2,10.2,8.5,5.8,1.4,0.0,slv
+svartrot,Svartrot,298,100 g,75,312,0.4,0.0,14.2,3.0,4.0,1.4,0.0,slv
+svartvinbär,Vinbär svarta,586,100 g,68,284,1.1,0.2,10.2,8.5,5.8,1.4,0.0,slv
+sötkörsbär,Sötkörsbär,571,100 g,69,287,0.1,0.0,14.7,14.6,1.9,1.1,0.0,slv
+sötpotatis,Sötpotatis rå,3765,100 g,71,295,0.4,0.0,12.9,6.1,4.4,1.6,0.0,slv
+tomat,Tomat,364,100 g,18,73,0.1,0.0,2.6,2.8,1.3,0.8,0.0,slv
+tomater,Tomat,364,100 g,18,73,0.1,0.0,2.6,2.8,1.3,0.8,0.0,slv
+tranbär,Tranbär,584,100 g,46,192,0.2,0.0,8.9,3.4,3.3,0.4,0.0,slv
+vattenmelon,Vattenmelon,549,100 g,34,142,0.0,0.0,7.5,8.7,0.6,0.6,0.0,slv
+vinbär,Vinbär röda,585,100 g,48,203,0.2,0.0,8.7,7.5,3.4,1.2,0.0,slv
+vindruva,Vindruvor,587,100 g,70,291,0.2,0.0,15.6,16.1,1.2,0.6,0.0,slv
+vindruvor,Vindruvor,587,100 g,70,291,0.2,0.0,15.6,16.1,1.2,0.6,0.0,slv
+vitkål,Vitkål,370,100 g,30,123,0.1,0.0,4.7,5.7,2.6,1.1,0.0,slv
+vitlök,Vitlök,371,100 g,128,537,0.2,0.0,21.9,5.4,5.3,6.8,0.0,slv
+zucchini,Squash,362,100 g,14,61,0.1,0.0,2.5,3.0,1.8,0.0,0.0,slv
+äpple,Äpple m. skal,588,100 g,48,200,0.0,0.0,10.6,9.9,2.3,0.0,0.0,slv
+äpplen,Äpple m. skal,588,100 g,48,200,0.0,0.0,10.6,9.9,2.3,0.0,0.0,slv

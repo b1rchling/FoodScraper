@@ -2,6 +2,7 @@
 .willys_cache.jsonl
 .hemkop_cache.jsonl
 .coop_cache.jsonl
+.produce_cache.jsonl
 
 # Python
 __pycache__/
@@ -14,6 +15,7 @@ __pycache__/
 willys_index.json
 hemkop_index.json
 coop_index.json
+produce_nutrition.json
 
 # Additional files:
 willys-macros-TODO.md
