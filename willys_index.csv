@@ -152,8 +152,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5038862136389,101307281_ST,Apple & Raspberry Juice,Innocent,900 ml,"34,92 kr",200 milliliter,84.0,354.0,0.0,0.0,19.0,18.0,,0.5,0.0,willys
 4820229280917,101821202_ST,Apple Chips Dried Not Fried 100% Natural,Agro Senco,30 g,"28,29 kr",100 gram,467.0,1951.0,22.0,3.3,60.0,40.0,6.7,3.3,0.14,willys
 1210002014397,101776351_ST,Apple Fruktdryck,Tropicana,900 ml,"33,97 kr",100 milliliter,47.0,198.0,0.0,0.0,11.0,11.0,0.6,0.2,0.0,willys
-5038862139496,101307286_ST,Apple Juice,Innocent,900 ml,"34,92 kr",200 milliliter,90.0,381.0,0.0,0.0,21.0,19.0,,0.3,0.0,willys
 5038862138581,101307285_ST,Apple Juice,Innocent,"1,5 l","48,73 kr",200 milliliter,90.0,381.0,0.0,0.0,21.0,19.0,,0.3,0.0,willys
+5038862139496,101307286_ST,Apple Juice,Innocent,900 ml,"34,92 kr",200 milliliter,90.0,381.0,0.0,0.0,21.0,19.0,,0.3,0.0,willys
 5038862138376,101307284_ST,Apple Kiwi & Cucumber Juice,Innocent,900 ml,"34,92 kr",200 milliliter,78.0,333.0,0.0,0.0,20.0,17.0,,0.0,0.0,willys
 7310960052685,101801385_ST,Apple Pie Sweet Fryst,Billys,170 g,"15,50 kr",100 gram,277.0,1160.0,9.3,3.9,43.0,12.0,1.6,4.6,0.5,willys
 2090164800002,100126123_KG,Aprikos Färsk Klass 1,,ca: 78 g,"54,90 kr",,,,,,,,,,,
@@ -197,7 +197,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311041052105,101064376_ST,Avokado 2-pack Eko Klass 1,Garant Eko,300 g,"34,90 kr",,,,,,,,,,,
 8718366133844,101357956_ST,Avokado 3-pack Mogen Klass 1,Garant,320 g,"29,90 kr",,,,,,,,,,,
 74227,100151933_ST,Avokado Klass 1,,170 g,"12,90 kr",,,,,,,,,,,
-7311041052112,100960346_ST,Avokado Klass 1,,700 g,"34,90 kr",,,,,,,,,,,
+7311041052112,100960346_ST,Avokado Klass 1,,700 g,"37,90 kr",,,,,,,,,,,
 7340083476228,101295347_ST,Avokado Skivor Fryst,Garant,300 g,"28,29 kr",100 gram,180.0,750.0,17.0,4.8,2.4,0.5,4.6,1.1,0.7,willys
 7340083476211,101295346_ST,Avokado Tärningar Fryst,Garant,250 g,"21,67 kr",100 gram,144.0,604.0,14.0,3.6,0.5,0.5,6.1,1.7,0.3,willys
 7312631006027,100221644_ST,Avorio Risottoris,Risenta,1 kg,"34,90 kr",100 gram,349.0,1484.0,0.8,0.3,78.0,0.6,0.9,6.9,0.0,willys
@@ -210,7 +210,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7611612109406,101285966_ST,Baby Corn In Brine,Spicefield,425/200 g,"14,10 kr",100 gram,40.0,170.0,0.2,0.0,7.0,0.0,,1.1,1.0,willys
 7310500026039,100655792_ST,Babymorötter Frysta,Findus,500 g,"25,45 kr",100 gram,35.0,146.0,0.0,0.0,6.7,6.5,3.2,0.6,0.095,willys
 7340083466830,101281469_ST,Babyspenat,Garant Eko,175 g,"27,90 kr",100 g,20.0,105.0,0.5,0.5,0.8,0.0,2.1,3.3,0.25,off
-7340083444333,101240156_ST,Babyspenat Ekologisk Klass 1,Garant Eko,65 g,"18,80 kr",100 g,24.0,105.0,0.5,0.1,0.8,,2.1,3.3,0.25,off
+7340083444333,101240156_ST,Babyspenat Ekologisk Klass 1,Garant Eko,65 g,"18,80 kr",,,,,,,,,,,
 7340083465567,101281488_ST,Babyspenat Klass 1,Garant,175 g,"18,80 kr",,,,,,,,,,,
 7340083465543,101281446_ST,Babyspenat Klass 1,Garant,65 g,"14,90 kr",,,,,,,,,,,
 7340062457941,101690521_ST,Bacon Alspånsrökt Skivad,Smak Av Svea,120 g,"23,56 kr",100 gram,300.0,1250.0,28.0,11.0,0.5,0.5,,13.0,2.5,willys
@@ -218,6 +218,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310240079586,101210866_ST,Bacon Broccoli Paj Fryst/1 Port,Felix,220 g,"29,24 kr",100 gram,263.0,1099.0,18.0,9.5,17.0,1.5,,8.3,0.92,willys
 7350167516535,101826606_ST,Bacon Megakrispiga Potatis Chips,Redhead,150 g,"26,40 kr",100 gram,486.0,2032.0,26.0,2.6,57.0,0.9,,8.1,1.4,willys
 7300204336008,101274449_ST,Bacon Miniskivat,Scan,140 g,"16,94 kr",100 gram,300.0,1250.0,28.0,11.0,0.0,0.0,,13.0,2.4,willys
+7340109307352,101492202_ST,Bacon Restaurang,Helmut Walch,300 g,"42,49 kr",100 gram,240.0,1000.0,20.0,5.4,0.0,0.0,,15.0,2.2,willys
 7340083497346,101406133_ST,Bacon Rökt & Skivat,Garant,140 g,"13,15 kr",100 gram,260.0,1100.0,21.0,8.0,0.0,0.0,,17.0,2.2,willys
 7311043001354,101458935_ST,Bacon Rökt & Tärnat,Garant,140 g,"15,04 kr",100 gram,260.0,1100.0,21.0,8.0,0.0,0.0,,17.0,2.2,willys
 5707196031836,100817092_ST,Bacon Skivad,Tulip,125 g,"17,88 kr",100 gram,290.0,1200.0,26.0,10.0,0.0,0.0,,14.0,2.5,willys
@@ -274,6 +275,11 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7398818390615,101607882_ST,Banoffee Glass,Lohilo,350 ml,"33,97 kr",100 gram,185.0,769.0,8.4,6.4,17.0,7.0,5.5,10.0,0.08,willys
 7391814008232,101211116_ST,Bara För Nu Jordgubb & Hallon Svartvinbär,Exotic Snacks,55 g,"18,45 kr",100 gram,340.0,1400.0,1.0,0.01,78.0,78.0,7.0,1.0,0.2,willys
 7391814008737,101299794_ST,Bara Vara Mango & Ananas,Exotic Snacks,55 g,"18,45 kr",100 gram,320.0,1360.0,1.0,0.2,76.0,70.0,6.4,1.2,0.1,willys
+8005840096642,101342099_ST,Barattolino Cioccolato,Sammontana,500 ml,"32,90 kr",100 gram,290.0,1196.0,18.0,16.0,27.0,24.0,,3.6,0.13,willys
+8005840096635,101366214_ST,Barattolino Croccantino Salato,Sammontana,500 ml,"32,90 kr",100 gram,256.0,1023.0,13.0,10.0,28.0,26.0,,3.3,0.34,willys
+8005840104088,101341975_ST,Barattolino Fragola E Limone,Sammontana,500 ml,"32,90 kr",100 gram,176.0,741.0,6.3,5.8,28.0,24.0,,1.7,0.06,willys
+8005840029930,101857099_ST,Barattolino Fragola E Panna,Barattolino,800 ml,"32,90 kr",100 gram,164.0,691.0,5.7,3.9,26.0,23.0,,1.8,0.06,willys
+8005840096581,101341976_ST,Barattolino Vaniglia E Pistacchio,Sammontana,500 ml,"32,90 kr",100 gram,268.0,1089.0,15.0,9.1,27.0,25.0,,3.6,0.18,willys
 8710398165077,101186536_ST,Barbecue Chips,Lay's,175 g,"24,51 kr",100 gram,501.0,2096.0,28.0,3.1,54.0,2.8,4.4,6.2,1.1,willys
 6408430102365,101457193_ST,Barista Carame Havredryck,Oddlygood,1 l,"20,34 kr",100 milliliter,62.0,259.0,3.0,0.3,7.6,4.5,,1.1,0.15,willys
 7311043008940,101551209_ST,Barista Ekologisk Havredryck,Garant Eko,1 l,"17,88 kr",100 milliliter,54.0,226.0,2.0,0.2,7.8,2.6,,0.8,0.1,willys
@@ -287,7 +293,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 6430081491291,101777145_ST,Barista Nötvan Havredryck Glutenfri,Oddlygood,1 l,"20,34 kr",100 milliliter,57.0,237.0,3.0,0.3,6.3,3.5,,1.1,0.08,willys
 6408430102358,101457192_ST,Barista Vanill Havredryck,Oddlygood,1 l,"20,34 kr",100 milliliter,62.0,259.0,3.0,0.3,7.6,4.5,,1.1,0.08,willys
 7340150800819,101681404_ST,Barista Zero Made From Peas Vegansk Ärtdryck,Sproud,1 l,"17,50 kr",100 milliliter,30.0,140.0,3.0,0.2,0.0,0.0,,2.0,0.13,willys
-7350029731908,101288150_ST,Barkis,Dahls Bageri,550 g,"18,83 kr",100 gram,246.0,1028.0,3.4,0.7,44.0,1.3,2.7,8.7,1.3,willys
 7310628008924,101512423_ST,Barnens Grillkorv,Lithells,400 g,"26,40 kr",100 gram,220.0,900.0,17.0,6.8,7.1,0.5,,9.6,1.9,willys
 7311043021574,101762229_ST,Barnkex Kakao,Dazzley,100 g,"12,20 kr",100 gram,445.0,1868.0,18.0,2.0,61.0,20.0,3.8,7.4,0.4,willys
 7311043021567,101762228_ST,Barnkex Naturell,Dazzley,100 g,"12,20 kr",100 gram,410.0,1726.0,12.0,7.5,67.0,20.0,2.4,7.3,0.39,willys
@@ -368,7 +373,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310130004469,101225319_ST,Berries Müsli Gold,Axa,725 g,"49,11 kr",100 gram,422.0,1766.0,16.0,4.3,55.0,14.0,8.2,10.0,0.34,willys
 7340131603781,101550534_ST,"Berruba Strawberry/rhubarb Energidryck, Burk",Nocco,33 cl,"17,88 kr",100 milliliter,5.0,22.0,0.0,0.0,0.0,0.0,0.0,0.9,0.0,willys
 7340109306027,101291313_ST,Bierwurst,Helmut Walch,380 g,"66,15 kr",100 gram,230.0,962.0,19.0,8.1,0.0,0.0,,15.0,2.2,willys
-2313710100006,101203941_KG,Biff i Bit med Kappa Sverige,Garant Eko,ca: 1 kg,399 kr,100 gram,120.0,500.0,3.9,1.6,0.0,0.0,,22.0,0.2,willys
 2373761300008,101104760_KG,Biff med Kappa Brasilien,Naturkött,ca: 800 g,195 kr,100 gram,160.0,700.0,9.3,4.4,0.0,0.0,,20.0,,willys
 2090212800008,100152488_KG,Bifftomat Klass 1,,ca: 200 g,"34,90 kr",,,,,,,,,,,
 7622202033186,101676209_ST,Big Taste Oreo Chokladkaka,Marabou,300 g,"44,38 kr",100 gram,556.0,2319.0,34.0,19.0,56.0,48.0,1.7,5.0,0.39,willys
@@ -435,7 +439,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310943092561,101211373_ST,Blodpudding Glutenfri,Geas,475 g,"14,66 kr",100 gram,200.0,850.0,10.0,0.8,23.0,6.2,,5.0,1.9,willys
 7340083478338,101302328_ST,Blomkål Ekologisk Fryst,Garant Eko,450 g,"18,83 kr",100 gram,30.0,128.0,0.4,0.1,4.4,2.9,1.8,2.5,0.0,willys
 7340083484568,101328911_ST,Blomkål Fryst,Garant,500 g,"18,83 kr",100 gram,20.0,85.0,0.0,0.0,2.7,1.1,1.9,1.2,0.1,willys
-2090970200003,101286423_KG,Blomkål Ofilmad Klass 1,,ca: 800 g,"39,90 kr",,,,,,,,,,,
+2090970200003,101286423_KG,Blomkål Ofilmad Klass 1,,ca: 800 g,"29,90 kr",,,,,,,,,,,
 7340083468933,101284152_ST,Blomkålsris Riven Fryst,Garant,500 g,"18,83 kr",100 gram,20.0,85.0,0.1,0.0,2.7,1.1,1.9,1.2,0.1,willys
 7311043001705,101473883_ST,Blomsterhonung,Garant,250 g,"37,76 kr",100 gram,320.0,1360.0,0.5,0.0,79.0,79.0,,0.5,0.02,willys
 3088545004001,101203219_ST,Blomsterhonung,Lune De Miel,500 g,"50,06 kr",100 gram,320.0,1360.0,0.0,0.0,80.0,80.0,,0.0,0.02,willys
@@ -694,6 +698,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083475764,101290351_ST,Canneloni Ricotta/spenat Fryst/1 Port,Garant,400 g,"28,29 kr",100 gram,144.0,605.0,6.0,2.4,15.0,3.8,0.74,7.2,0.9,willys
 3529380019091,101544491_ST,Cantal Entre Deux,Haute Fromager,200 g,"54,90 kr",100 gram,376.0,1561.0,30.0,21.0,1.5,0.5,,25.0,2.0,willys
 8850058004138,101205738_ST,Cantonese Suki Sauce,Pantainorasing,730 ml,"56,68 kr",100 gram,109.0,454.0,1.0,0.0,17.7,16.6,,5.8,5.8,willys
+7350027799566,101708441_ST,Cantucci Mandel Glutenfri,Zeta,200 g,"47,22 kr",100 gram,456.0,1916.0,17.0,1.8,68.0,9.9,3.9,5.5,0.6,willys
 7340083492600,101353620_ST,Cantuccini med Mandel,Garant,300 g,"28,29 kr",100 gram,456.0,1914.0,16.0,3.7,65.0,32.0,3.8,11.0,0.2,willys
 7311043008308,101548684_ST,Capellini,Garant,1 kg,"21,67 kr",100 gram,351.0,1488.0,1.4,0.3,71.0,2.9,3.1,12.0,0.01,willys
 7350027799818,101802856_ST,Capellini,Zeta,400 g,"14,10 kr",100 gram,367.0,1555.0,1.5,0.5,73.0,3.0,2.5,14.0,0.0,willys
@@ -727,7 +732,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083487514,101334261_ST,Carbonara med Penne Pasta,Redo,360 g,"47,22 kr",100 gram,221.0,928.0,11.0,6.3,21.0,2.3,,9.5,1.1,willys
 8720182406651,101424684_ST,Carbonara Mix Cheese Bacon,Knorr,154 g,"31,13 kr",100 gram,101.0,423.0,2.9,1.0,16.0,1.2,0.5,2.9,0.76,willys
 8711327416215,101337939_ST,Carbonara Snack Pot,Knorr,63 g,"15,04 kr",100 gram,105.0,438.0,3.0,1.0,16.0,2.1,0.6,3.7,0.72,willys
-54881005920,101254662_ST,Cardamom Tea,Ahmad Tea,100 p,"56,68 kr",100 g,4.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,off
+54881005920,101254662_ST,Cardamom Tea,Ahmad Tea,100 p,"56,68 kr",,,,,,,,,,,
 8000500269169,101297231_ST,Cards 5-pack,Kinder,128 g,"24,51 kr",100 gram,510.0,2135.0,26.3,13.5,55.9,42.9,,11.5,0.445,willys
 7340131600216,101264914_ST,Caribbean Bcaa Energidryck Burk,Nocco,33 cl,"17,88 kr",100 milliliter,4.0,15.0,0.0,0.0,0.0,0.0,0.0,0.9,0.0,willys
 7340083447402,101245370_ST,Carnaroli Ris,Garant,1 kg,"47,22 kr",100 gram,360.0,1550.0,0.5,0.1,82.0,0.0,2.8,6.8,0.02,willys
@@ -1006,8 +1011,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350126083610,101412941_ST,Chokladmousse med Crisp,Ekströms,106 g,"21,67 kr",100 gram,190.0,794.0,7.2,6.2,26.0,23.0,,5.3,0.11,willys
 7330242200931,101114465_ST,Chokladmuffins Glutenfria Frysta/4-pack,Fria,240 g,"38,90 kr",100 gram,430.0,1800.0,23.0,2.6,48.0,35.0,2.9,4.8,0.8,willys
 7310960773023,101270971_ST,Chokladmunk Lyx,Dafgårds,72 g,"11,26 kr",100 gram,342.0,1430.0,16.8,9.2,40.5,19.2,2.5,6.6,0.5,willys
-7350126083375,101412936_ST,Chokladpudding,Ekströms,480 g,"41,54 kr",100 gram,116.0,484.0,2.7,1.7,20.0,16.0,,3.3,0.46,willys
 7350126083498,101412939_ST,Chokladpudding,Ekströms,120 g,"15,99 kr",100 gram,107.0,447.0,1.5,1.0,20.0,16.0,,3.4,0.47,willys
+7350126083375,101412936_ST,Chokladpudding,Ekströms,480 g,"41,54 kr",100 gram,116.0,484.0,2.7,1.7,20.0,16.0,,3.3,0.46,willys
 7331340200274,101826593_ST,Chokladrussin,Sun-maid,130 g,"32,08 kr",100 gram,439.0,1837.0,17.0,10.0,69.0,62.0,3.0,3.6,0.15,willys
 7311043010714,101582744_ST,Chokladsmak Krämfyllda Muffins 8p,Dazzley,240 g,"23,56 kr",100 gram,481.0,2011.0,30.0,7.8,48.0,33.0,1.0,2.8,1.0,willys
 7310525501610,100270430_ST,Chokladsmak Rån Jätten,Jätten,250 g,"20,72 kr",100 gram,539.0,2254.0,29.0,28.0,64.0,31.0,3.0,4.8,0.4,willys
@@ -1074,10 +1079,10 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083444623,101239060_ST,Citron Juice,Garant Eko,250 ml,"19,90 kr",100 gram,28.0,120.0,0.1,0.0,6.5,1.7,0.4,0.4,0.0,willys
 74304,100255117_ST,Citron Klass 1,,ca150 g,"6,90 kr",,,,,,,,,,,
 7310401059129,101886332_ST,Citron Kolsyrat Vatten Burk,Loka,33 cl,"5,58 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
-7611612516655,101817729_ST,Citron Kolsyrat Vatten Pet,Premier,12/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
-7611612516679,101816203_ST,Citron Kolsyrat Vatten Pet,Premier,6 p/50 cl,"32,08 kr",,,,,,,,,,,
-7611612513807,101205991_ST,Citron Kolsyrat Vatten Pet,Premier,1.5 l,"9,36 kr",1000 milliliter,,,,,,,,,,willys
 7310403059103,101880346_ST,Citron Kolsyrat Vatten Pet,Loka,12 p/33 cl,"42,49 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
+7611612516679,101816203_ST,Citron Kolsyrat Vatten Pet,Premier,6 p/50 cl,"32,08 kr",,,,,,,,,,,
+7611612516655,101817729_ST,Citron Kolsyrat Vatten Pet,Premier,12/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
+7611612513807,101205991_ST,Citron Kolsyrat Vatten Pet,Premier,1.5 l,"9,36 kr",1000 milliliter,,,,,,,,,,willys
 7340083445064,101244455_ST,Citron Kolsyrat Vatten Pet,Eldorado,2 l,"11,26 kr",,,,,,,,,,,
 7310401059099,101888234_ST,Citron Kolsyrat Vatten Pet,Loka,50 cl,"8,99 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
 7611612520157,101256861_ST,Citron Kolsyrat Vatten Pet,Premier,"6 p/1,5 l","47,22 kr",1000 milliliter,,,,,,,,,,willys
@@ -1144,11 +1149,12 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5410188031812,101270854_ST,Cloudy Apple Äppeljuice,Tropicana,"1,5 l","47,22 kr",100 milliliter,48.0,205.0,0.0,0.0,11.0,11.0,0.7,0.1,0.8,willys
 2359780200000,101852215_KG,Club Steak,Blue Smoke,ca: 550 g,"194,01 kr",,,,,,,,,,,
 7310511251406,100482390_ST,Co-co Dubbel,Marabou,60 g,"10,50 kr",100 gram,520.0,2160.0,30.0,23.0,53.5,48.0,5.2,5.8,0.15,willys
+5449000308443,101364645_ST,Coca Cola Burk,Coca-cola,30 p/33 cl,159 kr,100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5000112690767,101832229_ST,Coca-cola Lemon Zero Läsk Burk,Coca-cola,33 cl,"9,36 kr",100 milliliter,1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 5000112690729,101832230_ST,Coca-cola Lemon Zero Läsk Pet,Coca-cola,50 cl,"15,04 kr",100 milliliter,1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 5000112690743,101832231_ST,Coca-cola Lemon Zero Läsk Pet,Coca-cola,"1,5 l","19,40 kr",100 milliliter,1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.01,willys
-5449000259110,101291226_ST,Coca-cola Läsk Burk,Coca-cola,6 p/33 cl,"40,60 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5449000259219,101350865_ST,Coca-cola Läsk Burk,Coca-cola,15 p/33 cl,"99,90 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
+5449000259110,101291226_ST,Coca-cola Läsk Burk,Coca-cola,6 p/33 cl,"40,60 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5000112690262,101832237_ST,Coca-cola Läsk Burk,Coca-cola,6 p 20 cl,"40,60 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5000112637922,101291199_ST,Coca-cola Läsk Burk,Coca-cola,33 cl,"9,36 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 54490703,101230056_ST,Coca-cola Läsk Glas,Coca-cola,33 cl,"14,50 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
@@ -1156,8 +1162,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5000112689808,101872392_ST,Coca-cola Läsk Pet,Coca-cola,"1,5 l","19,40 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5000112690552,101855843_ST,Coca-cola Orig Läsk Pet,Coca-cola,"4 x1,5 l","66,15 kr",100 milliliter,42.0,180.0,0.0,0.0,10.6,10.6,,0.0,0.0,willys
 5000112654240,101355225_ST,Coca-cola Zero Koffeinfri Läsk Burk,Coca-cola Zero,33 cl,"9,36 kr",100 milliliter,0.3,1.4,0.0,0.0,0.0,0.0,,0.0,0.01,willys
-5449000259127,101291227_ST,Coca-cola Zero Läsk Burk,Coca-cola Zero,6 p/33 cl,"40,60 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 5449000259226,101350866_ST,Coca-cola Zero Läsk Burk,Coca-cola Zero,15 p/33 cl,"99,90 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
+5449000259127,101291227_ST,Coca-cola Zero Läsk Burk,Coca-cola Zero,6 p/33 cl,"40,60 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 5000112637939,101291077_ST,Coca-cola Zero Läsk Burk,Coca-cola Zero,33 cl,"9,36 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 5000112690279,101832248_ST,Coca-cola Zero Läsk Burk,Coca-cola,6 p 20 cl,"40,60 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
 90375408,101230102_ST,Coca-cola Zero Läsk Glas,Coca-cola Zero,33 cl,"14,50 kr",100 milliliter,0.3,1.3,0.0,0.0,0.0,0.0,,0.0,0.01,willys
@@ -1197,7 +1203,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350102500124,101590535_ST,Cold Brew Kaffe Koncentrat,Mode Cold Brew,500 ml,"56,68 kr",100 milliliter,8.0,36.0,0.0,0.0,1.4,0.0,,0.6,0.0,willys
 7313161427559,101131008_ST,Coleslaw,Rydbergs,400 g,"33,02 kr",100 gram,340.0,1400.0,33.0,2.5,11.0,10.0,,0.8,0.9,willys
 7340083479137,101303611_ST,Coleslaw,Eldorado,400 g,"18,83 kr",100 gram,300.0,1250.0,30.0,2.2,6.5,4.4,,0.7,0.8,willys
-8000500247150,101307544_ST,Collection,Ferrero,172 g,"75,61 kr",100 g,348.364756102983,2606.0,48.6,29.7,38.3,33.3,0.0,7.2,0.31,off
+8000500247150,101307544_ST,Collection,Ferrero,172 g,"75,61 kr",,,,,,,,,,,
 7310470050256,100450762_ST,Collorit,Ekströms,165 g,"12,20 kr",100 gram,140.0,600.0,0.0,0.0,34.0,34.0,,0.0,10.0,willys
 7613036961721,101546220_ST,Colombia Kaffekapslar,Starbucks,10 p,"42,49 kr",,,,,,,,,,,
 7350027797319,101351817_ST,Colossal Halkidiki med Kärnor Extra Stora,Zeta,710/400 g,"47,22 kr",100 gram,151.0,622.0,15.0,2.2,3.9,0.1,,1.1,2.6,willys
@@ -1274,7 +1280,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083460432,101271326_ST,Crema Carciofi Kronärtskockscrème,Garant,200 g,"28,29 kr",100 gram,381.0,1592.0,39.0,4.3,4.5,0.3,2.9,2.9,1.3,willys
 8055176430146,101841091_ST,Crema Classica Kaffekapslar 10p,Borbone,50 g,"34,92 kr",,,,,,,,,,,
 7311043015351,101670852_ST,Crema Con Aceto Balsamico Di Modena,Monte Castello,250 ml,"28,29 kr",100 milliliter,202.0,859.0,0.0,0.0,46.0,34.0,,1.1,0.09,willys
-8000070025400,101361650_ST,Crema E Aroma Hela Bönor,Lavazza,1 kg,225 kr,100 g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,off
+8000070025400,101361650_ST,Crema E Aroma Hela Bönor,Lavazza,1 kg,225 kr,,,,,,,,,,,
 8000070053472,101345471_ST,Crema E Gusto Kaffekapslar,Lavazza,10 p,"39,27 kr",,,,,,,,,,,
 8055176430139,101841090_ST,Crema Superior Kaffekapslar 10p,Borbone,50 g,"34,92 kr",,,,,,,,,,,
 8711000587249,101676879_ST,Crema Whole Beans Mellanrost,Gevalia,900 g,159 kr,,,,,,,,,,,
@@ -1346,7 +1352,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310401059761,101847808_ST,Cuba Cola Zero Läsk Pet,Cuba Cola,"1,5 l","15,99 kr",100 milliliter,0.0,1.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
 8719200007772,101296401_ST,Culinesse Flytande Margarin,Milda,750 ml,"26,50 kr",100 milliliter,621.0,2555.0,69.0,6.4,0.5,0.5,,0.5,0.87,willys
 8719200006355,101296418_ST,Culinesse Flytande Margarin,Milda,500 ml,"19,90 kr",100 milliliter,621.0,2555.0,69.0,6.4,0.5,0.5,,0.5,0.87,willys
-7310155800169,100482309_ST,Cumberlandsås,Druvan,230 g,"26,40 kr",100 gram,201.0,853.0,0.5,0.1,50.0,48.0,,0.5,0.09,willys
 6931722311263,101458143_ST,Cup Cake,Funny Kidz,40 g,"18,83 kr",100 gram,378.8,1583.4,0.0,0.0,94.7,93.3,,0.0,0.0,willys
 8801043028127,101602519_ST,Cup Noodle Soon Veggie,Nongshim,67 g,"18,83 kr",100 gram,434.0,1824.0,17.0,8.5,63.0,7.8,,7.3,6.1,willys
 5900120070059,101778706_ST,Curd Ost Fullfet Sallads/vitost,Lowicz,250 g,"23,56 kr",100 gram,144.0,601.0,7.5,4.9,3.1,3.1,,16.0,0.1,willys
@@ -1372,6 +1377,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7622210303622,101720081_ST,Daim Mini,Daim,140 g,"33,02 kr",100 gram,544.0,2271.0,32.0,17.0,61.0,60.0,1.3,3.1,0.88,willys
 7622202277764,101773949_ST,Daim Mjölkchoklad,Marabou,90 g,"19,50 kr",100 gram,547.0,2283.0,32.0,18.0,60.0,59.0,1.7,4.0,0.49,willys
 7622202238413,101773954_ST,Daim Mjölkchoklad Chokladkaka,Marabou,160 g,"26,40 kr",100 gram,544.0,2272.0,32.0,18.0,60.0,59.0,1.6,3.8,0.49,willys
+7622202039331,101552470_ST,Daim Strawberry,Daim,56 g,"10,50 kr",100 gram,545.0,2275.0,32.0,16.0,61.0,61.0,1.2,2.9,0.86,willys
 8606018619566,101840593_ST,Daimstrut Glasstrut,Daim,150 ml,33 kr,100 gram,338.0,1414.0,19.0,14.0,38.0,26.0,1.0,3.1,0.28,willys
 8606018619580,101840598_ST,Daimstrut Mini Glasstrut,Daim,6 p,"51,50 kr",100 gram,358.0,1495.0,21.0,15.0,38.0,26.0,1.2,3.1,0.26,willys
 7313161311650,100212592_ST,Dallassallad,Rydbergs,200 g,"12,77 kr",100 gram,350.0,1450.0,34.0,2.6,12.0,10.0,,0.8,0.5,willys
@@ -1392,7 +1398,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311312007520,101436072_ST,Dark Soy & Garlic Cooking Sauce,Santa Maria,100 g,"16,90 kr",100 gram,129.0,546.0,0.0,0.0,29.0,26.0,0.9,3.1,4.8,willys
 7340083497216,101405717_ST,Dates Dadlar,Lyna,200 g,"15,99 kr",100 gram,284.0,1204.0,0.5,0.01,64.5,59.1,8.5,2.3,0.01,willys
 7311043007479,101544374_ST,Datterini Tomater,Garant,400 g,"18,83 kr",100 gram,36.0,150.0,0.3,0.0,4.1,3.4,1.8,3.3,0.05,willys
-7340109306058,101291419_ST,Debreziner,Helmut Walch,380 g,"66,15 kr",100 gram,240.0,1004.0,20.0,8.3,0.9,0.0,,16.0,2.3,willys
 7310050003450,101544611_ST,Decaf Koffeinfri Kaffe,Löfbergs,80 g,"54,90 kr",,,,,,,,,,,
 7350042710003,100948058_ST,"Defence Citrus/fläder Funktionsvatten, Pet",Vitamin Well,50 cl,"16,56 kr",100 milliliter,17.0,71.0,0.0,0.0,4.2,4.2,0.0,0.0,0.03,willys
 7315360152713,101235902_ST,Delicatoboll 15x40g,Delicato,600 g,"40,60 kr",100 gram,480.0,2000.0,30.0,18.0,49.0,30.0,,5.0,0.4,willys
@@ -1419,8 +1424,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7392031001075,101444904_ST,Dijonsenap French Style,Johnny's,190 g,"20,72 kr",100 gram,160.0,700.0,12.0,0.8,1.9,1.9,,7.6,5.7,willys
 3036810100576,100008698_ST,Dijonsenap Ljus,Grey Poupon,215 g,"25,45 kr",100 gram,150.0,640.0,11.0,0.7,6.2,0.5,,6.7,5.8,willys
 3036810201280,100038193_ST,Dijonsenap Original,Maille,215 g,"24,51 kr",100 gram,151.0,631.0,11.0,0.6,3.5,1.9,,7.0,4.9,willys
-7323130022692,101412786_ST,Dill,Garant,100 g,"27,90 kr",,,,,,,,,,,
 7311043011575,101599697_ST,Dill,Garant,20 g,"13,90 kr",,,,,,,,,,,
+7323130022692,101412786_ST,Dill,Garant,100 g,"27,90 kr",,,,,,,,,,,
 7340005404223,101256587_ST,Dill & Gräslök Dippmix,Olw,24 g,"9,36 kr",100 gram,330.0,1400.0,0.6,0.0,76.0,23.0,,3.0,11.4,willys
 7310394002188,100465319_ST,Dill Burk,Kockens,13 g,"23,56 kr",,,,,,,,,,,
 7350126088974,101676586_ST,Dill Citron Dressing,Felix,335 ml,"27,35 kr",100 gram,269.0,1125.0,25.0,1.8,10.0,9.4,,0.9,1.7,willys
@@ -1666,8 +1671,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311043005734,101533199_ST,Feta Ekologisk 23%,Garant Eko,150 g,"28,29 kr",100 gram,276.0,1143.0,23.0,17.0,0.7,0.7,,17.0,2.3,willys
 7310865890559,101425895_ST,Feta Tomat Lätt Crème Fraiche 12%,Arla Köket,2 dl,"15,50 kr",100 gram,145.0,602.0,12.0,8.1,4.1,3.3,,3.8,1.1,willys
 7350002402658,101001201_ST,Feta Traditionell Smak 23%,Zeta,150 g,"23,90 kr",100 gram,275.0,1140.0,23.0,16.0,1.0,0.5,,16.0,2.5,willys
-5202277806131,101676984_ST,Fetaost,Kassos,100 g,"14,90 kr",100 gram,276.0,1143.0,23.0,16.0,0.7,0.7,,16.5,2.5,willys
 5202277806124,101676983_ST,Fetaost,Kassos,150 g,"23,50 kr",100 gram,276.0,1143.0,23.0,16.0,0.7,0.7,,16.5,2.5,willys
+5202277806131,101676984_ST,Fetaost,Kassos,100 g,"14,90 kr",100 gram,276.0,1143.0,23.0,16.0,0.7,0.7,,16.5,2.5,willys
 7311043005727,101533198_ST,Fetaost Block 23%,Garant,150 g,"20,90 kr",100 gram,276.0,1143.0,23.0,17.0,0.7,0.7,,17.0,2.3,willys
 7311043007806,101546411_ST,Fetaost Laktosfri 23%,Garant,150 g,"24,51 kr",100 gram,276.0,1143.0,23.0,17.0,0.7,0.7,,17.0,2.3,willys
 7350126088769,101607921_ST,Fetaostpaj Grekisk Fryst,Felix,210 g,"29,24 kr",100 gram,273.0,1142.0,19.0,11.0,18.0,1.9,,7.5,0.83,willys
@@ -1816,6 +1821,9 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083430701,101212668_ST,Formaggi Tortelloni Färsk Pasta,Garant,250 g,"28,29 kr",100 gram,286.0,1205.0,7.4,1.5,43.0,3.3,1.6,11.0,0.62,willys
 7310240120127,101275789_ST,Formbar Färs Fryst,Anamma,850 g,"74,67 kr",100 gram,162.0,679.0,9.2,0.7,1.6,0.7,6.2,15.0,0.7,willys
 7330242240098,101469377_ST,Formbröd Havre Glutenfri Fryst,Fria,500 g,"29,90 kr",100 gram,240.0,1000.0,3.4,0.7,46.0,3.6,6.1,2.2,1.0,willys
+5701397311513,101872552_ST,Fotbollsnacks Ost,Packers Brand,75 g,"18,83 kr",100 gram,534.0,2225.0,36.0,2.7,51.0,2.6,,1.1,2.6,willys
+5701397311537,101872526_ST,Fotbollsnacks Paprika,Packers Brand,75 g,"18,83 kr",100 gram,522.0,2175.0,35.0,2.6,50.0,1.0,,1.2,3.0,willys
+5701397311520,101872543_ST,Fotbollsnacks So&on,Packers Brand,75 g,"18,83 kr",100 gram,525.0,2188.0,35.0,2.6,51.0,2.3,,1.1,3.0,willys
 2351374400001,101774940_KG,Fransk Bondost,Wernerssons,ca: 180 g,279 kr,100 gram,371.0,1538.0,30.0,20.0,0.0,0.0,,23.0,1.9,willys
 7311043011483,101600142_ST,Fransk Dragon,Garant,15 g,"13,90 kr",,,,,,,,,,,
 8714100824702,101384294_ST,Fransk Dressing Mix,Knorr,24 g,"10,88 kr",100 milliliter,426.0,1784.0,46.0,4.2,4.1,3.0,0.7,0.5,1.5,willys
@@ -1940,6 +1948,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311043027040,101847614_ST,Färskkorv Salsiccia Chipotle,Garant,350 g,"47,90 kr",100 gram,230.0,950.0,18.0,7.7,2.2,0.5,0.4,14.6,2.1,willys
 3175360005006,101719591_ST,Färskost Nöt 35%,Rambol,125 g,"44,90 kr",100 gram,310.0,1285.0,26.0,13.0,6.0,1.5,,13.0,1.8,willys
 7310532305836,101826547_ST,Färskost Svartpeppar Chips Västkust,Estrella,180 g,"25,45 kr",100 gram,463.0,1934.0,24.0,2.1,53.0,3.3,6.0,6.7,1.4,willys
+7330606090734,101227838_ST,Färskpotatis Estelle Klass 1,,900 g,"23,50 kr",,,,,,,,,,,
 2090202200009,100026865_KG,Färskpotatis Tvättad Klass 1,,,"13,90 kr",,,,,,,,,,,
 7330989002522,100234523_ST,Fårfärs Fryst Spanien,Qibbla Halal,750 g,"92,90 kr",100 gram,169.9,710.8,10.7,4.7,0.0,0.0,,18.7,0.1,willys
 7350058336365,101797423_ST,"Galaxy Vibe Energidryck, Burk",Celsius,"35,5 cl","16,94 kr",100 milliliter,3.0,12.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
@@ -1993,7 +2002,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7391835917896,101308287_ST,Ginger Lemon Ingefära Citrongräs Rooibos Te,Kung Markatta,20 p,"23,56 kr",100 gram,1.0,3.0,0.0,0.0,0.2,0.1,,0.0,0.0,willys
 7340083478055,101301618_ST,Girandole Pasta,Garant Eko,500 g,"16,94 kr",100 gram,355.0,1505.0,1.4,0.3,72.0,3.1,3.1,12.0,0.0,willys
 7311043016648,101693214_ST,Girandole Pasta,Garant,500 g,"12,20 kr",100 gram,357.0,1514.0,1.4,0.3,72.0,3.1,3.2,12.0,0.01,willys
-8076809512268,100594607_ST,Girandole Torsades Pasta,Barilla,500 g,"16,94 kr",100 gram,359.0,1521.0,2.0,0.5,71.0,3.5,3.0,13.0,0.01,willys
 7310760040684,101225760_ST,Giusto Espresso Hela Bönor,Arvidnordquist,500 g,"97,90 kr",,,,,,,,,,,
 5775345204233,101436882_ST,Glass Jordgubb,Sun Lolly,8 p,"28,29 kr",100 gram,86.0,358.0,0.0,0.0,21.0,20.0,,0.0,0.0,willys
 7350116920024,101194421_ST,Glass Noodles,Twin Dragon,100 g,"12,20 kr",100 gram,320.0,1340.0,0.0,0.0,80.0,0.0,,1.8,0.0,willys
@@ -2048,7 +2056,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083426636,101202735_ST,Gouda Skivad 29%,Frischgold,200 g,"28,50 kr",100 gram,350.0,1450.0,29.0,20.5,0.0,0.0,,23.0,1.8,willys
 2356351000007,101829942_KG,Gouda Vieux Aop,Haute Fromager,ca: 250 g,279 kr,100 gram,427.0,1769.0,35.0,24.0,0.0,0.0,,27.0,2.0,willys
 4250127461277,100859402_ST,Gourmet Kalkon Rökt Skivad,Munzert,300 g,"53,85 kr",100 gram,100.0,422.0,2.0,0.1,0.4,0.2,,20.0,2.3,willys
-7340083482151,101325612_ST,Gourmetsallad Klass 1,Garant,125 g,"19,90 kr",100 g,18.0,73.7,0.2,0.0,1.2,1.1,1.7,1.9,0.03,off
+7340083482151,101325612_ST,Gourmetsallad Klass 1,Garant,125 g,"19,90 kr",,,,,,,,,,,
 7330797088886,101278621_ST,Gourmetskinka Basturökt Skivad,Pärsons,150 g,"33,97 kr",100 gram,90.0,390.0,3.0,1.4,1.0,0.8,,18.0,2.5,willys
 7330797088800,100585056_ST,Gourmetskinka Kokt Skivad,Pärsons,200 g,"28,29 kr",100 gram,90.0,390.0,3.0,1.4,1.0,0.8,,18.0,2.4,willys
 7330797088794,100585047_ST,Gourmetskinka Rökt Skivad,Pärsons,200 g,"28,29 kr",100 gram,90.0,390.0,3.0,1.4,1.0,0.8,,18.0,2.4,willys
@@ -2060,8 +2068,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8000070025066,101047877_ST,Gran Crema Espresso Barista Hela Bönor,Lavazza,1 kg,204 kr,,,,,,,,,,,
 7310760012315,100467228_ST,Gran Dia Mellanmörk Bryggkaffe,Arvidnordquist,500 g,"73,90 kr",,,,,,,,,,,
 7310760040929,101144851_ST,Gran Dia Mellanmörk Hela Bönor,Arvidnordquist,500 g,"84,90 kr",,,,,,,,,,,
-2359727600009,101199763_KG,Grana Padano 12 Månader,Garant,ca: 500 g,235 kr,100 gram,400.0,1650.0,29.0,18.0,0.0,0.0,,33.0,1.5,willys
 7340083406133,101199782_ST,Grana Padano 12 Månader,Garant,200 g,"52,90 kr",100 gram,400.0,1650.0,29.0,18.0,0.0,0.0,,33.0,1.5,willys
+2359727600009,101199763_KG,Grana Padano 12 Månader,Garant,ca: 500 g,235 kr,100 gram,400.0,1650.0,29.0,18.0,0.0,0.0,,33.0,1.5,willys
 7340083426513,101203057_ST,Grana Padano Riven Hårdost 12månader,Garant,100 g,"26,50 kr",100 gram,398.0,1654.0,29.0,18.0,0.0,0.0,,33.0,1.5,willys
 5281099000200,101650980_ST,Granatäppel Sirap,Yamama,300 ml,"33,02 kr",100 gram,300.0,1254.0,1.0,0.0,74.0,71.0,2.0,0.0,0.937,willys
 74446,100295333_ST,Granatäpple,,289 g,"19,90 kr",,,,,,,,,,,
@@ -2110,21 +2118,21 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7393720091520,101275290_ST,Grevé 18 Månader 28%,Allerum,400 g,"73,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2359778500006,101802424_KG,Grevé Lagrad 12-14 Mån 17%,Garant,ca: 670 g,119 kr,100 gram,281.0,1171.0,17.0,11.0,0.1,0.1,,31.0,1.2,willys
 2359778400009,101802423_KG,Grevé Lagrad 12-14 Mån 28%,Garant,ca: 670 g,119 kr,100 gram,365.0,1517.0,28.0,18.0,0.1,0.1,,27.0,1.2,willys
-7393720092749,101511516_ST,Grevé Mild 28%,Skånemejerier,670 g,"76,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2340428600009,101192410_KG,Grevé Mild 28%,Arla Ko,ca: 667 g,"112,90 kr",100 gram,358.0,1488.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
+7393720092749,101511516_ST,Grevé Mild 28%,Skånemejerier,670 g,"76,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2359772600009,101475661_KG,Grevé Mild 28%,Garant,ca: 670 g,"91,90 kr",100 gram,358.0,1488.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
 7393287722158,101851812_ST,Grill 1898 Grovmald,Hirschmanchark,200 g,"37,76 kr",100 gram,320.0,1350.0,26.0,10.0,6.8,0.5,,15.0,2.7,willys
 7392659002447,101584319_ST,Grill Räfflade Chips,Svenska Lantch,200 g,"21,67 kr",100 gram,486.0,2033.0,27.0,2.5,56.6,1.1,,8.1,1.4,willys
 7311043004614,101506136_ST,Grillade Grönsaker,Garant,500 g,"28,29 kr",100 gram,39.0,161.0,1.2,0.5,3.6,2.6,3.7,1.5,0.1,willys
 7311043027071,101847670_ST,Grillburgare Bbq av Fläsk,Garant,226 g,"22,90 kr",100 gram,230.0,950.0,18.0,7.6,2.8,0.6,0.6,15.0,1.1,willys
-7340005403592,101235685_ST,Grillchips,Olw,275 g,"26,40 kr",100 gram,530.0,2200.0,33.0,3.4,58.0,1.7,,4.9,1.4,willys
 7310531022901,100601323_ST,Grillchips,Estrella,40 g,"9,36 kr",100 gram,517.0,2152.0,33.0,2.6,46.0,0.8,5.5,5.7,1.7,willys
+7340005403592,101235685_ST,Grillchips,Olw,275 g,"26,40 kr",100 gram,530.0,2200.0,33.0,3.4,58.0,1.7,,4.9,1.4,willys
 7310532106495,101250970_ST,Grillchips,Estrella,275 g,"28,29 kr",100 gram,517.0,2152.0,33.0,2.6,46.0,0.8,5.5,5.5,1.7,willys
 7311043008216,101547474_ST,Grillchips,Garant,250 g,"21,90 kr",100 gram,517.0,2165.0,29.0,2.3,56.0,4.8,4.1,6.0,1.7,willys
 2332810100006,101692756_KG,Grillfilé Bbq Stora,Kronfågel,ca: 850 g,"137,22 kr",100 gram,110.0,470.0,2.0,0.5,1.1,0.6,,22.0,0.9,willys
 2307125100003,101250853_KG,Grillfilé Tvådelad Marinerad Sverige,Guldfågeln,ca: 900 g,"169,40 kr",,,,,,,,,,,
-7340083430077,101211947_ST,Grillkorv,Garant,800 g,"66,15 kr",100 gram,280.0,1200.0,21.0,8.4,5.0,0.8,,9.0,2.0,willys
 7310628005602,101837689_ST,Grillkorv,Sibylla,350 g,"33,02 kr",100 gram,243.0,1009.0,19.0,7.6,8.4,1.5,,9.5,2.2,willys
+7340083430077,101211947_ST,Grillkorv,Garant,800 g,"66,15 kr",100 gram,280.0,1200.0,21.0,8.4,5.0,0.8,,9.0,2.0,willys
 7320020050117,101296751_ST,Grillkorv,Lindvalls,"1,6 kg","141,01 kr",100 gram,251.0,1048.0,21.0,7.0,7.0,0.3,,9.0,1.9,willys
 7300201432000,100857949_ST,Grillkorv Bacon & Ost,Scan,480 g,"41,54 kr",100 gram,270.0,1140.0,22.0,9.0,7.0,0.5,,12.0,2.1,willys
 7300203756005,101336188_ST,Grillkorv Cheddar Jalapeño,Scan,270 g,"42,49 kr",100 gram,300.0,1400.0,29.0,14.0,4.0,1.0,,14.0,1.9,willys
@@ -2171,10 +2179,10 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7610563994628,101774848_ST,Gruyére Hårdost,Lustenberger,150 g,"54,90 kr",100 gram,398.0,1645.0,32.0,19.4,0.0,0.0,,27.0,0.59,willys
 7350146812658,101825004_ST,Gryning Smultron Energidryck Burk,Latitude 65,33 cl,"16,94 kr",100 milliliter,1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
 2355034700005,101257800_KG,Grytbitar Nöt Sverige,Garant,ca: 600 g,179 kr,100 gram,110.0,470.0,2.8,1.2,0.0,0.0,,21.0,0.14,willys
-7331974100902,100109614_ST,Grytblandning Torkad Påse,Famous,150 g,"26,40 kr",,,,,,,,,,,
+7331974100902,100109614_ST,Grytblandning Torkad Påse,Famous,150 g,"26,40 kr",100 g,195.1,816.84,5.06,3.12,15.25,4.54,,22.17,3.32,off
 5704025017153,101334755_ST,Grädd Danablu Halvmåne 26%,Emborg,300 g,"51,90 kr",100 gram,400.0,1653.0,37.0,23.0,0.5,0.5,0.0,17.0,3.2,willys
-7311043021192,101756172_ST,Grädde Lång Hållbarhet 30%,Dairy Food,"2,5 dl","14,50 kr",100 milliliter,291.0,1200.0,30.0,20.0,2.9,2.9,,2.4,0.17,willys
 7311043021697,101762578_ST,Grädde Lång Hållbarhet 30%,Dairy Food,5 dl,"26,90 kr",100 milliliter,291.0,1200.0,30.0,20.0,2.9,2.9,,2.4,0.17,willys
+7311043021192,101756172_ST,Grädde Lång Hållbarhet 30%,Dairy Food,"2,5 dl","14,50 kr",100 milliliter,291.0,1200.0,30.0,20.0,2.9,2.9,,2.4,0.17,willys
 7350109270273,101718117_ST,Gräddf Ramslök Chips,Gotlandschips,150 g,"23,56 kr",100 gram,490.0,2050.0,27.4,1.73,52.8,2.35,,5.55,1.78,willys
 7350020910517,101212846_ST,Gräddfil & Lök Chips,Bjäre Dip,200 g,"24,51 kr",100 gram,550.0,2300.0,33.3,1.8,54.9,1.6,,5.4,1.3,willys
 7340083498886,101427099_ST,Gräddfil & Lök Linskaka,Garant,125 g,"20,72 kr",100 gram,435.0,1826.0,15.0,1.7,48.0,4.3,5.9,24.0,1.5,willys
@@ -2309,6 +2317,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7330094001069,101283570_ST,Gustafskorv Ring,Gustafskorv,650 g,"89,90 kr",100 gram,260.0,1100.0,19.0,6.5,0.7,0.3,,20.0,2.5,willys
 2359775800000,101662397_KG,Gyllen 24m,Garant,ca: 330 g,169 kr,100 gram,358.0,1498.0,28.0,18.0,3.0,0.0,,26.0,1.0,willys
 87703327412,101288027_ST,Gyoza Sauce,Sukina,230 ml,"37,76 kr",100 milliliter,80.0,335.0,0.0,0.0,20.0,20.0,0.0,0.0,18.0,willys
+7350116925326,101702834_ST,Gyoza Skin Deg Fryst,Twin Dragon,300 g,"23,56 kr",100 gram,245.0,1030.0,1.0,0.2,51.5,0.0,0.0,6.9,1.0,willys
 7311043026777,101831150_ST,Gyros Fryst,Eldorado,600 g,"66,15 kr",100 gram,230.0,957.0,15.0,6.3,0.7,0.6,,21.0,1.8,willys
 7350090451071,101293703_ST,Gyros Kebab Sverige,Schysst Käk,275 g,"48,73 kr",100 gram,160.0,650.0,8.0,3.4,5.2,0.9,,16.0,2.4,willys
 7311043020478,101748538_ST,Gyros Örter Citron,Garant,400 g,"56,68 kr",100 gram,160.0,650.0,10.0,4.3,2.0,1.3,,16.0,1.6,willys
@@ -2335,8 +2344,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350027799313,101690190_ST,Halkidiki Oliver med Kärnor Grekiska Fasta,Zeta,500 g,"36,81 kr",100 gram,154.0,649.0,15.0,2.2,2.6,0.1,2.4,1.6,1.1,willys
 7316150777468,101263953_ST,Halkidiki Oliver med Pimiento,Fontana,500/280 g,"34,90 kr",100 gram,123.0,513.0,12.2,1.84,1.0,0.5,,1.2,3.0,willys
 7340083469190,101285818_ST,Halkidiki Oliver Utan Kärnor,Garant,480/240 g,"28,90 kr",100 milliliter,144.0,594.0,14.0,2.3,1.1,0.1,3.2,1.2,3.5,willys
-7316150777093,100680425_ST,Halkidiki Oliver Utan Kärnor,Fontana,360/210 g,"38,50 kr",100 gram,148.0,608.0,14.4,2.5,2.4,0.1,,0.9,3.0,willys
 7316150777550,101360300_ST,Halkidiki Oliver Utan Kärnor,Fontana,300/150 g,"30,90 kr",100 gram,148.0,608.0,14.4,2.5,2.4,0.1,,0.9,3.0,willys
+7316150777093,100680425_ST,Halkidiki Oliver Utan Kärnor,Fontana,360/210 g,"38,50 kr",100 gram,148.0,608.0,14.4,2.5,2.4,0.1,,0.9,3.0,willys
 7316150777581,101359388_ST,Halkidiki Oliver Utan Kärnor,Fontana,290/130 g,"29,90 kr",100 gram,148.0,608.0,14.4,2.5,2.4,0.1,,0.9,3.0,willys
 7350002404973,101202285_ST,Halkidiki Oliver Utan Kärnor,Zeta,370/170 g,"34,92 kr",100 gram,154.0,649.0,15.0,2.2,2.6,0.0,,1.6,1.11,willys
 7350002406304,101290017_ST,Halkidiki Urkärnade,Zeta,710/350 g,"66,15 kr",100 gram,154.0,649.0,15.0,2.2,2.6,0.5,,1.6,1.1,willys
@@ -2344,6 +2353,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310090772620,100441103_ST,Hallon,Risifrutti,175 g,"12,11 kr",100 gram,111.0,463.0,3.3,2.1,17.0,10.0,,3.1,0.15,willys
 7311041015360,100504474_ST,Hallon 35%,Eldorado,"1,5 kg","44,90 kr",100 gram,180.0,750.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
 7311041015391,100504526_ST,Hallon 35%,Eldorado,750 g,"37,76 kr",100 gram,180.0,750.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
+7340083439605,101229917_ST,Hallon 35% Refill,Eldorado,700 g,"21,50 kr",100 gram,180.0,780.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
 5449000083593,101112305_ST,Hallon Björnbä Källvatten Kolsyrat Vatten Pet,Bonaqua,50 cl,"10,88 kr",100 milliliter,10.0,43.0,0.0,0.0,2.3,2.3,,0.0,0.0,willys
 7340073300250,101207782_ST,Hallon Björnbär Fruktdryck Uts,Proviva,1 l,"31,90 kr",100 gram,22.0,92.0,0.1,0.0,5.1,4.2,0.5,0.2,0.03,willys
 7611612202121,101833225_ST,Hallon Blandsaft Pet,Premier,"80 cl/6,4","28,29 kr",100 milliliter,25.0,105.0,0.0,0.0,6.1,6.1,,0.0,0.0,willys
@@ -2526,11 +2536,11 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350055320312,101234202_ST,Havrepuffar med Honung Glutenfritt,Ewalie,150 g,"56,68 kr",100 gram,390.0,1638.0,6.8,1.3,65.5,15.7,8.8,12.0,0.01,willys
 7340083485077,101329347_ST,Havreringar Vanilj,Garant Eko,350 g,"37,76 kr",100 gram,392.0,1639.0,4.2,0.8,72.0,13.0,7.6,11.0,0.9,willys
 7312560036027,101306454_ST,Havreris Svenskt,Frebaco Kvarn,1 kg,"28,29 kr",100 gram,360.0,1500.0,6.0,1.2,57.0,1.0,7.5,13.0,0.01,willys
-7610313412143,100208865_ST,Havs Örtsalt Herbamare,A Vogel,250 g,"34,92 kr",100 g,18.0,70.0,0.5,0.5,2.5,1.5,2.0,0.9,93.6,off
+7610313412143,100208865_ST,Havs Örtsalt Herbamare,A Vogel,250 g,"34,92 kr",,,,,,,,,,,
 7311043005062,101520663_ST,Havskräftor 16/20,Falkenberg,700 g,"169,40 kr",100 gram,76.0,322.0,0.8,0.2,0.5,0.1,,17.0,2.8,willys
 7350045595386,101410939_ST,Havssalt Brynt Smör Chips,Gårdschips,150 g,"24,51 kr",100 gram,502.0,2102.0,30.0,2.2,47.3,0.8,5.9,8.2,1.4,willys
-7350045591937,101264358_ST,Havssalt Chips,Gårdschips,150 g,"24,51 kr",100 gram,521.0,2178.0,29.8,1.9,55.8,0.4,6.1,7.4,0.6,willys
 7350109270259,101718116_ST,Havssalt Chips,Gotlandschips,150 g,"23,56 kr",100 gram,503.0,2100.0,28.8,1.84,53.4,1.88,,5.68,0.74,willys
+7350045591937,101264358_ST,Havssalt Chips,Gårdschips,150 g,"24,51 kr",100 gram,521.0,2178.0,29.8,1.9,55.8,0.4,6.1,7.4,0.6,willys
 7622210976895,101293073_ST,Havssalt Crisp Noblesse Ask,Marabou,150 g,"45,33 kr",100 gram,558.0,2326.0,35.0,21.0,55.0,50.0,2.3,4.7,0.62,willys
 7311043009855,101607879_ST,Havssalt Grytfriterad Chips Ekologiska,Garant Eko,175 g,"28,29 kr",100 gram,500.0,2092.0,27.0,2.7,49.0,1.6,,6.9,1.2,willys
 8719200295537,101676288_ST,Havssalt med Smör 70%,Flora,500 g,"33,02 kr",100 gram,633.0,2601.0,70.0,24.0,0.5,0.5,,0.5,1.7,willys
@@ -2571,14 +2581,13 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 4003310030480,101833468_ST,Henkell Mousserande Vin Alkoholfri Gfl,Henkell,75 cl,"59,52 kr",100 milliliter,20.0,85.0,0.5,0.1,4.8,4.2,,0.5,0.01,willys
 7350129160226,101597009_ST,Herb & Garlic Sauce,Farmers&chefs,200 g,"22,61 kr",100 gram,380.0,1600.0,40.0,2.8,4.3,1.3,,0.6,1.5,willys
 5711953030895,101552285_ST,Herbs & Spices White Cheese In Oil Tärnad 21%,Apetina,265 g,"32,90 kr",100 gram,539.0,2222.0,55.0,10.0,0.5,0.5,,10.0,1.9,willys
-7392055051575,101547974_ST,Hereforburgare,Köttkultur,250 g,"66,15 kr",100 gram,290.0,1220.0,22.9,10.5,0.0,0.0,,19.0,0.6,willys
 7393720092404,101496195_ST,Herrgård 12 Månader 28%,Allerum,670 g,104 kr,100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.1,willys
 7393720091513,101275237_ST,Herrgård 18 Månader 28%,Allerum,400 g,"73,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 7393720092763,101511518_ST,Herrgård 6månader 28%,Skånemejerier,670 g,"84,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2359778600003,101802425_KG,Herrgård Lagrad 12-14 Mån 28%,Garant,ca: 720 g,119 kr,100 gram,364.0,1510.0,28.0,18.0,0.1,0.1,,27.0,1.2,willys
 2359773100003,101475666_KG,Herrgård Mild 17%,Garant,ca: 730 g,"91,90 kr",100 gram,281.0,1171.0,17.0,11.0,0.0,0.0,,31.0,1.2,willys
-7393720092770,101511519_ST,Herrgård Mild 28%,Skånemejerier,670 g,"76,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2340418100007,101192402_KG,Herrgård Mild 28%,Arla Ko,ca: 667 g,"112,90 kr",100 gram,360.0,1493.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
+7393720092770,101511519_ST,Herrgård Mild 28%,Skånemejerier,670 g,"76,90 kr",100 gram,360.0,1500.0,28.0,18.0,0.0,0.0,,27.0,1.2,willys
 2359772800003,101475663_KG,Herrgård Mild 28%,Garant,ca: 730 g,"91,90 kr",100 gram,360.0,1493.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
 7340083440526,101231257_ST,Herrgård Mild Skivad 28%,Garant,150 g,"24,90 kr",100 gram,360.0,1493.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
 7311871023061,100509674_ST,Herrgård Mild Skivad 28%,Arla Ko,150 g,"31,50 kr",100 gram,360.0,1493.0,28.0,18.0,0.0,0.0,,26.0,1.2,willys
@@ -2600,6 +2609,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350144000040,101512838_ST,Hjortfärs Fryst,Mountain River,400 g,"66,15 kr",100 gram,134.0,559.3,5.1,3.2,0.0,0.0,,21.8,0.2,willys
 7310700815518,100256045_ST,Hjorthornssalt Påse,Kockens,50 g,"12,20 kr",,,,,,,,,,,
 7350113352378,101808406_ST,Hjortskav Frysta,Gårdsvilt,240 g,"65,20 kr",100 gram,124.0,520.0,8.1,4.1,0.5,0.2,,19.0,0.43,willys
+2376245500000,100819278_KG,Hjortytterfilé Fryst Sverige,Åke P,ca: 500 g,"547,96 kr",,,,,,,,,,,
 7622210929525,101283109_ST,Hjärta Ask,Marabou,165 g,"64,26 kr",100 gram,547.0,2283.0,33.0,18.0,57.0,56.0,1.9,5.2,0.35,willys
 5000396054378,101445763_ST,Hobnobs Havrekex,Mcvities,255 g,"15,04 kr",100 gram,472.0,1976.0,20.2,8.8,61.8,22.9,6.5,7.4,0.82,willys
 5000168186597,101266065_ST,Hobnobs Mjölkchoklad,Mcvities,300 g,"18,83 kr",100 gram,491.0,2056.0,23.3,11.5,60.8,33.0,5.1,7.1,0.74,willys
@@ -2623,9 +2633,9 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 3088540255279,101402348_ST,Honung Blomster,Lune De Miel,500 g,"68,99 kr",,,,,,,,,,,
 7350071870129,101230685_ST,Honung Ekologisk,Gårdshonung,400 g,"59,52 kr",100 gram,340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,willys
 7311043027422,101840986_ST,Honung Fast,Eldorado,700 g,"37,76 kr",100 gram,320.0,1360.0,0.0,0.0,79.0,79.0,,0.5,0.02,willys
+7350071870334,101276670_ST,Honung Flytande,Gårdshonung,350 g,"51,95 kr",100 gram,340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,willys
 7340083456619,101262047_ST,Honung Flytande,Eldorado,500 g,"37,76 kr",100 gram,320.0,1360.0,0.5,0.0,79.0,79.0,,0.5,0.02,willys
 7340083462313,101273305_ST,Honung Flytande,Eldorado,350 g,"28,29 kr",100 gram,320.0,1360.0,0.5,0.0,79.0,79.0,,0.5,0.02,willys
-7350071870334,101276670_ST,Honung Flytande,Gårdshonung,350 g,"51,95 kr",100 gram,340.0,1420.0,0.0,0.0,83.0,83.0,,0.0,0.0,willys
 7340083463365,101276631_ST,Honung Flytande,Garant Eko,350 g,"47,22 kr",100 gram,320.0,1360.0,0.5,0.0,79.0,79.0,,0.5,0.02,willys
 7340083485152,101329503_ST,Honung Nötter Granola,Garant,425 g,"37,76 kr",100 gram,474.0,1985.0,21.0,4.5,58.0,14.0,7.1,9.7,0.1,willys
 7340083433375,101215222_ST,Honung Svensk,Garant,500 g,"80,34 kr",100 gram,330.0,1400.0,0.0,0.0,82.0,76.0,,0.3,0.0,willys
@@ -2647,7 +2657,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311312001610,101667331_ST,Hot Tacosås,Santa Maria,350 g,"23,56 kr",100 gram,34.0,145.0,0.0,0.0,5.8,4.4,1.9,1.4,1.2,willys
 8445291362710,101841011_ST,House Blend Kaffekapslar,Starbucks,10 p,"42,49 kr",,,,,,,,,,,
 8445291363342,101841015_ST,House Blend Lungo Kaffekapslar,Starbucks,36 p,"141,01 kr",,,,,,,,,,,
-7310155800251,100544582_ST,Hovmästarsås,Druvan,295 g,"17,88 kr",100 gram,290.0,1200.0,20.0,1.3,25.0,21.0,,2.5,0.7,willys
 7340083436222,101224830_ST,Hovmästarsås Klassisk,Garant,200 ml,"15,99 kr",100 gram,480.0,2000.0,43.0,7.0,22.0,18.0,,2.1,1.3,willys
 8715700129396,101833362_ST,Hp Sauce Original,Heinz,285 g,"27,90 kr",100 gram,122.0,517.0,0.1,0.1,28.3,23.1,,0.9,1.2,willys
 2340397400006,101366593_KG,Humlan Ekologisk 33%,Arla,ca: 1.2 kg,112 kr,100 gram,395.0,1638.0,33.0,22.0,0.0,0.0,,24.0,1.2,willys
@@ -2684,7 +2693,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7314320003393,100774075_ST,Hälsa Lågt Gi Bakad i Stenugn,Östras Bröd,600 g,"30,19 kr",100 gram,250.0,1050.0,6.5,1.0,36.0,1.0,5.5,10.0,0.9,willys
 7330094000604,100102185_ST,Hästkött Granrökt Skivad,Gustafs,100 g,"25,90 kr",100 gram,100.0,430.0,2.0,1.1,1.4,1.1,,19.0,3.5,willys
 57402017,100018231_ST,Häxvrålstång,Toms,27 g,"3,69 kr",100 gram,367.0,1533.0,4.2,4.1,79.0,60.0,,1.5,0.34,willys
-7340083488481,101328317_ST,Hårdost Italiensk Riven 9månader,Fresca D´oro,50 g,"13,90 kr",100 gram,390.0,1635.0,30.0,21.0,0.0,0.0,,30.0,1.4,willys
+7340083488481,101328317_ST,Hårdost Italiensk Riven 9månader,Fresca D´oro,50 g,"11,90 kr",100 gram,390.0,1635.0,30.0,21.0,0.0,0.0,,30.0,1.4,willys
 7611612160889,101549084_ST,Hårdost Lagrad 12 Månader,Fresca D´oro,180 g,"39,90 kr",100 gram,366.0,1523.0,26.0,14.0,0.0,0.0,,33.0,1.7,willys
 2313712500002,101002291_KG,Högrev Benfri Sverige,Garant Eko,ca: 1 kg,239 kr,100 gram,150.0,600.0,7.9,3.6,0.0,0.0,,20.0,0.2,willys
 2359765300008,101342714_KG,Högrev Nötkött Irland,Prime,ca: 1.2 kg,149 kr,,,,,,,,,,,
@@ -2707,13 +2716,13 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8720608006656,101584097_ST,Ice Tea Peach Add To 1l,Lipton,50 g,"8,42 kr",100 milliliter,20.0,83.0,0.5,0.1,4.7,4.6,,0.5,0.03,willys
 9006900014803,100193050_ST,Ice Tea Skogsbär,Pfanner,2 l,"20,72 kr",100 milliliter,26.0,111.0,0.5,0.1,6.3,6.3,,0.5,0.01,willys
 5900649070271,101320754_ST,Iced Coffee Caramel Snabbkaffe,Mokate,8 p,"18,83 kr",100 gram,388.0,1650.0,0.0,0.0,95.0,58.0,,1.7,0.08,willys
-5900649070301,101320755_ST,Iced Coffee Mocha Snabbkaffe,Mokate,8 p,"18,83 kr",,,,,,,,,,,
+5900649070301,101320755_ST,Iced Coffee Mocha Snabbkaffe,Mokate,8 p,"18,83 kr",100 g,387.0,1625.2,0.0,0.0,93.0,56.0,,2.6,,off
 7310130003981,101216818_ST,Idealmakaroner,Kungsörnen,"1,3 kg","27,35 kr",100 gram,360.0,1500.0,2.0,0.5,72.0,3.0,3.0,11.0,0.01,willys
-7310130003547,101205621_ST,Idealmakaroner Gammaldags,Kungsörnen,750 g,"12,20 kr",100 gram,361.0,1509.0,2.0,0.5,72.0,3.0,3.0,11.0,0.01,willys
-7310130003561,101205570_ST,Idealmakaroner Gammaldags,Kungsörnen,"1,3 kg","22,24 kr",100 gram,360.0,1500.0,2.0,0.5,72.0,3.0,3.0,11.0,0.01,willys
+7310130003547,101205621_ST,Idealmakaroner Gammaldags,Kungsörnen,750 g,"11,90 kr",100 gram,361.0,1509.0,2.0,0.5,72.0,3.0,3.0,11.0,0.01,willys
+7310130003561,101205570_ST,Idealmakaroner Gammaldags,Kungsörnen,"1,3 kg","20,50 kr",100 gram,360.0,1500.0,2.0,0.5,72.0,3.0,3.0,11.0,0.01,willys
 7310130008368,101272163_ST,Idealmjöl Snabblösligt,Kungsörnen,500 g,"18,83 kr",100 gram,352.0,1471.0,2.0,0.1,71.0,0.4,2.5,10.0,0.0,willys
-7394376618048,101356579_ST,Ikaffe Barista Edition Havredryck,Oatly,500 ml,"14,66 kr",100 milliliter,61.0,257.0,3.0,0.3,7.1,3.4,0.8,1.1,0.1,willys
 7394376616037,101231662_ST,Ikaffe Barista Edition Havredryck,Oatly,1 l,"17,50 kr",100 milliliter,61.0,257.0,3.0,0.3,7.1,3.4,0.8,1.1,0.1,willys
+7394376618048,101356579_ST,Ikaffe Barista Edition Havredryck,Oatly,500 ml,"14,66 kr",100 milliliter,61.0,257.0,3.0,0.3,7.1,3.4,0.8,1.1,0.1,willys
 7394376621697,101599713_ST,Ikaffe Barista Edition Havredryck,Oatly,"1,5 l","24,51 kr",100 milliliter,61.0,257.0,3.0,0.3,7.1,3.4,0.8,1.1,0.1,willys
 7394376620171,101457386_ST,Ikaffe Barista Edition Havredryck,Oatly,1 l,"17,88 kr",100 milliliter,61.0,257.0,3.0,0.3,7.1,3.4,0.8,1.1,0.1,willys
 7394376621666,101545033_ST,Ikaffe Ekologisk,Oatly,1 l,"21,67 kr",100 milliliter,59.0,248.0,3.2,0.3,6.3,2.2,0.7,1.0,0.1,willys
@@ -2729,7 +2738,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310070006974,101666968_ST,"Indian Tonic Drinkmixer, Pet",Schweppes,50 cl,"11,83 kr",100 milliliter,19.0,82.0,0.0,0.0,4.4,4.4,,0.0,0.01,willys
 5010102241312,101307065_ST,Indian Tonic Tonic Water Glas,Britvic,4 p/20 cl,"47,22 kr",100 milliliter,20.0,86.0,0.0,0.0,4.7,4.7,,0.0,0.0,willys
 7310070007070,101666974_ST,"Indian Tonic Zero Drinkmixer, Pet",Schweppes,"1,5 l","21,67 kr",100 milliliter,2.0,8.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
-2090188700005,100147388_KG,Ingefära,,ca: 120 g,"69,90 kr",,,,,,,,,,,
+2090188700005,100147388_KG,Ingefära,,ca: 120 g,"59,90 kr",,,,,,,,,,,
 7311043014613,101667241_ST,Ingefära,Eldorado,55 g,"15,99 kr",,,,,,,,,,,
 7611612100465,101259888_ST,Ingefära,Spicefield,190/110 g,"28,29 kr",100 gram,60.0,250.0,0.0,0.0,14.0,0.0,1.9,0.2,2.0,willys
 7311043011070,101584013_ST,Ingefära 70% Mörk Choklad Trinitario Bönor,Garant,100 g,"28,29 kr",100 gram,547.0,2272.0,37.0,23.0,40.0,33.0,8.7,8.4,0.08,willys
@@ -2761,7 +2770,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310731103035,101677338_ST,Intenzo,Zoégas,450 g,"68,90 kr",,,,,,,,,,,
 2330069900002,101414087_KG,Iron Steak Flat Mörningsmarinerad,Dalsjöfors,ca: 750 g,"169,40 kr",100 gram,100.0,430.0,2.6,1.2,0.5,0.5,,19.0,0.8,willys
 9006900207182,101402162_ST,Is Tea Mango Maracuja,Pfanner,2 l,"20,72 kr",100 milliliter,25.0,106.0,0.5,0.1,6.0,6.0,,0.5,0.01,willys
-7340083465611,101281493_ST,Isberg Frisé Klass 1,Garant,225 g,"19,90 kr",100 g,15.0,,0.5,0.1,1.7,1.6,1.0,1.5,,off
+7340083465611,101281493_ST,Isberg Frisé Klass 1,Garant,225 g,"19,90 kr",,,,,,,,,,,
 7340083484650,101328625_ST,Isberg Klass 1,Garant,125 g,"18,80 kr",,,,,,,,,,,
 7611612800068,101243582_ST,Isbitar,Omega,2 kg,"21,90 kr",,,,,,,,,,,
 7340083485930,101330214_ST,Ishavsräkor med Skal 70/90 Frysta,Garant,750 g,"108,83 kr",100 gram,106.0,449.0,1.1,0.2,0.0,0.0,,24.0,2.5,willys
@@ -2789,6 +2798,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311442162700,101205497_ST,Jalapeño Amerikans Dressing,Kavli,230 g,"16,90 kr",100 gram,600.0,2500.0,64.0,4.3,6.5,5.8,,1.3,0.5,willys
 8697406270865,101337568_ST,Jalapeños Skivad,Yonca,650/350 g,"25,45 kr",100 gram,25.0,105.0,0.3,0.0,5.1,2.3,,0.4,4.5,willys
 7340109306218,101840002_ST,Jambalaya Cheese,Helmut Walch,380 g,"66,15 kr",100 gram,294.0,1230.0,26.0,11.0,1.3,1.1,,16.0,2.2,willys
+7340109309073,101372577_ST,Jambalaya Original Ölkorv,Helmut Walch,200 g,"56,68 kr",100 gram,600.0,2500.0,55.0,22.0,2.4,2.3,,22.0,3.8,willys
 7392555502485,101270094_ST,Jambalaya Ölkorv,Ridderheims,50 g,"16,94 kr",100 gram,550.0,2270.0,49.0,19.0,1.3,0.6,,25.0,3.5,willys
 8410843110453,101262950_ST,Jamon De Cebo Iberico,Elpozo,60 g,"56,68 kr",100 gram,307.0,1279.0,21.0,7.4,0.0,0.0,,29.5,3.5,willys
 7331631058928,101693261_ST,Jamon Duroc Saluhall,Paul Och Thom,50 g,"28,29 kr",100 gram,284.0,1180.0,21.1,7.0,0.2,0.1,,23.3,3.4,willys
@@ -2823,8 +2833,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311070003567,101332489_ST,Jollekaka Hönö 6-pack,Pågen,400 g,"22,50 kr",100 gram,296.0,1238.0,4.5,0.5,52.0,9.7,3.3,9.1,0.75,willys
 7310090771623,100441121_ST,Jordgubb,Risifrutti,175 g,"12,11 kr",100 gram,112.0,470.0,3.4,2.6,17.0,10.0,,3.1,0.15,willys
 54016521,100393334_ST,Jordgubb Aprikos Banan Fruktkvarg,Danonino,6 p/50 g,"16,94 kr",100 gram,90.0,378.0,2.5,1.6,10.5,9.8,0.1,6.3,0.09,willys
-7311043018956,101730153_ST,Jordgubb Banan Smoothie,Garant,1 l,"33,02 kr",100 milliliter,63.0,265.0,0.2,0.0,14.0,13.0,0.6,0.7,0.01,willys
 7340083489891,101338212_ST,Jordgubb Banan Smoothie,Garant,250 ml,"14,90 kr",100 milliliter,63.0,265.0,0.0,0.0,14.0,13.0,0.6,0.7,0.0,willys
+7311043018956,101730153_ST,Jordgubb Banan Smoothie,Garant,1 l,"33,02 kr",100 milliliter,63.0,265.0,0.2,0.0,14.0,13.0,0.6,0.7,0.01,willys
 7311041062364,101114553_ST,Jordgubb Blanddryck Dunk,Eldorado,"2,5/12,5","21,67 kr",100 milliliter,2.0,11.0,0.0,0.0,0.5,0.5,,0.0,0.0,willys
 7611612202114,101833224_ST,Jordgubb Blandsaft Pet,Premier,"80 cl/6,4","28,29 kr",100 milliliter,25.0,106.0,0.0,0.0,6.2,6.2,,0.0,0.0,willys
 7310090348139,101251260_ST,Jordgubb Blandsaft Saft Pet,Bob,"95 cl/7,6","31,13 kr",100 milliliter,34.0,141.0,0.0,0.0,8.2,8.1,,0.0,0.0,willys
@@ -2835,8 +2845,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5410146413605,101217896_ST,Jordgubb Drickyoghurt,Danonino,4 p/100 g,"16,50 kr",100 gram,67.0,286.0,1.6,1.0,10.2,9.8,0.1,2.8,0.1,willys
 7350000553499,101776424_ST,Jordgubb Drickyoghurt,Activia,300 g,"13,72 kr",100 gram,62.0,263.0,1.2,0.8,9.9,9.9,0.1,2.8,0.11,willys
 5711953042003,101245719_ST,Jordgubb Drickyoghurt Laktosfri,Yalla,350 ml,"14,50 kr",100 gram,50.0,213.0,0.5,0.3,7.9,7.6,,3.1,0.1,willys
-7311043016600,101693147_ST,"Jordgubb Drickyoghurt Laktosfri 0,8%",Eldorado,730 g,"19,90 kr",100 gram,60.0,251.0,0.8,0.5,10.0,10.0,,2.6,0.1,willys
 7340083486456,101331048_ST,"Jordgubb Drickyoghurt Laktosfri 0,8%",Eldorado,250 g,"9,90 kr",100 gram,57.0,239.0,0.9,0.6,9.5,9.2,,2.7,0.1,willys
+7311043016600,101693147_ST,"Jordgubb Drickyoghurt Laktosfri 0,8%",Eldorado,730 g,"19,90 kr",100 gram,60.0,251.0,0.8,0.5,10.0,10.0,,2.6,0.1,willys
 7350000550146,101270811_ST,Jordgubb Drickyoghurt Utan Tillsatt Socker,Actimel,8 p/100 g,"38,70 kr",100 gram,27.0,116.0,0.1,0.03,3.2,3.0,0.2,2.6,0.11,willys
 7394403000037,100674398_ST,Jordgubb Ekologisk Saft Glas,Tillmans,"50/2,5 l","43,90 kr",100 milliliter,40.0,160.0,0.5,0.5,7.6,7.6,,0.0,0.03,willys
 7391603500091,100258169_ST,Jordgubb Extra Koncentrerad Saft Glas,Brunneby,50 cl/3 l,"35,86 kr",100 milliliter,35.0,150.0,0.0,0.0,9.0,9.0,0.0,0.0,0.1,willys
@@ -2892,12 +2902,12 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311041015353,100504465_ST,Jordgubbar 35%,Eldorado,"1,5 kg","28,29 kr",100 gram,180.0,750.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
 7311041015384,100504544_ST,Jordgubbar 35%,Eldorado,750 g,"28,29 kr",100 gram,180.0,750.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
 7340083439599,101229968_ST,Jordgubbar 35% Refill,Eldorado,700 g,"14,10 kr",100 gram,180.0,750.0,0.0,0.0,43.0,42.0,,0.0,0.0,willys
-7311043016518,101691224_ST,Jordgubbar Ekologiska Frysta,Garant Eko,225 g,"33,02 kr",100 gram,35.0,147.0,0.0,0.0,9.1,4.6,2.1,0.4,0.0,willys
+7340083461170,101272812_ST,Jordgubbar Ekologiska Frysta,Garant Eko,225 g,"33,02 kr",100 gram,33.0,140.0,0.3,0.0,5.1,4.7,1.4,0.5,0.01,willys
 7311041060322,101174269_ST,Jordgubbar Frysta,Garant,225 g,"18,83 kr",100 gram,35.0,135.0,0.4,0.1,5.5,5.3,1.6,0.8,0.0,willys
 7311041048634,100908788_ST,Jordgubbar Frysta,Eldorado,1 kg,"30,19 kr",100 gram,35.0,150.0,0.4,0.1,5.5,5.3,1.6,0.8,0.0,willys
 7311043020034,101736580_ST,Jordgubbar Frysta,Eldorado,500 g,"22,61 kr",100 gram,35.0,150.0,0.4,0.0,5.5,5.3,1.6,0.8,0.01,willys
-2090189100002,100566576_KG,Jordgubbar Import Klass 1,,ca: 500 g,"129,80 kr",,,,,,,,,,,
-7323130010354,101418048_ST,Jordgubbar Svenska Klass 1,Garant,400 g,"59,90 kr",,,,,,,,,,,
+2090189100002,100566576_KG,Jordgubbar Import Klass 1,,ca: 500 g,"109,80 kr",,,,,,,,,,,
+7323130010354,101418048_ST,Jordgubbar Svenska Klass 1,Garant,400 g,"64,90 kr",,,,,,,,,,,
 2090189400003,100306731_KG,Jordgubbar Sverige Klass 1,,ca: 500 g,"119,80 kr",,,,,,,,,,,
 7311043020041,101736579_ST,Jordgubbar Tärnade Frysta,Garant,225 g,"18,83 kr",100 gram,35.0,150.0,0.0,0.0,5.5,5.3,1.6,0.8,0.01,willys
 90375897,101264535_ST,Jordgubbe Utan Kolsyra Fruktdryck Tetra,Mer,20 cl,"5,58 kr",100 milliliter,24.0,101.0,0.0,0.0,5.7,5.7,,0.0,0.05,willys
@@ -2932,18 +2942,18 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 37600160490,101220145_ST,Jordnötssmör Super Chunk,Skippy,340 g,"34,92 kr",100 gram,603.0,2525.0,43.9,9.3,15.6,10.3,,27.5,0.82,willys
 7340083456404,101263276_ST,Jordnötter med Skal,Eldorado,400 g,"28,29 kr",100 gram,600.0,2550.0,50.0,6.9,14.0,4.2,8.0,24.0,0.02,willys
 7340083462740,101273451_ST,Jordnötter Osaltade,Eldorado,200 g,"14,10 kr",100 gram,625.0,2588.0,51.0,7.2,11.0,5.1,7.9,27.0,0.0,willys
-7340083461422,101272766_ST,Jordnötter Rostade & Saltade,Eldorado,200 g,"12,20 kr",100 gram,618.0,2564.0,50.0,7.1,11.0,5.1,7.9,27.0,1.0,willys
 7340083456336,101263194_ST,Jordnötter Rostade & Saltade,Eldorado,400 g,"15,04 kr",100 gram,600.0,2550.0,50.0,7.1,11.0,5.1,7.9,27.0,1.0,willys
+7340083461422,101272766_ST,Jordnötter Rostade & Saltade,Eldorado,200 g,"12,20 kr",100 gram,618.0,2564.0,50.0,7.1,11.0,5.1,7.9,27.0,1.0,willys
 7340083456343,101263195_ST,Jordnötter Rostade & Saltade,Eldorado,1 kg,"30,60 kr",100 gram,600.0,2550.0,50.0,7.1,11.0,5.1,7.9,27.0,1.0,willys
 7340083499012,101742663_ST,Jordnötter Rostade Saltade,Garant,250 g,"18,83 kr",100 gram,615.0,2547.0,51.0,7.9,11.0,5.3,,25.0,1.3,willys
-7310532150764,101116338_ST,Jordnötter Salta,Estrella,275 g,"20,72 kr",100 gram,614.0,2545.0,50.7,8.0,11.0,5.3,8.2,24.0,1.4,willys
 7310532151761,101264409_ST,Jordnötter Salta,Estrella,160 g,"14,10 kr",100 gram,614.0,2545.0,50.7,8.0,11.0,5.3,8.2,24.0,1.4,willys
+7310532150764,101116338_ST,Jordnötter Salta,Estrella,275 g,"20,72 kr",100 gram,614.0,2545.0,50.7,8.0,11.0,5.3,8.2,24.0,1.4,willys
 7300400293501,100069195_ST,Jordnötter Salta,Olw,300 g,"21,50 kr",100 gram,630.0,2600.0,53.0,9.8,9.5,3.1,,28.0,1.3,willys
 7340005403196,101230823_ST,Jordnötter Salta,Olw,165 g,"16,94 kr",100 gram,630.0,2600.0,53.0,9.8,9.5,3.1,,28.0,1.3,willys
 7340083486838,101332070_ST,Jordnötter Torrostade,Garant,200 g,"18,83 kr",100 gram,596.0,2470.0,47.0,7.5,14.0,5.8,8.4,25.0,1.7,willys
 2090189500000,100147404_KG,Jordärtskocka Klass 1,,ca: 95 g,"46,90 kr",,,,,,,,,,,
 7311043020232,101743734_ST,Jordärtskocka Potatis Soppa,Garant,450 g,"33,02 kr",100 gram,90.0,400.0,6.3,2.9,7.5,1.6,,1.2,0.9,willys
-7350013499302,101236608_ST,Jordärtskockor Eko Klass 1,Garant Eko,250 g,"17,90 kr",,,,,,,,,,,
+7350013499302,101236608_ST,Jordärtskockor Eko Klass 1,Garant Eko,250 g,"19,90 kr",,,,,,,,,,,
 7310050001975,101225749_ST,Jubileum Lätt Mörkrost Bryggkaffe,Löfbergs,450 g,"62,50 kr",,,,,,,,,,,
 7310050012209,101202325_ST,Jubileum Mellanrost Hela Bönor,Löfbergs,400 g,"77,90 kr",,,,,,,,,,,
 7315361114574,101510562_ST,Jubileumsbit 6-pack,Delicato,180 g,"22,90 kr",100 gram,500.0,2100.0,32.0,18.0,54.0,34.0,,4.1,0.3,willys
@@ -3100,8 +3110,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350126088196,101653380_ST,Kaviar Mild,Kalles,300 g,"34,50 kr",100 gram,440.0,1830.0,37.0,2.7,18.0,14.0,,7.2,5.5,willys
 7311043022113,101771545_ST,Kaviar Original,Garant,250 g,"23,50 kr",100 gram,420.0,1750.0,37.0,2.6,13.0,12.0,,9.3,5.3,willys
 7350126088042,101653388_ST,Kaviar Original,Kalles,350 g,"39,65 kr",100 gram,401.0,1679.0,34.0,2.5,16.0,12.0,,8.7,6.3,willys
-7311171007440,101246723_ST,Kaviar Original,Kalles,250 g,"34,50 kr",100 gram,397.0,1661.0,34.0,2.5,15.0,12.0,,8.5,6.3,willys
 7350126088011,101653379_ST,Kaviar Original,Kalles,190 g,"26,30 kr",100 gram,400.0,1690.0,34.0,2.4,16.0,13.0,,9.0,6.3,willys
+7311171007440,101246723_ST,Kaviar Original,Kalles,250 g,"34,50 kr",100 gram,397.0,1661.0,34.0,2.5,15.0,12.0,,8.5,6.3,willys
 7350126087953,101653325_ST,Kaviar Randig,Kalles,285 g,"34,50 kr",100 gram,290.0,1220.0,24.0,4.6,10.0,8.4,,5.6,3.9,willys
 7314320003614,101294012_ST,Kavring Halländsk Skivad,Östras Bröd,650 g,"28,29 kr",100 gram,250.0,1050.0,1.4,0.4,53.0,6.5,6.7,6.9,0.8,willys
 57020129,101801497_ST,Kaymak,Sutdiyari,170 g,"24,51 kr",100 gram,242.0,999.0,23.0,16.0,5.0,3.5,,2.7,0.5,willys
@@ -3167,6 +3177,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083455353,101262309_ST,Kidneybönor Ekologiska Naturella,Garant Eko,380/230 g,"12,20 kr",100 gram,85.0,356.0,0.5,0.1,10.0,0.5,7.1,6.5,0.8,willys
 7340083482434,101316741_ST,Kidneybönor Naturella,Garant,380/230 g,"10,31 kr",100 gram,90.0,380.0,0.5,0.1,12.0,0.4,6.5,6.5,0.5,willys
 7340083493256,101353996_ST,Kidneybönor Röda,Eldorado,800 g,"28,29 kr",100 gram,300.0,1258.0,2.4,0.4,41.0,9.3,23.0,16.0,0.01,willys
+7310130009747,101289896_ST,Kidneybönor Svenska,Gogreen,380/230 g,"14,10 kr",100 gram,100.0,423.0,0.7,0.1,14.0,0.9,4.8,6.9,0.4,willys
 7340083434990,101224490_ST,Kikärter,Eldorado,400/240 g,"9,36 kr",100 gram,117.0,492.0,2.3,0.3,14.0,0.0,7.5,6.2,0.8,willys
 7340083450556,101250199_ST,Kikärter,Eldorado,800 g,"28,29 kr",100 gram,330.0,1350.0,3.5,0.5,48.0,0.0,9.5,20.0,0.01,willys
 7340083455377,101262311_ST,Kikärter Ekologiska Naturella,Garant Eko,380/230 g,"12,20 kr",100 gram,137.0,576.0,3.2,0.4,18.0,0.5,5.4,6.4,0.4,willys
@@ -3295,13 +3306,14 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083487484,101334258_ST,Korvstroganoff med Ris,Redo,400 g,"47,22 kr",100 gram,150.0,625.0,6.5,3.2,17.0,1.9,,5.2,0.99,willys
 7393914000130,101776495_ST,Korvstroganoff Vildris,Gooh,400 g,"61,42 kr",100 gram,152.0,635.0,9.2,4.6,13.0,2.5,0.6,4.6,1.3,willys
 7340109306089,101291403_ST,Kosakenwurst,Helmut Walch,380 g,"66,15 kr",100 gram,270.0,1130.0,23.0,9.7,0.0,0.0,,15.0,2.5,willys
-7300200054005,101419647_ST,Kotlett Rapsgris Sverige,Scan,300 g,"47,22 kr",100 g,185.0,773.8,12.0,,0.0,,,19.4,,off
+7300200054005,101419647_ST,Kotlett Rapsgris Sverige,Scan,300 g,"47,22 kr",,,,,,,,,,,
 7310960041894,101335555_ST,Kotlettrad Helstekt Fryst/1 Port,Dafgårds,420 g,"36,81 kr",100 gram,111.0,466.0,5.5,1.7,11.0,1.7,1.2,4.3,0.71,willys
 8711855022285,101272927_ST,Krasse,,ca20 g,"13,90 kr",,,,,,,,,,,
 7311043025350,101827257_ST,Kringlor Salta,Eldorado,200 g,"15,04 kr",100 gram,402.0,1695.0,7.9,0.9,70.0,2.3,3.2,11.0,3.7,willys
 7310130013461,101583972_ST,Krisp Jordgubb  Havre,Axa,300 g,"37,76 kr",100 gram,374.0,1563.0,4.6,0.95,70.0,9.7,6.8,8.5,0.5,willys
 7391814009369,101667231_ST,Krispig Nötmix,Gårdsnötter,140 g,"23,56 kr",100 gram,590.0,2471.0,45.0,5.8,20.0,9.1,8.1,22.0,0.9,willys
 8712119001114,100565103_ST,Krispsallat i Kruka Ekologisk Klass 1,,,"22,90 kr",,,,,,,,,,,
+7394048002335,100609138_ST,Krispsallat Klass 1,,ca150 g,"14,90 kr",,,,,,,,,,,
 7311043007288,101544278_ST,Kristallsalt,Garant,225 g,"28,29 kr",,,,,,,,,,,
 7311043008933,101550958_ST,Kroketter Potatis,Garant,600 g,"18,83 kr",100 gram,188.0,786.0,7.5,1.0,26.0,0.6,,2.8,1.0,willys
 74084,101203306_ST,Kronärtskocka,,250 g,"19,90 kr",,,,,,,,,,,
@@ -3398,6 +3410,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 2359730100008,101208470_KG,Kycklingben Marinerade Sverige,Garant,ca: 1.8 kg,"69,93 kr",100 gram,160.0,650.0,8.9,2.9,0.5,0.5,,19.0,1.8,willys
 2307127300005,101290803_KG,Kycklingbricka Bröst Bbq Marinerad Sverige,Guldfågeln,ca: 750 g,"169,40 kr",,,,,,,,,,,
 7393914000123,101776494_ST,Kycklingbröst Basilikasås,Gooh,400 g,"61,42 kr",100 gram,152.0,633.0,9.5,5.8,9.8,1.7,0.5,6.7,1.1,willys
+7300327412009,101859033_ST,Kycklingbröst Filè,Ivars,2 kg,"141,01 kr",100 gram,80.0,350.0,1.3,0.3,0.5,0.5,,17.0,0.8,willys
 7313940027062,101476764_ST,Kycklingbröst Filé Citron Vitlök Grillad Skivad,Guldfågeln,200 g,"39,90 kr",100 gram,150.0,550.0,3.0,0.7,1.0,0.5,,23.0,1.8,willys
 7313940027000,101256426_ST,Kycklingbröst Filé Grillkryddad Skivad,Guldfågeln,200 g,"39,90 kr",100 gram,140.0,600.0,3.5,1.1,3.4,0.5,,23.0,1.7,willys
 7340083459979,101268888_ST,Kycklingbröst Filé Import,Eldorado,400 g,"47,22 kr",100 gram,103.0,435.0,1.7,0.5,0.0,0.0,,22.0,0.1,willys
@@ -3418,12 +3431,13 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7322550052845,101242709_ST,Kycklingfond Ekologiskt,Touch Of Taste,180 ml/4 l,"33,97 kr",100 milliliter,2.0,9.0,0.5,0.1,0.5,0.5,,0.5,0.69,willys
 7340083455858,101262973_ST,Kycklingfärs Naturell Sverige,Garant,500 g,"46,27 kr",100 gram,140.0,600.0,7.0,2.0,0.5,0.5,,19.0,0.2,willys
 7313940013119,101260753_ST,Kycklingfärs Sverige,Guldfågeln,750 g,"69,90 kr",100 gram,140.0,600.0,7.0,2.0,0.5,0.5,,19.0,0.2,willys
+7300327668000,101317636_ST,Kycklingfärs Sverige,Kronfågel,1 kg,"94,54 kr",100 gram,130.0,550.0,5.0,1.5,0.5,0.5,,20.0,0.3,willys
 7313940267574,101237385_ST,Kycklinggyros Fryst,Guldfågeln,600 g,"77,90 kr",100 gram,180.0,750.0,10.0,3.3,1.5,0.5,,19.0,1.5,willys
 7340083481543,101313673_ST,Kycklinghjärta Fryst,Eldorado,500 g,"18,83 kr",100 gram,149.0,622.0,9.3,2.4,0.7,0.0,,16.0,0.16,willys
 7300327773001,100769483_ST,Kycklinghjärta Sverige,Kronfågel,450 g,"26,40 kr",100 gram,110.0,440.0,3.9,1.3,0.5,0.5,,17.0,0.3,willys
 7313940027048,101270073_ST,Kycklinginnerf Grillad Bbq Smak Sverige,Guldfågeln,200 g,"39,90 kr",100 gram,140.0,600.0,4.0,1.3,4.0,2.0,,21.0,1.2,willys
-7300321275006,101839829_ST,Kycklingkebab,Kronfågel,400 g,"54,90 kr",100 gram,140.0,550.0,5.0,1.2,5.4,0.2,,17.0,1.7,willys
 7350090452504,101839701_ST,Kycklingkebab,Schysst Käk,275 g,"50,06 kr",100 gram,200.0,850.0,13.0,3.4,2.1,0.9,,18.0,2.6,willys
+7300321275006,101839829_ST,Kycklingkebab,Kronfågel,400 g,"54,90 kr",100 gram,140.0,550.0,5.0,1.2,5.4,0.2,,17.0,1.7,willys
 7350090452528,101839702_ST,Kycklingkebab Big-pack,Schysst Käk,550 g,"89,90 kr",100 gram,200.0,850.0,13.0,3.4,2.1,0.9,,18.0,2.6,willys
 7340083478253,101301928_ST,Kycklingkebab Fryst,Eldorado,700 g,"66,15 kr",100 gram,134.0,561.0,5.1,1.2,4.9,0.0,0.1,17.0,1.7,willys
 7393287761379,101869407_ST,Kycklingkebab Grillad,Jojjen,275 g,"47,22 kr",100 gram,140.0,600.0,5.5,1.5,1.0,0.6,,21.0,2.9,willys
@@ -3482,7 +3496,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083474453,101290899_ST,Kål Bönbiff med Vaxböna Fryst Vego,Garant,600 g,"47,22 kr",100 gram,182.0,762.0,9.6,0.8,15.0,3.0,4.9,6.3,1.4,willys
 7310960101734,100383915_ST,Kåldolmar i Sås/stekta Frysta/ 4-pack,Dafgårds,540 g,"45,33 kr",100 gram,118.0,493.0,8.4,2.7,6.9,2.2,1.1,3.4,1.2,willys
 7340083470493,101286113_ST,Kålmix Rödkål & Grönkål Klass 1,Garant,325 g,"22,90 kr",,,,,,,,,,,
-7340083470479,101285661_ST,Kålmix Vitkål&morot Klass 1,Garant,400 g,"18,80 kr",,,,,,,,,,,
+7340083470479,101285661_ST,Kålmix Vitkål&morot Klass 1,Garant,400 g,"18,80 kr",100 g,32.0,140.099996455014,0.100000001490116,,5.69999980926514,,2.59999990463257,1.10000002384186,,off
 7310960044208,101361107_ST,Kålpudding Fryst/1 Port,Dafgårds,400 g,"27,20 kr",100 gram,99.0,415.0,5.0,1.9,8.4,3.7,1.5,4.4,0.97,willys
 2090189900008,100147770_KG,Kålrabbi Grön Klass 1,,ca: 300 g,"32,90 kr",,,,,,,,,,,
 2090190000001,100147823_KG,Kålrot Klass 1,,ca: 738 g,"25,40 kr",,,,,,,,,,,
@@ -3565,6 +3579,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311870010956,101545069_ST,Laktosfri Smör & Raps Normalsaltat,Bregott,500 g,"54,90 kr",100 gram,633.0,2602.0,70.0,29.0,0.4,0.4,,0.3,1.2,willys
 7350037197758,101690485_ST,Lamm&parmesan Korv,Härryda Karlss,300 g,"56,68 kr",100 gram,240.0,1006.0,18.0,8.8,3.2,0.0,,16.0,2.3,willys
 7330989005141,101520985_ST,Lammburgare Frysta,Qibbla Halal,900 g,115 kr,100 gram,115.2,484.4,5.0,2.1,3.4,1.1,,13.8,1.5,willys
+7340109306188,101291562_ST,Lammchorizo,Helmut Walch,380 g,"66,15 kr",100 gram,300.0,1250.0,26.0,12.0,0.6,0.0,,16.0,2.4,willys
 2359733200002,101218959_KG,Lammframdel med Ben Fryst Nya Zeeland,Affco,ca: 2.1 kg,"108,83 kr",,,,,,,,,,,
 7340062442565,101602785_ST,Lammfärs Fetthalt Lägre Än 20%,Smakavgotland,500 g,"93,90 kr",100 gram,248.0,1029.0,20.0,9.2,0.0,0.0,,17.0,0.2,willys
 2384123100006,100967045_KG,Lammgrytbitar Fryst Nya Zeeland,Qibbla Halal,ca: 2.2 kg,"112,62 kr",100 gram,292.0,1222.0,66.0,,0.0,0.0,,24.0,0.3,willys
@@ -3612,7 +3627,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 2369333800007,101254615_KG,Laxfile C-trim,Falkenberg,ca: 1.5 kg,"188,33 kr",,,,,,,,,,,
 7311043022526,101827824_ST,Laxfilé,Garant,500 g,"108,83 kr",100 gram,223.0,927.0,16.0,2.3,0.0,0.0,,20.0,0.12,willys
 7310500191560,101801142_ST,Laxfilé 2p,Findus,250 g,"83,18 kr",100 gram,197.0,821.0,13.0,3.1,0.0,0.0,0.0,20.0,0.15,willys
-7340083472923,101289408_ST,Laxfilé 4x125 G 4-pack,Falkenberg,500 g,149 kr,100 gram,181.0,757.0,12.0,2.6,0.0,0.0,,18.4,0.1,willys
+7340083472923,101289408_ST,Laxfilé 4x125 G 4-pack,Falkenberg,500 g,139 kr,100 gram,181.0,757.0,12.0,2.6,0.0,0.0,,18.4,0.1,willys
 7611612190374,101804336_ST,Laxfilé Fryst,Omega,4 x125 g,"94,54 kr",100 gram,223.0,927.0,16.0,2.3,0.0,0.0,,20.0,0.1,willys
 7311043007653,101545211_ST,Laxfilé i Bit Refreshed,Falkenberg,400 g,"94,54 kr",100 gram,181.0,757.0,12.0,2.6,0.0,0.0,,18.0,0.1,willys
 8720604328622,101840336_ST,Laxfärs Premium,Compass,450 g,"56,68 kr",100 gram,210.0,878.0,14.0,1.9,0.7,0.0,,20.0,0.1,willys
@@ -3626,8 +3641,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5063270109601,101584154_ST,Lemon Black Tea Pyramid,Lipton,20 p,"22,24 kr",100 milliliter,4.0,17.0,0.5,0.1,0.5,0.5,,0.5,0.01,willys
 637793001053,101305090_ST,Lemon Curd,Mackays,340 g,"27,35 kr",100 gram,341.0,1442.0,6.2,3.5,70.0,67.1,,1.5,0.0,willys
 7312060700565,101551482_ST,Lemon Curd Farbror Arnes Glasspinne,Triumf Glass,100 ml,31 kr,100 gram,320.0,1300.0,18.0,11.0,34.0,28.0,,3.8,0.13,willys
-7310070006998,101666969_ST,"Lemon Drinkmixer, Pet",Schweppes,50 cl,"11,83 kr",100 milliliter,19.0,80.0,0.0,0.0,4.4,4.3,,0.0,0.02,willys
 7310070007087,101666972_ST,"Lemon Drinkmixer, Pet",Schweppes,"1,5 l","21,67 kr",100 milliliter,19.0,80.0,0.0,0.0,4.4,4.3,,0.0,0.02,willys
+7310070006998,101666969_ST,"Lemon Drinkmixer, Pet",Schweppes,50 cl,"11,83 kr",100 milliliter,19.0,80.0,0.0,0.0,4.4,4.3,,0.0,0.02,willys
 7611612526197,101437186_ST,"Lemon Fusion Zero Drinkmixer, Pet",Premier,"1,5 l","15,99 kr",100 milliliter,1.0,6.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
 7350092180023,101285368_ST,"Lemon Ginger Kombucha 0,5%",Humm,414 ml,"25,45 kr",100 milliliter,20.0,84.0,0.0,0.0,5.0,4.0,,0.0,0.0,willys
 7310350133628,101357372_ST,Lemon Halstablett 2-pack,Läkerol,50 g,"16,94 kr",100 gram,210.0,865.0,0.6,0.2,55.0,0.0,,1.0,0.73,willys
@@ -3645,6 +3660,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 4046802271428,101315651_ST,Lemon Sticks Energitablett 3-pack,Dextro Energy,141 g,"26,90 kr",100 gram,367.0,1560.0,1.0,1.0,90.0,81.0,,0.0,0.1,willys
 8410376015522,101514957_ST,Lemon Wafer,Gullon,150 g,"14,10 kr",100 gram,496.0,2081.0,21.0,12.0,72.0,36.0,,4.1,0.18,willys
 7310072001182,101834095_ST,Lemon Zero Läsk Burk,Schweppes,6 p 33 cl,"60,47 kr",100 milliliter,2.0,7.0,0.0,0.0,0.1,0.0,,0.0,0.0,willys
+5000112650426,101344063_ST,Lemon Zero Läsk Pet,Fanta Zero,50 cl,"15,04 kr",100 milliliter,2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,willys
 5000112689969,101858034_ST,Lemon Zero Läsk Pet,Fanta,"1,5 l","19,40 kr",100 milliliter,2.0,9.0,0.0,0.0,0.2,0.2,,0.0,0.01,willys
 5063270111079,101676862_ST,"Lemon, Ginger & A Touch Of Manuka  Honey / Herbal Tea",Pukka,20 p,"34,92 kr",,,,,,,,,,,
 7611612222587,101753094_ST,Lemon/lime Sockerfri Energidryck Burk,Powerking,25 cl,"8,42 kr",100 milliliter,2.0,9.0,0.0,0.0,0.0,0.0,,0.0,0.18,willys
@@ -3704,8 +3720,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7312787710144,100046219_ST,Linfrö,Gogreen,400 g,"13,15 kr",100 gram,500.0,2100.0,42.0,3.7,1.6,1.6,27.0,18.0,0.08,willys
 7311043004904,101511731_ST,Linfrön Hela,Garant Eko,500 g,"28,29 kr",100 gram,529.0,2182.0,42.0,5.0,2.0,2.0,28.5,21.5,0.2,willys
 7350002400678,100439615_ST,Linfröolja,Zeta,500 ml,"44,38 kr",100 milliliter,837.0,3441.0,93.0,11.0,0.0,0.0,,0.0,0.0,willys
-7311043028115,101845612_ST,Lingon 35%,Eldorado,750 g,"37,76 kr",100 gram,143.0,606.0,0.5,0.0,34.0,33.0,,0.5,0.0,willys
 7311043028108,101845611_ST,Lingon 35%,Eldorado,"1,5 kg","56,68 kr",100 gram,143.0,606.0,0.5,0.0,34.0,33.0,,0.5,0.0,willys
+7311043028115,101845612_ST,Lingon 35%,Eldorado,750 g,"37,76 kr",100 gram,143.0,606.0,0.5,0.0,34.0,33.0,,0.5,0.0,willys
 7313592401005,101890034_ST,Lingon Bärberedning Mindre Socker,Kalas,800 g,"42,49 kr",100 gram,120.0,500.0,0.18,0.0,29.0,28.0,,0.0,0.03,willys
 7340083442995,101231801_ST,Lingon Ekologiska Frysta,Garant Eko,225 g,"37,76 kr",100 gram,57.0,237.0,0.5,0.0,11.0,8.9,2.5,0.7,0.0,willys
 7311041062692,101134176_ST,Lingon Grovt Bröd,Garant,500 g,"18,83 kr",100 gram,249.0,1054.0,2.3,0.3,45.0,7.3,6.0,8.6,0.71,willys
@@ -3751,7 +3767,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7611612501552,101274593_ST,Ljus Lager Non Alcoholic 0.0% Alkfri Burk,Emd Bräu,33 cl,"6,90 kr",100 milliliter,16.0,69.0,0.1,0.1,3.8,0.8,,0.3,0.1,willys
 7611612501958,101310833_ST,"Ljus Lager Premium 2,25% Lättöl Burk",Emdbräu,33 cl,"5,58 kr",100 milliliter,22.0,92.0,0.0,0.0,1.5,0.0,,0.3,0.03,willys
 7611612501880,101294839_ST,"Ljus Lager Premium 2,8% Folköl Burk",Emd Bräu,6 p/50 cl,"28,29 kr",,,,,,,,,,,
-7611612501873,101294840_ST,"Ljus Lager Premium 2,8% Folköl Burk",Emd Bräu,50 cl,"4,63 kr",100 milliliter,26.0,109.0,0.0,0.0,2.2,0.0,,0.3,0.03,willys
 7611612501903,101294842_ST,"Ljus Lager Premium 3,5% Folköl Burk",Emd Bräu,6 p/50 cl,"52,90 kr",100 milliliter,28.0,117.0,0.0,0.0,2.3,0.5,0.0,0.5,0.01,willys
 7611612501897,101294843_ST,"Ljus Lager Premium 3,5% Folköl Burk",Emd Bräu,50 cl,"8,42 kr",100 milliliter,28.0,117.0,0.0,0.0,2.3,0.5,0.0,0.5,0.01,willys
 7310401058542,101884547_ST,"Ljus Norrlands Guld 3,5% Lager Burk",Norrlands Guld,33 cl,"12,20 kr",100 milliliter,33.0,137.0,0.5,0.5,2.8,0.5,,0.5,0.01,willys
@@ -3816,7 +3831,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7313940012600,101303328_ST,Lårfilé Strimlad Kycklinglårfilé,Guldfågeln,600 g,"87,92 kr",100 gram,160.0,650.0,9.0,3.0,0.5,0.5,,19.0,0.2,willys
 7315630071904,101388296_ST,Löjrom,Ullmo,80 g,"112,62 kr",100 gram,126.0,527.0,2.3,0.4,1.5,0.0,,24.5,3.5,willys
 7311041071427,100761695_ST,Lök Bananschalotten Klass 1,Garant,250 g,"17,90 kr",,,,,,,,,,,
-7340083456497,100930076_ST,Lök Gul Eko Klass 1,Garant Eko,600 g,"19,90 kr",,,,,,,,,,,
+7340083456497,100930076_ST,Lök Gul Eko Klass 1,Garant Eko,600 g,"19,90 kr",100 g,39.0,163.4,0.1,0.0,7.3,4.5,1.9,1.2,0.0,off
 7311041045060,100812738_ST,Lök Gul i Påse Klass 1,Garant,1 kg,"9,90 kr",,,,,,,,,,,
 2090190800007,100269139_KG,Lök Gul Klass 1,,ca: 175 g,"10,90 kr",,,,,,,,,,,
 73412,100144906_ST,Lök Gul Knippe Klass 1,,250 g,"16,90 kr",,,,,,,,,,,
@@ -3827,7 +3842,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 2090191200004,100148083_KG,Lök Schalotten Klass 1,,ca: 30 g,"46,90 kr",,,,,,,,,,,
 7311041071540,100761677_ST,Lök Schalotten Klass 1,Garant,250 g,"17,90 kr",,,,,,,,,,,
 74609,101331906_ST,Lök Vit Stor Klass 1,,60 g,"8,90 kr",,,,,,,,,,,
-7350014909176,101773984_ST,Lökkorv Bit,Korvpojkarna,450 g,"53,85 kr",100 gram,395.0,1660.0,32.0,14.0,2.5,1.4,,14.0,3.4,willys
 7393914031202,101382470_ST,Lökkorv Bit,Onsala,300 g,"34,92 kr",100 gram,400.0,1650.0,37.0,15.0,4.5,4.1,,12.0,3.0,willys
 7300201258006,101256453_ST,Lökkorv Småländsk Bit,Scan,300 g,"36,81 kr",100 gram,440.0,1850.0,41.0,16.0,5.8,2.8,,13.0,3.3,willys
 7310394002386,100465774_ST,Lökpulver Burk,Kockens,43 g,"23,56 kr",,,,,,,,,,,
@@ -3869,7 +3883,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5996071650655,101383219_ST,Magic Sipper Jordgubb,Quick Milk,5 p,"8,04 kr",100 gram,391.0,1661.0,0.0,0.0,97.7,83.4,,0.0,0.05,willys
 5996071676884,101440151_ST,Magic Sipper Tutti Frutti,Quick Milk,5 p,"8,04 kr",100 gram,393.0,1670.0,0.0,0.0,98.0,93.0,,0.0,0.0,willys
 7350126087816,101599845_ST,Magisk Mango,Risifrutti,175 g,"12,11 kr",100 gram,111.0,466.0,3.3,2.1,17.0,10.0,,3.0,0.16,willys
-7312720021054,100272367_ST,"Magnum 0,5% Alkfri Glas",Herrljunga,"1,5 l","46,27 kr",100 milliliter,38.0,161.0,0.5,0.1,9.4,9.4,,0.5,0.01,willys
 8721274821550,101842223_ST,Magnum Crunchy Salted Caram Glasspinne,Magnum,150 ml,"28,39 kr",100 gram,348.0,1458.0,19.0,13.0,40.0,29.0,1.0,4.1,0.54,willys
 8721274813593,101840661_ST,Magnum La Peche Glass Glasspinne,Magnum,90 ml,"29,33 kr",100 gram,331.0,1386.0,20.0,16.0,33.0,28.0,0.5,3.7,0.15,willys
 7331494129216,101590724_ST,Magor 36%,Wernersson Ost,150 g,"44,90 kr",100 gram,378.0,1561.0,36.0,26.0,1.5,1.5,,12.0,0.7,willys
@@ -3959,7 +3972,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083457036,101264516_ST,Mango Bitar Frysta,Garant,225 g,"18,83 kr",100 gram,65.0,272.0,0.5,0.5,15.0,15.0,1.8,0.5,0.0,willys
 7350054797313,101667301_ST,Mango Chili Torkad,Dave & Jon's,100 g,"23,56 kr",100 gram,336.0,1406.0,0.18,0.17,81.9,67.8,3.7,2.0,0.0,willys
 7090046313472,101543162_ST,Mango Choklad Torkad Frukt,Fruit Dips,100 g,"35,86 kr",100 gram,399.0,1676.0,12.0,7.4,66.0,59.0,6.9,3.3,0.19,willys
-7340083433580,101220204_ST,Mango Chutney Hot Smaksättare,Garant,340 g,"24,51 kr",100 gram,200.0,850.0,0.0,0.0,50.0,49.0,,0.0,,willys
 7311310034061,100260539_ST,Mango Chutney Original Smaksättare,Santa Maria,350 g,"28,90 kr",100 gram,250.0,1100.0,0.5,0.5,61.0,55.0,1.0,0.5,2.4,willys
 7340083433603,101220231_ST,Mango Chutney Sweet Smaksättare,Garant,340 g,"24,51 kr",100 gram,200.0,850.0,0.0,0.0,50.0,49.0,0.8,0.0,,willys
 7350126089339,101676605_ST,Mango Curry Sås,Felix,335 ml,"28,29 kr",100 gram,420.0,1759.0,41.0,3.0,13.0,11.0,,0.6,1.1,willys
@@ -3986,7 +3998,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350115940276,101667118_ST,Mango Mayo,El Taco Truck,200 ml,"31,13 kr",100 gram,390.0,1600.0,38.0,2.6,12.0,8.4,,0.5,2.0,willys
 8711327666962,101696444_ST,Mango Memories Glass,Ben & Jerry's,465 ml,"56,90 kr",100 gram,255.0,1071.0,15.0,10.0,26.0,24.0,0.5,3.6,0.14,willys
 7310865879707,101297875_ST,"Mango Mild Yoghurt Mindre Socker 1,5%",Arla Ko,1 kg,"24,50 kr",100 gram,66.0,278.0,1.5,0.9,8.6,8.4,,3.7,0.08,willys
-7310867546614,101545472_ST,"Mango Passion Kvarg 0,2%",Lindahls,500 g,"22,90 kr",100 gram,60.0,240.0,0.2,0.0,3.7,3.4,,10.0,0.1,willys
 7310867004947,101833945_ST,"Mango Passion Proteinyoghurt Kollagen 0,3%",Lindahls,250 ml,"16,94 kr",100 milliliter,51.0,216.0,0.3,0.1,4.2,3.3,,7.9,0.1,willys
 7311043018116,101708428_ST,"Mango Passion Skyr Laktosfri 0,2% Eko",Dairy Food,400 g,"22,90 kr",100 gram,70.0,299.0,0.2,0.1,7.0,7.0,,10.0,0.2,willys
 7073212010412,101826599_ST,Mango Passionsfrukt Sweet & Sour,Sunshine Delig,100 g,"27,35 kr",100 gram,354.0,1487.0,0.5,0.1,84.0,71.0,3.8,1.5,0.23,willys
@@ -4064,8 +4075,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8719200306714,101777115_ST,Mat & Bak Växtbaserat,Milda,1 kg,"36,81 kr",100 gram,701.0,2933.0,79.0,37.0,0.5,0.5,,0.5,1.5,willys
 8719200258679,101509225_ST,Mat & Bak Växtbaserat Margarin,Milda,500 g,"22,24 kr",100 gram,701.0,2933.0,79.0,37.0,0.5,0.5,,0.5,1.5,willys
 8719200248144,101456813_ST,Mat Gräddalternativ Låglaktos 4%,Flora,5 dl,"18,45 kr",100 milliliter,60.0,251.0,4.4,1.4,4.5,1.7,,1.1,0.1,willys
-7311043021703,101762579_ST,Mat Grädde Lång Hållbarhet 10%,Dairy Food,5 dl,"19,90 kr",100 milliliter,120.0,496.0,10.0,6.5,4.3,4.3,,3.1,0.1,willys
 7311043021208,101756173_ST,Mat Grädde Lång Hållbarhet 10%,Dairy Food,"2,5 dl","10,50 kr",100 milliliter,120.0,496.0,10.0,6.5,4.3,4.3,,3.1,0.1,willys
+7311043021703,101762579_ST,Mat Grädde Lång Hållbarhet 10%,Dairy Food,5 dl,"19,90 kr",100 milliliter,120.0,496.0,10.0,6.5,4.3,4.3,,3.1,0.1,willys
 7340083480577,101308129_ST,Matbas Havre Ekologisk 13%,Garant Eko,250 ml,"11,26 kr",100 milliliter,147.0,609.0,13.0,1.0,6.2,3.0,0.9,1.0,0.12,willys
 7394376623769,101820276_ST,Matcha Havredryck,Oatly,1 l,"28,29 kr",100 milliliter,68.0,285.0,2.8,0.3,7.8,4.5,1.0,1.1,0.15,willys
 7394376623806,101808619_ST,Matcha Havredryck,Oatly,250 ml,"14,66 kr",100 milliliter,68.0,285.0,2.8,0.3,7.8,4.5,1.0,1.1,0.15,willys
@@ -4094,7 +4105,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350002400982,101205701_ST,Matlagningsvin Vitt,Zeta,250 ml,"32,08 kr",100 milliliter,35.0,146.0,0.0,0.0,5.0,5.0,,0.0,0.0,willys
 7340083469114,101285711_ST,"Matlagningsvin Vitt Alkohol 2,2%",Garant,250 ml,"28,90 kr",100 milliliter,32.0,135.0,0.0,0.0,5.0,5.0,,0.0,0.0,willys
 7340083491399,101348409_ST,Matolja,Eldorado,1 l,"39,90 kr",100 gram,900.0,3700.0,100.0,9.0,0.0,0.0,,0.0,0.0,willys
-8711000360545,101282061_ST,Mattinata 5 Lungo Kaffekapslar,L'or,10 p,"36,90 kr",,,,,,,,,,,
+8711000360545,101282061_ST,Mattinata 5 Lungo Kaffekapslar,L'or,10 p,"36,90 kr",100 g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,off
 7312560031008,100627582_ST,Matvete,Frebaco Kvarn,500 g,"12,20 kr",100 gram,350.0,1450.0,2.6,0.6,64.0,0.7,12.0,10.0,0.01,willys
 7310070006370,101510143_ST,"Max Lemon Pepsi Läsk, Pet",Pepsi,50 cl,"12,77 kr",100 milliliter,0.5,2.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
 8710522882207,101333968_ST,Mayonnaise,Hellmann's,250 ml,"27,35 kr",100 milliliter,682.0,2852.0,75.0,5.8,1.3,1.3,,1.0,1.2,willys
@@ -4120,8 +4131,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8711900016221,101230562_ST,Megaforce Energidryck Burk,Megaforce,25 cl,"5,40 kr",100 milliliter,34.0,,0.0,0.0,4.9,4.9,0.0,0.0,0.22,willys
 7310394002393,100465872_ST,Mejram Burk,Kockens,9 g,"23,56 kr",,,,,,,,,,,
 7311043002269,101476112_ST,"Mellan Fil 1,5%",Garant,1 kg,"11,90 kr",100 gram,45.0,192.0,1.5,1.0,3.8,3.8,,3.5,0.09,willys
-7394376665059,101283431_ST,"Mellan Havredryck 1,5%",Oatly,1 l,"17,88 kr",100 milliliter,48.0,197.0,1.4,0.2,7.1,3.4,0.7,1.1,0.1,willys
 7394376665073,101283444_ST,"Mellan Havredryck 1,5%",Oatly,1 l,"17,88 kr",100 milliliter,48.0,203.0,1.5,0.2,7.2,3.5,0.7,1.1,0.1,willys
+7394376665059,101283431_ST,"Mellan Havredryck 1,5%",Oatly,1 l,"17,88 kr",100 milliliter,48.0,197.0,1.4,0.2,7.1,3.4,0.7,1.1,0.1,willys
 7310760041094,101202509_ST,Mellan Hela Bönor,Arvidnordquist,500 g,"84,90 kr",,,,,,,,,,,
 7311870010932,101545067_ST,Mellan Smör & Rapsolja 57%,Bregott,500 g,"49,50 kr",100 gram,515.0,2118.0,57.0,19.0,0.3,0.3,,0.2,1.0,willys
 7311870011083,101545075_ST,Mellan Smör & Rapsolja 57%,Bregott,750 g,"66,90 kr",100 gram,515.0,2118.0,57.0,19.0,0.3,0.3,,0.2,1.0,willys
@@ -4153,21 +4164,20 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310402043660,101338352_ST,"Mellerud Pilsner Eko 3,5% Folköl Burk",Melleruds,4 p/33 cl,"42,49 kr",100 milliliter,36.0,149.0,,,,,,,,willys
 7310401043661,101342329_ST,"Mellerud Pilsner Eko 3,5% Folköl Burk",1,33 cl,"12,20 kr",100 milliliter,36.0,149.0,,,,,,,,willys
 7310401023465,101265665_ST,"Melleruds Pilsner Eko 0,5% Alkfri Glas",Melleruds,33 cl,"11,90 kr",100 milliliter,24.0,103.0,0.5,0.5,4.9,0.5,,0.5,0.01,willys
-8002270646973,101832256_ST,Melograno Arancia Zero Läsk Burk,San Pellegrino,33 cl,"12,20 kr",100 milliliter,6.0,27.0,0.0,0.0,1.1,1.1,0.1,0.0,0.0,willys
 8002270646966,101832350_ST,Melograno Arancia Zero Läsk Multipack,San Pellegrino,6 p 33 cl,"61,42 kr",100 milliliter,6.0,27.0,0.0,0.0,1.1,1.1,0.1,0.0,0.0,willys
 2090192900002,100256107_KG,Melon Cantaloupe Klass 1,,ca: 850 g,"39,90 kr",,,,,,,,,,,
 2090193400006,101288882_KG,Melon Galia Klass 1,,ca: 850 g,"39,90 kr",,,,,,,,,,,
 6419811116406,101670648_ST,Melon Kokos Rostad Müsli,Frebaco Kvarn,375 g,"37,76 kr",100 gram,400.0,1700.0,10.0,4.2,61.0,14.0,10.0,11.0,0.2,willys
 7350144680228,101824183_ST,Melon Lime Energidryck Burk,Joluca,33 cl,"16,94 kr",100 milliliter,2.0,7.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
-2090979000000,101289210_KG,Melon Matisse Hel Klass 1,,ca: 700 g,"39,90 kr",,,,,,,,,,,
+2090979000000,101289210_KG,Melon Matisse Hel Klass 1,,ca: 700 g,"44,90 kr",,,,,,,,,,,
 2090194600009,100521525_KG,Melon Mini Vatten Eko Klass 1,,ca: 1.6 kg,"29,90 kr",,,,,,,,,,,
 7312060502398,101696461_ST,Melon Mums Leos,Triumf Glass,"1,75 l","39,90 kr",100 gram,130.0,550.0,0.5,0.5,30.0,27.0,,0.5,0.03,willys
 2091128200005,101422984_KG,Melon Orange Candy,,ca: 700 g,"44,90 kr",,,,,,,,,,,
 2090194100004,100128078_KG,Melon Piel De Sapo Klass 1,,ca: 1.25 kg,"34,90 kr",,,,,,,,,,,
 7314720721316,101545447_ST,Melon Päron Fruktdryck Koncentrat,Kiviks Musteri,2 dl/1 l,"7,09 kr",100 milliliter,30.0,130.0,0.0,0.0,7.3,7.3,,0.0,0.0,willys
 6408432202605,101315568_ST,"Melon Slät Vaniljyoghurt 2,2%",Valio,1 kg,"24,51 kr",100 gram,76.0,320.0,2.2,1.3,9.6,9.4,,3.8,0.1,willys
-2091004600004,101301018_KG,Melon Vatten Gul Hel Klass 1,,ca: 4 kg,"34,90 kr",,,,,,,,,,,
-2090906400002,101273856_KG,Melon Vatten Klass 1,,ca: 4 kg,"24,90 kr",,,,,,,,,,,
+2091004600004,101301018_KG,Melon Vatten Gul Hel Klass 1,,ca: 4 kg,"29,90 kr",,,,,,,,,,,
+2090906400002,101273856_KG,Melon Vatten Klass 1,,ca: 4 kg,"19,90 kr",,,,,,,,,,,
 7310350119165,101232600_ST,Menthol Dents Pastiller,Läkerol,36 g,"14,10 kr",100 gram,269.0,1118.0,3.8,1.9,93.0,0.0,,0.0,0.03,willys
 87108262,100498427_ST,Mentos Fruit,Mentos,38 g,"9,36 kr",100 gram,388.0,1648.0,1.9,1.9,92.0,69.0,,0.0,0.0,willys
 87108675,101276825_ST,Mentos Fruit 3 Pack,Mentos,114 g,"23,56 kr",100 gram,388.0,1648.0,1.9,1.7,92.0,69.0,,0.0,0.1,willys
@@ -4212,7 +4222,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083478284,101302420_ST,Mild Naturell Yoghurt 3%,Garant,1 kg,"14,90 kr",100 gram,58.0,245.0,3.0,1.9,3.7,3.7,,3.5,0.09,willys
 7311043020003,101736407_ST,Mild Naturell Yoghurt 3%,Garant,"1,5 kg","19,90 kr",100 gram,56.0,233.0,3.0,1.9,3.7,3.7,,3.5,0.09,willys
 5711953186110,101595440_ST,Mild Ost Pastasås,Kelda,5 dl,"34,92 kr",100 gram,119.0,495.0,8.0,5.1,7.4,4.4,,4.3,1.2,willys
-6408432002632,101776431_ST,Mild Ostsås Pastasås Middagsmagi,Valio,380 g,"33,02 kr",100 gram,101.0,421.0,7.8,4.6,2.1,0.0,,5.8,1.4,willys
+6408432002632,101776431_ST,Mild Ostsås Pastasås Middagsmagi,Valio,380 g,"29,90 kr",100 gram,101.0,421.0,7.8,4.6,2.1,0.0,,5.8,1.4,willys
 4016241050625,101427514_ST,Mild Vanilj Kvarg Laktosfri,Arla,1 kg,"39,50 kr",100 gram,59.0,252.0,0.0,0.0,4.0,3.5,,9.7,0.13,willys
 7340083478260,101302423_ST,"Mild Vanilj Yoghurt 0,5%",Garant,1 kg,"17,90 kr",100 gram,58.0,246.0,0.5,0.3,8.6,8.6,,4.1,0.09,willys
 7340083478178,101301720_ST,Mild Vanilj Yoghurt 2%,Garant,1 kg,"17,90 kr",100 gram,70.0,296.0,2.0,1.3,8.5,8.5,,3.9,0.09,willys
@@ -4336,7 +4346,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 6411401085260,101284448_ST,Moomin Biscuits,Fazer,175 g,"20,34 kr",100 gram,470.0,1972.0,17.0,1.2,70.0,21.0,,6.6,0.72,willys
 7331494128776,101544706_ST,Morbier,Wernerssons,220 g,"64,90 kr",100 gram,357.0,1481.0,29.0,18.0,1.0,1.0,,23.0,1.0,willys
 7350028549023,101759262_ST,Morgonstund Grönt Te,Friggs,20 p,"18,90 kr",,,,,,,,,,,
-8711000390757,101849215_ST,Morning Cafe Strong Kaffekapslar,Tassimo,21 p,"65,20 kr",,,,,,,,,,,
+8711000390757,101849215_ST,Morning Cafe Strong Kaffekapslar,Tassimo,21 p,"65,20 kr",100 g,1.0,5.0,0.0,0.0,0.1,0.1,0.0,0.2,0.0,off
 2090195400004,100148868_KG,Morot Klass 1,,ca: 100 g,"17,90 kr",,,,,,,,,,,
 7313619001508,101324028_ST,Morotsjuice Nypressad,Brämhults,850 ml,"41,50 kr",100 milliliter,31.0,134.0,0.0,0.0,6.3,4.7,1.0,0.7,0.1,willys
 7311043021635,101764460_ST,Morotskaka,Dazzley,300 g,"33,02 kr",100 gram,296.0,1243.0,14.0,6.1,36.0,23.0,2.7,5.1,0.59,willys
@@ -4345,7 +4355,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7071864011528,101298448_ST,Morotsmuffin,Aunt Mabels,95 g,"11,26 kr",100 gram,355.0,1488.0,18.9,2.3,40.9,22.9,1.2,4.8,1.0,willys
 8002469582563,101236056_ST,Mortadella,Fumagalli,120 g,"37,76 kr",100 gram,311.0,1303.0,27.2,11.0,0.75,0.53,,15.9,1.97,willys
 4018342195274,100153129_ST,Mortadella Kyckling Paprika Skivad,Aladin,200 g,"15,99 kr",100 gram,213.0,884.0,18.0,6.1,2.8,0.5,,10.0,2.5,willys
-7311041043257,100794473_ST,Morötter Klass 1,,1 kg,"18,90 kr",,,,,,,,,,,
+7311041043257,100794473_ST,Morötter Klass 1,,1 kg,"19,90 kr",,,,,,,,,,,
 7311041010471,100435156_ST,Morötter Små Hela,Eldorado,400/265 g,"14,10 kr",100 gram,30.0,110.0,0.1,0.0,4.0,4.0,3.2,0.6,0.8,willys
 7311041010457,100435138_ST,Morötter Ärter Hela,Eldorado,400/265 g,"14,10 kr",100 gram,50.0,200.0,0.2,0.1,7.2,2.8,4.0,2.2,0.5,willys
 7311041010464,100435147_ST,Morötter Ärter Tärnade,Eldorado,400/265 g,"14,10 kr",100 gram,60.0,240.0,0.1,0.0,9.5,5.0,4.0,2.2,0.5,willys
@@ -4378,7 +4388,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7071864013324,101343022_ST,Muffin Blueberry,Aunt Mabels,95 g,"11,26 kr",100 gram,363.0,1521.0,19.0,2.3,42.7,23.9,1.0,5.0,1.0,willys
 7071864011481,101298327_ST,Muffin Double Chocolate,Aunt Mabels,95 g,"11,26 kr",100 gram,386.0,1616.0,20.6,3.3,44.5,26.3,1.7,5.2,0.4,willys
 7310240001778,101200504_ST,Mullbär Kardemumma Granola,Paulúns,450 g,"51,95 kr",100 gram,443.0,1852.0,21.0,1.5,42.0,8.7,23.0,11.0,0.54,willys
-7317731504503,101230779_ST,Mullbär Soltorkade,Saltå Kvarn,125 g,"42,49 kr",100 gram,360.0,1500.0,1.8,0.8,71.0,58.0,12.0,3.4,0.02,willys
 1210002014243,101599619_ST,Multi Fruit Multivitamin Fruktdryck,Tropicana,900 ml,"33,97 kr",100 milliliter,48.0,204.0,0.0,0.0,12.0,11.0,0.0,0.0,0.0,willys
 4013265001053,101271940_ST,Multivitamin 30 % Fruktinnehåll Dryck,Glockengold,2 l,"19,50 kr",100 milliliter,21.0,89.0,0.5,0.1,4.9,4.8,,0.5,0.01,willys
 4000177033708,101671048_ST,"Multivitamin Stilldrink, Påse",Capri-sun,33 cl,"12,20 kr",100 milliliter,30.0,126.0,0.5,0.1,7.1,7.1,,0.5,0.01,willys
@@ -4455,8 +4464,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311041018453,100568823_ST,Naturell Färskost 23%,Eldorado,200 g,"18,83 kr",100 gram,241.0,994.0,23.0,15.0,3.0,3.0,0.0,5.4,0.8,willys
 5711953029912,101240779_ST,Naturell Färskost 23%,Arla,150 g,"17,90 kr",100 gram,252.0,1039.0,25.0,16.0,3.0,3.0,,4.5,0.8,willys
 7038010072024,101599235_ST,Naturell Färskost 24%,Tine,125 g,"18,45 kr",100 gram,254.0,1063.0,24.0,15.0,2.8,2.8,,6.7,1.0,willys
-7350126086482,101501668_ST,Naturell Granola,Paulúns,450 g,"37,76 kr",100 gram,424.0,1773.0,16.0,2.8,48.0,6.8,23.0,10.0,0.4,willys
 7310130012044,101345273_ST,Naturell Granola,Start!,"1,1 kg","44,38 kr",100 gram,430.0,1799.0,14.0,1.8,63.0,20.0,7.1,9.0,0.51,willys
+7350126086482,101501668_ST,Naturell Granola,Paulúns,450 g,"37,76 kr",100 gram,424.0,1773.0,16.0,2.8,48.0,6.8,23.0,10.0,0.4,willys
 7310130013287,101501351_ST,Naturell Granola,Axa,500 g,"37,76 kr",100 gram,416.0,1742.0,16.0,2.0,50.0,4.6,19.0,8.7,0.43,willys
 7350099111174,101501357_ST,Naturell Granola,Färsking,375 g,"34,92 kr",100 gram,399.0,1670.0,12.0,1.5,50.0,3.4,24.0,11.0,0.4,willys
 4016241050304,101340644_ST,Naturell Grekisk Yoghurt 0%,Arla,1 kg,"37,90 kr",100 gram,60.0,255.0,0.2,0.1,4.0,4.0,,10.0,0.14,willys
@@ -4466,8 +4475,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311043013944,101684762_ST,"Naturell Kefir 2,5%",Garant,1 kg,"18,83 kr",100 gram,50.0,230.0,2.5,1.6,3.7,3.7,,3.5,0.09,willys
 6408432096006,101231505_ST,"Naturell Kefir Laktosfri 2,5%",Valio,1 kg,"22,61 kr",100 gram,55.0,229.0,2.5,1.5,3.3,3.3,,3.9,0.1,willys
 7310401046693,101364652_ST,Naturell Kolsyrat Vatten Burk,Loka,33 cl,"5,58 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
-7611612516648,101817732_ST,Naturell Kolsyrat Vatten Pet,Premier,12/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
 7611612516686,101816265_ST,Naturell Kolsyrat Vatten Pet,Premier,6 p/50 cl,"32,08 kr",,,,,,,,,,,
+7611612516648,101817732_ST,Naturell Kolsyrat Vatten Pet,Premier,12/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
 7611612513883,101206096_ST,Naturell Kolsyrat Vatten Pet,Premier,1.5 l,"9,36 kr",1000 milliliter,,,,,,,,,,willys
 7340083445057,101244453_ST,Naturell Kolsyrat Vatten Pet,Eldorado,2 l,"11,26 kr",,,,,,,,,,,
 7611612520164,101256747_ST,Naturell Kolsyrat Vatten Pet,Premier,"6 p/1,5 l","47,22 kr",,,,,,,,,,,
@@ -4477,6 +4486,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350002401088,100163047_ST,Naturell Krutonger,Zeta,120 g,"23,56 kr",100 gram,440.0,1854.0,13.0,2.0,68.0,3.6,,11.0,1.7,willys
 7311043024278,101780822_ST,"Naturell Kvarg 0,2%",Garant,900 g,"27,90 kr",100 gram,60.0,260.0,0.2,0.1,4.0,4.0,,11.0,0.1,willys
 7340083435539,101232098_ST,"Naturell Kvarg 0,3%",Eldorado,500 g,"13,50 kr",100 gram,70.0,295.0,0.3,0.2,3.9,3.9,,12.0,0.1,willys
+7392672001403,101200620_ST,"Naturell Kvarg 0,3%",Lindahls,500 g,"18,90 kr",100 gram,61.0,260.0,0.3,0.2,3.1,3.1,,11.0,0.1,willys
 7331102034086,101643883_ST,"Naturell Kvarg 0,3%",Wapnö,500 g,"23,50 kr",100 gram,60.0,265.0,0.3,0.2,4.0,4.0,,11.0,0.1,willys
 7311043026005,101824838_ST,Naturell Kvarg Laktosfri,Garant,900 g,"27,90 kr",100 gram,60.0,260.0,0.2,0.1,4.0,4.0,,11.0,0.1,willys
 7300400481861,101272126_ST,Naturell Laktos- & Glutenfri 6-pack,Wasa,240 g,"23,56 kr",13.5 gram,54.0,227.0,1.1,0.1,9.9,0.5,0.9,0.7,0.15,willys
@@ -4510,8 +4520,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083407307,101197959_ST,Nejlikor Hela Påse,Eldorado,35 g,"15,99 kr",,,,,,,,,,,
 7310700813538,100695927_ST,Nejlikor Hela Påse,Kockens,10 g,"12,20 kr",,,,,,,,,,,
 7310700813668,100696016_ST,Nejlikor Malda Påse,Kockens,12 g,"12,20 kr",,,,,,,,,,,
-2091668700003,101854016_KG,Nektarin,,ca: 140 g,"49,90 kr",,,,,,,,,,,
-7311041049358,100905754_ST,Nektarin i Korg Klass 1,,1 kg,"49,90 kr",,,,,,,,,,,
+2091668700003,101854016_KG,Nektarin,,ca: 140 g,"44,90 kr",,,,,,,,,,,
+7311041049358,100905754_ST,Nektarin i Korg Klass 1,,1 kg,"44,90 kr",,,,,,,,,,,
 7314720737638,101275574_ST,Nektarin Äpple Fruktdryck,Kiviks Musteri,"1,5 l","16,50 kr",100 milliliter,35.0,150.0,0.0,0.0,8.8,8.8,,0.0,0.0,willys
 8445291956520,101841121_ST,Nescafe Original,Nescafé,250 g,"83,18 kr",,,,,,,,,,,
 7613031570126,100904853_ST,Nesquik Duo Cereal Puffar,Nestlé,325 g,"40,60 kr",100 gram,397.0,1674.0,6.6,2.9,71.3,22.2,8.1,8.8,0.21,willys
@@ -4682,24 +4692,24 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7316150510041,101261670_ST,Olivolja Sitia Extra Virgin,Fontana,500 ml,"97,90 kr",100 gram,900.0,3700.0,100.0,14.0,0.0,0.0,,0.0,0.0,willys
 7340083480942,101310242_ST,Olivolja Toscano Igp Extra Virgin,Garant,250 ml,"66,15 kr",100 milliliter,828.0,3404.0,92.0,15.0,0.0,0.0,,0.0,0.0,willys
 8011845000188,101357695_ST,Olivolja Tryffel,Levante,250 ml,"56,68 kr",100 milliliter,828.0,3404.0,92.0,13.0,0.0,0.0,,0.0,0.0,willys
-8719200052529,101296843_ST,Omega 3 100% Växtbaserad Lättmargarin 38%,Becel,400 g,"23,56 kr",100 gram,348.0,1425.0,38.0,8.8,1.1,0.0,,0.0,1.0,willys
 8719200052543,101296849_ST,Omega 3 100% Växtbaserad Lättmargarin 38%,Becel,600 g,"30,19 kr",100 gram,348.0,1425.0,38.0,8.8,1.1,0.0,,0.0,1.0,willys
+8719200052529,101296843_ST,Omega 3 100% Växtbaserad Lättmargarin 38%,Becel,400 g,"23,56 kr",100 gram,348.0,1425.0,38.0,8.8,1.1,0.0,,0.0,1.0,willys
 7310865691750,101279945_ST,"Onaka Naturell Filmjölk Cultura 1,5%",Arla,1 kg,"17,90 kr",100 gram,47.0,197.0,1.5,1.0,3.8,3.8,,3.8,0.09,willys
 7310531037202,100372865_ST,Onion Dippmix,Estrella,22 g,"9,36 kr",100 gram,300.0,1270.0,0.9,0.1,64.0,52.0,,7.2,19.0,willys
 7311043024834,101814655_ST,Onion Rings Frysta,Garant,450 g,"18,83 kr",100 gram,204.0,855.0,9.4,1.0,26.0,4.4,2.4,2.7,1.1,willys
 7310532114513,101354698_ST,Onion Rings Lökringar,Estrella,200 g,"26,40 kr",100 gram,490.0,2045.0,29.0,2.5,49.0,1.8,3.1,5.9,2.2,willys
-8711000360583,101295965_ST,Onyx 12 Kaffekapslar,L'or,10 p,"36,90 kr",100 g,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,off
+8711000360583,101295965_ST,Onyx 12 Kaffekapslar,L'or,10 p,"36,90 kr",,,,,,,,,,,
 5774540138107,101666761_ST,Orange Almonds Chocolate,Anthon Berg,80 g,"28,29 kr",100 gram,553.0,2303.0,37.0,20.0,45.0,43.0,,6.4,0.01,willys
-7611612121590,101798707_ST,Orange Chicken Thaikub Fryst/1p,Spicefield,320 g,"33,02 kr",100 g,170.0,724.0,3.7,0.0,29.0,7.7,0.5,5.3,0.7175,off
+7611612121590,101798707_ST,Orange Chicken Thaikub Fryst/1p,Spicefield,320 g,"33,02 kr",,,,,,,,,,,
 5000112667660,101544498_ST,"Orange Fanta Läsk, Burk",Fanta,6 x33 cl,"40,60 kr",100 milliliter,19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,willys
 5000112667646,101544446_ST,"Orange Fanta Läsk, Burk",Fanta,33 cl,"9,36 kr",100 milliliter,19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,willys
 5000112667585,101542853_ST,"Orange Fanta Läsk, Pet",Fanta,50 cl,"15,04 kr",100 milliliter,19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,willys
 5000112689983,101873014_ST,"Orange Fanta Läsk, Pet",Fanta,"1,5 l","19,40 kr",100 milliliter,19.0,79.0,0.0,0.0,4.0,4.0,,0.0,0.01,willys
 7310070008756,101833672_ST,Orange Fruktdryck Pet,Festis,50 cl,"10,88 kr",100 milliliter,29.0,123.0,0.0,0.0,6.8,6.8,,0.0,0.0,willys
 4000177158227,101247792_ST,Orange Fruktdryck Påse,Capri-sun,10 p/20 cl,"37,76 kr",,,,,,,,,,,
+7310860007372,100985864_ST,Orange Juice With Bits,God Morgon,1 l,"24,51 kr",100 milliliter,43.0,183.0,0.5,0.0,8.8,8.8,,0.7,0.0,willys
 5038862130400,101307275_ST,Orange Juice With Bits,Innocent,"1,5 l","50,06 kr",100 milliliter,37.0,156.0,0.0,0.0,7.8,7.8,0.9,0.8,0.0,willys
 5038862131698,101307277_ST,Orange Juice With Bits,Innocent,900 ml,"34,92 kr",200 milliliter,74.0,312.0,0.0,0.0,16.0,16.0,1.7,1.5,0.0,willys
-7310860007372,100985864_ST,Orange Juice With Bits,God Morgon,1 l,"24,51 kr",100 milliliter,43.0,183.0,0.5,0.0,8.8,8.8,,0.7,0.0,willys
 5038862135153,101307279_ST,Orange Juice Without Bits,Innocent,900 ml,"34,92 kr",200 milliliter,73.0,308.0,0.0,0.0,16.0,16.0,1.3,1.4,0.0,willys
 7313619002246,101545354_ST,Orange Nectar Nektar,God Morgon,1 l,"23,56 kr",100 milliliter,39.0,163.0,0.0,0.0,8.8,8.6,,0.0,0.0,willys
 4000177155417,101275420_ST,Orange Peach Fruktdryck Påse,Capri-sun,33 cl,"12,20 kr",100 milliliter,34.0,146.0,0.5,0.1,8.2,8.2,,0.5,0.01,willys
@@ -4755,8 +4765,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 3838975566613,101093852_ST,Original Junior Kyckling,Argeta,95 g,"12,77 kr",100 gram,325.0,1345.0,30.0,4.3,2.8,0.6,,11.0,1.3,willys
 4027400149807,101545330_ST,Original Ketchup,Hela,300 ml,"18,83 kr",100 gram,135.0,573.0,0.3,0.0,31.5,29.0,1.4,0.8,2.0,willys
 7310070010155,101876802_ST,Original Kolsyrat Vatten Pet,Ramlösa,"1,5 l","10,88 kr",1000 milliliter,,,,,,,,,,willys
-73206552,101880198_ST,Original Kolsyrat Vatten Pet,Ramlösa,33 cl,"4,63 kr",1000 milliliter,,,,,,,,,,willys
 7310070010148,101876812_ST,Original Kolsyrat Vatten Pet,Ramlösa,50 cl,"9,36 kr",1000 milliliter,,,,,,,,,,willys
+73206552,101880198_ST,Original Kolsyrat Vatten Pet,Ramlösa,33 cl,"4,63 kr",1000 milliliter,,,,,,,,,,willys
 8716200613194,101190634_ST,Original Kondenserad Mjölk Osötad,Rainbow,410 g,"19,77 kr",100 milliliter,146.0,610.0,8.5,5.8,10.1,10.1,,7.1,0.2,willys
 7310700443698,100173839_ST,Original Large,Philadelphia,300 g,"30,19 kr",100 gram,226.0,933.0,21.0,14.0,4.3,4.3,0.2,5.4,0.75,willys
 7310941801066,100395083_ST,Original Leverpastej 2-pack,Pastejköket,150 g,"12,50 kr",100 gram,280.0,1200.0,24.0,9.4,9.0,4.0,,9.0,2.0,willys
@@ -4791,6 +4801,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083440090,101231410_ST,Osaltade Riskakor,Garant Eko,130 g,"15,50 kr",100 gram,379.0,1605.0,3.2,0.7,77.0,0.6,3.7,8.7,0.0,willys
 7310240075151,101231818_ST,Ost & Broccoli Soppa Fryst/1 Port,Felix,350 g,"24,51 kr",100 gram,56.0,234.0,3.5,1.3,3.3,1.6,,2.3,0.8,willys
 7322550036012,100430623_ST,Ost & Broccoli Varma Koppen Soppa Pulver/3 Port,Blå Band,69 g/6 dl,"13,72 kr",200 milliliter,107.0,447.0,4.2,2.3,16.0,2.0,0.7,1.3,1.7,willys
+7310240260977,101124123_ST,Ost & Skinkpaj Fryst/ 6 Bitar,Felix,"1,37 kg","169,40 kr",100 gram,243.0,1016.0,16.0,8.0,14.0,1.5,,10.0,1.0,willys
 7310960027270,101255750_ST,Ost & Skinkpaj Fryst/1 Port,Dafgårds,240 g,"28,29 kr",100 gram,272.0,1140.0,18.0,8.8,18.0,2.2,1.0,9.9,1.2,willys
 7310240079555,101210876_ST,Ost & Skinkpaj Fryst/1 Port,Felix,220 g,"29,24 kr",100 gram,280.0,1172.0,19.0,11.0,15.0,1.6,,11.0,1.1,willys
 7310240078862,101184755_ST,Ost & Skinkpaj Fryst/1 Port,Felix,300 g,"34,92 kr",100 gram,244.0,1020.0,16.0,8.7,16.0,1.6,,9.2,0.85,willys
@@ -4888,7 +4899,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5711953029875,101240736_ST,Paprika Färskost 23%,Arla,150 g,"17,90 kr",100 gram,237.0,980.0,23.0,15.0,3.8,3.1,,4.5,1.3,willys
 8699073290764,101272059_ST,Paprika Grillad,Melis,680/400 g,"43,43 kr",100 gram,40.0,167.0,0.47,0.13,7.76,6.7,1.06,1.27,1.17,willys
 2090196500000,100149224_KG,Paprika Grön Klass 1,,ca: 200 g,"44,90 kr",,,,,,,,,,,
-2090196900008,100149251_KG,Paprika Gul Klass 1,,ca: 200 g,"49,90 kr",,,,,,,,,,,
+2090196900008,100149251_KG,Paprika Gul Klass 1,,ca: 200 g,"59,90 kr",,,,,,,,,,,
 7038010072031,101599232_ST,Paprika Lök Färskost 24%,Tine,125 g,"18,45 kr",100 gram,254.0,1063.0,24.0,15.0,2.8,2.8,,6.7,1.0,willys
 7350028549009,101777270_ST,Paprika Majskakor Gluten Free,Friggs,125 g,"17,50 kr",100 gram,440.0,1850.0,14.0,1.2,71.0,0.9,2.3,6.5,1.4,willys
 7311041049983,100930290_ST,Paprika Mix Eko Klass 1,Garant Eko,300 g,"38,90 kr",,,,,,,,,,,
@@ -4907,16 +4918,16 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350045591258,101241965_ST,Parmesan Chips,Gårdschips,150 g,"24,51 kr",100 gram,500.0,2093.0,29.7,2.0,47.3,2.9,5.9,8.6,1.3,willys
 7310865072771,101123758_ST,Parmesan Lätt Crème Fraiche 12%,Arla Köket,2 dl,"15,50 kr",100 gram,143.0,594.0,12.0,7.8,4.5,3.4,,3.7,0.93,willys
 5707196290011,101359620_ST,Parmesan Salami Snacks,Göl,70 g,"22,61 kr",100 gram,477.0,1981.0,37.0,16.0,3.0,0.8,,33.0,3.4,willys
-7340083488511,101328356_ST,Parmigiano Reggiano 12mån,Garant,150 g,"47,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
-7340083489761,101341524_ST,Parmigiano Reggiano 12mån Hyvlad Parmesanost,Garant,80 g,"28,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
+7340083488511,101328356_ST,Parmigiano Reggiano 12mån,Garant,150 g,"44,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
+7340083489761,101341524_ST,Parmigiano Reggiano 12mån Hyvlad Parmesanost,Garant,80 g,"29,50 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
 7350002404317,101089590_ST,Parmigiano Reggiano 14månader 28%,Zeta,150 g,"66,15 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
-7340083476822,101296650_ST,Parmigiano Reggiano 22mån Eko,Garant Eko,50 g,"18,83 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
-7340083476860,101296557_ST,Parmigiano Reggiano 22månader,Garant,200 g,"71,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
-2359762100007,101296619_KG,Parmigiano Reggiano 22månader,Garant,ca: 500 g,319 kr,100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,30.0,1.6,willys
+7340083476822,101296650_ST,Parmigiano Reggiano 22mån Eko,Garant Eko,50 g,"19,50 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
+2359762100007,101296619_KG,Parmigiano Reggiano 22månader,Garant,ca: 500 g,329 kr,100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,30.0,1.6,willys
+7340083476860,101296557_ST,Parmigiano Reggiano 22månader,Garant,200 g,"69,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
 7350002402252,101059961_ST,Parmigiano Reggiano 22månader 28%,Zeta,200 g,"80,34 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
 7340083476839,101296649_ST,Parmigiano Reggiano 30 Månader,Garant,125 g,"49,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
 7340083476808,101296668_ST,Parmigiano Reggiano Eko 22månader,Garant Eko,150 g,"54,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
-7340083488504,101328355_ST,Parmigiano Reggiano Grovriven 12mån,Garant,85 g,"28,90 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
+7340083488504,101328355_ST,Parmigiano Reggiano Grovriven 12mån,Garant,85 g,"29,50 kr",100 gram,402.0,1671.0,30.0,20.0,0.0,0.0,,32.0,1.6,willys
 7311041088364,101553223_ST,Party Marshmallows,Dazzley,250 g,"18,83 kr",100 gram,335.0,1423.0,0.0,0.0,80.0,68.0,,4.1,0.03,willys
 4001686004005,101552424_ST,Party Mix,Haribo,200 g,"24,51 kr",100 gram,338.0,1437.0,0.5,0.1,77.0,46.0,,5.7,0.03,willys
 7311043017072,101697961_ST,Partypinnar Glass,Dazzley,12 p,"37,76 kr",100 gram,84.0,353.0,0.0,0.0,21.0,21.0,,0.0,0.0,willys
@@ -5029,11 +5040,11 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350000135060,101336806_ST,Pepparrotsvisp,Cajom,90 g,"27,90 kr",100 gram,290.0,1200.0,33.8,26.7,7.4,5.1,,1.0,0.9,willys
 7313310040363,101362224_ST,Pepparrotsvisp,Örneborgs,70 g,"10,88 kr",100 gram,470.0,1950.0,48.0,3.4,8.0,5.1,,0.9,1.1,willys
 7311041072899,101187497_ST,Pepparsalami Deliskivor,Garant,80 g,"19,77 kr",100 gram,480.0,2000.0,39.0,16.0,2.0,1.0,,21.0,3.5,willys
-5701251862540,100191294_ST,Pepparsalami Skivad,Göl,150 g,"24,90 kr",100 gram,199.0,835.0,9.0,3.4,4.5,0.5,,25.0,4.7,willys
 5707196191646,101246328_ST,Pepparsalami Skivad,Göl,200 g,"33,90 kr",100 gram,371.0,1536.0,33.0,13.0,0.5,0.5,,18.0,4.8,willys
+5701251862540,100191294_ST,Pepparsalami Skivad,Göl,150 g,"24,90 kr",100 gram,199.0,835.0,9.0,3.4,4.5,0.5,,25.0,4.7,willys
 6409630008525,101178271_ST,Pepparsalami Skivad,Kotivara,120 g,"26,40 kr",100 gram,433.0,1810.0,37.0,13.4,3.9,0.1,2.1,21.6,4.0,willys
-7331868125189,101199891_ST,Pepparsalami Skivad,Grilstad,80 g,"23,50 kr",100 gram,403.0,1688.0,37.0,15.0,1.0,0.9,,18.0,5.5,willys
 4047435271106,101434361_ST,Pepparsalami Skivad,Gustoland,350 g,"43,43 kr",100 gram,419.0,1732.0,39.0,16.0,1.0,0.5,,16.0,4.0,willys
+7331868125189,101199891_ST,Pepparsalami Skivad,Grilstad,80 g,"23,50 kr",100 gram,403.0,1688.0,37.0,15.0,1.0,0.9,,18.0,5.5,willys
 7311043014033,101671005_ST,Pepparsalami Vegansk,Eldorado,80 g,"18,83 kr",100 gram,216.0,894.0,19.0,1.1,5.5,3.5,1.5,5.0,2.2,willys
 7350129160257,101774203_ST,Pepparsås,Farmers&chefs,200 g,"21,67 kr",100 gram,600.0,2500.0,66.0,4.7,2.5,1.3,,0.5,1.1,willys
 7340083441004,101232351_ST,Pepparsås Kryddig,Garant,220 ml,"18,83 kr",100 milliliter,550.0,2350.0,62.0,4.5,2.1,1.1,,0.9,1.1,willys
@@ -5071,13 +5082,13 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8719128117232,101342349_ST,Pepsi Soda Mix,Sodastream,9 l/44 cl,"53,85 kr",100 milliliter,13.0,57.0,0.0,0.0,3.4,3.3,,0.0,0.02,willys
 3529380019152,101544495_ST,Perail Papillon,Haute Fromager,100 g,"39,90 kr",100 gram,334.0,1385.0,28.0,15.0,1.5,0.0,,19.0,1.3,willys
 8008440214065,101364680_ST,"Peroni Nastro Assurro 0,0% Alkfri Eg",Peroni,33 cl,"14,66 kr",100 milliliter,23.0,99.0,0.0,0.0,5.6,0.8,,0.2,0.0,willys
-2091668600006,101854067_KG,Persika,,ca: 140 g,"49,90 kr",,,,,,,,,,,
+2091668600006,101854067_KG,Persika,,ca: 140 g,"44,90 kr",,,,,,,,,,,
 7350000553550,101776357_ST,Persika Apriko Utan Tillsatt Socker Fruktdryck,Proviva,1 l,"32,90 kr",100 gram,41.0,176.0,0.1,0.0,9.7,8.6,0.4,0.4,0.03,willys
 7310401059631,101832180_ST,Persika Citron Zero Läsk Burk,Mino,33 cl,"11,26 kr",100 milliliter,3.0,14.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
 7311043011636,101591147_ST,"Persika Mango Drickyoghurt Laktosfri 0,8%",Eldorado,250 g,"9,90 kr",100 gram,57.0,241.0,0.9,0.6,9.5,9.2,,2.8,0.1,willys
 7311043020621,101747621_ST,"Persika Mango Yoghurt Laktosfri 2,7%",Garant,1 kg,"28,29 kr",100 gram,80.0,330.0,2.7,1.7,10.0,10.0,,3.1,0.1,willys
 7310861013006,101428650_ST,"Persika Papaya Mango Filjmjölk 3,5%",Verum,1 kg,"22,90 kr",100 gram,80.0,330.0,3.5,2.3,8.3,7.9,,3.0,0.1,willys
-2090712700006,101227464_KG,Persika Paraguayos Klass 1,,ca: 100 g,"54,90 kr",,,,,,,,,,,
+2090712700006,101227464_KG,Persika Paraguayos Klass 1,,ca: 100 g,"49,90 kr",,,,,,,,,,,
 4016241051028,101719941_ST,"Persika Passio Mild Kvarg 0,2%",Arla,450 g,"19,90 kr",100 gram,63.0,266.0,0.2,0.1,4.4,3.8,,9.7,0.11,willys
 7311043025329,101780821_ST,"Persika Passion Kvarg 0,2%",Garant,900 g,"29,90 kr",100 gram,59.0,256.0,0.2,0.1,4.5,3.9,,9.7,0.09,willys
 5711953088766,101283075_ST,Persika Passionsfrukt Drickkvarg Laktosfri,Yalla,350 ml,"14,50 kr",100 gram,46.0,194.0,0.1,0.1,4.6,4.2,,6.0,0.11,willys
@@ -5156,7 +5167,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310070010629,101834070_ST,Pink Lemonade Zero Läsk Pet,7up,50 cl,"12,77 kr",100 milliliter,1.0,5.0,0.0,0.0,0.0,0.0,,0.0,0.07,willys
 5701073062357,101180125_ST,Pink Roses Sockerrosor med Blad Dekoration,Dr Oetker,50 g,"31,13 kr",100 gram,440.0,1844.0,9.0,5.0,84.0,61.0,,1.3,0.0,willys
 7611612800150,101306409_ST,Pinklax Portionsbitar Fryst,Omega,800 g,"122,08 kr",100 gram,111.0,468.0,3.5,0.6,0.0,0.0,,20.0,0.17,willys
-7350013135880,101553763_ST,Pinklax Vildfångad Fryst,Royal Foods,400 g,"70,88 kr",100 gram,105.0,439.0,2.0,0.2,0.0,0.0,,21.4,0.1,willys
 7311043002832,101496483_ST,Pinklaxfilé Solrosolja,Eldorado,125 g,"23,56 kr",100 gram,291.0,1203.0,27.0,3.1,0.0,0.0,,12.0,0.5,willys
 7311043002825,101496482_ST,Pinklaxfilé Tomatsås,Eldorado,125 g,"23,56 kr",100 gram,68.0,285.0,1.5,0.3,2.5,1.7,,11.0,0.75,willys
 7311043010813,101582764_ST,Pinsa,Garant,230 g,"26,40 kr",100 gram,253.0,1068.0,4.5,0.7,45.0,0.4,1.3,7.4,1.4,willys
@@ -5253,6 +5263,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310240073812,100675994_ST,Pommes Chateau Frysta,Felix,800 g,"28,29 kr",100 gram,114.0,475.0,4.2,0.5,16.0,0.8,,1.7,0.0,willys
 7316110000698,101700827_ST,Pommes Chips Krispiga Dippvänliga Frysta,Felix,600 g,"25,45 kr",100 gram,104.0,434.0,5.3,0.5,12.0,0.5,,1.0,0.0,willys
 7316110001916,101801929_ST,Pommes Criss Cut Frysta,Felix,750 g,"26,40 kr",100 gram,143.0,598.0,7.5,0.5,16.0,0.5,,1.7,0.0,willys
+5744004252069,101882061_ST,Pommes Frites,Star Fry,1 kg,"14,90 kr",100 gram,141.0,591.0,3.8,2.3,23.0,0.5,2.6,2.2,0.15,willys
 7311043014132,101646349_ST,Pommes Frites Fryst,Eldorado,2 kg,"33,97 kr",100 gram,138.0,584.0,3.9,0.4,22.0,0.5,2.8,2.3,0.07,willys
 7311041059142,101076443_ST,Pommes Frites Räfflade Frysta,Garant,1 kg,"26,40 kr",100 gram,137.0,577.0,3.1,0.3,24.0,0.5,2.1,2.2,0.15,willys
 7316110003293,101840885_ST,Pommes Krispiga Frysta,Felix,600 g,"26,40 kr",100 gram,115.0,483.0,4.1,0.5,17.0,0.5,,1.7,0.0,willys
@@ -5286,7 +5297,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5711953156328,101425418_ST,Port Salut Familjefavoriter Skivad 26%,Arla,300 g,"42,90 kr",100 gram,323.0,1343.0,25.0,16.0,0.0,0.0,,24.0,1.7,willys
 5908281991145,101220019_ST,Portabello Svamp Klass 1,Garant,280 g,"29,90 kr",,,,,,,,,,,
 7310070752116,101013396_ST,Porter 3.5% Folköl Glas,Dcarnegie,50 cl,"15,99 kr",100 milliliter,32.0,136.0,,,,,,,,willys
-7340083475566,101301933_ST,Potatis Amandine Klass 1,Garant,900 g,"23,50 kr",,,,,,,,,,,
+7340083475566,101301933_ST,Potatis Amandine Klass 1,Garant,900 g,"23,50 kr",100 g,79.0,316.9,0.0,0.0,16.0,0.8,2.0,1.7,0.0,off
 7340083475634,101302361_ST,Potatis Delikatess Klass 1,Garant,450 g,"15,90 kr",100 g,79.0,329.0,0.1,0.0,16.0,0.8,2.1,1.7,0.01,off
 7312920095411,101844363_ST,Potatis Dillstuvad,Lecora,500 g,"33,02 kr",100 gram,80.0,350.0,4.0,0.5,14.0,2.0,,2.0,1.0,willys
 7313300000711,101058267_ST,Potatis Fast Klass 1,Garant,2 kg,"27,90 kr",,,,,,,,,,,
@@ -5296,14 +5307,14 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7394048027710,101133694_ST,Potatis Färsk Tvättad Klass 1,Garant,900 g,"19,90 kr",,,,,,,,,,,
 7340083448416,101244751_ST,Potatis Hel,Eldorado,680/425 g,"14,10 kr",100 gram,50.0,220.0,0.3,0.2,10.0,0.4,1.7,1.2,0.6,willys
 7340083475627,101302362_ST,Potatis Kok Stor Klass 1,Garant,2 kg,"27,90 kr",,,,,,,,,,,
-7340083475559,101301932_ST,Potatis Mandel Klass 1,Garant,900 g,"23,50 kr",,,,,,,,,,,
+7340083475559,101301932_ST,Potatis Mandel Klass 1,Garant,900 g,"23,50 kr",100 g,89.0,365.0,0.0,0.0,18.0,0.4,2.7,2.2,0.0,off
 2090202500000,100150541_KG,Potatis Mjölig Klass 1,,,"11,90 kr",,,,,,,,,,,
 7340083475597,101301936_ST,Potatis Mjölig Klass 1,Garant,900 g,"14,90 kr",,,,,,,,,,,
 7313300002180,101058356_ST,Potatis Mjölig Klass 1,Garant,2 kg,"27,90 kr",,,,,,,,,,,
 74839,100164509_ST,Potatis Mjölig Klass 2,,5 kg,"46,90 kr",,,,,,,,,,,
 5711953073397,101271182_ST,Potatis Purjo Soppa,Kelda,5 dl,"24,90 kr",100 gram,57.0,236.0,4.0,2.5,4.4,0.7,,0.6,0.99,willys
 7340083475542,101301931_ST,Potatis Smått&gott Klass 1,Garant,900 g,"18,80 kr",,,,,,,,,,,
-7340083475573,101301934_ST,Potatis Sparris Klass 1,Garant,900 g,"23,50 kr",,,,,,,,,,,
+7340083475573,101301934_ST,Potatis Sparris Klass 1,Garant,900 g,"23,50 kr",100 g,79.0,318.6,0.0,0.0,16.0,1.5,2.0,1.8,0.0,off
 7322550033448,101696673_ST,Potatis& Broccolisoppa Pulver/4 Port,Blå Band,91 g/1 l,"17,50 kr",250 milliliter,110.0,463.0,4.1,2.1,14.0,4.6,1.1,3.8,2.1,willys
 7322550033431,101696674_ST,Potatis&purjo Soppa Pulver/4 Port,Blå Band,96 g/1 l,"17,50 kr",250 milliliter,116.0,487.0,4.0,2.2,15.0,4.2,1.6,4.2,1.6,willys
 7322550036067,100430669_ST,Potatis&purjo Varma Koppen Pulver/3 Port,Blå Band,60 g/6 dl,"13,72 kr",200 milliliter,77.0,327.0,1.6,0.9,15.0,1.7,0.7,0.7,1.6,willys
@@ -5329,8 +5340,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7313160020478,101839911_ST,Potatissallad Creme Frai,Rydbergs,750 g,"41,50 kr",100 gram,200.0,850.0,16.0,3.2,13.0,1.5,,1.7,1.2,willys
 7313160020447,101839908_ST,Potatissallad Klassisk Gårdsmärkt,Rydbergs,750 g,"41,50 kr",100 gram,250.0,1050.0,22.0,1.7,12.0,1.1,,1.6,0.9,willys
 7313160020430,101839897_ST,Potatissallad Original,Rydbergs,800 g,"32,08 kr",100 gram,220.0,950.0,19.0,1.4,12.0,1.2,,1.5,1.1,willys
-7313161310561,100310343_ST,Potatissallad Original,Rydbergs,400 g,"16,94 kr",100 gram,220.0,950.0,19.0,1.4,12.0,1.2,,1.5,1.1,willys
 7313161311377,100212814_ST,Potatissallad Original,Rydbergs,200 g,"12,77 kr",100 gram,220.0,950.0,19.0,1.4,12.0,1.2,,1.5,1.1,willys
+7313161310561,100310343_ST,Potatissallad Original,Rydbergs,400 g,"16,94 kr",100 gram,220.0,950.0,19.0,1.4,12.0,1.2,,1.5,1.1,willys
 7313160005208,101291148_ST,Potatissallad Paprika & Chili,Rydbergs,350 g,"28,29 kr",100 gram,250.0,1000.0,22.0,1.6,10.0,1.5,,1.3,1.2,willys
 7313160020485,101839912_ST,Potatissallad Paprika&chili,Rydbergs,750 g,"41,50 kr",100 gram,250.0,1050.0,22.0,1.6,12.0,1.6,,1.5,1.3,willys
 7350035583744,101525424_ST,Potatissallad Purjo,Färsksallad,243 g,"18,83 kr",100 gram,298.0,,29.0,4.0,8.0,4.0,,1.0,1.0,willys
@@ -5359,8 +5370,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310960789819,101852684_ST,Princessmunk Grön Glasyr,Dafgårds,70 g,"11,26 kr",100 gram,335.0,1389.0,18.8,8.6,35.2,13.4,,5.5,0.8,willys
 7393624095129,101777245_ST,Princesstårta 6-8 Bitar,Dahls Bageri,800 g,"178,86 kr",100 gram,330.0,1380.0,13.0,6.8,47.0,35.0,0.5,3.5,0.35,willys
 7310890601601,100236521_ST,Prinsesstårta Fryst,Frödinge,480 g,"55,74 kr",100 gram,293.0,1225.0,15.0,7.7,35.0,21.0,,4.0,0.21,willys
-7340083450433,101249866_ST,Prinskorv,Garant,240 g,"24,51 kr",100 gram,280.0,1050.0,21.0,8.5,4.8,0.6,,11.0,2.0,willys
 7340083450440,101249878_ST,Prinskorv,Garant,900 g,"75,61 kr",100 gram,280.0,1050.0,21.0,8.5,4.8,0.6,,11.0,2.0,willys
+7340083450433,101249866_ST,Prinskorv,Garant,240 g,"24,51 kr",100 gram,280.0,1050.0,21.0,8.5,4.8,0.6,,11.0,2.0,willys
 7350037196959,101548010_ST,Prinskorv,Härryda Karlss,335 g,"50,06 kr",100 gram,300.0,1250.0,26.5,9.0,4.8,1.8,,11.6,2.2,willys
 7300207276004,100517941_ST,Prinskorv med Tunt Skinn,Scan,600 g,"47,22 kr",100 gram,260.0,1100.0,23.0,9.0,4.0,0.5,,10.0,1.9,willys
 7310072001076,101834138_ST,"Pripps Blå 3,5% Lager Burk",Pripps Blå,6 p 50 cl,"55,74 kr",100 milliliter,32.0,134.0,0.0,0.0,2.9,0.0,,0.3,0.0,willys
@@ -5393,8 +5404,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 2359749300000,101256190_KG,Präst Lagrad 12-15mån 31%,Garant,ca: 670 g,119 kr,100 gram,392.0,1639.0,31.0,21.0,3.3,0.0,,25.0,1.0,willys
 7393720001178,100604623_ST,Präst Lagrad Riven 12mån 35%,Allerum,150 g,"29,90 kr",100 gram,400.0,1700.0,35.0,22.0,3.0,0.0,,22.0,1.2,willys
 2359773000006,101475665_KG,Präst Mellanlagrad 17%,Garant,ca: 720 g,"91,90 kr",100 gram,277.0,1156.0,17.0,11.0,0.0,0.0,,30.0,1.2,willys
-2340815200003,101344563_KG,Präst Mellanlagrad 31%,Arla Ko,ca: 1.5 kg,109 kr,100 gram,384.0,1594.0,31.0,20.0,0.0,0.0,,25.0,1.2,willys
 2340415200007,100143667_KG,Präst Mellanlagrad 31%,Arla Ko,ca: 670 g,"112,90 kr",100 gram,384.0,1594.0,31.0,20.0,0.0,0.0,,25.0,1.2,willys
+2340815200003,101344563_KG,Präst Mellanlagrad 31%,Arla Ko,ca: 1.5 kg,109 kr,100 gram,384.0,1594.0,31.0,20.0,0.0,0.0,,25.0,1.2,willys
 2359778300002,101802439_KG,Präst Mellanlagrad 31%,Garant,ca: 650 g,"89,90 kr",100 gram,392.0,1639.0,31.0,21.0,3.3,0.0,,25.0,1.0,willys
 7311871023054,100509709_ST,Präst Mellanlagrad Skivad 31%,Arla Ko,150 g,"31,50 kr",100 gram,384.0,1594.0,31.0,20.0,0.0,0.0,,25.0,1.2,willys
 7311877014223,101217975_ST,Präst Mellanlagrad Skivad 31%,Arla Ko,300 g,"52,90 kr",100 gram,384.0,1594.0,31.0,20.0,0.0,0.0,,25.0,1.2,willys
@@ -5410,8 +5421,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7316641415077,101361775_ST,Pulled Bbq Fryst,Oumph!,280 g,"33,02 kr",100 gram,115.0,480.0,0.0,0.0,11.0,9.4,4.7,14.0,1.5,willys
 5707196221008,101288417_ST,Pulled Chicken,Tulip,450 g,"56,68 kr",100 gram,134.0,564.0,6.0,2.0,2.0,1.0,,18.0,0.8,willys
 7340083492082,101351381_ST,Pulled Chicken Sverige,Garant,450 g,"68,99 kr",100 gram,134.0,560.0,6.5,1.7,1.7,0.7,,17.0,1.3,willys
-7311043013081,101624006_ST,Pulled Pork,Garant,450 g,"49,50 kr",100 g,158.0,653.7,7.1,2.4,9.0,6.3,,14.0,1.2775,off
 7311043025619,101842328_ST,Pulled Pork,Prime Patrol,400 g,"37,76 kr",100 gram,161.0,674.0,8.6,3.0,3.3,1.6,,17.0,1.3,willys
+7311043013081,101624006_ST,Pulled Pork,Garant,450 g,"49,50 kr",100 g,158.0,653.7,7.1,2.4,9.0,6.3,,14.0,1.2775,off
 5707196299243,101511230_ST,Pulled Pork Sverige,Tulip,450 g,"56,68 kr",100 gram,113.0,472.0,4.1,1.7,2.3,0.5,,16.0,1.7,willys
 5707196330212,101547491_ST,Pulled Turkey,Tulip,450 g,"56,68 kr",100 gram,120.0,504.0,5.0,1.5,1.5,1.0,,17.0,1.5,willys
 7331044080950,101232828_ST,Pulled Turkey Sverige,Ingelstakalkon,450 g,"66,15 kr",100 gram,130.0,600.0,6.0,2.0,3.0,1.0,,17.0,1.5,willys
@@ -5449,13 +5460,15 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7314720728315,101039350_ST,Päron Fruktdryck Koncentrat,Kiviks Musteri,2 dl/1 l,"7,09 kr",100 milliliter,30.0,120.0,0.0,0.0,7.2,7.2,,0.0,0.0,willys
 54033894,101855842_ST,Päron Fruktdryck Pet,Mer,50 cl,"12,77 kr",100 milliliter,45.0,193.0,0.0,0.0,11.0,10.4,,0.0,0.0,willys
 54490475,101264460_ST,Päron Fruktdryck Tetra,Mer,20 cl,"5,58 kr",100 milliliter,24.0,103.0,0.0,0.0,5.7,5.7,,0.0,0.0,willys
+7310403059240,101847620_ST,Päron Kolsyrat Vatten Pet,Loka,12 p 33 cl,"42,49 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
 5449000095008,100129987_ST,Päron Kolsyrat Vatten Pet,Bonaqua,50 cl,"10,88 kr",100 milliliter,8.0,35.0,0.0,0.0,2.0,2.0,,0.0,0.01,willys
 7611612516693,101816266_ST,Päron Kolsyrat Vatten Pet,Premier,6 p/50 cl,"32,08 kr",,,,,,,,,,,
 7611612513968,101205994_ST,Päron Kolsyrat Vatten Pet,Premier,1.5 l,"9,36 kr",1000 milliliter,,,,,,,,,,willys
-7310403059240,101847620_ST,Päron Kolsyrat Vatten Pet,Loka,12 p 33 cl,"42,49 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
 7310401059242,101847610_ST,Päron Kolsyrat Vatten Pet,Loka,33 cl,"5,58 kr",100 milliliter,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.04,willys
 7611612516631,101816199_ST,Päron Kolsyrat Vatten Pet,Premier,50 cl,"7,47 kr",100 milliliter,,,,,,,,,,willys
 7611612514989,101231192_ST,Päron Kolsyrat Vatten Pet,Premier,50 cl,"7,47 kr",100 milliliter,,,,,,,,,,willys
+7311043024292,101824871_ST,"Päron Kvarg 0,2%",Garant,900 g,"29,90 kr",100 gram,60.0,259.0,0.2,0.1,4.6,4.0,,9.7,0.09,willys
+7311043026029,101824840_ST,"Päron Kvarg Laktosfri 0,2%",Garant,900 g,"29,90 kr",100 gram,60.0,259.0,0.2,0.1,4.6,4.0,,9.7,0.09,willys
 7316110003132,101834018_ST,Päron Lättdryck Koncentrat Uts,Bob,2 dl/1 l,"7,50 kr",100 milliliter,8.0,24.0,0.0,0.0,1.2,1.0,,0.0,0.0,willys
 7312060502473,101801757_ST,Päron Mjölkchoklad Glass,Triumf Glass,0.5 l,"16,50 kr",100 gram,240.0,1000.0,14.0,7.4,26.0,26.0,,3.0,0.17,willys
 7611612516884,101828839_ST,Päron Mousserande Dryck Ciderkaraktär Pet,Premier,"1,5 l","14,10 kr",100 milliliter,30.0,125.0,0.0,0.0,7.0,7.0,,0.0,0.01,willys
@@ -5488,7 +5501,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8000070036116,100006011_ST,Qualita Rossa Espresso Ground Coffee,Lavazza,250 g,"54,90 kr",,,,,,,,,,,
 8000070035898,101261371_ST,Qualita Rossa Hela Bönor,Lavazza,1 kg,199 kr,,,,,,,,,,,
 8000070053465,101345470_ST,Qualità Oro Kaffekapslar,Lavazza,10 p,"39,27 kr",,,,,,,,,,,
-8000070053526,101345472_ST,Qualità Rossa Kaffekapslar,Lavazza,10 p,"39,27 kr",,,,,,,,,,,
+8000070053526,101345472_ST,Qualità Rossa Kaffekapslar,Lavazza,10 p,"39,27 kr",100 g,1.0,8.5,0.0,0.0,0.3,0.0,,0.2,0.0,off
 5701073061091,101277546_ST,Queen Mix Strösselmix,Dr Oetker,50 g,"13,15 kr",100 gram,401.0,1700.0,1.6,1.3,96.0,91.0,,0.2,0.01,willys
 7340083484919,101329184_ST,Quiche Lorrain Ost & Bacon Paj Fryst/1 Port,Garant,220 g,"28,29 kr",100 gram,328.0,1367.0,22.0,13.0,20.0,1.5,1.1,12.0,0.95,willys
 7311043025862,101822895_ST,Quinoa Tricolore,Garant,500 g,"47,22 kr",100 gram,363.0,1529.0,7.0,0.8,57.0,5.4,8.5,13.0,0.01,willys
@@ -5603,7 +5616,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310500002477,101782819_ST,Remouladsås,Findus,200 g,"21,67 kr",100 gram,566.0,2368.0,57.0,4.6,14.0,13.0,0.3,1.1,0.7,willys
 7340083486609,101331327_ST,Remouladsås Klassisk,Garant,200 ml,"15,99 kr",100 milliliter,490.0,2050.0,50.0,3.6,9.6,8.9,,0.7,1.4,willys
 7350098812089,101636518_ST,Renskav . Fryst,Norrlandsvilt,240 g,"74,90 kr",100 gram,115.0,480.0,3.0,1.5,0.0,0.0,,22.0,1.15,willys
-2330144900002,101870267_KG,Revben,Dalsjöfors,ca: 1.3 kg,"58,58 kr",100 gram,170.0,700.0,12.0,5.1,0.5,0.5,,15.0,1.3,willys
 7350126089063,101676609_ST,Rhode Island Dressing,Felix,335 ml,"27,35 kr",100 gram,267.0,1116.0,25.0,1.8,9.8,9.1,,0.4,1.9,willys
 7311041020197,100594395_ST,Rhode Island Dressing,Eldorado,300 ml,"18,83 kr",100 milliliter,385.0,1612.0,36.0,2.7,17.0,14.0,,1.1,1.9,willys
 7350126088943,101676585_ST,Rhode Island Lätt Dressing,Felix,335 ml,"27,35 kr",100 gram,138.0,576.0,9.7,0.8,12.0,9.5,,0.9,1.6,willys
@@ -5692,7 +5704,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340023810297,101839926_ST,Rostbiff,Svea,80 g,"28,29 kr",100 gram,123.0,513.0,3.7,1.5,4.3,1.0,,18.4,1.7,willys
 7340083494789,101358284_ST,Rostbiff Deliskivor,Garant,100 g,"32,90 kr",100 gram,108.0,453.0,2.3,0.0,1.4,1.2,,20.0,1.9,willys
 7391196077628,101510719_ST,Rostbiff Grillad,Jakobsdals,80 g,"29,24 kr",100 gram,110.0,460.0,1.6,0.7,1.9,1.0,,21.0,2.2,willys
-7391196077321,101510725_ST,Rostbiff Grillad,Jakobsdals,170 g,"62,36 kr",100 gram,110.0,460.0,1.6,0.7,1.9,1.0,,21.0,2.2,willys
 2355003100003,100942982_KG,Rostbiff i Skivor Sverige,Garant,ca: 350 g,269 kr,100 gram,130.0,500.0,3.2,1.4,0.0,0.0,,23.0,0.16,willys
 7311043019748,101731111_ST,Rostbiff Innanlår,Prime Patrol,200 g,"58,58 kr",100 gram,109.0,458.0,1.6,0.5,1.5,1.2,,22.0,2.2,willys
 7311043015191,101667552_ST,Rostbiff Vinmarinerad,Prime Patrol,100 g,"29,81 kr",100 gram,112.0,470.0,1.6,0.5,2.0,1.2,,22.0,2.1,willys
@@ -5700,7 +5711,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310394002515,100466078_ST,Rosépeppar Burk,Kockens,20 g,"23,56 kr",,,,,,,,,,,
 7340083430107,101214798_ST,Rotfruktsmix Fryst,Garant,600 g,"28,29 kr",100 gram,34.0,143.0,0.3,0.1,5.1,2.9,3.1,1.1,0.08,willys
 7310240756692,100072289_ST,Rotmos,Felix,500 g,"17,88 kr",100 gram,59.0,248.0,0.5,0.0,11.0,4.1,2.3,1.2,0.86,willys
-2090207900003,100150998_KG,Rotselleri Klass 1,,ca: 1.2 kg,"22,90 kr",,,,,,,,,,,
+2090207900003,100150998_KG,Rotselleri Klass 1,,ca: 1.2 kg,"19,90 kr",,,,,,,,,,,
 3492390003698,100671140_ST,Royal Fikon Marmelad,St Dalfour,284 g,"33,02 kr",100 gram,209.0,888.0,0.4,0.1,50.0,48.0,1.6,0.6,0.03,willys
 7311310028602,100992561_ST,Rub Allround,Santa Maria,22 g,"9,36 kr",100 gram,276.0,1157.0,5.5,0.9,38.0,16.0,17.0,10.0,19.2,willys
 7340083438288,101232114_ST,Ruccola Ekologisk Klass 1,Garant Eko,65 g,"18,80 kr",,,,,,,,,,,
@@ -5734,7 +5745,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5050974717379,101599189_ST,Ryvita Ljus Råg,Ryvita,200 g,"23,56 kr",100 gram,370.0,1559.0,1.1,0.2,62.0,2.4,21.0,11.0,0.75,willys
 8050762420006,101546909_ST,Rädisa,,500 g,"19,90 kr",,,,,,,,,,,
 8717524240011,100927035_ST,Rädisor i Strut,,125 g,"8,90 kr",,,,,,,,,,,
-74089,100151149_ST,Rädisor Röda i Bunt,,ca250 g,"11,90 kr",,,,,,,,,,,
+74089,100151149_ST,Rädisor Röda i Bunt,,ca250 g,"9,90 kr",,,,,,,,,,,
 7311041068915,101187585_ST,Räk & Dillsås Fiskgratäng Fryst/1 Port,Garant,350 g,"28,29 kr",100 gram,125.0,517.0,5.8,3.7,9.6,3.6,0.0,8.7,0.79,willys
 7311171006733,101200174_ST,Räk & Dillsås För Ugnsbakad Torsk 4 Port,Abba,250 g,"24,51 kr",100 gram,122.0,512.0,10.0,5.3,6.3,1.3,,1.0,1.4,willys
 8936134030489,101310693_ST,Räkchips,Nguyen Hau,200 g,"18,83 kr",100 gram,348.0,1457.0,0.0,0.0,85.0,10.1,1.0,1.0,2.5,willys
@@ -5804,7 +5815,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310090647126,101255762_ST,Röda Vinbär Gelé,Bob,450 g,"29,24 kr",100 gram,260.0,1070.0,0.0,0.0,63.0,63.0,,0.0,0.0,willys
 7310861011590,101833594_ST,"Röda Vinbär Hallon Fil 3,7%",Fjällfil,1 kg,"23,90 kr",100 gram,80.0,350.0,3.7,2.4,9.0,8.9,,3.1,0.1,willys
 2090209000008,100151210_KG,Rödbeta Klass 1,,ca: 150 g,"15,90 kr",,,,,,,,,,,
-7340083465635,101281495_ST,Rödbeta Röd Mangold Klass 1,Garant,150 g,"18,80 kr",100 g,30.0,123.0,0.5,0.5,3.3,0.5,1.8,2.0,0.1,off
+7340083465635,101281495_ST,Rödbeta Röd Mangold Klass 1,Garant,150 g,"18,80 kr",,,,,,,,,,,
 7340083405099,101203812_ST,Rödbeta Skivad,Garant,560/380 g,"23,56 kr",100 gram,68.0,286.0,0.1,0.1,15.0,15.0,1.8,0.9,0.6,willys
 8413567021050,101203910_ST,Rödbetor Förkokt Klass 1,,500 g,"13,90 kr",,32.0,134.0,0.0,0.0,5.8,4.7,,1.2,0.25,willys
 4770577229062,101264778_ST,Rödbetor Förkokta Eko Klass 1,,500 g,"18,80 kr",100 g,53.0,,0.1,0.0,9.8,9.7,,1.8,0.0,off
@@ -5820,7 +5831,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083445385,101243119_ST,Rödbetssallad,Eldorado,400 g,"14,10 kr",100 gram,210.0,900.0,19.0,1.4,10.0,8.3,,0.8,0.6,willys
 7313161311360,100212869_ST,Rödbetssallad,Rydbergs,200 g,"12,77 kr",100 gram,280.0,1200.0,37.0,2.1,8.4,7.0,,0.9,0.4,willys
 7313161310677,100310398_ST,Rödbetssallad,Rydbergs,400 g,"15,99 kr",100 gram,280.0,1200.0,27.0,2.1,8.4,7.0,,0.9,0.4,willys
-7394101030060,100727242_ST,Rödbetssallad,Prinsens,650 g,"33,02 kr",100 gram,272.0,1121.0,25.6,1.9,10.3,1.7,,0.85,0.28,willys
 7394101030022,100727340_ST,Rödbetssallad,Prinsens,200 g,"14,10 kr",100 gram,272.0,1121.0,25.6,1.9,10.3,1.7,,0.85,0.28,willys
 2091480000008,101713913_KG,Rödkål Kl 1,,ca: 2 kg,"12,90 kr",,,,,,,,,,,
 7310240064247,100687534_ST,Rödkål Klassisk,Felix,550 g,"19,77 kr",100 gram,66.0,278.0,0.0,0.0,13.0,9.5,,1.4,1.0,willys
@@ -5879,7 +5889,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8437000542261,101220876_ST,Salchichón Maximo Skivad,Jamones Arroyo,70 g,"18,83 kr",100 gram,392.0,1625.0,33.0,12.0,4.5,3.5,,19.0,3.5,willys
 8710317003343,100081331_ST,Sallad Endive Klass 1,,300 g,"24,90 kr",,,,,,,,,,,
 8424134000293,100672960_ST,Sallad Hjärtsallad Klass 1,,200 g,"19,90 kr",,,,,,,,,,,
-2090209300009,100151407_KG,Sallad Isberg Klass 1,,ca: 600 g,"29,90 kr",,,,,,,,,,,
+2090209300009,100151407_KG,Sallad Isberg Klass 1,,ca: 600 g,"24,90 kr",,,,,,,,,,,
 7323130014888,101257646_ST,Sallad Nouvelle Klass 1,,200 g,"17,90 kr",,,,,,,,,,,
 7313940267505,101547203_ST,Sallads Kyckling,Guldfågeln,500 g,"86,97 kr",100 gram,150.0,600.0,4.0,1.0,1.5,0.5,,22.0,2.0,willys
 7311043012527,101613193_ST,Sallads Kyckling,Eldorado,400 g,"56,68 kr",100 gram,122.0,510.0,2.0,0.5,2.4,1.3,,23.0,1.2,willys
@@ -5920,7 +5930,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340012503216,101296512_ST,Salsiccia Naturell,Nonna Elide,300 g,"39,90 kr",100 gram,281.0,1162.0,24.2,5.7,0.2,0.2,0.0,15.5,2.3,willys
 7300200133007,101690662_ST,Salsiccia Smal,Scan,240 g,"32,08 kr",100 gram,270.0,1100.0,22.0,7.9,5.4,0.7,,13.0,1.8,willys
 7392055051506,101510876_ST,Salsicciafärs Chili,Köttkultur,400 g,"56,68 kr",100 gram,260.0,1080.0,21.0,8.0,0.7,0.5,,15.0,1.9,willys
-7392055051537,101510873_ST,Salsicciafärs Fänkål,Köttkultur,400 g,"56,68 kr",100 gram,260.0,1080.0,21.0,8.0,0.7,0.5,,15.0,1.9,willys
 7392055051520,101510874_ST,Salsicciafärs Naturell,Köttkultur,400 g,"56,68 kr",100 gram,260.0,1080.0,21.0,8.0,0.5,0.5,,15.0,1.9,willys
 7340012541805,101693414_ST,Salsicciafärs Original,Nonna Elide,250 g,"31,13 kr",100 gram,320.3,1324.0,24.0,5.7,0.2,0.2,,16.0,2.3,willys
 7340045507885,101236336_ST,Salsicciakorv Färsk Sverige,Garant,350 g,"47,90 kr",100 gram,230.0,965.0,18.0,7.7,3.0,0.1,,15.0,2.1,willys
@@ -5929,7 +5938,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7350020910555,101226641_ST,Salt & Vinäger Chips,Bjärechips,200 g,"24,51 kr",100 gram,480.0,2000.0,25.6,1.7,58.9,6.0,,5.5,2.3,willys
 7310350106837,100103451_ST,Salt Gott & Blandat,Malaco,210 g,"16,94 kr",100 gram,344.0,1458.0,0.1,0.0,85.0,58.0,,0.8,0.2,willys
 5774540630809,101280119_ST,Salt Hallon Ferrari Påse,Toms,120 g,"13,15 kr",100 gram,355.0,1507.0,0.5,0.1,82.0,52.0,,5.0,0.01,willys
-7391881834659,101313869_ST,Salt Karamel Laktosfri Glass,Alvestaglass,1 l,"43,43 kr",,,,,,,,,,,
+7391881834659,101313869_ST,Salt Karamel Laktosfri Glass,Alvestaglass,1 l,"43,43 kr",100 g,214.0,895.0,10.0,8.3,27.0,21.0,0.2,3.7,0.36,off
 7312690800246,101469288_ST,Salt Karamell Flerpack Glass,Sia Glass,5 p,"43,30 kr",100 gram,340.0,1400.0,18.0,13.0,40.0,27.0,0.0,3.9,0.4,willys
 7312060502169,101324718_ST,Salt Karamell Glass,Triumf Glass,"0,5 l","16,50 kr",100 gram,200.0,850.0,10.0,6.7,25.0,23.0,,2.9,0.33,willys
 7622202238529,101773958_ST,Salt Mandel Mjölkchoklad,Marabou,160 g,"26,40 kr",100 gram,553.0,2310.0,32.0,17.0,58.0,57.0,2.8,5.7,0.5,willys
@@ -5940,8 +5949,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 6416453041370,101778373_ST,Salta Katten Tablettask,Fazer,38 g,"7,47 kr",100 gram,346.0,1461.0,0.5,0.0,85.0,42.0,,0.5,0.56,willys
 7311041068953,101179211_ST,Salta Pinnar,Garant,250 g,"18,83 kr",100 gram,391.0,1653.0,5.9,0.8,71.0,2.4,3.0,12.0,3.8,willys
 7311043025343,101827255_ST,Salta Pinnar,Eldorado,250 g,"13,15 kr",100 gram,384.0,1628.0,3.6,0.5,75.0,1.8,2.0,12.0,3.6,willys
-7340005403516,101235690_ST,Saltade Chips,Olw,275 g,"26,40 kr",100 gram,520.0,2200.0,32.0,3.7,53.0,0.5,,5.0,1.3,willys
 7310531020907,100468316_ST,Saltade Chips,Estrella,40 g,"9,36 kr",100 gram,513.0,2138.0,32.0,2.6,47.0,0.5,5.5,5.8,1.3,willys
+7340005403516,101235690_ST,Saltade Chips,Olw,275 g,"26,40 kr",100 gram,520.0,2200.0,32.0,3.7,53.0,0.5,,5.0,1.3,willys
 7311043026760,101831705_ST,Saltade Chips,Garant,400 g,"34,90 kr",100 gram,527.0,2205.0,31.0,2.5,55.0,0.5,,6.1,1.2,willys
 7311043008209,101547473_ST,Saltade Chips,Garant,250 g,"21,90 kr",100 gram,527.0,2205.0,31.0,2.5,55.0,0.5,,6.1,1.2,willys
 7310520022110,101599864_ST,Saltade Matkex,Göteborgs Kex,70 g,"12,20 kr",100 gram,495.0,2078.0,21.0,1.6,65.0,8.2,3.2,10.0,2.4,willys
@@ -6052,8 +6061,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7317661700143,101760644_ST,Senap Skånsk,Björnekulla,265 g,"20,72 kr",100 gram,185.0,770.0,7.6,0.2,24.0,18.0,,5.3,3.0,willys
 7310155600554,101382691_ST,Senap Stark,Västerviks,200 g,"23,56 kr",100 gram,270.0,1150.0,5.7,1.7,49.0,47.0,,6.3,0.6,willys
 7310155603005,101228177_ST,Senap Sötstark,Johnny's,1 kg,"37,76 kr",100 gram,220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,willys
-7310155600516,100955673_ST,Senap Sötstark,Johnny's,200 g,"15,99 kr",100 gram,220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,willys
 7392031000016,100125561_ST,Senap Sötstark,Johnny's,500 g,"20,34 kr",100 gram,220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,willys
+7310155600516,100955673_ST,Senap Sötstark,Johnny's,200 g,"15,99 kr",100 gram,220.0,950.0,3.3,0.5,45.0,43.0,,4.3,1.1,willys
 7340083432064,101215594_ST,Senap Sötstark Finmalen,Garant,500 g,"14,10 kr",100 gram,210.0,900.0,2.8,0.5,43.0,41.0,2.9,4.0,2.1,willys
 7350046460553,100257231_ST,Senapsfrö Brunt Påse,Kockens,35 g,"12,20 kr",,,,,,,,,,,
 7311043022304,101773626_ST,Senapssill,Garant,220/110 g,"18,50 kr",100 gram,270.0,1130.0,17.0,2.5,18.0,16.0,,8.3,2.4,willys
@@ -6106,7 +6115,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5701073061503,101359811_ST,Silver Strössel,Dr Oetker,76 g,"41,54 kr",100 gram,399.0,1691.0,2.0,1.3,94.0,82.0,,0.5,0.0,willys
 7311041071397,100761640_ST,Silverlök Klass 1,Garant,300 g,"19,90 kr",,,,,,,,,,,
 7310402058343,101878376_ST,"Sir Taste Alot 3,5% Öl Burk",Brutal Brewing,6 x33 cl,"56,68 kr",100 milliliter,38.0,158.0,,,,,,,,willys
-7310401058344,101878348_ST,"Sir Taste Alot 3,5% Öl Burk",Brutal Brewing,33 cl,"8,99 kr",100 milliliter,38.0,158.0,,,,,,,,willys
 2373782400008,101473435_KG,Sirloin Steak Australien Gräs & Spannmål,Köttkultur,ca: 300 g,335 kr,100 gram,247.0,1036.0,18.16,9.5,1.0,1.0,,19.61,,willys
 7312060200188,101349533_ST,Sitting Bull Glass,Triumf Glass,8 p,"37,76 kr",100 gram,330.0,1350.0,19.0,8.8,35.0,35.0,,2.2,0.15,willys
 7312060502411,101696442_ST,Sitting Bull Glass,Triumf Glass,"0,5 l","23,56 kr",100 gram,120.0,480.0,5.4,3.6,15.0,15.0,,1.4,0.1,willys
@@ -6115,8 +6123,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311043015535,101677312_ST,Skagenröra,Redo,400 g,"37,76 kr",100 gram,450.0,1850.0,47.0,3.4,4.9,2.1,,3.6,1.4,willys
 7313160020256,101776456_ST,Skagenröra,Rydbergs,175 g,"24,13 kr",100 gram,410.0,1700.0,41.0,3.2,4.3,2.2,,5.9,1.2,willys
 7313160020263,101776458_ST,Skagenröra,Rydbergs,350 g,"39,27 kr",100 gram,410.0,1700.0,41.0,3.2,4.3,2.2,,5.9,1.2,willys
-7313310012117,101237948_ST,Skagenröra,Örneborgs,400 g,"33,50 kr",100 gram,420.0,1750.0,43.0,3.1,5.9,2.9,,4.2,1.9,willys
 7313310020013,100177416_ST,Skagenröra,Örneborgs,200 g,"23,56 kr",100 gram,190.0,800.0,16.0,2.2,6.0,3.3,,5.2,1.6,willys
+7313310012117,101237948_ST,Skagenröra,Örneborgs,400 g,"33,50 kr",100 gram,420.0,1750.0,43.0,3.1,5.9,2.9,,4.2,1.9,willys
 7350035583775,101525422_ST,Skagenröra,Färsksallad,162 g,"33,02 kr",100 gram,405.0,,43.0,4.0,2.0,0.0,,8.0,1.0,willys
 7394101340022,100727082_ST,Skagenröra,Prinsens,200 g,"42,49 kr",100 gram,421.0,1763.0,42.6,3.2,3.8,1.5,,5.7,1.6,willys
 7394101322028,101291755_ST,Skagenröra,Lasse Majas,200 g,"23,56 kr",100 gram,439.0,1844.0,44.7,3.4,4.7,1.3,,4.6,1.5,willys
@@ -6125,7 +6133,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310240075182,101231774_ST,Skaldjurssoppa Fryst/1 Port,Felix,350 g,"24,51 kr",100 gram,50.0,220.0,2.3,1.0,5.6,1.8,,1.9,0.9,willys
 7311041068908,101187570_ST,Skaldjurssås Fiskgratäng Fryst/1 Port,Garant,350 g,"28,29 kr",100 gram,109.0,451.0,3.7,2.2,10.0,3.9,0.0,8.9,0.78,willys
 7311070004007,101544487_ST,Skanörgrova,Pågen,550 g,"28,50 kr",100 gram,308.0,1294.0,7.8,0.9,48.0,9.1,6.0,10.0,1.4,willys
-2359764800004,101339093_KG,Skeva Skivor Rostbiff Naturell,Willys,ca: 500 g,"47,22 kr",100 gram,109.0,458.0,1.6,0.5,1.5,1.2,,22.0,2.2,willys
 2359766400004,101352613_KG,Skeva Skivor Vinmarinerad Rostbiff,Willys,ca: 500 g,"56,68 kr",100 gram,113.0,472.0,1.6,0.5,2.0,1.2,,22.0,2.13,willys
 2359776000003,101667527_KG,Skeva Skivor Vitlökssalami,Willys,ca: 500 g,"47,22 kr",100 gram,491.0,2058.0,40.0,16.0,8.0,2.0,,24.0,3.4,willys
 7311041071748,101183319_ST,Skinka Basturökt Deliskivor,Garant,120 g,"19,77 kr",100 gram,89.0,374.0,1.3,0.0,1.4,1.3,,18.0,2.8,willys
@@ -6189,7 +6196,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5292874000070,101690707_ST,Slices Mozzarella Flavour Vegansk,Greenvie,180 g,"23,56 kr",100 gram,308.0,1289.0,24.0,22.0,23.0,0.5,,0.5,1.8,willys
 7310072001021,101834145_ST,"Smakfull Alkfri 0,5% Lager Burk",Falcon,6 p 33 cl,"34,92 kr",100 milliliter,19.0,80.0,0.0,0.0,3.7,0.6,,0.4,0.0,willys
 7391814009352,101667230_ST,Smakfull Nötmix,Gårdsnötter,140 g,"23,56 kr",100 gram,573.0,2398.0,41.0,7.3,30.0,27.0,6.6,17.0,0.4,willys
-6408432002649,101776432_ST,Smakrik Ostsås Pastasås Middagsmagi,Valio,380 g,"33,02 kr",100 gram,101.0,418.0,7.6,4.5,2.1,0.0,,6.0,1.3,willys
+6408432002649,101776432_ST,Smakrik Ostsås Pastasås Middagsmagi,Valio,380 g,"29,90 kr",100 gram,101.0,418.0,7.6,4.5,2.1,0.0,,6.0,1.3,willys
 40345123,100621427_ST,Smarties,Nestlé,38 g,"8,42 kr",100 gram,470.0,1975.0,18.7,11.3,68.8,59.8,1.9,5.4,0.13,willys
 7613036271554,101280110_ST,Smarties Giant Tube,Nestlé,130 g,"22,61 kr",100 gram,470.0,1975.0,18.7,11.3,68.8,59.8,1.9,5.4,0.13,willys
 8436575295404,101361735_ST,Smarties Pop Up Glasspinne,Triumf Glass,85 ml,23 kr,100 gram,210.0,882.0,7.8,6.1,30.0,23.0,5.4,2.7,0.08,willys
@@ -6213,8 +6220,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7314720736235,100083810_ST,Smultron Bärdryck,Kiviks,"1,5 l","16,50 kr",100 milliliter,35.0,140.0,0.0,0.0,8.2,8.2,,0.0,0.0,willys
 7312060502442,101695476_ST,Smultron Glass,Triumf Glass,1.75 l,"39,90 kr",100 gram,190.0,800.0,9.3,6.1,24.0,24.0,,2.9,0.18,willys
 7312690306045,101335411_ST,Smultron Jordgubb Laktosfri Glass,Sia Glass,"0,75 l","34,90 kr",100 gram,240.0,850.0,9.4,6.0,26.0,26.0,0.5,3.9,0.1,willys
-7611612516723,101817734_ST,Smultron Kolsyrat Vatten Pet,Premier,12 p/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
 7611612516747,101816267_ST,Smultron Kolsyrat Vatten Pet,Premier,6 p/50 cl,"32,08 kr",,,,,,,,,,,
+7611612516723,101817734_ST,Smultron Kolsyrat Vatten Pet,Premier,12 p/33 cl,"37,76 kr",1000 milliliter,,,,,,,,,,willys
 7611612516402,101358247_ST,Smultron Kolsyrat Vatten Pet,Premier,1.5 l,"9,36 kr",1000 milliliter,,,,,,,,,,willys
 7611612516754,101816298_ST,Smultron Kolsyrat Vatten Pet,Premier,50 cl,"7,47 kr",100 milliliter,,,,,,,,,,willys
 7611612516730,101817735_ST,Smultron Kolsyrat Vatten Pet,Premier,33 cl,"4,63 kr",1000 milliliter,,,,,,,,,,willys
@@ -6232,15 +6239,15 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310865005304,101017338_ST,Smör Extra Saltat 81%,Svenskt Smör,500 g,"59,90 kr",100 gram,731.0,3004.0,81.0,52.0,0.7,0.7,,0.6,1.8,willys
 6408432061264,101122777_ST,Smör Extrasaltat 80%,Valio,500 g,"58,90 kr",100 gram,713.0,2984.0,80.0,45.0,0.8,0.8,,0.6,2.1,willys
 7340083447877,101244261_ST,Smör Extrasaltat 81%,Garant,500 g,"55,90 kr",100 gram,750.0,3000.0,81.0,53.0,0.7,0.7,,0.6,1.8,willys
-6408432061233,101090926_ST,Smör Normalsaltat 80%,Valio,500 g,"58,90 kr",100 gram,713.0,2984.0,80.0,47.0,0.8,0.8,,0.6,1.4,willys
 6408432201462,101280269_ST,Smör Normalsaltat 80%,Valio,200 g,"34,90 kr",100 gram,713.0,2984.0,80.0,45.0,0.8,0.8,,0.6,0.8,willys
-7340083447860,101244260_ST,Smör Normalsaltat 82%,Garant,500 g,"49,90 kr",100 gram,750.0,3050.0,82.0,54.0,0.7,0.7,,0.6,1.2,willys
+6408432061233,101090926_ST,Smör Normalsaltat 80%,Valio,500 g,"58,90 kr",100 gram,713.0,2984.0,80.0,47.0,0.8,0.8,,0.6,1.4,willys
 7310865005168,101017249_ST,Smör Normalsaltat 82%,Svenskt Smör,500 g,"59,90 kr",100 gram,739.0,3038.0,82.0,52.0,0.7,0.7,,0.6,1.2,willys
+7340083447860,101244260_ST,Smör Normalsaltat 82%,Garant,500 g,"49,90 kr",100 gram,750.0,3050.0,82.0,54.0,0.7,0.7,,0.6,1.2,willys
 7310865005250,101017267_ST,Smör Normalsaltat 82%,Svenskt Smör,250 g,"37,50 kr",100 gram,739.0,3038.0,82.0,52.0,0.7,0.7,,0.6,1.2,willys
 7340083447853,101244259_ST,Smör Normalsaltat Ekologiskt 82%,Garant Eko,500 g,"64,90 kr",100 gram,750.0,3050.0,82.0,54.0,0.7,0.7,,0.6,1.2,willys
 7310865005267,101017276_ST,Smör Normalsaltat Ekologiskt 82%,Svenskt Smör,250 g,"47,50 kr",100 gram,740.0,3041.0,82.0,52.0,0.7,0.7,,0.6,1.2,willys
-7310865005496,101017285_ST,Smör Osaltat 82%,Svenskt Smör,250 g,"37,50 kr",100 gram,747.0,3071.0,82.0,53.0,0.7,0.7,,0.6,0.0,willys
 7310865561121,101214772_ST,Smör Osaltat 82%,Svenskt Smör,500 g,"59,90 kr",100 gram,747.0,3071.0,82.0,53.0,0.7,0.7,,0.6,0.0,willys
+7310865005496,101017285_ST,Smör Osaltat 82%,Svenskt Smör,250 g,"37,50 kr",100 gram,747.0,3071.0,82.0,53.0,0.7,0.7,,0.6,0.0,willys
 6408432061240,101214886_ST,Smör Osaltat 82%,Valio,500 g,"58,90 kr",100 gram,740.0,3050.0,82.0,46.0,0.8,0.8,,0.6,0.02,willys
 7340005406012,101344894_ST,Smör& Havssalt Chips,Olw,275 g,"26,40 kr",100 gram,520.0,2200.0,32.0,3.7,55.0,3.1,,5.09,1.6,willys
 7311870010796,101508483_ST,Smör&rapsolja Flytande Laktosfri,Arla Köket,5 dl,"30,50 kr",100 gram,722.0,2969.0,80.0,12.0,0.3,0.3,,0.2,0.9,willys
@@ -6298,7 +6305,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5900951310973,101545680_ST,Snickers Chokladbar King Size,Snickers,75 g,"12,20 kr",100 gram,489.0,2048.0,23.0,7.7,60.0,51.0,,8.7,0.52,willys
 5000159541336,101360950_ST,Snickers Glass,Mars,6 p,"39,90 kr",100 milliliter,341.0,1422.0,20.0,9.5,33.0,25.0,,6.0,0.23,willys
 5000159460880,101204143_ST,Snickers Ice Cream Styckglass,Triumf Glass,72 ml,27 kr,100 milliliter,342.0,1426.0,20.0,9.6,33.0,24.0,,6.0,0.23,willys
-5021991941757,101333474_ST,Snore & Peace Te,Clipper,20 p,"28,29 kr",,,,,,,,,,,
+5021991941757,101333474_ST,Snore & Peace Te,Clipper,20 p,"28,29 kr",100 g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,off
 7330242290185,101840628_ST,Snäckor Kardemumma Frysta,Fria,280 g,"39,65 kr",100 gram,350.0,1450.0,9.9,1.1,61.0,21.0,4.4,1.4,1.0,willys
 5997523312176,101272217_ST,Soba Chili Nudlar,Nissin,92 g,"18,83 kr",100 gram,208.0,872.0,7.9,3.6,27.3,5.7,,5.5,1.2,willys
 5997523312152,101272258_ST,Soba Klassisk Nudlar,Nissin,90 g,"18,83 kr",100 gram,206.0,866.0,8.3,3.6,25.8,4.4,,5.9,1.3,willys
@@ -6365,8 +6372,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311440852061,101359650_ST,Sourcream & Pepper Dressing,Max,220 ml,"22,61 kr",100 gram,550.0,2350.0,60.0,4.3,4.0,3.2,,1.1,1.1,willys
 7041111155794,101667287_ST,Sourcream Onio Cashewnötter,Denlillenött,150 g,"43,43 kr",100 gram,575.0,2400.0,48.0,7.7,27.0,6.9,3.3,17.0,1.0,willys
 7340083448867,101243502_ST,Sourcream Onio Skruvar&ringar,Eldorado,100 g,"15,99 kr",100 gram,482.0,2014.0,26.0,2.0,58.0,3.0,2.1,2.9,2.8,willys
-7340005403554,101235710_ST,Sourcream Onion Chips,Olw,275 g,"26,40 kr",100 gram,540.0,2200.0,32.0,3.3,56.0,2.7,,4.9,1.6,willys
 7310531027906,100601305_ST,Sourcream Onion Chips,Estrella,40 g,"9,36 kr",100 gram,515.0,2147.0,33.0,2.7,46.0,3.1,5.3,5.8,1.5,willys
+7340005403554,101235710_ST,Sourcream Onion Chips,Olw,275 g,"26,40 kr",100 gram,540.0,2200.0,32.0,3.3,56.0,2.7,,4.9,1.6,willys
 7310532106457,101250980_ST,Sourcream Onion Chips,Estrella,275 g,"28,29 kr",100 gram,515.0,2147.0,33.0,2.7,46.0,3.1,5.3,5.8,1.5,willys
 7311043026753,101831704_ST,Sourcream Onion Chips,Garant,400 g,"34,90 kr",100 gram,515.0,2158.0,29.0,2.4,55.0,2.8,,6.6,1.8,willys
 7311043008230,101547476_ST,Sourcream Onion Chips,Garant,250 g,"21,90 kr",100 gram,517.0,2166.0,29.0,2.4,55.0,3.7,,6.7,1.7,willys
@@ -6398,9 +6405,9 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 8076809545440,101219877_ST,Spaghetti Glutenfri,Barilla,400 g,"16,50 kr",85 gram,305.0,1295.0,1.5,0.2,66.9,1.0,0.9,5.5,0.002,willys
 7310130013591,101708378_ST,Spaghetti Klippt,Kungsörnen,350 g,"12,77 kr",100 gram,348.0,1455.0,1.7,0.4,67.0,2.5,,13.0,0.01,willys
 7340083454332,101260474_ST,Spaghetti Majspasta Glutenfri,Garant,500 g,"14,90 kr",100 gram,350.0,1450.0,0.8,0.0,79.0,1.0,,5.5,0.0,willys
+8076804215058,100087978_ST,Spaghetti Pasta,Barilla,1 kg,"20,34 kr",80 gram,287.0,1217.0,1.6,0.4,57.0,2.8,2.4,10.0,0.0,willys
 7611612150743,101240219_ST,Spaghetti Pasta,Monte Castello,1 kg,"14,10 kr",100 gram,360.0,1500.0,1.9,0.3,72.0,3.3,4.1,11.0,0.0,willys
 8076809569811,101239782_ST,Spaghetti Pasta,Barilla,"1,8 kg","31,13 kr",100 gram,359.0,1521.0,2.0,0.5,71.2,3.5,3.0,12.5,0.013,willys
-8076804215058,100087978_ST,Spaghetti Pasta,Barilla,1 kg,"20,34 kr",80 gram,287.0,1217.0,1.6,0.4,57.0,2.8,2.4,10.0,0.0,willys
 7310130417405,100148001_ST,Spaghetti Pasta,Kungsörnen,1 kg,"18,83 kr",100 gram,360.0,1500.0,2.0,0.5,71.0,2.5,3.5,12.0,0.01,willys
 7350002404522,101175556_ST,Spaghetti Pasta,Zeta,800 g,"22,61 kr",100 gram,367.0,1555.0,1.5,0.5,73.0,3.0,2.5,14.0,0.0,willys
 7311043002139,101475779_ST,Spaghetti Pasta,Garant Eko,1 kg,"20,72 kr",100 gram,351.0,1488.0,1.4,0.3,71.0,2.9,3.0,12.0,0.01,willys
@@ -6412,7 +6419,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 5707196364644,101773089_ST,Spareribs Sweet & Smokey,Tulip,500 g,"68,99 kr",100 gram,220.0,913.0,16.0,6.6,1.9,0.7,,17.0,1.6,willys
 7350076790729,101331047_ST,Sparkling Wine Alkfri Glas,Richard Juhlin,75 cl,"83,18 kr",100 milliliter,17.0,72.0,0.0,0.0,4.3,4.3,,0.0,0.1,willys
 7311041064498,101152422_ST,Sparris Fryst,Garant,200 g,"28,29 kr",100 gram,27.0,116.0,0.5,0.5,2.2,0.5,1.9,3.2,0.0,willys
-5319991285019,100771309_ST,Sparris Grön Klass 1,,250 g,"34,90 kr",,,,,,,,,,,
+5319991285019,100771309_ST,Sparris Grön Klass 1,,250 g,"44,90 kr",,,,,,,,,,,
 7311041012376,100569573_ST,Sparris i Bitar,Eldorado,227/126 g,"9,36 kr",100 gram,25.0,100.0,0.5,0.0,2.5,0.0,1.9,2.0,0.8,willys
 7322550036036,100430632_ST,Sparris Varma Koppen Soppa Pulver/3 Port,Blå Band,72 g/6 dl,"13,72 kr",200 milliliter,106.0,444.0,3.5,1.9,17.0,1.7,0.5,0.9,1.9,willys
 7322550033363,101696669_ST,Sparrissoppa Pulver/4 Port,Blå Band,95 g/1 l,"17,50 kr",250 milliliter,116.0,488.0,4.0,2.3,16.0,5.8,0.6,3.7,2.1,willys
@@ -6430,6 +6437,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310500183305,101325197_ST,Spenatpinnar Frysta,Green Cuisine,284 g,"22,61 kr",100 gram,239.0,1001.0,9.5,1.1,31.0,2.3,2.6,6.0,1.0,willys
 7041111130890,101270869_ST,Spesial med Havssalt,Denlillenött,190 g,"49,11 kr",100 gram,629.0,2629.0,59.0,8.6,10.0,4.2,7.6,18.0,1.0,willys
 2090210600006,100288421_KG,Spetskål Klass 1,,ca: 1.2 kg,"29,90 kr",,,,,,,,,,,
+7323130113109,101528316_ST,Spetskål Mini 2-pack,,,"34,90 kr",,,,,,,,,,,
 7311041045121,100816306_ST,Spetspaprika Röd Klass 1,,200 g,"19,90 kr",,,,,,,,,,,
 7611612700818,101250641_ST,Spice Mix Taco,Banderos,40 g,"7,47 kr",100 gram,289.0,1208.0,4.4,0.6,50.2,30.6,,6.3,20.4,willys
 7311312009210,101802916_ST,Spice Sauce Butter Chicken,Santa Maria,360 g,"41,54 kr",100 gram,146.0,605.0,10.0,4.4,11.0,8.0,1.4,1.2,1.6,willys
@@ -6452,7 +6460,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310130323201,100658272_ST,Sportgryn Havre & Råg,Axa,800 g,"18,83 kr",100 gram,350.0,1450.0,5.4,0.9,57.0,1.6,13.0,12.0,0.01,willys
 7310040028067,100311057_ST,Sportlunch Chokladbit,Cloetta,80 g,"15,61 kr",100 gram,527.0,2214.0,29.0,17.0,60.0,52.0,,6.6,0.35,willys
 7310040028746,100968268_ST,Sportlunch Dubbel,Cloetta,50 g,"9,36 kr",100 gram,532.0,2232.0,30.0,18.0,59.0,53.0,,6.3,0.34,willys
-5410488842118,101339291_ST,Spraygrädde Vispgrädde 35%,Chantibic,250 ml,"33,02 kr",100 gram,336.0,1385.0,35.0,25.0,3.0,3.0,,2.2,0.08,willys
+5410488842118,101339291_ST,Spraygrädde Vispgrädde 35%,Chantibic,250 ml,"29,90 kr",100 gram,336.0,1385.0,35.0,25.0,3.0,3.0,,2.2,0.08,willys
 5760466743174,101181173_ST,Spread Mjukost,Puck,500 g,"56,68 kr",100 gram,317.0,1311.0,30.0,19.0,1.5,1.5,,8.8,2.5,willys
 9002490291778,101847739_ST,Spring Edition Energidryck Burk,Red Bull,"35,5 cl","16,90 kr",100 milliliter,45.0,191.0,0.0,0.0,11.0,11.0,,0.0,0.1,willys
 9002490293185,101848960_ST,Spring Edition Sockerfri Energidryck Burk,Red Bull,"35,5 cl","16,90 kr",100 milliliter,3.0,11.0,0.0,0.0,0.0,0.0,,0.0,0.1,willys
@@ -6607,6 +6615,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311043007127,101543829_ST,Sushilax,Falkenberg,180 g,"99,90 kr",100 gram,181.0,757.0,12.0,2.6,0.0,0.0,,18.0,0.1,willys
 7310401012582,101205933_ST,"Svagdricka 2,2% Glas",Spendrups,50 cl,"10,88 kr",,,,,,,,,,,
 7315200591863,101759683_ST,Svamp Fond Vegan,Caj P,180 ml,"28,29 kr",100 milliliter,81.0,337.0,2.0,0.2,13.0,7.8,,1.8,17.1,willys
+7350043530051,101326484_ST,Svamp Shi-take Eko Klass 1,Garant Eko,150,"46,90 kr",,,,,,,,,,,
 7311043004430,101502742_ST,Svamp Tortellini Pasta Bowls,Garant,370 g,"37,76 kr",100 gram,134.0,562.0,5.3,2.6,15.0,2.1,1.7,6.1,0.68,willys
 7311043010806,101582912_ST,Svamp&spenat Ostschnitzel,Garant,200 g,"28,29 kr",100 gram,224.0,938.0,13.0,5.5,18.0,0.8,2.9,8.5,1.4,willys
 7310300000567,100353056_ST,Svampbuljong Tärningar,Knorr,6 p/3 l,"11,83 kr",100 milliliter,5.0,23.0,0.5,0.3,0.5,0.5,0.5,0.5,1.0,willys
@@ -6830,7 +6839,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7310865003812,100012148_ST,Tomat Basilika Lätt Crème Fraiche 11%,Arla Köket,2 dl,"15,50 kr",100 gram,143.0,595.0,11.0,7.2,6.2,5.0,,3.4,1.2,willys
 7322550036753,101290100_ST,Tomat Basilika Varma Koppen Soppa Pulver/3 Port,Blå Band,61 g/6 dl,"13,72 kr",200 milliliter,81.0,340.0,2.8,1.9,12.0,5.9,1.4,1.7,1.9,willys
 7311041049969,100930094_ST,Tomat Cockt Eko Klass 1,Garant Eko,250 g,"27,90 kr",,,,,,,,,,,
-5400357007748,101698481_ST,Tomat Cocktailkvist Miss Perfect Klass1,,200 g,"34,90 kr",,,,,,,,,,,
+5400357007748,101698481_ST,Tomat Cocktailkvist Miss Perfect Klass1,,200 g,"34,90 kr",100 g,23.8,78.0,0.2,0.0,4.0,2.7,1.2,0.9,0.012954,off
 8003496800439,101608142_ST,Tomat Finhackad,Petti,500 g,"17,88 kr",100 gram,30.0,128.0,0.2,0.0,5.0,5.0,1.1,1.6,0.67,willys
 5400357017587,101880323_ST,Tomat Kumato Klass 1,,300 g,"27,90 kr",,,,,,,,,,,
 7323130018251,101285385_ST,Tomat San Marzano Klass 1,Garant,250 g,"29,90 kr",,,,,,,,,,,
@@ -6848,8 +6857,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083476570,101299599_ST,Tomater Krossade,Garant Eko,390 g,"13,90 kr",100 gram,30.0,127.0,0.2,0.1,4.7,3.7,1.3,1.2,0.013,willys
 7311043014712,101656450_ST,Tomater Krossade,Garant Eko,390 g,"13,15 kr",100 gram,33.0,141.0,0.5,0.1,5.1,4.1,1.9,1.5,0.2,willys
 7340083480997,101310247_ST,Tomater Körsbärs,Garant,390 g,"18,83 kr",100 gram,24.0,100.0,0.2,0.0,3.6,3.6,1.4,1.2,0.15,willys
-7340083491948,101350968_ST,Tomater Passerade,Eldorado,500 g,"8,42 kr",100 gram,20.0,86.0,0.0,0.0,2.3,2.3,2.2,1.7,0.25,willys
 7311043014767,101659609_ST,Tomater Passerade,Garant,500 g,"19,90 kr",100 gram,35.0,148.0,0.3,0.0,5.0,4.5,1.5,1.5,0.5,willys
+7340083491948,101350968_ST,Tomater Passerade,Eldorado,500 g,"8,42 kr",100 gram,20.0,86.0,0.0,0.0,2.3,2.3,2.2,1.7,0.25,willys
 7340083497827,101414844_ST,Tomater Passerade,Garant,390 g,"9,36 kr",100 gram,30.0,125.0,0.1,0.0,4.9,3.9,1.5,1.2,0.38,willys
 8001440120244,101523710_ST,Tomater Passerade,Cirio,350 g,"16,56 kr",100 gram,35.0,147.0,0.1,0.0,6.3,4.4,1.1,1.2,0.61,willys
 7340083469619,101285455_ST,Tomater Passerade Ekologiska,Garant Eko,390 g,"13,90 kr",100 gram,35.0,149.0,0.1,0.1,6.1,4.2,1.6,1.3,0.23,willys
@@ -6874,8 +6883,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083469503,101288925_ST,Tomatpurè,Garant,360 g,"19,50 kr",100 gram,109.0,460.0,0.3,0.1,20.0,13.0,2.7,4.3,0.1,willys
 7310240038002,100819401_ST,Tomatpuré,Felix,300 g,"23,56 kr",100 gram,80.0,340.0,0.0,0.0,16.0,13.0,,3.0,1.0,willys
 6210241014276,101565032_ST,Tomatpuré,Durra,800 g,"24,51 kr",100 gram,92.0,385.0,0.5,0.1,18.0,12.0,,4.0,3.0,willys
-7311043006656,101543000_ST,Tomatpuré,Eldorado,800 g,"28,29 kr",100 gram,109.0,460.0,0.1,0.0,18.0,14.0,3.9,6.6,0.84,willys
 7311043024094,101813828_ST,Tomatpuré,Eldorado,200 g,"14,10 kr",100 gram,94.0,398.0,0.5,0.0,17.0,17.0,,4.5,0.1,willys
+7311043006656,101543000_ST,Tomatpuré,Eldorado,800 g,"28,29 kr",100 gram,109.0,460.0,0.1,0.0,18.0,14.0,3.9,6.6,0.84,willys
 8691573001277,101193988_ST,Tomatpuré,Burcu,830 g,"33,02 kr",100 gram,100.0,410.0,0.0,0.0,17.0,12.0,4.6,5.1,0.05,willys
 7391835920285,101759785_ST,Tomatpuré,Kung Markatta,200 g,"26,40 kr",100 gram,80.0,350.0,0.3,0.1,15.0,10.0,,3.9,0.0,willys
 8005110120015,101205764_ST,Tomatpuré Dubbelkoncentrerad,Mutti,200 g,"23,56 kr",100 gram,96.0,407.0,0.2,0.1,17.0,14.0,,4.2,0.5,willys
@@ -6922,7 +6931,6 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 73500360,101248930_ST,Torrjäst Söta Degar,Kronjäst,2 x14 g,"8,04 kr",,,,,,,,,,,
 7340083483721,101324139_ST,Torsk & Alg Burgare Frysta/4 Port,Garant,400 g,"66,15 kr",100 gram,99.0,412.0,3.6,0.3,0.2,0.1,,16.0,0.7,willys
 7611612190367,101546946_ST,Torskfilé,Omega,400 g,"93,90 kr",100 gram,78.0,330.0,0.5,0.1,0.0,0.0,,18.0,0.2,willys
-5740301151623,101294118_ST,Torskfilé Bitar Fryst,Royalgreenland,375 g,"69,90 kr",100 gram,77.0,325.0,0.5,0.3,0.0,0.0,,18.0,0.2,willys
 7310500184302,101336593_ST,Torskfilé Fina Frysta/3-pack,Findus,375 g,"103,15 kr",100 gram,73.0,308.0,0.5,0.1,0.0,0.0,0.0,17.0,0.25,willys
 7340083498176,101423140_ST,Torskfilé Portionbitar Frysta,Garant,400 g,"99,90 kr",100 gram,80.0,320.0,1.0,0.1,0.0,0.0,,17.0,0.2,willys
 7311043010424,101581279_ST,Torskryggfilé,Garant,420 g,128 kr,100 gram,78.0,330.0,0.5,0.1,0.0,0.0,,18.0,0.15,willys
@@ -7019,8 +7027,8 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7340083456718,101263333_ST,Tropisk Juice Utan Fruktkött,Garant,"1,75 l","32,90 kr",100 milliliter,45.0,189.0,0.5,0.0,10.0,9.7,,0.5,0.0,willys
 7340083456909,101263795_ST,Tropisk Juice Utan Fruktkött,Garant,1 l,"18,83 kr",100 milliliter,44.0,188.0,0.1,0.0,10.0,9.7,0.3,0.3,0.0,willys
 7316110003101,101834017_ST,Tropisk Lättdryck Koncentrat Uts,Bob,2 dl/1 l,"7,50 kr",100 milliliter,6.0,15.0,0.0,0.0,0.6,0.5,,0.0,0.0,willys
-7314720730127,101296550_ST,Tropisk Multivitamin Fruktdryck,Kiviks Musteri,"1,5 l","16,50 kr",100 milliliter,35.0,150.0,0.0,0.0,8.2,8.1,,0.1,0.06,willys
 7314720720111,101315286_ST,Tropisk Multivitamin Fruktdryck,Kiviks Musteri,2 dl/1 l,"7,09 kr",100 milliliter,35.0,140.0,0.0,0.0,8.1,8.1,,0.1,0.06,willys
+7314720730127,101296550_ST,Tropisk Multivitamin Fruktdryck,Kiviks Musteri,"1,5 l","16,50 kr",100 milliliter,35.0,150.0,0.0,0.0,8.2,8.1,,0.1,0.06,willys
 7611612526265,101232070_ST,Tropisk Måltidsdryck,Premier,2 dl/1 l,"6,50 kr",100 gram,30.0,120.0,0.0,0.0,6.4,6.4,,0.0,0.0,willys
 7311043021277,101759733_ST,Tropisk Nektar,Eldorado,"1,5 l","18,83 kr",100 milliliter,45.0,187.0,0.0,0.0,11.0,10.0,,0.1,0.0,willys
 8002469552764,101236127_ST,Truffle Salami Skivad,Fumagalli,80 g,"33,02 kr",100 gram,372.0,1542.0,29.6,13.0,1.7,0.6,0.0,24.6,3.45,willys
@@ -7374,6 +7382,7 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7311041056981,101051521_ST,Vitlöksklyftor Chili,Garant,280 g,"37,76 kr",100 gram,60.0,270.0,2.5,0.3,6.9,4.9,2.0,3.5,0.6,willys
 5413508144315,101220135_ST,Vitlöksklyftor Frysta,Begro,1 kg,"66,15 kr",100 gram,138.0,585.0,0.0,0.0,28.0,22.0,0.9,6.0,0.01,willys
 7392555006938,101363037_ST,Vitlöksklyftor Marinerade,Ridderheims,160 g,"28,29 kr",100 gram,305.0,1258.0,30.0,2.3,6.7,2.7,,2.0,3.6,willys
+7311041056998,101051488_ST,Vitlöksklyftor Örtmarinad,Garant,280 g,"37,76 kr",100 gram,80.0,350.0,2.9,0.4,11.0,5.4,2.5,3.7,0.6,willys
 7310700817819,100273062_ST,Vitlökspeppar Burk,Kockens,150 g,"46,27 kr",,,,,,,,,,,
 7350046469273,101282243_ST,Vitlökspeppar Burk,Kockens,52 g,"23,56 kr",,,,,,,,,,,
 7340109309042,101360959_ST,Vitlökspinne Ölkorv,Helmut Walch,200 g,"56,68 kr",100 gram,600.0,2500.0,55.0,22.0,1.5,0.0,,22.0,3.9,willys
@@ -7538,16 +7547,16 @@ ean,article,name,brand,weight,price,basis,kcal,kj,fat,satfat,carb,sugar,fibre,pr
 7316840010813,101855403_ST,"Äggvita Frigående Inne Flytande, Sport",Dava Foods,1 l,"35,86 kr",100 gram,40.0,166.0,0.0,0.0,0.0,0.0,,9.7,0.4,willys
 7350056793016,101280841_ST,Äkta Grekisk Yoghurt 0%,Larsa Foods,500 g,"20,90 kr",100 gram,58.0,247.0,0.0,0.0,4.5,3.5,,10.0,0.1,willys
 7350056793115,101349793_ST,Äkta Grekisk Yoghurt Laktosfri 0%,Larsa Foods,400 g,"21,67 kr",100 gram,58.0,247.0,0.0,0.0,4.5,3.5,,10.0,0.1,willys
-7310500000671,100706096_ST,Äkta Majonnäs,Findus,200 g,"15,99 kr",100 gram,728.0,3046.0,81.0,6.5,1.5,1.0,0.2,1.3,0.6,willys
 7310500027838,100451592_ST,Äkta Majonnäs,Findus,450 g,"25,45 kr",100 gram,728.0,3046.0,81.0,6.5,1.5,1.0,0.2,1.3,0.6,willys
+7310500000671,100706096_ST,Äkta Majonnäs,Findus,200 g,"15,99 kr",100 gram,728.0,3046.0,81.0,6.5,1.5,1.0,0.2,1.3,0.6,willys
 7311440056605,100451529_ST,Äkta Majonnäs,Kavli,275 g,"16,94 kr",100 gram,700.0,2900.0,77.0,5.4,2.6,2.4,,1.2,0.8,willys
 7330802750005,100735073_ST,Äkta Pitepalt 6-pack,Piteortens,840 g,"48,73 kr",100 gram,233.2,980.0,6.1,1.9,37.0,0.5,,6.2,2.1,willys
 7312060502251,101424706_ST,Äkta Vanilj Glass,Triumf Glass,"1,75 l","38,10 kr",100 gram,190.0,800.0,9.8,6.4,22.0,22.0,,3.1,0.19,willys
 7312060502282,101424709_ST,Äkta Vanilj Laktosfri Glass,Triumf Glass,"1,75 l","47,90 kr",100 gram,190.0,800.0,9.8,6.4,23.0,18.0,,3.1,0.19,willys
 2376265200003,100819063_KG,Älgfärs Fryst Sverige,Åke P,ca: 500 g,"203,47 kr",100 gram,125.0,525.0,5.0,,0.0,,,21.8,,willys
 7350146813013,101847712_ST,Ängen Fläder Energidryck Burk,Latitude 65,33 cl,"16,94 kr",100 milliliter,1.0,4.0,0.0,0.0,0.0,0.0,,0.0,0.0,willys
-7310865081650,101241744_ST,Äppel Juice,God Morgon,"1,75 l","37,76 kr",100 milliliter,43.0,183.0,0.5,0.0,10.0,9.7,,0.5,0.0,willys
 7310865074225,101146350_ST,Äppel Juice,God Morgon,1 l,"23,56 kr",100 milliliter,43.0,183.0,0.5,0.0,10.0,9.7,,0.5,0.0,willys
+7310865081650,101241744_ST,Äppel Juice,God Morgon,"1,75 l","37,76 kr",100 milliliter,43.0,183.0,0.5,0.0,10.0,9.7,,0.5,0.0,willys
 7311041005996,100302003_ST,Äppel Juice Koncentrat,Eldorado,2 dl/1 l,"11,26 kr",100 gram,50.0,190.0,0.1,0.0,10.0,10.0,0.7,0.0,0.0,willys
 7314720714059,101545458_ST,Äppel&mango Juice med Fruktkött,Kiviks,1 l,"17,88 kr",100 milliliter,45.0,190.0,0.1,0.0,10.4,9.9,,0.2,0.0,willys
 7312720121235,101860406_ST,Äppelcider Alkoholfri Cider Pet,Herrljunga,1 l,"14,66 kr",100 milliliter,36.0,151.0,0.5,0.1,8.3,8.3,,0.5,0.01,willys
